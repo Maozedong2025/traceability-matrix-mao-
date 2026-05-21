@@ -1,0 +1,501 @@
+document_name,doc_type,page,item_id,item_text,platform,risk,acceptance_expected,status,messy_flag
+Document 7 - SOP - Heart Rate Monitor Application,SOP,1,SOP-001-01,Battery and Bluetooth warning,Backend API,TBD,User shall receive clear error message on failure.,Need SME,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,1,SOP-001-02,Notification retry and suppression,iOS,Not ranked,Audit/event record shall be generated where applicable.,Pending QA,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,1,SOP-001-03,Validate sensor data range,Android,TBD,System shall complete the action without data loss.,In Review,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,1,SOP_1.4,Sync readings to cloud API,Local DB,TBD,TBD by clinical SME - intentionally incomplete.,Approved?,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,1,SOP-001-05,Support caregiver view,Android/iOS,Low,Result must be visible in mobile UI within expected time.,Approved?,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,2,SOP-002-01,Display current BPM with timestamp,Cloud Sync,High,Audit/event record shall be generated where applicable.,Rejected once,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,2,SOP-002-02,Support caregiver view,Cloud Sync,Low,Data shall be encrypted in transit and at rest.,Need SME,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,2,SOP-002-03,Display current BPM with timestamp,Cloud Sync,Low,Audit/event record shall be generated where applicable.,Rejected once,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,2,SOP-002-04,Capture heart rate from paired device,Notification Service,Medium,Result must be visible in mobile UI within expected time.,Rejected once,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,2,SOP_2.5,Store readings securely on device,Local DB,High,System shall complete the action without data loss.,Need SME,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,3,SOP-003-01,Consent capture and privacy notice,Bluetooth Sensor,High,Audit/event record shall be generated where applicable.,Approved?,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,3,SOP_3.2,Handle offline mode,iOS,TBD,Result must be visible in mobile UI within expected time.,Draft,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,3,SOP-003-03,Display current BPM with timestamp,Android/iOS,Medium,Audit/event record shall be generated where applicable.,Pending QA,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,3,SOP_3.4,Display current BPM with timestamp,Android,Low,Data shall be encrypted in transit and at rest.,Approved?,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,3,SOP-003-05,Store readings securely on device,Local DB,High,User shall receive clear error message on failure.,Pending QA,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,4,SOP-004-01,Sync readings to cloud API,iOS,Low,System shall complete the action without data loss.,Draft,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,4,SOP-004-02,Store readings securely on device,Local DB,High,Audit/event record shall be generated where applicable.,Pending QA,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,4,SOP-004-03,Battery and Bluetooth warning,Android,High,Result must be visible in mobile UI within expected time.,Need SME,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,4,SOP-004-04,Battery and Bluetooth warning,Cloud Sync,Medium,System shall complete the action without data loss.,Pending QA,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,4,SOP_4.5,Handle offline mode,iOS,Not ranked,User shall receive clear error message on failure.,Approved?,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,5,SOP-005-01,Capture heart rate from paired device,Local DB,Low,Result must be visible in mobile UI within expected time.,In Review,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,5,SOP-005-02,Validate sensor data range,Android/iOS,TBD,System shall complete the action without data loss.,Draft,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,5,SOP-005-03,Consent capture and privacy notice,Bluetooth Sensor,TBD,System shall complete the action without data loss.,Draft,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,5,SOP-005-04,Generate high/low heart-rate alert,Android/iOS,Not ranked,System shall complete the action without data loss.,Draft,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,5,SOP-005-05,Support caregiver view,Android,Not ranked,Audit/event record shall be generated where applicable.,Approved?,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,6,SOP-006-01,Handle offline mode,Android,Low,TBD by clinical SME - intentionally incomplete.,Draft,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,6,SOP-006-02,Generate high/low heart-rate alert,Local DB,Not ranked,Audit/event record shall be generated where applicable.,In Review,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,6,SOP-006-03,Sync readings to cloud API,Backend API,Low,System shall complete the action without data loss.,Approved?,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,6,SOP-006-04,Store readings securely on device,Notification Service,TBD,Result must be visible in mobile UI within expected time.,Draft,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,6,SOP-006-05,Audit user actions,Android,Low,TBD by clinical SME - intentionally incomplete.,Draft,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,7,SOP-007-01,Handle offline mode,Backend API,TBD,Result must be visible in mobile UI within expected time.,Rejected once,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,7,SOP-007-02,Capture heart rate from paired device,Cloud Sync,Medium,Data shall be encrypted in transit and at rest.,In Review,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,7,SOP_7.3,Audit user actions,iOS,Low,System shall complete the action without data loss.,Approved?,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,7,SOP-007-04,Sync readings to cloud API,Notification Service,Not ranked,Audit/event record shall be generated where applicable.,Draft,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,7,SOP-007-05,Show trend chart for 7/30/90 days,iOS,Low,TBD by clinical SME - intentionally incomplete.,Rejected once,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,8,SOP_8.1,Display current BPM with timestamp,Backend API,TBD,User shall receive clear error message on failure.,Need SME,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,8,SOP-008-02,Support caregiver view,Notification Service,TBD,TBD by clinical SME - intentionally incomplete.,Pending QA,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,8,SOP-008-03,Display current BPM with timestamp,Bluetooth Sensor,Not ranked,Result must be visible in mobile UI within expected time.,Need SME,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,8,SOP_8.4,Generate high/low heart-rate alert,Android/iOS,Not ranked,Result must be visible in mobile UI within expected time.,In Review,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,8,SOP-008-05,Notification retry and suppression,Android,Low,Data shall be encrypted in transit and at rest.,Draft,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,9,SOP-009-01,Store readings securely on device,Cloud Sync,Low,Result must be visible in mobile UI within expected time.,Pending QA,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,9,SOP-009-02,Generate high/low heart-rate alert,Local DB,TBD,TBD by clinical SME - intentionally incomplete.,Draft,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,9,SOP-009-03,Store readings securely on device,Cloud Sync,Not ranked,Data shall be encrypted in transit and at rest.,Approved?,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,9,SOP-009-04,Handle offline mode,Backend API,Medium,Result must be visible in mobile UI within expected time.,Need SME,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,9,SOP-009-05,Notification retry and suppression,Bluetooth Sensor,Not ranked,TBD by clinical SME - intentionally incomplete.,In Review,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,10,SOP-010-01,Validate sensor data range,Local DB,Not ranked,TBD by clinical SME - intentionally incomplete.,Draft,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,10,SOP-010-02,Display current BPM with timestamp,Android,Low,Result must be visible in mobile UI within expected time.,Draft,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,10,SOP-010-03,Store readings securely on device,Notification Service,High,Audit/event record shall be generated where applicable.,In Review,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,10,SOP-010-04,Export readings as PDF/CSV,Android/iOS,Not ranked,User shall receive clear error message on failure.,Draft,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,10,SOP_10.5,Biometric login option,Local DB,Low,System shall complete the action without data loss.,Rejected once,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,11,SOP_11.1,Generate high/low heart-rate alert,Backend API,TBD,Data shall be encrypted in transit and at rest.,Approved?,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,11,SOP-011-02,Capture heart rate from paired device,Android,Low,Data shall be encrypted in transit and at rest.,Pending QA,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,11,SOP-011-03,Generate high/low heart-rate alert,iOS,TBD,Data shall be encrypted in transit and at rest.,Pending QA,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,11,SOP-011-04,Battery and Bluetooth warning,Notification Service,Not ranked,Data shall be encrypted in transit and at rest.,Rejected once,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,11,SOP-011-05,Handle offline mode,Backend API,Low,System shall complete the action without data loss.,Need SME,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,12,SOP-012-01,Sync readings to cloud API,Bluetooth Sensor,Not ranked,Audit/event record shall be generated where applicable.,Draft,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,12,SOP-012-02,Export readings as PDF/CSV,Backend API,Medium,TBD by clinical SME - intentionally incomplete.,In Review,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,12,SOP-012-03,Generate high/low heart-rate alert,Android/iOS,Medium,System shall complete the action without data loss.,Draft,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,12,SOP_12.4,Battery and Bluetooth warning,Notification Service,High,System shall complete the action without data loss.,Draft,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,12,SOP-012-05,Validate sensor data range,Local DB,TBD,Data shall be encrypted in transit and at rest.,Pending QA,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,13,SOP-013-01,Manual heart rate entry when device unavailable,iOS,High,User shall receive clear error message on failure.,Rejected once,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,13,SOP-013-02,Sync readings to cloud API,Bluetooth Sensor,TBD,TBD by clinical SME - intentionally incomplete.,Draft,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,13,SOP_13.3,Capture heart rate from paired device,Android,Low,Audit/event record shall be generated where applicable.,Draft,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,13,SOP-013-04,Validate sensor data range,Cloud Sync,Not ranked,User shall receive clear error message on failure.,In Review,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,13,SOP_13.5,Export readings as PDF/CSV,Backend API,High,System shall complete the action without data loss.,Need SME,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,14,SOP_14.1,Support caregiver view,Local DB,Medium,Audit/event record shall be generated where applicable.,Approved?,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,14,SOP-014-02,Show trend chart for 7/30/90 days,Cloud Sync,High,TBD by clinical SME - intentionally incomplete.,Pending QA,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,14,SOP-014-03,Battery and Bluetooth warning,Android/iOS,Low,Result must be visible in mobile UI within expected time.,Need SME,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,14,SOP_14.4,Validate sensor data range,Backend API,High,System shall complete the action without data loss.,In Review,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,14,SOP-014-05,Generate high/low heart-rate alert,iOS,Medium,System shall complete the action without data loss.,Pending QA,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,15,SOP-015-01,Generate high/low heart-rate alert,Backend API,Low,System shall complete the action without data loss.,Draft,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,15,SOP-015-02,Sync readings to cloud API,Local DB,Not ranked,Data shall be encrypted in transit and at rest.,Pending QA,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,15,SOP-015-03,Consent capture and privacy notice,Notification Service,Not ranked,Result must be visible in mobile UI within expected time.,Rejected once,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,15,SOP-015-04,Biometric login option,Backend API,Not ranked,User shall receive clear error message on failure.,Pending QA,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,15,SOP-015-05,Store readings securely on device,Local DB,Low,Result must be visible in mobile UI within expected time.,Rejected once,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,16,SOP-016-01,Sync readings to cloud API,Android,Not ranked,User shall receive clear error message on failure.,Rejected once,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,16,SOP-016-02,Handle offline mode,Cloud Sync,High,Result must be visible in mobile UI within expected time.,In Review,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,16,SOP-016-03,Export readings as PDF/CSV,Cloud Sync,Medium,Data shall be encrypted in transit and at rest.,Draft,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,16,SOP-016-04,Display current BPM with timestamp,Notification Service,High,Result must be visible in mobile UI within expected time.,In Review,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,16,SOP-016-05,Battery and Bluetooth warning,iOS,Not ranked,User shall receive clear error message on failure.,In Review,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,17,SOP-017-01,Audit user actions,Android,TBD,Result must be visible in mobile UI within expected time.,Approved?,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,17,SOP_17.2,Store readings securely on device,Notification Service,Medium,System shall complete the action without data loss.,Draft,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,17,SOP-017-03,Audit user actions,Bluetooth Sensor,Medium,TBD by clinical SME - intentionally incomplete.,In Review,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,17,SOP_17.4,Display current BPM with timestamp,iOS,Low,User shall receive clear error message on failure.,Pending QA,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,17,SOP-017-05,Biometric login option,Backend API,Not ranked,System shall complete the action without data loss.,Rejected once,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,18,SOP_18.1,Store readings securely on device,iOS,Not ranked,System shall complete the action without data loss.,Pending QA,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,18,SOP-018-02,Notification retry and suppression,Backend API,TBD,Result must be visible in mobile UI within expected time.,Draft,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,18,SOP-018-03,Validate sensor data range,iOS,Medium,System shall complete the action without data loss.,Rejected once,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,18,SOP-018-04,Capture heart rate from paired device,Local DB,TBD,Result must be visible in mobile UI within expected time.,Need SME,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,18,SOP-018-05,Biometric login option,Bluetooth Sensor,TBD,Data shall be encrypted in transit and at rest.,Rejected once,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,19,SOP-019-01,Show trend chart for 7/30/90 days,Backend API,TBD,User shall receive clear error message on failure.,Rejected once,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,19,SOP-019-02,Battery and Bluetooth warning,Backend API,Low,Data shall be encrypted in transit and at rest.,Approved?,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,19,SOP-019-03,Manual heart rate entry when device unavailable,Android,Medium,User shall receive clear error message on failure.,Draft,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,19,SOP-019-04,Store readings securely on device,Cloud Sync,Not ranked,Result must be visible in mobile UI within expected time.,Rejected once,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,19,SOP-019-05,Notification retry and suppression,Android,TBD,Audit/event record shall be generated where applicable.,Draft,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,20,SOP_20.1,Biometric login option,Backend API,High,Result must be visible in mobile UI within expected time.,Need SME,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,20,SOP-020-02,Show trend chart for 7/30/90 days,Local DB,TBD,Audit/event record shall be generated where applicable.,In Review,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,20,SOP_20.3,Display current BPM with timestamp,Backend API,TBD,User shall receive clear error message on failure.,Draft,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,20,SOP-020-04,Validate sensor data range,Android/iOS,Not ranked,TBD by clinical SME - intentionally incomplete.,Rejected once,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,20,SOP-020-05,Display current BPM with timestamp,Backend API,TBD,Result must be visible in mobile UI within expected time.,Draft,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,21,SOP-021-01,Audit user actions,Backend API,Medium,Data shall be encrypted in transit and at rest.,Need SME,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,21,SOP-021-02,Consent capture and privacy notice,Cloud Sync,Low,User shall receive clear error message on failure.,Pending QA,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,21,SOP-021-03,Show trend chart for 7/30/90 days,Bluetooth Sensor,Low,TBD by clinical SME - intentionally incomplete.,Rejected once,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,21,SOP-021-04,Handle offline mode,Backend API,TBD,Data shall be encrypted in transit and at rest.,Rejected once,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,21,SOP-021-05,Support caregiver view,Cloud Sync,Low,User shall receive clear error message on failure.,Need SME,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,22,SOP-022-01,Support caregiver view,Bluetooth Sensor,Not ranked,Data shall be encrypted in transit and at rest.,In Review,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,22,SOP_22.2,Display current BPM with timestamp,Android,Medium,Data shall be encrypted in transit and at rest.,Draft,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,22,SOP-022-03,Generate high/low heart-rate alert,Local DB,Medium,User shall receive clear error message on failure.,Draft,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,22,SOP-022-04,Handle offline mode,Android/iOS,High,System shall complete the action without data loss.,Draft,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,22,SOP-022-05,Battery and Bluetooth warning,Android/iOS,Low,Data shall be encrypted in transit and at rest.,Approved?,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,23,SOP-023-01,Biometric login option,Bluetooth Sensor,TBD,System shall complete the action without data loss.,Approved?,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,23,SOP-023-02,Sync readings to cloud API,Local DB,TBD,Audit/event record shall be generated where applicable.,Draft,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,23,SOP-023-03,Validate sensor data range,Cloud Sync,TBD,System shall complete the action without data loss.,Need SME,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,23,SOP-023-04,Battery and Bluetooth warning,Backend API,Low,Data shall be encrypted in transit and at rest.,Rejected once,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,23,SOP_23.5,Notification retry and suppression,Android/iOS,Medium,Data shall be encrypted in transit and at rest.,Approved?,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,24,SOP-024-01,Audit user actions,Android/iOS,Medium,TBD by clinical SME - intentionally incomplete.,Draft,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,24,SOP_24.2,Manual heart rate entry when device unavailable,Notification Service,High,Data shall be encrypted in transit and at rest.,Approved?,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,24,SOP-024-03,Audit user actions,Backend API,Not ranked,Data shall be encrypted in transit and at rest.,Pending QA,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,24,SOP-024-04,Handle offline mode,Bluetooth Sensor,High,System shall complete the action without data loss.,Approved?,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,24,SOP-024-05,Audit user actions,Android,Not ranked,User shall receive clear error message on failure.,Need SME,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,25,SOP-025-01,Show trend chart for 7/30/90 days,iOS,High,System shall complete the action without data loss.,Rejected once,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,25,SOP-025-02,Capture heart rate from paired device,iOS,Not ranked,Audit/event record shall be generated where applicable.,Need SME,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,25,SOP-025-03,Capture heart rate from paired device,Android/iOS,Low,User shall receive clear error message on failure.,Draft,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,25,SOP-025-04,Consent capture and privacy notice,iOS,TBD,Audit/event record shall be generated where applicable.,Approved?,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,25,SOP_25.5,Manual heart rate entry when device unavailable,Backend API,Not ranked,Data shall be encrypted in transit and at rest.,Draft,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,26,SOP_26.1,Notification retry and suppression,Local DB,TBD,TBD by clinical SME - intentionally incomplete.,In Review,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,26,SOP-026-02,Biometric login option,Bluetooth Sensor,Not ranked,Data shall be encrypted in transit and at rest.,Draft,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,26,SOP-026-03,Biometric login option,Backend API,Low,System shall complete the action without data loss.,Need SME,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,26,SOP-026-04,Biometric login option,Android/iOS,Medium,System shall complete the action without data loss.,Rejected once,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,26,SOP-026-05,Biometric login option,Android/iOS,Medium,Audit/event record shall be generated where applicable.,Draft,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,27,SOP-027-01,Export readings as PDF/CSV,Cloud Sync,Not ranked,Audit/event record shall be generated where applicable.,Approved?,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,27,SOP_27.2,Sync readings to cloud API,Backend API,High,Result must be visible in mobile UI within expected time.,Approved?,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,27,SOP-027-03,Battery and Bluetooth warning,Bluetooth Sensor,High,Data shall be encrypted in transit and at rest.,In Review,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,27,SOP-027-04,Show trend chart for 7/30/90 days,Android,TBD,TBD by clinical SME - intentionally incomplete.,Need SME,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,27,SOP_27.5,Consent capture and privacy notice,Bluetooth Sensor,High,Result must be visible in mobile UI within expected time.,Approved?,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,28,SOP-028-01,Audit user actions,Notification Service,Low,Data shall be encrypted in transit and at rest.,Rejected once,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,28,SOP-028-02,Handle offline mode,Cloud Sync,High,Data shall be encrypted in transit and at rest.,Pending QA,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,28,SOP-028-03,Battery and Bluetooth warning,Cloud Sync,Medium,Audit/event record shall be generated where applicable.,Need SME,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,28,SOP-028-04,Display current BPM with timestamp,Local DB,Low,Data shall be encrypted in transit and at rest.,Draft,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,28,SOP_28.5,Audit user actions,iOS,Medium,System shall complete the action without data loss.,In Review,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,29,SOP-029-01,Show trend chart for 7/30/90 days,iOS,Not ranked,Data shall be encrypted in transit and at rest.,In Review,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,29,SOP_29.2,Notification retry and suppression,iOS,Medium,Audit/event record shall be generated where applicable.,Need SME,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,29,SOP-029-03,Display current BPM with timestamp,Android/iOS,Low,System shall complete the action without data loss.,Need SME,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,29,SOP-029-04,Handle offline mode,Backend API,High,System shall complete the action without data loss.,Approved?,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,29,SOP_29.5,Battery and Bluetooth warning,Cloud Sync,Not ranked,TBD by clinical SME - intentionally incomplete.,Rejected once,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,30,SOP-030-01,Manual heart rate entry when device unavailable,Android,Not ranked,Data shall be encrypted in transit and at rest.,Draft,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,30,SOP_30.2,Generate high/low heart-rate alert,Notification Service,High,Data shall be encrypted in transit and at rest.,Pending QA,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,30,SOP-030-03,Show trend chart for 7/30/90 days,Local DB,High,TBD by clinical SME - intentionally incomplete.,Draft,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,30,SOP-030-04,Notification retry and suppression,Notification Service,TBD,Audit/event record shall be generated where applicable.,Pending QA,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,30,SOP-030-05,Audit user actions,Backend API,High,Data shall be encrypted in transit and at rest.,Need SME,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,31,SOP_31.1,Display current BPM with timestamp,Notification Service,High,System shall complete the action without data loss.,Pending QA,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,31,SOP_31.2,Generate high/low heart-rate alert,Backend API,Low,User shall receive clear error message on failure.,Approved?,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,31,SOP-031-03,Show trend chart for 7/30/90 days,iOS,TBD,TBD by clinical SME - intentionally incomplete.,Draft,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,31,SOP-031-04,Battery and Bluetooth warning,iOS,Low,System shall complete the action without data loss.,In Review,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,31,SOP-031-05,Validate sensor data range,Backend API,Low,Data shall be encrypted in transit and at rest.,Rejected once,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,32,SOP-032-01,Capture heart rate from paired device,Android,High,Result must be visible in mobile UI within expected time.,Need SME,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,32,SOP-032-02,Audit user actions,Android,High,Result must be visible in mobile UI within expected time.,Rejected once,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,32,SOP-032-03,Support caregiver view,Cloud Sync,Medium,TBD by clinical SME - intentionally incomplete.,Rejected once,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,32,SOP-032-04,Audit user actions,iOS,Medium,Audit/event record shall be generated where applicable.,Rejected once,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,32,SOP-032-05,Support caregiver view,iOS,TBD,Audit/event record shall be generated where applicable.,Pending QA,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,33,SOP-033-01,Store readings securely on device,Android,High,Data shall be encrypted in transit and at rest.,Rejected once,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,33,SOP-033-02,Notification retry and suppression,Notification Service,Not ranked,Data shall be encrypted in transit and at rest.,Pending QA,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,33,SOP_33.3,Display current BPM with timestamp,Android/iOS,TBD,TBD by clinical SME - intentionally incomplete.,In Review,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,33,SOP-033-04,Validate sensor data range,iOS,Not ranked,User shall receive clear error message on failure.,Pending QA,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,33,SOP_33.5,Show trend chart for 7/30/90 days,Android,Medium,System shall complete the action without data loss.,Approved?,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,34,SOP_34.1,Battery and Bluetooth warning,Notification Service,Low,Audit/event record shall be generated where applicable.,Pending QA,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,34,SOP-034-02,Show trend chart for 7/30/90 days,Local DB,Not ranked,Data shall be encrypted in transit and at rest.,In Review,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,34,SOP-034-03,Handle offline mode,iOS,Low,Data shall be encrypted in transit and at rest.,Need SME,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,34,SOP-034-04,Biometric login option,Bluetooth Sensor,High,TBD by clinical SME - intentionally incomplete.,Need SME,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,34,SOP-034-05,Consent capture and privacy notice,Backend API,Low,System shall complete the action without data loss.,Rejected once,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,35,SOP-035-01,Support caregiver view,Cloud Sync,TBD,TBD by clinical SME - intentionally incomplete.,Pending QA,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,35,SOP-035-02,Manual heart rate entry when device unavailable,iOS,Not ranked,TBD by clinical SME - intentionally incomplete.,In Review,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,35,SOP_35.3,Manual heart rate entry when device unavailable,iOS,Medium,TBD by clinical SME - intentionally incomplete.,Approved?,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,35,SOP-035-04,Sync readings to cloud API,Cloud Sync,High,Data shall be encrypted in transit and at rest.,Need SME,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,35,SOP-035-05,Store readings securely on device,Notification Service,High,System shall complete the action without data loss.,Approved?,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,36,SOP-036-01,Battery and Bluetooth warning,Android,High,TBD by clinical SME - intentionally incomplete.,Approved?,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,36,SOP-036-02,Validate sensor data range,Local DB,Medium,Data shall be encrypted in transit and at rest.,Rejected once,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,36,SOP-036-03,Notification retry and suppression,Backend API,Low,Data shall be encrypted in transit and at rest.,Need SME,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,36,SOP-036-04,Battery and Bluetooth warning,Bluetooth Sensor,TBD,User shall receive clear error message on failure.,Pending QA,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,36,SOP-036-05,Biometric login option,Bluetooth Sensor,TBD,Data shall be encrypted in transit and at rest.,Rejected once,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,37,SOP-037-01,Battery and Bluetooth warning,Bluetooth Sensor,Not ranked,User shall receive clear error message on failure.,Pending QA,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,37,SOP-037-02,Battery and Bluetooth warning,Bluetooth Sensor,Medium,Data shall be encrypted in transit and at rest.,Need SME,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,37,SOP_37.3,Display current BPM with timestamp,Local DB,Not ranked,Data shall be encrypted in transit and at rest.,Draft,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,37,SOP-037-04,Display current BPM with timestamp,Android,High,TBD by clinical SME - intentionally incomplete.,Approved?,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,37,SOP-037-05,Handle offline mode,Notification Service,Medium,User shall receive clear error message on failure.,In Review,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,38,SOP-038-01,Biometric login option,Bluetooth Sensor,Not ranked,Audit/event record shall be generated where applicable.,Draft,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,38,SOP-038-02,Biometric login option,Notification Service,Medium,Audit/event record shall be generated where applicable.,Rejected once,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,38,SOP-038-03,Consent capture and privacy notice,iOS,Not ranked,Data shall be encrypted in transit and at rest.,Rejected once,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,38,SOP-038-04,Sync readings to cloud API,Android,TBD,TBD by clinical SME - intentionally incomplete.,Need SME,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,38,SOP-038-05,Validate sensor data range,Local DB,Low,Result must be visible in mobile UI within expected time.,Rejected once,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,39,SOP-039-01,Notification retry and suppression,Notification Service,Low,System shall complete the action without data loss.,Approved?,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,39,SOP-039-02,Battery and Bluetooth warning,Android/iOS,High,Audit/event record shall be generated where applicable.,Pending QA,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,39,SOP-039-03,Generate high/low heart-rate alert,Android,Low,User shall receive clear error message on failure.,Pending QA,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,39,SOP_39.4,Notification retry and suppression,Cloud Sync,Medium,Audit/event record shall be generated where applicable.,Approved?,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,39,SOP-039-05,Biometric login option,Android,Not ranked,Audit/event record shall be generated where applicable.,Approved?,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,40,SOP_40.1,Notification retry and suppression,Bluetooth Sensor,Not ranked,TBD by clinical SME - intentionally incomplete.,Approved?,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,40,SOP-040-02,Battery and Bluetooth warning,Cloud Sync,Low,Result must be visible in mobile UI within expected time.,Rejected once,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,40,SOP_40.3,Capture heart rate from paired device,Cloud Sync,Medium,System shall complete the action without data loss.,Approved?,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,40,SOP_40.4,Validate sensor data range,Android,Medium,System shall complete the action without data loss.,Draft,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,40,SOP-040-05,Notification retry and suppression,Cloud Sync,Medium,User shall receive clear error message on failure.,Approved?,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,41,SOP_41.1,Handle offline mode,Bluetooth Sensor,TBD,Audit/event record shall be generated where applicable.,In Review,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,41,SOP-041-02,Biometric login option,Android/iOS,High,System shall complete the action without data loss.,Rejected once,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,41,SOP-041-03,Manual heart rate entry when device unavailable,Cloud Sync,Not ranked,User shall receive clear error message on failure.,Rejected once,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,41,SOP-041-04,Store readings securely on device,iOS,Not ranked,User shall receive clear error message on failure.,In Review,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,41,SOP-041-05,Generate high/low heart-rate alert,Notification Service,Low,Result must be visible in mobile UI within expected time.,Need SME,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,42,SOP-042-01,Biometric login option,Bluetooth Sensor,Not ranked,System shall complete the action without data loss.,In Review,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,42,SOP-042-02,Show trend chart for 7/30/90 days,Android,Low,Data shall be encrypted in transit and at rest.,In Review,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,42,SOP_42.3,Show trend chart for 7/30/90 days,Android/iOS,High,User shall receive clear error message on failure.,Draft,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,42,SOP-042-04,Export readings as PDF/CSV,Cloud Sync,Not ranked,TBD by clinical SME - intentionally incomplete.,Approved?,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,42,SOP_42.5,Handle offline mode,Notification Service,Not ranked,TBD by clinical SME - intentionally incomplete.,In Review,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,43,SOP-043-01,Generate high/low heart-rate alert,iOS,Medium,System shall complete the action without data loss.,Pending QA,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,43,SOP-043-02,Capture heart rate from paired device,iOS,Low,Result must be visible in mobile UI within expected time.,Need SME,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,43,SOP_43.3,Audit user actions,Notification Service,Low,System shall complete the action without data loss.,Rejected once,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,43,SOP-043-04,Manual heart rate entry when device unavailable,Cloud Sync,Low,User shall receive clear error message on failure.,Approved?,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,43,SOP-043-05,Battery and Bluetooth warning,Local DB,Medium,Result must be visible in mobile UI within expected time.,Pending QA,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,44,SOP-044-01,Validate sensor data range,iOS,Medium,Result must be visible in mobile UI within expected time.,In Review,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,44,SOP_44.2,Sync readings to cloud API,Notification Service,TBD,User shall receive clear error message on failure.,Pending QA,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,44,SOP-044-03,Show trend chart for 7/30/90 days,iOS,Not ranked,Result must be visible in mobile UI within expected time.,Pending QA,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,44,SOP_44.4,Export readings as PDF/CSV,Android/iOS,Not ranked,TBD by clinical SME - intentionally incomplete.,In Review,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,44,SOP-044-05,Support caregiver view,Notification Service,High,User shall receive clear error message on failure.,Rejected once,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,45,SOP_45.1,Display current BPM with timestamp,Android/iOS,Low,Data shall be encrypted in transit and at rest.,Approved?,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,45,SOP-045-02,Export readings as PDF/CSV,Bluetooth Sensor,TBD,User shall receive clear error message on failure.,Approved?,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,45,SOP-045-03,Notification retry and suppression,Bluetooth Sensor,Medium,Audit/event record shall be generated where applicable.,Rejected once,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,45,SOP_45.4,Generate high/low heart-rate alert,Backend API,TBD,User shall receive clear error message on failure.,In Review,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,45,SOP-045-05,Biometric login option,Backend API,Not ranked,System shall complete the action without data loss.,Rejected once,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,46,SOP_46.1,Battery and Bluetooth warning,Local DB,Low,User shall receive clear error message on failure.,Rejected once,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,46,SOP-046-02,Battery and Bluetooth warning,Android/iOS,Not ranked,System shall complete the action without data loss.,In Review,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,46,SOP-046-03,Store readings securely on device,Local DB,High,System shall complete the action without data loss.,In Review,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,46,SOP-046-04,Biometric login option,Cloud Sync,Medium,User shall receive clear error message on failure.,Draft,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,46,SOP-046-05,Sync readings to cloud API,Android/iOS,TBD,Result must be visible in mobile UI within expected time.,In Review,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,47,SOP-047-01,Biometric login option,Bluetooth Sensor,Medium,TBD by clinical SME - intentionally incomplete.,In Review,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,47,SOP-047-02,Audit user actions,Android/iOS,Low,Audit/event record shall be generated where applicable.,Need SME,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,47,SOP-047-03,Notification retry and suppression,Android/iOS,TBD,System shall complete the action without data loss.,In Review,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,47,SOP-047-04,Store readings securely on device,Local DB,Low,User shall receive clear error message on failure.,Rejected once,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,47,SOP-047-05,Store readings securely on device,Cloud Sync,Medium,TBD by clinical SME - intentionally incomplete.,Draft,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,48,SOP-048-01,Generate high/low heart-rate alert,Local DB,High,Data shall be encrypted in transit and at rest.,Need SME,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,48,SOP-048-02,Export readings as PDF/CSV,Backend API,TBD,Audit/event record shall be generated where applicable.,Rejected once,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,48,SOP-048-03,Support caregiver view,Local DB,Low,Result must be visible in mobile UI within expected time.,Need SME,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,48,SOP-048-04,Support caregiver view,Notification Service,Low,Data shall be encrypted in transit and at rest.,Draft,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,48,SOP-048-05,Export readings as PDF/CSV,Bluetooth Sensor,High,TBD by clinical SME - intentionally incomplete.,Draft,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,49,SOP-049-01,Capture heart rate from paired device,Bluetooth Sensor,Low,Data shall be encrypted in transit and at rest.,Need SME,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,49,SOP-049-02,Display current BPM with timestamp,Cloud Sync,Low,Data shall be encrypted in transit and at rest.,Need SME,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,49,SOP-049-03,Validate sensor data range,Local DB,Medium,Audit/event record shall be generated where applicable.,Rejected once,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,49,SOP_49.4,Biometric login option,Android,High,Result must be visible in mobile UI within expected time.,Approved?,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,49,SOP-049-05,Notification retry and suppression,Backend API,TBD,System shall complete the action without data loss.,Draft,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,50,SOP_50.1,Store readings securely on device,Local DB,Low,Audit/event record shall be generated where applicable.,Need SME,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,50,SOP-050-02,Show trend chart for 7/30/90 days,Notification Service,Low,System shall complete the action without data loss.,Rejected once,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,50,SOP-050-03,Show trend chart for 7/30/90 days,iOS,Low,Result must be visible in mobile UI within expected time.,In Review,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,50,SOP-050-04,Handle offline mode,Local DB,Not ranked,System shall complete the action without data loss.,Pending QA,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,50,SOP-050-05,Consent capture and privacy notice,iOS,Medium,Audit/event record shall be generated where applicable.,In Review,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,51,SOP-051-01,Capture heart rate from paired device,Android/iOS,TBD,System shall complete the action without data loss.,Approved?,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,51,SOP-051-02,Support caregiver view,Bluetooth Sensor,Not ranked,Result must be visible in mobile UI within expected time.,Need SME,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,51,SOP-051-03,Validate sensor data range,Cloud Sync,Not ranked,User shall receive clear error message on failure.,Approved?,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,51,SOP-051-04,Notification retry and suppression,Android,Not ranked,User shall receive clear error message on failure.,Pending QA,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,51,SOP-051-05,Store readings securely on device,Bluetooth Sensor,Not ranked,Data shall be encrypted in transit and at rest.,Draft,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,52,SOP-052-01,Export readings as PDF/CSV,Local DB,Medium,Data shall be encrypted in transit and at rest.,Approved?,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,52,SOP-052-02,Show trend chart for 7/30/90 days,Notification Service,Medium,Result must be visible in mobile UI within expected time.,Need SME,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,52,SOP-052-03,Consent capture and privacy notice,Android,TBD,Audit/event record shall be generated where applicable.,Need SME,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,52,SOP_52.4,Handle offline mode,iOS,Medium,Result must be visible in mobile UI within expected time.,Draft,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,52,SOP-052-05,Battery and Bluetooth warning,iOS,Medium,Result must be visible in mobile UI within expected time.,In Review,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,53,SOP-053-01,Capture heart rate from paired device,Android,Medium,Result must be visible in mobile UI within expected time.,Draft,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,53,SOP-053-02,Show trend chart for 7/30/90 days,Cloud Sync,TBD,Audit/event record shall be generated where applicable.,Rejected once,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,53,SOP-053-03,Show trend chart for 7/30/90 days,Backend API,Low,TBD by clinical SME - intentionally incomplete.,Rejected once,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,53,SOP-053-04,Manual heart rate entry when device unavailable,Local DB,Medium,User shall receive clear error message on failure.,Need SME,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,53,SOP-053-05,Manual heart rate entry when device unavailable,Backend API,Not ranked,Result must be visible in mobile UI within expected time.,Rejected once,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,54,SOP_54.1,Export readings as PDF/CSV,Local DB,Medium,System shall complete the action without data loss.,In Review,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,54,SOP-054-02,Notification retry and suppression,Cloud Sync,High,Data shall be encrypted in transit and at rest.,Pending QA,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,54,SOP-054-03,Biometric login option,iOS,Not ranked,System shall complete the action without data loss.,In Review,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,54,SOP-054-04,Show trend chart for 7/30/90 days,Android,Medium,User shall receive clear error message on failure.,In Review,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,54,SOP-054-05,Show trend chart for 7/30/90 days,Android/iOS,Medium,User shall receive clear error message on failure.,Rejected once,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,55,SOP_55.1,Show trend chart for 7/30/90 days,Backend API,Low,Result must be visible in mobile UI within expected time.,Approved?,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,55,SOP-055-02,Battery and Bluetooth warning,Android/iOS,Medium,Result must be visible in mobile UI within expected time.,Pending QA,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,55,SOP-055-03,Biometric login option,Backend API,Low,Audit/event record shall be generated where applicable.,Rejected once,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,55,SOP-055-04,Battery and Bluetooth warning,Android/iOS,Low,User shall receive clear error message on failure.,In Review,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,55,SOP-055-05,Capture heart rate from paired device,Notification Service,High,User shall receive clear error message on failure.,In Review,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,56,SOP-056-01,Handle offline mode,Notification Service,Low,System shall complete the action without data loss.,Approved?,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,56,SOP-056-02,Consent capture and privacy notice,Backend API,TBD,System shall complete the action without data loss.,In Review,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,56,SOP-056-03,Support caregiver view,Bluetooth Sensor,Low,TBD by clinical SME - intentionally incomplete.,Approved?,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,56,SOP-056-04,Manual heart rate entry when device unavailable,Backend API,Not ranked,Audit/event record shall be generated where applicable.,Pending QA,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,56,SOP_56.5,Capture heart rate from paired device,Backend API,Low,Audit/event record shall be generated where applicable.,Approved?,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,57,SOP-057-01,Handle offline mode,Android,Low,Result must be visible in mobile UI within expected time.,Need SME,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,57,SOP-057-02,Battery and Bluetooth warning,Notification Service,Not ranked,System shall complete the action without data loss.,Draft,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,57,SOP-057-03,Show trend chart for 7/30/90 days,Backend API,TBD,User shall receive clear error message on failure.,Pending QA,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,57,SOP-057-04,Sync readings to cloud API,Backend API,High,Result must be visible in mobile UI within expected time.,In Review,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,57,SOP-057-05,Generate high/low heart-rate alert,Backend API,High,Result must be visible in mobile UI within expected time.,Rejected once,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,58,SOP-058-01,Biometric login option,Bluetooth Sensor,Medium,User shall receive clear error message on failure.,Rejected once,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,58,SOP-058-02,Sync readings to cloud API,Cloud Sync,Not ranked,Data shall be encrypted in transit and at rest.,Rejected once,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,58,SOP-058-03,Capture heart rate from paired device,Local DB,Low,Result must be visible in mobile UI within expected time.,Rejected once,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,58,SOP-058-04,Display current BPM with timestamp,Backend API,TBD,System shall complete the action without data loss.,Need SME,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,58,SOP-058-05,Store readings securely on device,Backend API,Low,Data shall be encrypted in transit and at rest.,Need SME,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,59,SOP-059-01,Battery and Bluetooth warning,Android,High,Data shall be encrypted in transit and at rest.,In Review,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,59,SOP-059-02,Generate high/low heart-rate alert,Local DB,TBD,Result must be visible in mobile UI within expected time.,Approved?,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,59,SOP-059-03,Biometric login option,Android/iOS,Medium,System shall complete the action without data loss.,Rejected once,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,59,SOP_59.4,Battery and Bluetooth warning,Notification Service,TBD,Data shall be encrypted in transit and at rest.,In Review,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,59,SOP-059-05,Consent capture and privacy notice,Android/iOS,Medium,Audit/event record shall be generated where applicable.,Need SME,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,60,SOP-060-01,Biometric login option,Bluetooth Sensor,Low,System shall complete the action without data loss.,Rejected once,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,60,SOP-060-02,Generate high/low heart-rate alert,Bluetooth Sensor,TBD,Audit/event record shall be generated where applicable.,Draft,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,60,SOP-060-03,Notification retry and suppression,Cloud Sync,High,System shall complete the action without data loss.,Rejected once,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,60,SOP-060-04,Notification retry and suppression,Android/iOS,High,System shall complete the action without data loss.,Approved?,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,60,SOP-060-05,Generate high/low heart-rate alert,Local DB,Medium,Audit/event record shall be generated where applicable.,Approved?,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,61,SOP-061-01,Capture heart rate from paired device,Backend API,Medium,Result must be visible in mobile UI within expected time.,In Review,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,61,SOP-061-02,Manual heart rate entry when device unavailable,Bluetooth Sensor,Low,Result must be visible in mobile UI within expected time.,Pending QA,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,61,SOP_61.3,Handle offline mode,Android/iOS,Low,Result must be visible in mobile UI within expected time.,In Review,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,61,SOP_61.4,Notification retry and suppression,Android/iOS,Not ranked,Result must be visible in mobile UI within expected time.,In Review,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,61,SOP-061-05,Manual heart rate entry when device unavailable,Android/iOS,Medium,TBD by clinical SME - intentionally incomplete.,In Review,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,62,SOP-062-01,Handle offline mode,Cloud Sync,TBD,TBD by clinical SME - intentionally incomplete.,Draft,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,62,SOP-062-02,Sync readings to cloud API,iOS,TBD,Result must be visible in mobile UI within expected time.,Approved?,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,62,SOP-062-03,Export readings as PDF/CSV,Android/iOS,Medium,Audit/event record shall be generated where applicable.,Pending QA,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,62,SOP-062-04,Display current BPM with timestamp,Cloud Sync,High,User shall receive clear error message on failure.,Need SME,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,62,SOP-062-05,Audit user actions,Android/iOS,Not ranked,Data shall be encrypted in transit and at rest.,In Review,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,63,SOP-063-01,Notification retry and suppression,iOS,Medium,Data shall be encrypted in transit and at rest.,Draft,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,63,SOP_63.2,Generate high/low heart-rate alert,Bluetooth Sensor,Not ranked,Result must be visible in mobile UI within expected time.,Pending QA,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,63,SOP-063-03,Consent capture and privacy notice,Cloud Sync,Not ranked,Result must be visible in mobile UI within expected time.,Rejected once,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,63,SOP-063-04,Audit user actions,Bluetooth Sensor,High,Audit/event record shall be generated where applicable.,Pending QA,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,63,SOP-063-05,Validate sensor data range,Notification Service,Low,TBD by clinical SME - intentionally incomplete.,Pending QA,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,64,SOP-064-01,Battery and Bluetooth warning,Cloud Sync,Medium,TBD by clinical SME - intentionally incomplete.,Approved?,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,64,SOP-064-02,Capture heart rate from paired device,Notification Service,TBD,System shall complete the action without data loss.,Draft,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,64,SOP_64.3,Audit user actions,Bluetooth Sensor,Medium,System shall complete the action without data loss.,In Review,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,64,SOP-064-04,Biometric login option,Cloud Sync,Low,TBD by clinical SME - intentionally incomplete.,Need SME,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,64,SOP-064-05,Manual heart rate entry when device unavailable,Bluetooth Sensor,Medium,TBD by clinical SME - intentionally incomplete.,Draft,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,65,SOP-065-01,Display current BPM with timestamp,Android/iOS,High,Audit/event record shall be generated where applicable.,Approved?,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,65,SOP-065-02,Audit user actions,Bluetooth Sensor,High,Data shall be encrypted in transit and at rest.,In Review,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,65,SOP_65.3,Support caregiver view,Notification Service,Not ranked,Audit/event record shall be generated where applicable.,Approved?,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,65,SOP_65.4,Generate high/low heart-rate alert,Notification Service,High,TBD by clinical SME - intentionally incomplete.,Draft,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,65,SOP-065-05,Export readings as PDF/CSV,Android/iOS,TBD,System shall complete the action without data loss.,Rejected once,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,66,SOP-066-01,Notification retry and suppression,Backend API,Not ranked,Data shall be encrypted in transit and at rest.,Draft,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,66,SOP-066-02,Export readings as PDF/CSV,Bluetooth Sensor,Medium,Result must be visible in mobile UI within expected time.,Approved?,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,66,SOP-066-03,Biometric login option,Local DB,High,Data shall be encrypted in transit and at rest.,In Review,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,66,SOP-066-04,Capture heart rate from paired device,Notification Service,Medium,User shall receive clear error message on failure.,Approved?,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,66,SOP-066-05,Handle offline mode,Notification Service,High,TBD by clinical SME - intentionally incomplete.,Pending QA,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,67,SOP-067-01,Sync readings to cloud API,Android/iOS,TBD,Audit/event record shall be generated where applicable.,Pending QA,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,67,SOP_67.2,Handle offline mode,iOS,Medium,Audit/event record shall be generated where applicable.,Rejected once,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,67,SOP-067-03,Show trend chart for 7/30/90 days,Bluetooth Sensor,Low,Audit/event record shall be generated where applicable.,Approved?,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,67,SOP-067-04,Audit user actions,Bluetooth Sensor,Medium,System shall complete the action without data loss.,Draft,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,67,SOP-067-05,Manual heart rate entry when device unavailable,Notification Service,High,User shall receive clear error message on failure.,Approved?,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,68,SOP-068-01,Validate sensor data range,Android,Not ranked,Audit/event record shall be generated where applicable.,Approved?,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,68,SOP-068-02,Export readings as PDF/CSV,iOS,Not ranked,User shall receive clear error message on failure.,Draft,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,68,SOP-068-03,Support caregiver view,Android,Medium,TBD by clinical SME - intentionally incomplete.,Draft,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,68,SOP_68.4,Display current BPM with timestamp,Android,Medium,Audit/event record shall be generated where applicable.,In Review,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,68,SOP-068-05,Audit user actions,Local DB,TBD,TBD by clinical SME - intentionally incomplete.,In Review,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,69,SOP-069-01,Generate high/low heart-rate alert,iOS,TBD,System shall complete the action without data loss.,Approved?,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,69,SOP-069-02,Handle offline mode,Local DB,High,Data shall be encrypted in transit and at rest.,Approved?,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,69,SOP-069-03,Store readings securely on device,Bluetooth Sensor,Not ranked,Result must be visible in mobile UI within expected time.,Pending QA,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,69,SOP-069-04,Sync readings to cloud API,Android/iOS,Low,System shall complete the action without data loss.,Rejected once,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,69,SOP-069-05,Battery and Bluetooth warning,Backend API,Low,Audit/event record shall be generated where applicable.,Pending QA,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,70,SOP-070-01,Sync readings to cloud API,Local DB,Medium,Audit/event record shall be generated where applicable.,In Review,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,70,SOP-070-02,Capture heart rate from paired device,Cloud Sync,Low,User shall receive clear error message on failure.,In Review,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,70,SOP-070-03,Consent capture and privacy notice,Bluetooth Sensor,Low,System shall complete the action without data loss.,Draft,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,70,SOP_70.4,Display current BPM with timestamp,Backend API,High,System shall complete the action without data loss.,Need SME,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,70,SOP_70.5,Validate sensor data range,Local DB,Not ranked,Result must be visible in mobile UI within expected time.,Draft,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,71,SOP-071-01,Generate high/low heart-rate alert,Backend API,Low,User shall receive clear error message on failure.,In Review,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,71,SOP-071-02,Export readings as PDF/CSV,Android/iOS,Medium,User shall receive clear error message on failure.,In Review,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,71,SOP-071-03,Biometric login option,Android,High,User shall receive clear error message on failure.,Draft,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,71,SOP_71.4,Biometric login option,Backend API,Medium,Result must be visible in mobile UI within expected time.,Rejected once,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,71,SOP-071-05,Manual heart rate entry when device unavailable,Android,Low,TBD by clinical SME - intentionally incomplete.,Need SME,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,72,SOP-072-01,Battery and Bluetooth warning,Android,Not ranked,Audit/event record shall be generated where applicable.,Pending QA,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,72,SOP_72.2,Notification retry and suppression,Bluetooth Sensor,Low,Result must be visible in mobile UI within expected time.,Approved?,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,72,SOP-072-03,Validate sensor data range,Local DB,Low,Data shall be encrypted in transit and at rest.,Need SME,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,72,SOP-072-04,Sync readings to cloud API,Notification Service,High,Result must be visible in mobile UI within expected time.,Need SME,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,72,SOP-072-05,Support caregiver view,Android/iOS,High,TBD by clinical SME - intentionally incomplete.,Draft,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,73,SOP-073-01,Biometric login option,Local DB,Medium,Data shall be encrypted in transit and at rest.,In Review,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,73,SOP-073-02,Display current BPM with timestamp,Android/iOS,Medium,System shall complete the action without data loss.,Approved?,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,73,SOP-073-03,Capture heart rate from paired device,Bluetooth Sensor,Medium,Audit/event record shall be generated where applicable.,In Review,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,73,SOP-073-04,Handle offline mode,iOS,TBD,User shall receive clear error message on failure.,Pending QA,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,73,SOP-073-05,Display current BPM with timestamp,Bluetooth Sensor,High,Audit/event record shall be generated where applicable.,In Review,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,74,SOP-074-01,Notification retry and suppression,Local DB,High,User shall receive clear error message on failure.,In Review,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,74,SOP-074-02,Capture heart rate from paired device,Bluetooth Sensor,Medium,TBD by clinical SME - intentionally incomplete.,Pending QA,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,74,SOP-074-03,Support caregiver view,Bluetooth Sensor,Medium,Data shall be encrypted in transit and at rest.,Rejected once,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,74,SOP_74.4,Support caregiver view,Local DB,Low,TBD by clinical SME - intentionally incomplete.,Pending QA,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,74,SOP-074-05,Consent capture and privacy notice,Notification Service,Low,TBD by clinical SME - intentionally incomplete.,In Review,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,75,SOP-075-01,Notification retry and suppression,Android/iOS,Not ranked,System shall complete the action without data loss.,Need SME,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,75,SOP-075-02,Sync readings to cloud API,Android/iOS,High,Audit/event record shall be generated where applicable.,Pending QA,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,75,SOP_75.3,Audit user actions,Local DB,High,System shall complete the action without data loss.,Approved?,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,75,SOP-075-04,Generate high/low heart-rate alert,Notification Service,Medium,System shall complete the action without data loss.,In Review,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,75,SOP-075-05,Show trend chart for 7/30/90 days,iOS,High,System shall complete the action without data loss.,Approved?,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,76,SOP-076-01,Consent capture and privacy notice,Android/iOS,Not ranked,Data shall be encrypted in transit and at rest.,Need SME,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,76,SOP-076-02,Generate high/low heart-rate alert,iOS,Not ranked,Data shall be encrypted in transit and at rest.,Need SME,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,76,SOP-076-03,Audit user actions,Android,Medium,Audit/event record shall be generated where applicable.,Rejected once,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,76,SOP-076-04,Generate high/low heart-rate alert,Local DB,Low,Result must be visible in mobile UI within expected time.,Pending QA,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,76,SOP_76.5,Notification retry and suppression,Bluetooth Sensor,TBD,User shall receive clear error message on failure.,In Review,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,77,SOP-077-01,Generate high/low heart-rate alert,Android,Not ranked,System shall complete the action without data loss.,Approved?,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,77,SOP_77.2,Notification retry and suppression,iOS,Low,User shall receive clear error message on failure.,Approved?,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,77,SOP-077-03,Manual heart rate entry when device unavailable,Bluetooth Sensor,Low,Audit/event record shall be generated where applicable.,Approved?,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,77,SOP-077-04,Consent capture and privacy notice,Bluetooth Sensor,TBD,Result must be visible in mobile UI within expected time.,In Review,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,77,SOP-077-05,Show trend chart for 7/30/90 days,Android/iOS,Not ranked,Result must be visible in mobile UI within expected time.,Rejected once,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,78,SOP-078-01,Display current BPM with timestamp,Local DB,Not ranked,Audit/event record shall be generated where applicable.,Rejected once,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,78,SOP-078-02,Notification retry and suppression,Android/iOS,Not ranked,Data shall be encrypted in transit and at rest.,Rejected once,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,78,SOP-078-03,Sync readings to cloud API,Local DB,High,System shall complete the action without data loss.,Need SME,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,78,SOP_78.4,Manual heart rate entry when device unavailable,Android,Medium,TBD by clinical SME - intentionally incomplete.,Need SME,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,78,SOP_78.5,Capture heart rate from paired device,Cloud Sync,Low,TBD by clinical SME - intentionally incomplete.,Pending QA,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,79,SOP-079-01,Display current BPM with timestamp,Android/iOS,Not ranked,System shall complete the action without data loss.,Need SME,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,79,SOP-079-02,Capture heart rate from paired device,Backend API,Medium,Result must be visible in mobile UI within expected time.,Rejected once,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,79,SOP_79.3,Consent capture and privacy notice,Cloud Sync,Low,Data shall be encrypted in transit and at rest.,Approved?,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,79,SOP-079-04,Display current BPM with timestamp,Local DB,TBD,User shall receive clear error message on failure.,Rejected once,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,79,SOP-079-05,Notification retry and suppression,Cloud Sync,TBD,User shall receive clear error message on failure.,In Review,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,80,SOP_80.1,Capture heart rate from paired device,Notification Service,High,System shall complete the action without data loss.,Need SME,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,80,SOP-080-02,Show trend chart for 7/30/90 days,Local DB,Medium,User shall receive clear error message on failure.,Approved?,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,80,SOP-080-03,Manual heart rate entry when device unavailable,Android,Medium,Audit/event record shall be generated where applicable.,In Review,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,80,SOP_80.4,Show trend chart for 7/30/90 days,Local DB,High,System shall complete the action without data loss.,Draft,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,80,SOP-080-05,Battery and Bluetooth warning,Local DB,Medium,Data shall be encrypted in transit and at rest.,In Review,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,81,SOP-081-01,Sync readings to cloud API,Android,Medium,System shall complete the action without data loss.,Pending QA,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,81,SOP-081-02,Validate sensor data range,iOS,High,Data shall be encrypted in transit and at rest.,In Review,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,81,SOP-081-03,Validate sensor data range,iOS,High,Result must be visible in mobile UI within expected time.,Rejected once,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,81,SOP-081-04,Manual heart rate entry when device unavailable,Local DB,Low,Audit/event record shall be generated where applicable.,Pending QA,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,81,SOP-081-05,Handle offline mode,Cloud Sync,Not ranked,System shall complete the action without data loss.,In Review,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,82,SOP_82.1,Export readings as PDF/CSV,Android,Medium,Audit/event record shall be generated where applicable.,In Review,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,82,SOP-082-02,Battery and Bluetooth warning,Android/iOS,Low,Result must be visible in mobile UI within expected time.,In Review,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,82,SOP-082-03,Store readings securely on device,Local DB,Not ranked,Audit/event record shall be generated where applicable.,Need SME,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,82,SOP-082-04,Consent capture and privacy notice,Bluetooth Sensor,High,Audit/event record shall be generated where applicable.,Draft,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,82,SOP_82.5,Sync readings to cloud API,Bluetooth Sensor,Medium,Audit/event record shall be generated where applicable.,Draft,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,83,SOP-083-01,Biometric login option,Local DB,Not ranked,System shall complete the action without data loss.,In Review,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,83,SOP-083-02,Handle offline mode,Android,TBD,Data shall be encrypted in transit and at rest.,Need SME,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,83,SOP-083-03,Store readings securely on device,Android/iOS,High,User shall receive clear error message on failure.,Approved?,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,83,SOP-083-04,Show trend chart for 7/30/90 days,Backend API,High,System shall complete the action without data loss.,Draft,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,83,SOP-083-05,Notification retry and suppression,Android,Medium,Data shall be encrypted in transit and at rest.,Need SME,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,84,SOP-084-01,Export readings as PDF/CSV,Android,Not ranked,Result must be visible in mobile UI within expected time.,Draft,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,84,SOP-084-02,Validate sensor data range,iOS,Not ranked,Result must be visible in mobile UI within expected time.,Approved?,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,84,SOP-084-03,Notification retry and suppression,iOS,Medium,System shall complete the action without data loss.,Rejected once,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,84,SOP-084-04,Sync readings to cloud API,Bluetooth Sensor,High,Audit/event record shall be generated where applicable.,Rejected once,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,84,SOP-084-05,Battery and Bluetooth warning,Local DB,TBD,System shall complete the action without data loss.,In Review,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,85,SOP_85.1,Store readings securely on device,Android/iOS,TBD,System shall complete the action without data loss.,Need SME,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,85,SOP-085-02,Manual heart rate entry when device unavailable,iOS,TBD,Data shall be encrypted in transit and at rest.,Need SME,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,85,SOP-085-03,Consent capture and privacy notice,Backend API,Medium,TBD by clinical SME - intentionally incomplete.,Approved?,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,85,SOP-085-04,Validate sensor data range,iOS,Low,System shall complete the action without data loss.,Approved?,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,85,SOP-085-05,Validate sensor data range,Bluetooth Sensor,High,System shall complete the action without data loss.,Rejected once,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,86,SOP-086-01,Sync readings to cloud API,Bluetooth Sensor,Not ranked,System shall complete the action without data loss.,In Review,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,86,SOP_86.2,Audit user actions,Cloud Sync,Low,Audit/event record shall be generated where applicable.,Draft,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,86,SOP-086-03,Audit user actions,Android,Low,Data shall be encrypted in transit and at rest.,Approved?,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,86,SOP-086-04,Generate high/low heart-rate alert,iOS,Not ranked,Result must be visible in mobile UI within expected time.,In Review,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,86,SOP-086-05,Export readings as PDF/CSV,Local DB,Medium,TBD by clinical SME - intentionally incomplete.,In Review,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,87,SOP_87.1,Battery and Bluetooth warning,Notification Service,Not ranked,Audit/event record shall be generated where applicable.,Rejected once,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,87,SOP-087-02,Consent capture and privacy notice,iOS,High,Data shall be encrypted in transit and at rest.,Rejected once,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,87,SOP_87.3,Handle offline mode,Android/iOS,Not ranked,TBD by clinical SME - intentionally incomplete.,Pending QA,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,87,SOP-087-04,Biometric login option,Android/iOS,TBD,System shall complete the action without data loss.,Draft,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,87,SOP-087-05,Store readings securely on device,Android,Not ranked,TBD by clinical SME - intentionally incomplete.,In Review,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,88,SOP-088-01,Validate sensor data range,Bluetooth Sensor,High,Result must be visible in mobile UI within expected time.,Rejected once,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,88,SOP-088-02,Display current BPM with timestamp,Bluetooth Sensor,Medium,User shall receive clear error message on failure.,Draft,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,88,SOP-088-03,Store readings securely on device,Bluetooth Sensor,High,Audit/event record shall be generated where applicable.,Rejected once,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,88,SOP-088-04,Battery and Bluetooth warning,iOS,High,User shall receive clear error message on failure.,Need SME,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,88,SOP-088-05,Capture heart rate from paired device,Bluetooth Sensor,TBD,Data shall be encrypted in transit and at rest.,Draft,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,89,SOP_89.1,Notification retry and suppression,Bluetooth Sensor,High,System shall complete the action without data loss.,Pending QA,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,89,SOP-089-02,Display current BPM with timestamp,Backend API,Low,User shall receive clear error message on failure.,Need SME,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,89,SOP_89.3,Export readings as PDF/CSV,Local DB,TBD,Audit/event record shall be generated where applicable.,Need SME,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,89,SOP-089-04,Support caregiver view,Local DB,Low,Data shall be encrypted in transit and at rest.,In Review,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,89,SOP-089-05,Audit user actions,Cloud Sync,Low,Audit/event record shall be generated where applicable.,Draft,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,90,SOP-090-01,Consent capture and privacy notice,Backend API,Low,Audit/event record shall be generated where applicable.,Pending QA,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,90,SOP-090-02,Store readings securely on device,Bluetooth Sensor,Medium,User shall receive clear error message on failure.,In Review,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,90,SOP-090-03,Support caregiver view,iOS,Low,Result must be visible in mobile UI within expected time.,Rejected once,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,90,SOP-090-04,Handle offline mode,Bluetooth Sensor,TBD,Data shall be encrypted in transit and at rest.,In Review,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,90,SOP-090-05,Support caregiver view,Android/iOS,Medium,Result must be visible in mobile UI within expected time.,Draft,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,91,SOP-091-01,Handle offline mode,Bluetooth Sensor,Low,User shall receive clear error message on failure.,In Review,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,91,SOP-091-02,Support caregiver view,Android,High,Data shall be encrypted in transit and at rest.,Approved?,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,91,SOP-091-03,Support caregiver view,Android,Not ranked,TBD by clinical SME - intentionally incomplete.,Pending QA,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,91,SOP-091-04,Notification retry and suppression,Local DB,Low,Data shall be encrypted in transit and at rest.,Draft,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,91,SOP_91.5,Notification retry and suppression,Android,Low,System shall complete the action without data loss.,Draft,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,92,SOP-092-01,Sync readings to cloud API,Local DB,Medium,Data shall be encrypted in transit and at rest.,Approved?,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,92,SOP_92.2,Notification retry and suppression,iOS,High,User shall receive clear error message on failure.,Rejected once,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,92,SOP-092-03,Display current BPM with timestamp,Bluetooth Sensor,High,System shall complete the action without data loss.,Pending QA,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,92,SOP-092-04,Capture heart rate from paired device,Android/iOS,Not ranked,TBD by clinical SME - intentionally incomplete.,Approved?,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,92,SOP-092-05,Support caregiver view,iOS,Low,Audit/event record shall be generated where applicable.,Draft,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,93,SOP-093-01,Audit user actions,Cloud Sync,TBD,Audit/event record shall be generated where applicable.,Pending QA,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,93,SOP-093-02,Show trend chart for 7/30/90 days,Notification Service,Low,User shall receive clear error message on failure.,Pending QA,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,93,SOP-093-03,Handle offline mode,Bluetooth Sensor,Not ranked,User shall receive clear error message on failure.,Rejected once,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,93,SOP-093-04,Notification retry and suppression,Android/iOS,Low,Result must be visible in mobile UI within expected time.,Need SME,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,93,SOP-093-05,Battery and Bluetooth warning,Android/iOS,Medium,System shall complete the action without data loss.,Draft,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,94,SOP-094-01,Validate sensor data range,Notification Service,High,TBD by clinical SME - intentionally incomplete.,Approved?,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,94,SOP-094-02,Audit user actions,Local DB,Low,Data shall be encrypted in transit and at rest.,In Review,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,94,SOP-094-03,Validate sensor data range,Android,Low,Audit/event record shall be generated where applicable.,Need SME,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,94,SOP-094-04,Display current BPM with timestamp,Bluetooth Sensor,Low,User shall receive clear error message on failure.,Draft,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,94,SOP_94.5,Consent capture and privacy notice,Bluetooth Sensor,Not ranked,Data shall be encrypted in transit and at rest.,Draft,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,95,SOP-095-01,Consent capture and privacy notice,Local DB,Low,Audit/event record shall be generated where applicable.,In Review,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,95,SOP-095-02,Display current BPM with timestamp,Cloud Sync,TBD,System shall complete the action without data loss.,Need SME,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,95,SOP-095-03,Manual heart rate entry when device unavailable,Backend API,TBD,Result must be visible in mobile UI within expected time.,Rejected once,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,95,SOP-095-04,Manual heart rate entry when device unavailable,Local DB,Medium,TBD by clinical SME - intentionally incomplete.,Rejected once,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,95,SOP-095-05,Store readings securely on device,Backend API,TBD,System shall complete the action without data loss.,In Review,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,96,SOP_96.1,Audit user actions,Android/iOS,Low,User shall receive clear error message on failure.,Pending QA,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,96,SOP-096-02,Manual heart rate entry when device unavailable,iOS,Medium,TBD by clinical SME - intentionally incomplete.,Draft,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,96,SOP_96.3,Support caregiver view,Backend API,Not ranked,Data shall be encrypted in transit and at rest.,In Review,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,96,SOP-096-04,Manual heart rate entry when device unavailable,Cloud Sync,High,Audit/event record shall be generated where applicable.,Draft,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,96,SOP_96.5,Export readings as PDF/CSV,Cloud Sync,Not ranked,Audit/event record shall be generated where applicable.,Rejected once,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,97,SOP-097-01,Biometric login option,Backend API,High,TBD by clinical SME - intentionally incomplete.,In Review,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,97,SOP-097-02,Audit user actions,Local DB,TBD,System shall complete the action without data loss.,Approved?,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,97,SOP_97.3,Capture heart rate from paired device,Local DB,Not ranked,Data shall be encrypted in transit and at rest.,Approved?,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,97,SOP-097-04,Notification retry and suppression,Android,TBD,TBD by clinical SME - intentionally incomplete.,Approved?,OCR noisy line
+Document 7 - SOP - Heart Rate Monitor Application,SOP,97,SOP-097-05,Display current BPM with timestamp,Local DB,Low,TBD by clinical SME - intentionally incomplete.,Approved?,RAG TEST CHUNK
+Document 7 - SOP - Heart Rate Monitor Application,SOP,98,SOP-098-01,Battery and Bluetooth warning,iOS,TBD,Result must be visible in mobile UI within expected time.,In Review,??
+Document 7 - SOP - Heart Rate Monitor Application,SOP,98,SOP-098-02,Manual heart rate entry when device unavailable,iOS,TBD,Data shall be encrypted in transit and at rest.,Need SME,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,98,SOP-098-03,Handle offline mode,Android/iOS,Not ranked,Result must be visible in mobile UI within expected time.,In Review,missing owner
+Document 7 - SOP - Heart Rate Monitor Application,SOP,98,SOP_98.4,Generate high/low heart-rate alert,Android/iOS,High,Audit/event record shall be generated where applicable.,Need SME,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,98,SOP-098-05,Manual heart rate entry when device unavailable,Cloud Sync,TBD,User shall receive clear error message on failure.,Pending QA,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,99,SOP-099-01,Manual heart rate entry when device unavailable,Backend API,Low,TBD by clinical SME - intentionally incomplete.,In Review,duplicate section
+Document 7 - SOP - Heart Rate Monitor Application,SOP,99,SOP-099-02,Consent capture and privacy notice,Android/iOS,Medium,User shall receive clear error message on failure.,Need SME,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,99,SOP_99.3,Notification retry and suppression,Android,Medium,TBD by clinical SME - intentionally incomplete.,Draft,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,99,SOP-099-04,Capture heart rate from paired device,Notification Service,Not ranked,Data shall be encrypted in transit and at rest.,Draft,REVIEW-LATER
+Document 7 - SOP - Heart Rate Monitor Application,SOP,99,SOP_99.5,Export readings as PDF/CSV,Backend API,Low,System shall complete the action without data loss.,Need SME,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,100,SOP-100-01,Audit user actions,Notification Service,TBD,Audit/event record shall be generated where applicable.,In Review,v0.1/v1.0 mixed
+Document 7 - SOP - Heart Rate Monitor Application,SOP,100,SOP-100-02,Audit user actions,Cloud Sync,TBD,Audit/event record shall be generated where applicable.,Approved?,old text retained
+Document 7 - SOP - Heart Rate Monitor Application,SOP,100,SOP-100-03,Show trend chart for 7/30/90 days,Local DB,TBD,User shall receive clear error message on failure.,Draft,TBD
+Document 7 - SOP - Heart Rate Monitor Application,SOP,100,SOP-100-04,Consent capture and privacy notice,Android/iOS,Not ranked,Result must be visible in mobile UI within expected time.,Draft,manual note
+Document 7 - SOP - Heart Rate Monitor Application,SOP,100,SOP-100-05,Show trend chart for 7/30/90 days,Android/iOS,Low,Audit/event record shall be generated where applicable.,Rejected once,old text retained

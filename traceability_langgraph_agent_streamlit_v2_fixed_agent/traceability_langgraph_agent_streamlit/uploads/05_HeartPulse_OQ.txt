@@ -1,0 +1,41 @@
+Operational Qualification (OQ)
+HeartPulse Mobile Heart Rate Monitor Application
+Document ID: OQ-HRPMON-001
+Version: 1.0
+Status: Draft for Testing
+
+Purpose:
+This OQ verifies that configured HeartPulse application functions operate according to functional requirements on Android and iOS.
+
+Operational Test Cases:
+OQ-001 | Related URS: URS-001 | Test Title: User Registration and Secure Login
+Test Step: Verify the application function for user registration and secure login on Android and iOS.
+Expected Result: The function works as expected and the result is captured for validation review.
+
+OQ-002 | Related URS: URS-002 | Test Title: Heart Rate Measurement Capture
+Test Step: Verify the application function for heart rate measurement capture on Android and iOS.
+Expected Result: The function works as expected and the result is captured for validation review.
+
+OQ-003 | Related URS: URS-003 | Test Title: Real-Time Heart Rate Display
+Test Step: Verify the application function for real-time heart rate display on Android and iOS.
+Expected Result: The function works as expected and the result is captured for validation review.
+
+OQ-004 | Related URS: URS-004 | Test Title: Heart Rate Alert Notification
+Test Step: Verify the application function for heart rate alert notification on Android and iOS.
+Expected Result: The function works as expected and the result is captured for validation review.
+
+OQ-005 | Related URS: URS-005 | Test Title: Measurement History and Trend View
+Test Step: Verify the application function for measurement history and trend view on Android and iOS.
+Expected Result: The function works as expected and the result is captured for validation review.
+
+OQ-006 | Related URS: URS-006 | Test Title: Cloud Synchronization
+Test Step: Verify the application function for cloud synchronization on Android and iOS.
+Expected Result: The function works as expected and the result is captured for validation review.
+
+OQ-007 | Related URS: URS-007 | Test Title: Report Export
+Test Step: Verify the application function for report export on Android and iOS.
+Expected Result: The function works as expected and the result is captured for validation review.
+
+OQ-008 | Related URS: URS-008 | Test Title: Privacy Consent and Data Protection
+Test Step: Verify the application function for privacy consent and data protection on Android and iOS.
+Expected Result: The function works as expected and the result is captured for validation review.

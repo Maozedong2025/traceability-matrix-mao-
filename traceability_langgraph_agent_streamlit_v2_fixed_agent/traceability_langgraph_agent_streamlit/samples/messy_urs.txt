@@ -1,0 +1,1 @@
+The system shall maintain audit trail for controlled document creation approval rejection and updates the system shall allow electronic signature during approval the system shall restrict approval based on authorized QA approver role the system shall support traceability matrix export for validation review

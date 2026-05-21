@@ -1,0 +1,501 @@
+document_name,doc_type,page,item_id,item_text,platform,risk,acceptance_expected,status,messy_flag
+Document 1 - URS - Heart Rate Monitor Application,URS,1,URS-001-01,Export readings as PDF/CSV,Local DB,High,Audit/event record shall be generated where applicable.,Approved?,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,1,URS-001-02,Store readings securely on device,Bluetooth Sensor,Medium,User shall receive clear error message on failure.,Approved?,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,1,URS_1.3,Battery and Bluetooth warning,Notification Service,Low,System shall complete the action without data loss.,Need SME,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,1,URS-001-04,Audit user actions,Notification Service,Medium,Result must be visible in mobile UI within expected time.,Draft,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,1,URS-001-05,Validate sensor data range,Android,Low,User shall receive clear error message on failure.,Need SME,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,2,URS-002-01,Battery and Bluetooth warning,Local DB,TBD,TBD by clinical SME - intentionally incomplete.,Pending QA,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,2,URS_2.2,Generate high/low heart-rate alert,Cloud Sync,High,Data shall be encrypted in transit and at rest.,Draft,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,2,URS-002-03,Display current BPM with timestamp,Cloud Sync,High,TBD by clinical SME - intentionally incomplete.,Pending QA,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,2,URS-002-04,Audit user actions,Local DB,Medium,Audit/event record shall be generated where applicable.,Approved?,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,2,URS-002-05,Validate sensor data range,Notification Service,Medium,System shall complete the action without data loss.,Draft,REVIEW-LATER
+Document 1 - URS - Heart Rate Monitor Application,URS,3,URS-003-01,Support caregiver view,Local DB,TBD,Result must be visible in mobile UI within expected time.,Approved?,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,3,URS_3.2,Show trend chart for 7/30/90 days,Cloud Sync,Low,Data shall be encrypted in transit and at rest.,Pending QA,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,3,URS-003-03,Notification retry and suppression,Notification Service,Low,Data shall be encrypted in transit and at rest.,In Review,REVIEW-LATER
+Document 1 - URS - Heart Rate Monitor Application,URS,3,URS-003-04,Store readings securely on device,Backend API,Not ranked,Result must be visible in mobile UI within expected time.,Approved?,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,3,URS-003-05,Handle offline mode,Local DB,Medium,Data shall be encrypted in transit and at rest.,In Review,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,4,URS-004-01,Capture heart rate from paired device,Android,High,Data shall be encrypted in transit and at rest.,Approved?,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,4,URS-004-02,Show trend chart for 7/30/90 days,Bluetooth Sensor,TBD,System shall complete the action without data loss.,Approved?,REVIEW-LATER
+Document 1 - URS - Heart Rate Monitor Application,URS,4,URS-004-03,Generate high/low heart-rate alert,Android/iOS,High,Result must be visible in mobile UI within expected time.,Draft,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,4,URS-004-04,Handle offline mode,Backend API,Low,Data shall be encrypted in transit and at rest.,Need SME,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,4,URS_4.5,Consent capture and privacy notice,Notification Service,Low,Data shall be encrypted in transit and at rest.,Draft,REVIEW-LATER
+Document 1 - URS - Heart Rate Monitor Application,URS,5,URS-005-01,Manual heart rate entry when device unavailable,Backend API,TBD,Data shall be encrypted in transit and at rest.,Approved?,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,5,URS-005-02,Store readings securely on device,Cloud Sync,Not ranked,Audit/event record shall be generated where applicable.,Need SME,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,5,URS_5.3,Display current BPM with timestamp,iOS,High,Audit/event record shall be generated where applicable.,Pending QA,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,5,URS-005-04,Support caregiver view,Local DB,Low,User shall receive clear error message on failure.,Rejected once,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,5,URS-005-05,Handle offline mode,Cloud Sync,Low,System shall complete the action without data loss.,Need SME,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,6,URS-006-01,Export readings as PDF/CSV,Bluetooth Sensor,Low,Result must be visible in mobile UI within expected time.,Rejected once,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,6,URS-006-02,Validate sensor data range,Bluetooth Sensor,Medium,TBD by clinical SME - intentionally incomplete.,Pending QA,REVIEW-LATER
+Document 1 - URS - Heart Rate Monitor Application,URS,6,URS-006-03,Validate sensor data range,Backend API,Not ranked,Result must be visible in mobile UI within expected time.,Draft,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,6,URS-006-04,Manual heart rate entry when device unavailable,Cloud Sync,TBD,Audit/event record shall be generated where applicable.,Need SME,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,6,URS-006-05,Battery and Bluetooth warning,Android/iOS,Low,TBD by clinical SME - intentionally incomplete.,In Review,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,7,URS-007-01,Validate sensor data range,Cloud Sync,Not ranked,Result must be visible in mobile UI within expected time.,Need SME,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,7,URS-007-02,Generate high/low heart-rate alert,Notification Service,Low,System shall complete the action without data loss.,Draft,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,7,URS-007-03,Sync readings to cloud API,Cloud Sync,High,Result must be visible in mobile UI within expected time.,Draft,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,7,URS-007-04,Consent capture and privacy notice,Local DB,Not ranked,TBD by clinical SME - intentionally incomplete.,In Review,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,7,URS-007-05,Consent capture and privacy notice,Android,Not ranked,Audit/event record shall be generated where applicable.,Pending QA,??
+Document 1 - URS - Heart Rate Monitor Application,URS,8,URS-008-01,Display current BPM with timestamp,Backend API,High,User shall receive clear error message on failure.,Pending QA,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,8,URS-008-02,Support caregiver view,Backend API,TBD,Result must be visible in mobile UI within expected time.,In Review,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,8,URS_8.3,Show trend chart for 7/30/90 days,Notification Service,Medium,Result must be visible in mobile UI within expected time.,Rejected once,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,8,URS-008-04,Consent capture and privacy notice,Cloud Sync,TBD,Result must be visible in mobile UI within expected time.,Approved?,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,8,URS-008-05,Capture heart rate from paired device,Local DB,High,TBD by clinical SME - intentionally incomplete.,Rejected once,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,9,URS-009-01,Consent capture and privacy notice,Notification Service,High,Result must be visible in mobile UI within expected time.,Draft,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,9,URS-009-02,Export readings as PDF/CSV,Android/iOS,Low,TBD by clinical SME - intentionally incomplete.,Rejected once,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,9,URS-009-03,Display current BPM with timestamp,Cloud Sync,Not ranked,Data shall be encrypted in transit and at rest.,Rejected once,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,9,URS-009-04,Audit user actions,iOS,Not ranked,Audit/event record shall be generated where applicable.,In Review,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,9,URS-009-05,Battery and Bluetooth warning,Notification Service,TBD,Data shall be encrypted in transit and at rest.,Need SME,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,10,URS-010-01,Generate high/low heart-rate alert,Backend API,TBD,Data shall be encrypted in transit and at rest.,In Review,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,10,URS-010-02,Sync readings to cloud API,Local DB,Medium,Data shall be encrypted in transit and at rest.,Draft,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,10,URS-010-03,Show trend chart for 7/30/90 days,Notification Service,Not ranked,Audit/event record shall be generated where applicable.,Approved?,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,10,URS-010-04,Store readings securely on device,Local DB,Low,Result must be visible in mobile UI within expected time.,Draft,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,10,URS-010-05,Battery and Bluetooth warning,Backend API,Not ranked,TBD by clinical SME - intentionally incomplete.,Approved?,??
+Document 1 - URS - Heart Rate Monitor Application,URS,11,URS-011-01,Support caregiver view,Local DB,Medium,Audit/event record shall be generated where applicable.,In Review,REVIEW-LATER
+Document 1 - URS - Heart Rate Monitor Application,URS,11,URS-011-02,Biometric login option,Bluetooth Sensor,High,Audit/event record shall be generated where applicable.,In Review,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,11,URS-011-03,Biometric login option,Local DB,Medium,Result must be visible in mobile UI within expected time.,Rejected once,??
+Document 1 - URS - Heart Rate Monitor Application,URS,11,URS-011-04,Support caregiver view,Android,Low,Result must be visible in mobile UI within expected time.,Pending QA,REVIEW-LATER
+Document 1 - URS - Heart Rate Monitor Application,URS,11,URS-011-05,Audit user actions,Android/iOS,TBD,TBD by clinical SME - intentionally incomplete.,In Review,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,12,URS-012-01,Battery and Bluetooth warning,Cloud Sync,Low,TBD by clinical SME - intentionally incomplete.,Approved?,??
+Document 1 - URS - Heart Rate Monitor Application,URS,12,URS-012-02,Manual heart rate entry when device unavailable,Cloud Sync,Medium,Audit/event record shall be generated where applicable.,Draft,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,12,URS-012-03,Sync readings to cloud API,Cloud Sync,TBD,Audit/event record shall be generated where applicable.,Rejected once,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,12,URS-012-04,Handle offline mode,Backend API,Medium,TBD by clinical SME - intentionally incomplete.,Draft,??
+Document 1 - URS - Heart Rate Monitor Application,URS,12,URS-012-05,Capture heart rate from paired device,Local DB,Low,Result must be visible in mobile UI within expected time.,Rejected once,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,13,URS-013-01,Export readings as PDF/CSV,Cloud Sync,High,Result must be visible in mobile UI within expected time.,Draft,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,13,URS-013-02,Manual heart rate entry when device unavailable,iOS,Medium,TBD by clinical SME - intentionally incomplete.,Draft,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,13,URS-013-03,Biometric login option,iOS,High,Data shall be encrypted in transit and at rest.,Need SME,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,13,URS-013-04,Capture heart rate from paired device,iOS,TBD,Data shall be encrypted in transit and at rest.,Approved?,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,13,URS-013-05,Notification retry and suppression,iOS,Medium,System shall complete the action without data loss.,Draft,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,14,URS-014-01,Battery and Bluetooth warning,Bluetooth Sensor,Medium,Data shall be encrypted in transit and at rest.,Rejected once,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,14,URS-014-02,Audit user actions,Bluetooth Sensor,Medium,User shall receive clear error message on failure.,In Review,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,14,URS-014-03,Display current BPM with timestamp,Local DB,TBD,TBD by clinical SME - intentionally incomplete.,In Review,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,14,URS_14.4,Show trend chart for 7/30/90 days,iOS,Not ranked,Audit/event record shall be generated where applicable.,Pending QA,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,14,URS-014-05,Show trend chart for 7/30/90 days,Notification Service,Low,System shall complete the action without data loss.,Rejected once,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,15,URS-015-01,Audit user actions,Local DB,Low,TBD by clinical SME - intentionally incomplete.,Approved?,??
+Document 1 - URS - Heart Rate Monitor Application,URS,15,URS-015-02,Handle offline mode,iOS,High,TBD by clinical SME - intentionally incomplete.,Draft,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,15,URS-015-03,Capture heart rate from paired device,Backend API,Not ranked,Audit/event record shall be generated where applicable.,Pending QA,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,15,URS-015-04,Support caregiver view,Android/iOS,Low,Audit/event record shall be generated where applicable.,Approved?,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,15,URS-015-05,Export readings as PDF/CSV,Notification Service,Low,TBD by clinical SME - intentionally incomplete.,Draft,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,16,URS-016-01,Biometric login option,Cloud Sync,Medium,Data shall be encrypted in transit and at rest.,In Review,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,16,URS-016-02,Audit user actions,Android,Not ranked,Audit/event record shall be generated where applicable.,Rejected once,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,16,URS_16.3,Support caregiver view,Local DB,Not ranked,User shall receive clear error message on failure.,Approved?,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,16,URS-016-04,Biometric login option,Cloud Sync,High,TBD by clinical SME - intentionally incomplete.,Rejected once,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,16,URS-016-05,Display current BPM with timestamp,Android/iOS,High,System shall complete the action without data loss.,Draft,??
+Document 1 - URS - Heart Rate Monitor Application,URS,17,URS_17.1,Show trend chart for 7/30/90 days,Bluetooth Sensor,Medium,TBD by clinical SME - intentionally incomplete.,Draft,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,17,URS-017-02,Handle offline mode,Local DB,Not ranked,User shall receive clear error message on failure.,Need SME,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,17,URS-017-03,Sync readings to cloud API,Android/iOS,Not ranked,System shall complete the action without data loss.,Draft,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,17,URS_17.4,Display current BPM with timestamp,Android,TBD,TBD by clinical SME - intentionally incomplete.,Need SME,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,17,URS-017-05,Notification retry and suppression,Android,High,Data shall be encrypted in transit and at rest.,Need SME,??
+Document 1 - URS - Heart Rate Monitor Application,URS,18,URS-018-01,Sync readings to cloud API,Local DB,Not ranked,Result must be visible in mobile UI within expected time.,Approved?,REVIEW-LATER
+Document 1 - URS - Heart Rate Monitor Application,URS,18,URS-018-02,Consent capture and privacy notice,iOS,Low,Audit/event record shall be generated where applicable.,In Review,??
+Document 1 - URS - Heart Rate Monitor Application,URS,18,URS-018-03,Sync readings to cloud API,Cloud Sync,Medium,User shall receive clear error message on failure.,Pending QA,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,18,URS_18.4,Display current BPM with timestamp,Bluetooth Sensor,High,Audit/event record shall be generated where applicable.,Draft,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,18,URS_18.5,Handle offline mode,Cloud Sync,High,Data shall be encrypted in transit and at rest.,In Review,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,19,URS-019-01,Battery and Bluetooth warning,iOS,Medium,TBD by clinical SME - intentionally incomplete.,Pending QA,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,19,URS-019-02,Validate sensor data range,Android,Not ranked,User shall receive clear error message on failure.,Rejected once,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,19,URS-019-03,Consent capture and privacy notice,Cloud Sync,Medium,TBD by clinical SME - intentionally incomplete.,Approved?,REVIEW-LATER
+Document 1 - URS - Heart Rate Monitor Application,URS,19,URS-019-04,Store readings securely on device,Cloud Sync,Not ranked,System shall complete the action without data loss.,Pending QA,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,19,URS-019-05,Generate high/low heart-rate alert,Bluetooth Sensor,Not ranked,User shall receive clear error message on failure.,Pending QA,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,20,URS-020-01,Support caregiver view,Android/iOS,High,Data shall be encrypted in transit and at rest.,Approved?,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,20,URS_20.2,Notification retry and suppression,Backend API,Low,Result must be visible in mobile UI within expected time.,Need SME,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,20,URS-020-03,Display current BPM with timestamp,Bluetooth Sensor,Medium,Data shall be encrypted in transit and at rest.,Pending QA,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,20,URS-020-04,Notification retry and suppression,Android/iOS,High,Result must be visible in mobile UI within expected time.,Pending QA,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,20,URS-020-05,Audit user actions,Android,Not ranked,Audit/event record shall be generated where applicable.,Rejected once,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,21,URS-021-01,Support caregiver view,Cloud Sync,TBD,System shall complete the action without data loss.,Pending QA,REVIEW-LATER
+Document 1 - URS - Heart Rate Monitor Application,URS,21,URS-021-02,Battery and Bluetooth warning,Backend API,Low,TBD by clinical SME - intentionally incomplete.,Need SME,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,21,URS-021-03,Capture heart rate from paired device,Backend API,Low,Result must be visible in mobile UI within expected time.,Pending QA,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,21,URS-021-04,Sync readings to cloud API,Android,Low,Data shall be encrypted in transit and at rest.,Pending QA,REVIEW-LATER
+Document 1 - URS - Heart Rate Monitor Application,URS,21,URS-021-05,Validate sensor data range,Bluetooth Sensor,Low,System shall complete the action without data loss.,Approved?,??
+Document 1 - URS - Heart Rate Monitor Application,URS,22,URS-022-01,Battery and Bluetooth warning,Android,Medium,Result must be visible in mobile UI within expected time.,In Review,REVIEW-LATER
+Document 1 - URS - Heart Rate Monitor Application,URS,22,URS-022-02,Show trend chart for 7/30/90 days,Android,Medium,Data shall be encrypted in transit and at rest.,Need SME,??
+Document 1 - URS - Heart Rate Monitor Application,URS,22,URS-022-03,Display current BPM with timestamp,Local DB,TBD,Audit/event record shall be generated where applicable.,Approved?,??
+Document 1 - URS - Heart Rate Monitor Application,URS,22,URS-022-04,Validate sensor data range,Backend API,Medium,Audit/event record shall be generated where applicable.,Draft,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,22,URS-022-05,Validate sensor data range,Android,Low,Result must be visible in mobile UI within expected time.,Draft,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,23,URS-023-01,Generate high/low heart-rate alert,Android,Not ranked,TBD by clinical SME - intentionally incomplete.,Rejected once,REVIEW-LATER
+Document 1 - URS - Heart Rate Monitor Application,URS,23,URS_23.2,Validate sensor data range,Backend API,Not ranked,Data shall be encrypted in transit and at rest.,In Review,REVIEW-LATER
+Document 1 - URS - Heart Rate Monitor Application,URS,23,URS_23.3,Manual heart rate entry when device unavailable,Bluetooth Sensor,High,TBD by clinical SME - intentionally incomplete.,Draft,??
+Document 1 - URS - Heart Rate Monitor Application,URS,23,URS-023-04,Show trend chart for 7/30/90 days,Notification Service,Low,User shall receive clear error message on failure.,Draft,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,23,URS-023-05,Biometric login option,Local DB,Low,User shall receive clear error message on failure.,Approved?,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,24,URS_24.1,Notification retry and suppression,Local DB,Medium,User shall receive clear error message on failure.,Need SME,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,24,URS-024-02,Manual heart rate entry when device unavailable,Bluetooth Sensor,High,Result must be visible in mobile UI within expected time.,In Review,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,24,URS-024-03,Sync readings to cloud API,Android,Medium,Data shall be encrypted in transit and at rest.,Approved?,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,24,URS-024-04,Audit user actions,Cloud Sync,Medium,Audit/event record shall be generated where applicable.,In Review,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,24,URS_24.5,Audit user actions,Android/iOS,TBD,TBD by clinical SME - intentionally incomplete.,Approved?,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,25,URS-025-01,Capture heart rate from paired device,Android/iOS,Not ranked,System shall complete the action without data loss.,Rejected once,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,25,URS-025-02,Generate high/low heart-rate alert,Bluetooth Sensor,Medium,Result must be visible in mobile UI within expected time.,Rejected once,??
+Document 1 - URS - Heart Rate Monitor Application,URS,25,URS-025-03,Validate sensor data range,Notification Service,Low,TBD by clinical SME - intentionally incomplete.,Rejected once,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,25,URS-025-04,Handle offline mode,Cloud Sync,TBD,TBD by clinical SME - intentionally incomplete.,In Review,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,25,URS-025-05,Validate sensor data range,Local DB,Medium,User shall receive clear error message on failure.,Pending QA,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,26,URS-026-01,Notification retry and suppression,Backend API,Low,Result must be visible in mobile UI within expected time.,Pending QA,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,26,URS-026-02,Generate high/low heart-rate alert,Local DB,High,User shall receive clear error message on failure.,Approved?,??
+Document 1 - URS - Heart Rate Monitor Application,URS,26,URS-026-03,Battery and Bluetooth warning,Backend API,TBD,Result must be visible in mobile UI within expected time.,Rejected once,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,26,URS-026-04,Manual heart rate entry when device unavailable,Bluetooth Sensor,Not ranked,User shall receive clear error message on failure.,In Review,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,26,URS-026-05,Sync readings to cloud API,Local DB,Medium,Audit/event record shall be generated where applicable.,Draft,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,27,URS-027-01,Generate high/low heart-rate alert,Backend API,High,Result must be visible in mobile UI within expected time.,Pending QA,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,27,URS-027-02,Handle offline mode,Cloud Sync,Not ranked,Result must be visible in mobile UI within expected time.,Pending QA,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,27,URS-027-03,Capture heart rate from paired device,Notification Service,Medium,System shall complete the action without data loss.,Need SME,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,27,URS-027-04,Capture heart rate from paired device,Cloud Sync,High,User shall receive clear error message on failure.,Need SME,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,27,URS-027-05,Consent capture and privacy notice,Android/iOS,High,Result must be visible in mobile UI within expected time.,Need SME,REVIEW-LATER
+Document 1 - URS - Heart Rate Monitor Application,URS,28,URS-028-01,Generate high/low heart-rate alert,Local DB,TBD,User shall receive clear error message on failure.,Draft,REVIEW-LATER
+Document 1 - URS - Heart Rate Monitor Application,URS,28,URS-028-02,Battery and Bluetooth warning,Cloud Sync,Not ranked,User shall receive clear error message on failure.,Draft,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,28,URS-028-03,Manual heart rate entry when device unavailable,iOS,Not ranked,Audit/event record shall be generated where applicable.,Draft,??
+Document 1 - URS - Heart Rate Monitor Application,URS,28,URS-028-04,Handle offline mode,Android,TBD,Audit/event record shall be generated where applicable.,Approved?,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,28,URS-028-05,Handle offline mode,Bluetooth Sensor,Low,User shall receive clear error message on failure.,Draft,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,29,URS-029-01,Biometric login option,Android/iOS,High,Audit/event record shall be generated where applicable.,Pending QA,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,29,URS-029-02,Support caregiver view,Cloud Sync,High,Result must be visible in mobile UI within expected time.,In Review,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,29,URS_29.3,Audit user actions,Android,TBD,User shall receive clear error message on failure.,In Review,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,29,URS-029-04,Biometric login option,Android,Medium,User shall receive clear error message on failure.,In Review,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,29,URS-029-05,Validate sensor data range,Local DB,High,Data shall be encrypted in transit and at rest.,Need SME,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,30,URS-030-01,Support caregiver view,iOS,Not ranked,User shall receive clear error message on failure.,Pending QA,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,30,URS-030-02,Capture heart rate from paired device,Notification Service,Medium,Result must be visible in mobile UI within expected time.,Draft,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,30,URS-030-03,Handle offline mode,Bluetooth Sensor,Low,Audit/event record shall be generated where applicable.,In Review,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,30,URS-030-04,Audit user actions,iOS,Not ranked,User shall receive clear error message on failure.,Need SME,??
+Document 1 - URS - Heart Rate Monitor Application,URS,30,URS-030-05,Support caregiver view,iOS,Not ranked,Result must be visible in mobile UI within expected time.,In Review,REVIEW-LATER
+Document 1 - URS - Heart Rate Monitor Application,URS,31,URS-031-01,Generate high/low heart-rate alert,Notification Service,Medium,Data shall be encrypted in transit and at rest.,Rejected once,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,31,URS-031-02,Display current BPM with timestamp,Notification Service,Low,User shall receive clear error message on failure.,Draft,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,31,URS-031-03,Store readings securely on device,Bluetooth Sensor,TBD,Data shall be encrypted in transit and at rest.,Pending QA,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,31,URS-031-04,Export readings as PDF/CSV,Android,Medium,Result must be visible in mobile UI within expected time.,Rejected once,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,31,URS-031-05,Audit user actions,Local DB,Medium,TBD by clinical SME - intentionally incomplete.,Approved?,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,32,URS-032-01,Capture heart rate from paired device,Local DB,TBD,Audit/event record shall be generated where applicable.,Draft,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,32,URS-032-02,Display current BPM with timestamp,Notification Service,TBD,TBD by clinical SME - intentionally incomplete.,Pending QA,REVIEW-LATER
+Document 1 - URS - Heart Rate Monitor Application,URS,32,URS-032-03,Export readings as PDF/CSV,Bluetooth Sensor,Low,User shall receive clear error message on failure.,Rejected once,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,32,URS-032-04,Show trend chart for 7/30/90 days,Android/iOS,TBD,Data shall be encrypted in transit and at rest.,Rejected once,??
+Document 1 - URS - Heart Rate Monitor Application,URS,32,URS-032-05,Validate sensor data range,Local DB,TBD,Audit/event record shall be generated where applicable.,Pending QA,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,33,URS-033-01,Manual heart rate entry when device unavailable,Local DB,Not ranked,Data shall be encrypted in transit and at rest.,Need SME,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,33,URS-033-02,Biometric login option,Android,Not ranked,Audit/event record shall be generated where applicable.,Approved?,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,33,URS-033-03,Battery and Bluetooth warning,Android,Not ranked,Result must be visible in mobile UI within expected time.,In Review,??
+Document 1 - URS - Heart Rate Monitor Application,URS,33,URS-033-04,Store readings securely on device,iOS,Medium,Data shall be encrypted in transit and at rest.,Pending QA,REVIEW-LATER
+Document 1 - URS - Heart Rate Monitor Application,URS,33,URS-033-05,Notification retry and suppression,Backend API,High,System shall complete the action without data loss.,Approved?,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,34,URS-034-01,Notification retry and suppression,Android/iOS,Not ranked,System shall complete the action without data loss.,Draft,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,34,URS-034-02,Export readings as PDF/CSV,Cloud Sync,Low,Result must be visible in mobile UI within expected time.,Rejected once,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,34,URS-034-03,Sync readings to cloud API,Backend API,High,Audit/event record shall be generated where applicable.,Rejected once,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,34,URS-034-04,Handle offline mode,Local DB,Not ranked,System shall complete the action without data loss.,Approved?,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,34,URS-034-05,Manual heart rate entry when device unavailable,Cloud Sync,Medium,Data shall be encrypted in transit and at rest.,Pending QA,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,35,URS-035-01,Battery and Bluetooth warning,Cloud Sync,Medium,System shall complete the action without data loss.,Rejected once,REVIEW-LATER
+Document 1 - URS - Heart Rate Monitor Application,URS,35,URS-035-02,Audit user actions,Notification Service,Medium,Result must be visible in mobile UI within expected time.,In Review,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,35,URS-035-03,Generate high/low heart-rate alert,Bluetooth Sensor,Medium,User shall receive clear error message on failure.,Approved?,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,35,URS-035-04,Show trend chart for 7/30/90 days,Local DB,Low,Result must be visible in mobile UI within expected time.,Need SME,??
+Document 1 - URS - Heart Rate Monitor Application,URS,35,URS-035-05,Manual heart rate entry when device unavailable,Cloud Sync,Medium,Result must be visible in mobile UI within expected time.,Rejected once,??
+Document 1 - URS - Heart Rate Monitor Application,URS,36,URS-036-01,Show trend chart for 7/30/90 days,Local DB,Low,System shall complete the action without data loss.,Pending QA,??
+Document 1 - URS - Heart Rate Monitor Application,URS,36,URS-036-02,Audit user actions,Notification Service,Not ranked,System shall complete the action without data loss.,Need SME,??
+Document 1 - URS - Heart Rate Monitor Application,URS,36,URS-036-03,Consent capture and privacy notice,Android,Low,System shall complete the action without data loss.,Pending QA,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,36,URS-036-04,Validate sensor data range,Android/iOS,Low,TBD by clinical SME - intentionally incomplete.,Draft,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,36,URS-036-05,Support caregiver view,Cloud Sync,Medium,User shall receive clear error message on failure.,Pending QA,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,37,URS-037-01,Biometric login option,Bluetooth Sensor,Low,Audit/event record shall be generated where applicable.,Rejected once,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,37,URS_37.2,Generate high/low heart-rate alert,Bluetooth Sensor,Not ranked,Data shall be encrypted in transit and at rest.,In Review,??
+Document 1 - URS - Heart Rate Monitor Application,URS,37,URS_37.3,Notification retry and suppression,Bluetooth Sensor,Not ranked,System shall complete the action without data loss.,In Review,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,37,URS-037-04,Audit user actions,Notification Service,Low,User shall receive clear error message on failure.,Draft,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,37,URS-037-05,Show trend chart for 7/30/90 days,Bluetooth Sensor,TBD,Result must be visible in mobile UI within expected time.,Need SME,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,38,URS-038-01,Generate high/low heart-rate alert,Android,TBD,System shall complete the action without data loss.,In Review,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,38,URS-038-02,Validate sensor data range,Backend API,Medium,Audit/event record shall be generated where applicable.,Draft,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,38,URS_38.3,Manual heart rate entry when device unavailable,Bluetooth Sensor,Medium,Audit/event record shall be generated where applicable.,Approved?,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,38,URS_38.4,Biometric login option,Notification Service,TBD,Data shall be encrypted in transit and at rest.,Pending QA,??
+Document 1 - URS - Heart Rate Monitor Application,URS,38,URS-038-05,Show trend chart for 7/30/90 days,Backend API,Medium,System shall complete the action without data loss.,Approved?,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,39,URS_39.1,Handle offline mode,Bluetooth Sensor,Not ranked,Audit/event record shall be generated where applicable.,Pending QA,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,39,URS-039-02,Sync readings to cloud API,Android/iOS,Medium,Data shall be encrypted in transit and at rest.,Draft,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,39,URS-039-03,Validate sensor data range,Notification Service,High,TBD by clinical SME - intentionally incomplete.,Approved?,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,39,URS_39.4,Consent capture and privacy notice,Cloud Sync,Medium,TBD by clinical SME - intentionally incomplete.,Rejected once,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,39,URS-039-05,Display current BPM with timestamp,Bluetooth Sensor,Not ranked,Result must be visible in mobile UI within expected time.,Approved?,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,40,URS_40.1,Sync readings to cloud API,Bluetooth Sensor,High,Result must be visible in mobile UI within expected time.,Approved?,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,40,URS-040-02,Handle offline mode,iOS,Not ranked,Audit/event record shall be generated where applicable.,Pending QA,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,40,URS-040-03,Audit user actions,Bluetooth Sensor,Not ranked,Audit/event record shall be generated where applicable.,Pending QA,REVIEW-LATER
+Document 1 - URS - Heart Rate Monitor Application,URS,40,URS-040-04,Store readings securely on device,iOS,High,System shall complete the action without data loss.,Rejected once,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,40,URS-040-05,Validate sensor data range,Bluetooth Sensor,Not ranked,TBD by clinical SME - intentionally incomplete.,Rejected once,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,41,URS_41.1,Display current BPM with timestamp,iOS,Medium,System shall complete the action without data loss.,Rejected once,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,41,URS-041-02,Capture heart rate from paired device,Local DB,TBD,TBD by clinical SME - intentionally incomplete.,Pending QA,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,41,URS-041-03,Capture heart rate from paired device,Notification Service,Medium,Audit/event record shall be generated where applicable.,Rejected once,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,41,URS-041-04,Battery and Bluetooth warning,Android,High,User shall receive clear error message on failure.,In Review,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,41,URS-041-05,Generate high/low heart-rate alert,iOS,Low,TBD by clinical SME - intentionally incomplete.,Approved?,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,42,URS_42.1,Display current BPM with timestamp,Android,High,Data shall be encrypted in transit and at rest.,Draft,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,42,URS-042-02,Store readings securely on device,Android/iOS,Medium,User shall receive clear error message on failure.,Pending QA,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,42,URS-042-03,Validate sensor data range,Android,Low,Result must be visible in mobile UI within expected time.,Approved?,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,42,URS-042-04,Biometric login option,Bluetooth Sensor,TBD,Result must be visible in mobile UI within expected time.,Approved?,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,42,URS-042-05,Audit user actions,iOS,Medium,System shall complete the action without data loss.,Draft,REVIEW-LATER
+Document 1 - URS - Heart Rate Monitor Application,URS,43,URS_43.1,Battery and Bluetooth warning,Android,TBD,TBD by clinical SME - intentionally incomplete.,Need SME,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,43,URS-043-02,Show trend chart for 7/30/90 days,Local DB,Low,System shall complete the action without data loss.,In Review,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,43,URS-043-03,Export readings as PDF/CSV,Backend API,Not ranked,Audit/event record shall be generated where applicable.,Need SME,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,43,URS_43.4,Manual heart rate entry when device unavailable,iOS,Not ranked,Data shall be encrypted in transit and at rest.,Pending QA,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,43,URS-043-05,Handle offline mode,iOS,Not ranked,Audit/event record shall be generated where applicable.,Rejected once,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,44,URS-044-01,Handle offline mode,iOS,TBD,User shall receive clear error message on failure.,Rejected once,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,44,URS-044-02,Capture heart rate from paired device,Local DB,Not ranked,System shall complete the action without data loss.,In Review,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,44,URS-044-03,Display current BPM with timestamp,Notification Service,High,Data shall be encrypted in transit and at rest.,Rejected once,REVIEW-LATER
+Document 1 - URS - Heart Rate Monitor Application,URS,44,URS-044-04,Battery and Bluetooth warning,Cloud Sync,High,System shall complete the action without data loss.,Need SME,??
+Document 1 - URS - Heart Rate Monitor Application,URS,44,URS-044-05,Biometric login option,Cloud Sync,Low,Data shall be encrypted in transit and at rest.,Approved?,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,45,URS-045-01,Notification retry and suppression,Local DB,TBD,TBD by clinical SME - intentionally incomplete.,In Review,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,45,URS-045-02,Sync readings to cloud API,iOS,Medium,Audit/event record shall be generated where applicable.,Pending QA,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,45,URS-045-03,Generate high/low heart-rate alert,Android/iOS,Medium,Audit/event record shall be generated where applicable.,In Review,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,45,URS-045-04,Show trend chart for 7/30/90 days,Android,Low,Data shall be encrypted in transit and at rest.,Pending QA,??
+Document 1 - URS - Heart Rate Monitor Application,URS,45,URS-045-05,Handle offline mode,Cloud Sync,Medium,Data shall be encrypted in transit and at rest.,Rejected once,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,46,URS-046-01,Handle offline mode,Bluetooth Sensor,TBD,Data shall be encrypted in transit and at rest.,Rejected once,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,46,URS-046-02,Show trend chart for 7/30/90 days,Local DB,Medium,Data shall be encrypted in transit and at rest.,Approved?,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,46,URS-046-03,Export readings as PDF/CSV,iOS,High,TBD by clinical SME - intentionally incomplete.,Draft,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,46,URS-046-04,Display current BPM with timestamp,Backend API,Not ranked,Data shall be encrypted in transit and at rest.,In Review,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,46,URS-046-05,Capture heart rate from paired device,iOS,Medium,System shall complete the action without data loss.,Rejected once,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,47,URS-047-01,Manual heart rate entry when device unavailable,iOS,High,Data shall be encrypted in transit and at rest.,Pending QA,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,47,URS-047-02,Sync readings to cloud API,iOS,Medium,User shall receive clear error message on failure.,Draft,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,47,URS-047-03,Store readings securely on device,Backend API,High,Audit/event record shall be generated where applicable.,Need SME,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,47,URS-047-04,Support caregiver view,Backend API,High,TBD by clinical SME - intentionally incomplete.,Draft,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,47,URS-047-05,Manual heart rate entry when device unavailable,iOS,Low,Result must be visible in mobile UI within expected time.,Need SME,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,48,URS-048-01,Capture heart rate from paired device,Android,TBD,Data shall be encrypted in transit and at rest.,Approved?,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,48,URS-048-02,Show trend chart for 7/30/90 days,iOS,High,Result must be visible in mobile UI within expected time.,Approved?,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,48,URS-048-03,Consent capture and privacy notice,Android,Medium,System shall complete the action without data loss.,Need SME,??
+Document 1 - URS - Heart Rate Monitor Application,URS,48,URS-048-04,Export readings as PDF/CSV,Android,Not ranked,Audit/event record shall be generated where applicable.,Rejected once,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,48,URS-048-05,Audit user actions,Android/iOS,Low,TBD by clinical SME - intentionally incomplete.,Approved?,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,49,URS-049-01,Biometric login option,Local DB,Medium,Result must be visible in mobile UI within expected time.,Pending QA,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,49,URS-049-02,Audit user actions,Local DB,Low,TBD by clinical SME - intentionally incomplete.,In Review,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,49,URS-049-03,Biometric login option,Local DB,Not ranked,User shall receive clear error message on failure.,Rejected once,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,49,URS-049-04,Manual heart rate entry when device unavailable,Cloud Sync,Low,System shall complete the action without data loss.,In Review,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,49,URS-049-05,Support caregiver view,Local DB,Medium,System shall complete the action without data loss.,Approved?,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,50,URS_50.1,Biometric login option,Local DB,High,TBD by clinical SME - intentionally incomplete.,Pending QA,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,50,URS-050-02,Generate high/low heart-rate alert,Local DB,Not ranked,Audit/event record shall be generated where applicable.,Draft,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,50,URS-050-03,Support caregiver view,iOS,Not ranked,User shall receive clear error message on failure.,Approved?,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,50,URS-050-04,Export readings as PDF/CSV,Android/iOS,Low,TBD by clinical SME - intentionally incomplete.,Rejected once,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,50,URS-050-05,Validate sensor data range,Cloud Sync,TBD,System shall complete the action without data loss.,Draft,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,51,URS-051-01,Generate high/low heart-rate alert,Bluetooth Sensor,Low,Result must be visible in mobile UI within expected time.,Need SME,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,51,URS-051-02,Battery and Bluetooth warning,iOS,Low,TBD by clinical SME - intentionally incomplete.,Pending QA,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,51,URS_51.3,Support caregiver view,Cloud Sync,Low,TBD by clinical SME - intentionally incomplete.,Pending QA,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,51,URS-051-04,Consent capture and privacy notice,Cloud Sync,Medium,Result must be visible in mobile UI within expected time.,Pending QA,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,51,URS_51.5,Manual heart rate entry when device unavailable,iOS,High,User shall receive clear error message on failure.,In Review,??
+Document 1 - URS - Heart Rate Monitor Application,URS,52,URS-052-01,Display current BPM with timestamp,Notification Service,TBD,System shall complete the action without data loss.,In Review,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,52,URS_52.2,Store readings securely on device,Notification Service,Low,System shall complete the action without data loss.,Approved?,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,52,URS-052-03,Handle offline mode,Local DB,Not ranked,User shall receive clear error message on failure.,Pending QA,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,52,URS-052-04,Generate high/low heart-rate alert,Backend API,Not ranked,Data shall be encrypted in transit and at rest.,Approved?,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,52,URS-052-05,Audit user actions,Android,TBD,TBD by clinical SME - intentionally incomplete.,Pending QA,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,53,URS-053-01,Store readings securely on device,Local DB,Medium,Audit/event record shall be generated where applicable.,Need SME,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,53,URS-053-02,Handle offline mode,Notification Service,High,User shall receive clear error message on failure.,Rejected once,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,53,URS_53.3,Biometric login option,Notification Service,Low,Audit/event record shall be generated where applicable.,Rejected once,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,53,URS-053-04,Consent capture and privacy notice,Backend API,TBD,Result must be visible in mobile UI within expected time.,Need SME,REVIEW-LATER
+Document 1 - URS - Heart Rate Monitor Application,URS,53,URS-053-05,Consent capture and privacy notice,iOS,Medium,System shall complete the action without data loss.,Pending QA,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,54,URS-054-01,Notification retry and suppression,iOS,Not ranked,System shall complete the action without data loss.,Need SME,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,54,URS-054-02,Show trend chart for 7/30/90 days,iOS,Low,TBD by clinical SME - intentionally incomplete.,Pending QA,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,54,URS-054-03,Sync readings to cloud API,Android,High,Data shall be encrypted in transit and at rest.,Need SME,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,54,URS-054-04,Support caregiver view,Local DB,High,Result must be visible in mobile UI within expected time.,Rejected once,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,54,URS-054-05,Battery and Bluetooth warning,Bluetooth Sensor,Medium,TBD by clinical SME - intentionally incomplete.,Draft,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,55,URS-055-01,Generate high/low heart-rate alert,Backend API,Medium,Data shall be encrypted in transit and at rest.,In Review,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,55,URS-055-02,Handle offline mode,Backend API,Low,Audit/event record shall be generated where applicable.,Need SME,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,55,URS-055-03,Capture heart rate from paired device,Bluetooth Sensor,TBD,System shall complete the action without data loss.,In Review,??
+Document 1 - URS - Heart Rate Monitor Application,URS,55,URS-055-04,Generate high/low heart-rate alert,Backend API,High,TBD by clinical SME - intentionally incomplete.,Pending QA,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,55,URS-055-05,Biometric login option,Backend API,High,Result must be visible in mobile UI within expected time.,Need SME,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,56,URS_56.1,Manual heart rate entry when device unavailable,Backend API,TBD,Result must be visible in mobile UI within expected time.,Draft,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,56,URS-056-02,Biometric login option,Cloud Sync,Low,User shall receive clear error message on failure.,Pending QA,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,56,URS-056-03,Consent capture and privacy notice,Backend API,Not ranked,Data shall be encrypted in transit and at rest.,In Review,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,56,URS_56.4,Display current BPM with timestamp,Bluetooth Sensor,TBD,Data shall be encrypted in transit and at rest.,Need SME,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,56,URS_56.5,Show trend chart for 7/30/90 days,iOS,Low,User shall receive clear error message on failure.,Rejected once,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,57,URS-057-01,Battery and Bluetooth warning,Android,TBD,Result must be visible in mobile UI within expected time.,In Review,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,57,URS_57.2,Sync readings to cloud API,Cloud Sync,High,User shall receive clear error message on failure.,Approved?,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,57,URS-057-03,Support caregiver view,Backend API,Low,System shall complete the action without data loss.,In Review,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,57,URS-057-04,Display current BPM with timestamp,Bluetooth Sensor,TBD,User shall receive clear error message on failure.,Need SME,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,57,URS-057-05,Consent capture and privacy notice,Android,Medium,Audit/event record shall be generated where applicable.,Rejected once,REVIEW-LATER
+Document 1 - URS - Heart Rate Monitor Application,URS,58,URS-058-01,Generate high/low heart-rate alert,Bluetooth Sensor,Medium,Audit/event record shall be generated where applicable.,Approved?,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,58,URS-058-02,Capture heart rate from paired device,Local DB,Low,TBD by clinical SME - intentionally incomplete.,Draft,REVIEW-LATER
+Document 1 - URS - Heart Rate Monitor Application,URS,58,URS_58.3,Sync readings to cloud API,Android,TBD,System shall complete the action without data loss.,Draft,REVIEW-LATER
+Document 1 - URS - Heart Rate Monitor Application,URS,58,URS-058-04,Show trend chart for 7/30/90 days,iOS,High,User shall receive clear error message on failure.,Pending QA,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,58,URS_58.5,Biometric login option,Backend API,High,Data shall be encrypted in transit and at rest.,In Review,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,59,URS_59.1,Manual heart rate entry when device unavailable,Cloud Sync,TBD,User shall receive clear error message on failure.,Need SME,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,59,URS-059-02,Show trend chart for 7/30/90 days,Bluetooth Sensor,Not ranked,Result must be visible in mobile UI within expected time.,Need SME,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,59,URS_59.3,Generate high/low heart-rate alert,Bluetooth Sensor,Low,Data shall be encrypted in transit and at rest.,Draft,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,59,URS-059-04,Store readings securely on device,Local DB,Low,Audit/event record shall be generated where applicable.,In Review,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,59,URS-059-05,Notification retry and suppression,Bluetooth Sensor,High,Result must be visible in mobile UI within expected time.,Pending QA,??
+Document 1 - URS - Heart Rate Monitor Application,URS,60,URS-060-01,Audit user actions,Android,Not ranked,User shall receive clear error message on failure.,Pending QA,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,60,URS-060-02,Manual heart rate entry when device unavailable,Cloud Sync,Not ranked,Result must be visible in mobile UI within expected time.,Approved?,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,60,URS-060-03,Store readings securely on device,Backend API,High,Result must be visible in mobile UI within expected time.,Draft,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,60,URS-060-04,Audit user actions,Cloud Sync,Not ranked,System shall complete the action without data loss.,In Review,??
+Document 1 - URS - Heart Rate Monitor Application,URS,60,URS-060-05,Consent capture and privacy notice,Notification Service,TBD,User shall receive clear error message on failure.,Pending QA,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,61,URS-061-01,Store readings securely on device,iOS,Low,System shall complete the action without data loss.,Draft,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,61,URS-061-02,Export readings as PDF/CSV,Bluetooth Sensor,High,Audit/event record shall be generated where applicable.,Pending QA,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,61,URS-061-03,Handle offline mode,Notification Service,Not ranked,TBD by clinical SME - intentionally incomplete.,Pending QA,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,61,URS-061-04,Audit user actions,Android/iOS,High,TBD by clinical SME - intentionally incomplete.,Draft,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,61,URS_61.5,Audit user actions,Android,Low,TBD by clinical SME - intentionally incomplete.,Approved?,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,62,URS-062-01,Capture heart rate from paired device,Cloud Sync,Low,Result must be visible in mobile UI within expected time.,In Review,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,62,URS-062-02,Notification retry and suppression,iOS,TBD,Result must be visible in mobile UI within expected time.,Approved?,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,62,URS-062-03,Manual heart rate entry when device unavailable,Local DB,High,TBD by clinical SME - intentionally incomplete.,In Review,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,62,URS-062-04,Biometric login option,iOS,High,System shall complete the action without data loss.,Pending QA,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,62,URS_62.5,Display current BPM with timestamp,Notification Service,Low,TBD by clinical SME - intentionally incomplete.,In Review,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,63,URS-063-01,Battery and Bluetooth warning,Backend API,High,User shall receive clear error message on failure.,In Review,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,63,URS-063-02,Show trend chart for 7/30/90 days,Cloud Sync,Not ranked,User shall receive clear error message on failure.,In Review,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,63,URS-063-03,Sync readings to cloud API,Notification Service,TBD,TBD by clinical SME - intentionally incomplete.,Need SME,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,63,URS-063-04,Support caregiver view,Local DB,High,Data shall be encrypted in transit and at rest.,Need SME,REVIEW-LATER
+Document 1 - URS - Heart Rate Monitor Application,URS,63,URS-063-05,Capture heart rate from paired device,Backend API,High,System shall complete the action without data loss.,Approved?,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,64,URS-064-01,Store readings securely on device,Notification Service,High,Result must be visible in mobile UI within expected time.,Draft,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,64,URS-064-02,Battery and Bluetooth warning,Notification Service,TBD,Data shall be encrypted in transit and at rest.,Pending QA,??
+Document 1 - URS - Heart Rate Monitor Application,URS,64,URS-064-03,Consent capture and privacy notice,Cloud Sync,Low,Data shall be encrypted in transit and at rest.,Draft,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,64,URS-064-04,Sync readings to cloud API,Notification Service,Not ranked,System shall complete the action without data loss.,Need SME,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,64,URS_64.5,Handle offline mode,Local DB,Medium,TBD by clinical SME - intentionally incomplete.,Draft,REVIEW-LATER
+Document 1 - URS - Heart Rate Monitor Application,URS,65,URS-065-01,Consent capture and privacy notice,Android/iOS,Medium,Audit/event record shall be generated where applicable.,Draft,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,65,URS-065-02,Store readings securely on device,Cloud Sync,Medium,TBD by clinical SME - intentionally incomplete.,Rejected once,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,65,URS-065-03,Biometric login option,iOS,Medium,Data shall be encrypted in transit and at rest.,In Review,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,65,URS-065-04,Display current BPM with timestamp,Local DB,High,Data shall be encrypted in transit and at rest.,Pending QA,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,65,URS-065-05,Biometric login option,iOS,Medium,System shall complete the action without data loss.,In Review,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,66,URS-066-01,Generate high/low heart-rate alert,iOS,Low,Audit/event record shall be generated where applicable.,Draft,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,66,URS-066-02,Consent capture and privacy notice,Local DB,Medium,Audit/event record shall be generated where applicable.,Rejected once,REVIEW-LATER
+Document 1 - URS - Heart Rate Monitor Application,URS,66,URS-066-03,Consent capture and privacy notice,Notification Service,Medium,System shall complete the action without data loss.,In Review,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,66,URS_66.4,Export readings as PDF/CSV,Bluetooth Sensor,TBD,User shall receive clear error message on failure.,Rejected once,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,66,URS_66.5,Support caregiver view,Android/iOS,High,Result must be visible in mobile UI within expected time.,Approved?,??
+Document 1 - URS - Heart Rate Monitor Application,URS,67,URS_67.1,Sync readings to cloud API,Android,Medium,System shall complete the action without data loss.,Need SME,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,67,URS-067-02,Audit user actions,Android/iOS,TBD,System shall complete the action without data loss.,Draft,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,67,URS-067-03,Biometric login option,Cloud Sync,High,User shall receive clear error message on failure.,Draft,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,67,URS-067-04,Manual heart rate entry when device unavailable,Notification Service,Medium,Result must be visible in mobile UI within expected time.,Draft,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,67,URS-067-05,Biometric login option,Backend API,Medium,Data shall be encrypted in transit and at rest.,Pending QA,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,68,URS-068-01,Audit user actions,Backend API,High,System shall complete the action without data loss.,Approved?,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,68,URS_68.2,Store readings securely on device,Bluetooth Sensor,Medium,User shall receive clear error message on failure.,Pending QA,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,68,URS-068-03,Biometric login option,Bluetooth Sensor,Not ranked,Audit/event record shall be generated where applicable.,Need SME,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,68,URS_68.4,Notification retry and suppression,Cloud Sync,Low,Audit/event record shall be generated where applicable.,Pending QA,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,68,URS_68.5,Validate sensor data range,Bluetooth Sensor,Medium,System shall complete the action without data loss.,Approved?,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,69,URS_69.1,Display current BPM with timestamp,Cloud Sync,Low,User shall receive clear error message on failure.,Pending QA,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,69,URS-069-02,Manual heart rate entry when device unavailable,Bluetooth Sensor,Not ranked,Result must be visible in mobile UI within expected time.,Rejected once,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,69,URS-069-03,Sync readings to cloud API,Bluetooth Sensor,Medium,System shall complete the action without data loss.,Rejected once,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,69,URS-069-04,Biometric login option,Backend API,Not ranked,Result must be visible in mobile UI within expected time.,Approved?,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,69,URS-069-05,Manual heart rate entry when device unavailable,Cloud Sync,TBD,TBD by clinical SME - intentionally incomplete.,Draft,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,70,URS-070-01,Battery and Bluetooth warning,iOS,Low,TBD by clinical SME - intentionally incomplete.,In Review,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,70,URS-070-02,Consent capture and privacy notice,iOS,Not ranked,System shall complete the action without data loss.,Approved?,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,70,URS_70.3,Support caregiver view,Local DB,Medium,User shall receive clear error message on failure.,In Review,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,70,URS_70.4,Support caregiver view,iOS,High,User shall receive clear error message on failure.,Approved?,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,70,URS-070-05,Show trend chart for 7/30/90 days,Local DB,High,Result must be visible in mobile UI within expected time.,Pending QA,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,71,URS-071-01,Manual heart rate entry when device unavailable,Notification Service,High,TBD by clinical SME - intentionally incomplete.,Pending QA,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,71,URS_71.2,Export readings as PDF/CSV,Bluetooth Sensor,TBD,Result must be visible in mobile UI within expected time.,In Review,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,71,URS-071-03,Generate high/low heart-rate alert,Android,Not ranked,Audit/event record shall be generated where applicable.,In Review,??
+Document 1 - URS - Heart Rate Monitor Application,URS,71,URS-071-04,Show trend chart for 7/30/90 days,Cloud Sync,Not ranked,System shall complete the action without data loss.,Need SME,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,71,URS-071-05,Capture heart rate from paired device,Android/iOS,Not ranked,System shall complete the action without data loss.,Draft,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,72,URS-072-01,Biometric login option,Android/iOS,TBD,Result must be visible in mobile UI within expected time.,Draft,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,72,URS-072-02,Handle offline mode,Local DB,Not ranked,System shall complete the action without data loss.,Draft,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,72,URS-072-03,Manual heart rate entry when device unavailable,Notification Service,Not ranked,User shall receive clear error message on failure.,Need SME,REVIEW-LATER
+Document 1 - URS - Heart Rate Monitor Application,URS,72,URS-072-04,Handle offline mode,Notification Service,High,TBD by clinical SME - intentionally incomplete.,Pending QA,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,72,URS-072-05,Biometric login option,Android,High,User shall receive clear error message on failure.,Pending QA,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,73,URS-073-01,Export readings as PDF/CSV,Notification Service,Low,Audit/event record shall be generated where applicable.,Need SME,REVIEW-LATER
+Document 1 - URS - Heart Rate Monitor Application,URS,73,URS-073-02,Sync readings to cloud API,Local DB,TBD,Result must be visible in mobile UI within expected time.,Need SME,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,73,URS-073-03,Validate sensor data range,Android,Low,System shall complete the action without data loss.,Approved?,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,73,URS-073-04,Export readings as PDF/CSV,Backend API,TBD,User shall receive clear error message on failure.,Rejected once,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,73,URS-073-05,Manual heart rate entry when device unavailable,Notification Service,TBD,TBD by clinical SME - intentionally incomplete.,In Review,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,74,URS_74.1,Biometric login option,Android/iOS,TBD,Data shall be encrypted in transit and at rest.,Draft,REVIEW-LATER
+Document 1 - URS - Heart Rate Monitor Application,URS,74,URS-074-02,Support caregiver view,Notification Service,TBD,Result must be visible in mobile UI within expected time.,Rejected once,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,74,URS-074-03,Biometric login option,Notification Service,TBD,Result must be visible in mobile UI within expected time.,Approved?,??
+Document 1 - URS - Heart Rate Monitor Application,URS,74,URS_74.4,Capture heart rate from paired device,Android,Not ranked,Result must be visible in mobile UI within expected time.,Pending QA,??
+Document 1 - URS - Heart Rate Monitor Application,URS,74,URS-074-05,Manual heart rate entry when device unavailable,Bluetooth Sensor,Medium,Data shall be encrypted in transit and at rest.,Approved?,??
+Document 1 - URS - Heart Rate Monitor Application,URS,75,URS-075-01,Generate high/low heart-rate alert,Local DB,Not ranked,User shall receive clear error message on failure.,In Review,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,75,URS-075-02,Handle offline mode,Notification Service,Not ranked,System shall complete the action without data loss.,In Review,REVIEW-LATER
+Document 1 - URS - Heart Rate Monitor Application,URS,75,URS-075-03,Store readings securely on device,Bluetooth Sensor,Not ranked,User shall receive clear error message on failure.,Rejected once,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,75,URS-075-04,Display current BPM with timestamp,Backend API,Low,Audit/event record shall be generated where applicable.,Approved?,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,75,URS-075-05,Generate high/low heart-rate alert,Android/iOS,Medium,System shall complete the action without data loss.,Rejected once,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,76,URS_76.1,Notification retry and suppression,Android/iOS,Medium,Result must be visible in mobile UI within expected time.,Approved?,REVIEW-LATER
+Document 1 - URS - Heart Rate Monitor Application,URS,76,URS-076-02,Notification retry and suppression,Local DB,Medium,Audit/event record shall be generated where applicable.,Rejected once,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,76,URS-076-03,Validate sensor data range,iOS,Not ranked,TBD by clinical SME - intentionally incomplete.,In Review,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,76,URS-076-04,Audit user actions,Android/iOS,Medium,Data shall be encrypted in transit and at rest.,Rejected once,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,76,URS-076-05,Battery and Bluetooth warning,Android/iOS,Medium,System shall complete the action without data loss.,Approved?,REVIEW-LATER
+Document 1 - URS - Heart Rate Monitor Application,URS,77,URS-077-01,Capture heart rate from paired device,Backend API,Medium,System shall complete the action without data loss.,Draft,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,77,URS-077-02,Sync readings to cloud API,Cloud Sync,Not ranked,System shall complete the action without data loss.,Need SME,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,77,URS-077-03,Audit user actions,Android,High,Audit/event record shall be generated where applicable.,Need SME,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,77,URS-077-04,Consent capture and privacy notice,Android/iOS,High,Audit/event record shall be generated where applicable.,Need SME,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,77,URS-077-05,Capture heart rate from paired device,Android,Low,User shall receive clear error message on failure.,Pending QA,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,78,URS-078-01,Manual heart rate entry when device unavailable,Local DB,Low,Result must be visible in mobile UI within expected time.,Draft,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,78,URS-078-02,Show trend chart for 7/30/90 days,Bluetooth Sensor,High,Result must be visible in mobile UI within expected time.,Need SME,REVIEW-LATER
+Document 1 - URS - Heart Rate Monitor Application,URS,78,URS-078-03,Notification retry and suppression,Local DB,Low,Result must be visible in mobile UI within expected time.,Draft,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,78,URS-078-04,Support caregiver view,Local DB,TBD,Audit/event record shall be generated where applicable.,Rejected once,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,78,URS_78.5,Audit user actions,Notification Service,Low,Audit/event record shall be generated where applicable.,Pending QA,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,79,URS-079-01,Support caregiver view,Bluetooth Sensor,TBD,Result must be visible in mobile UI within expected time.,Rejected once,??
+Document 1 - URS - Heart Rate Monitor Application,URS,79,URS-079-02,Manual heart rate entry when device unavailable,Android/iOS,Medium,Result must be visible in mobile UI within expected time.,Rejected once,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,79,URS-079-03,Validate sensor data range,Local DB,High,System shall complete the action without data loss.,In Review,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,79,URS-079-04,Capture heart rate from paired device,Android,High,Audit/event record shall be generated where applicable.,Approved?,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,79,URS-079-05,Support caregiver view,Local DB,Not ranked,User shall receive clear error message on failure.,Approved?,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,80,URS-080-01,Display current BPM with timestamp,Bluetooth Sensor,High,System shall complete the action without data loss.,In Review,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,80,URS-080-02,Support caregiver view,Android/iOS,Not ranked,TBD by clinical SME - intentionally incomplete.,Draft,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,80,URS_80.3,Export readings as PDF/CSV,iOS,Low,Audit/event record shall be generated where applicable.,Draft,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,80,URS-080-04,Sync readings to cloud API,Android,TBD,Result must be visible in mobile UI within expected time.,In Review,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,80,URS-080-05,Validate sensor data range,Cloud Sync,TBD,TBD by clinical SME - intentionally incomplete.,Approved?,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,81,URS-081-01,Handle offline mode,Android,TBD,TBD by clinical SME - intentionally incomplete.,Rejected once,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,81,URS-081-02,Store readings securely on device,Android,TBD,Audit/event record shall be generated where applicable.,In Review,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,81,URS-081-03,Show trend chart for 7/30/90 days,Cloud Sync,Medium,TBD by clinical SME - intentionally incomplete.,Need SME,??
+Document 1 - URS - Heart Rate Monitor Application,URS,81,URS_81.4,Generate high/low heart-rate alert,Android/iOS,High,Data shall be encrypted in transit and at rest.,Rejected once,??
+Document 1 - URS - Heart Rate Monitor Application,URS,81,URS-081-05,Audit user actions,Android,Medium,User shall receive clear error message on failure.,Approved?,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,82,URS-082-01,Audit user actions,Backend API,Not ranked,TBD by clinical SME - intentionally incomplete.,In Review,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,82,URS-082-02,Battery and Bluetooth warning,Android,Not ranked,User shall receive clear error message on failure.,Need SME,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,82,URS-082-03,Sync readings to cloud API,Backend API,Medium,Data shall be encrypted in transit and at rest.,Rejected once,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,82,URS-082-04,Generate high/low heart-rate alert,iOS,High,TBD by clinical SME - intentionally incomplete.,Rejected once,??
+Document 1 - URS - Heart Rate Monitor Application,URS,82,URS-082-05,Display current BPM with timestamp,Cloud Sync,Low,TBD by clinical SME - intentionally incomplete.,In Review,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,83,URS-083-01,Support caregiver view,Cloud Sync,High,System shall complete the action without data loss.,Rejected once,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,83,URS_83.2,Validate sensor data range,Android/iOS,Not ranked,User shall receive clear error message on failure.,In Review,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,83,URS-083-03,Validate sensor data range,Notification Service,Low,Result must be visible in mobile UI within expected time.,Need SME,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,83,URS-083-04,Sync readings to cloud API,Android,High,TBD by clinical SME - intentionally incomplete.,In Review,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,83,URS-083-05,Support caregiver view,Backend API,TBD,Result must be visible in mobile UI within expected time.,In Review,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,84,URS-084-01,Battery and Bluetooth warning,Bluetooth Sensor,High,System shall complete the action without data loss.,Pending QA,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,84,URS-084-02,Support caregiver view,Android,TBD,Result must be visible in mobile UI within expected time.,Draft,REVIEW-LATER
+Document 1 - URS - Heart Rate Monitor Application,URS,84,URS-084-03,Support caregiver view,Bluetooth Sensor,TBD,Result must be visible in mobile UI within expected time.,Draft,??
+Document 1 - URS - Heart Rate Monitor Application,URS,84,URS-084-04,Biometric login option,Notification Service,Medium,TBD by clinical SME - intentionally incomplete.,Draft,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,84,URS-084-05,Consent capture and privacy notice,Cloud Sync,TBD,Result must be visible in mobile UI within expected time.,In Review,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,85,URS_85.1,Capture heart rate from paired device,Android/iOS,Medium,TBD by clinical SME - intentionally incomplete.,Approved?,??
+Document 1 - URS - Heart Rate Monitor Application,URS,85,URS-085-02,Battery and Bluetooth warning,Notification Service,Low,TBD by clinical SME - intentionally incomplete.,Need SME,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,85,URS_85.3,Battery and Bluetooth warning,Backend API,High,User shall receive clear error message on failure.,Pending QA,REVIEW-LATER
+Document 1 - URS - Heart Rate Monitor Application,URS,85,URS-085-04,Biometric login option,Android,Low,Audit/event record shall be generated where applicable.,Need SME,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,85,URS_85.5,Biometric login option,Bluetooth Sensor,High,Result must be visible in mobile UI within expected time.,Rejected once,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,86,URS-086-01,Store readings securely on device,Bluetooth Sensor,High,TBD by clinical SME - intentionally incomplete.,In Review,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,86,URS-086-02,Capture heart rate from paired device,Bluetooth Sensor,Not ranked,Audit/event record shall be generated where applicable.,Rejected once,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,86,URS_86.3,Show trend chart for 7/30/90 days,Backend API,Low,Result must be visible in mobile UI within expected time.,Rejected once,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,86,URS-086-04,Display current BPM with timestamp,Android/iOS,Medium,Result must be visible in mobile UI within expected time.,Need SME,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,86,URS-086-05,Handle offline mode,Local DB,Not ranked,User shall receive clear error message on failure.,Draft,??
+Document 1 - URS - Heart Rate Monitor Application,URS,87,URS-087-01,Capture heart rate from paired device,Android/iOS,Low,TBD by clinical SME - intentionally incomplete.,Rejected once,??
+Document 1 - URS - Heart Rate Monitor Application,URS,87,URS-087-02,Display current BPM with timestamp,Android/iOS,TBD,Result must be visible in mobile UI within expected time.,Draft,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,87,URS-087-03,Audit user actions,Notification Service,Medium,Data shall be encrypted in transit and at rest.,Approved?,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,87,URS-087-04,Display current BPM with timestamp,Local DB,Not ranked,System shall complete the action without data loss.,Approved?,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,87,URS-087-05,Consent capture and privacy notice,Backend API,Medium,Result must be visible in mobile UI within expected time.,Pending QA,REVIEW-LATER
+Document 1 - URS - Heart Rate Monitor Application,URS,88,URS-088-01,Display current BPM with timestamp,Android,High,User shall receive clear error message on failure.,Rejected once,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,88,URS-088-02,Export readings as PDF/CSV,Cloud Sync,High,Audit/event record shall be generated where applicable.,Draft,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,88,URS-088-03,Capture heart rate from paired device,Backend API,Low,User shall receive clear error message on failure.,Pending QA,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,88,URS-088-04,Sync readings to cloud API,iOS,Low,System shall complete the action without data loss.,Approved?,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,88,URS-088-05,Biometric login option,Notification Service,TBD,TBD by clinical SME - intentionally incomplete.,Need SME,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,89,URS_89.1,Validate sensor data range,Local DB,Low,Result must be visible in mobile UI within expected time.,In Review,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,89,URS_89.2,Store readings securely on device,Bluetooth Sensor,Medium,User shall receive clear error message on failure.,Approved?,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,89,URS-089-03,Export readings as PDF/CSV,Bluetooth Sensor,Not ranked,Data shall be encrypted in transit and at rest.,Pending QA,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,89,URS_89.4,Generate high/low heart-rate alert,Local DB,Low,Data shall be encrypted in transit and at rest.,Draft,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,89,URS_89.5,Audit user actions,Android/iOS,Medium,System shall complete the action without data loss.,Pending QA,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,90,URS_90.1,Consent capture and privacy notice,Notification Service,TBD,User shall receive clear error message on failure.,Rejected once,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,90,URS_90.2,Capture heart rate from paired device,Android/iOS,TBD,TBD by clinical SME - intentionally incomplete.,Rejected once,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,90,URS-090-03,Generate high/low heart-rate alert,Cloud Sync,High,TBD by clinical SME - intentionally incomplete.,Need SME,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,90,URS-090-04,Biometric login option,Backend API,Low,Audit/event record shall be generated where applicable.,Rejected once,??
+Document 1 - URS - Heart Rate Monitor Application,URS,90,URS-090-05,Generate high/low heart-rate alert,iOS,Low,Result must be visible in mobile UI within expected time.,Need SME,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,91,URS-091-01,Store readings securely on device,Android/iOS,TBD,Result must be visible in mobile UI within expected time.,Approved?,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,91,URS_91.2,Manual heart rate entry when device unavailable,Backend API,TBD,TBD by clinical SME - intentionally incomplete.,Draft,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,91,URS-091-03,Audit user actions,Cloud Sync,Not ranked,Data shall be encrypted in transit and at rest.,Approved?,??
+Document 1 - URS - Heart Rate Monitor Application,URS,91,URS-091-04,Sync readings to cloud API,iOS,Not ranked,Result must be visible in mobile UI within expected time.,Need SME,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,91,URS-091-05,Validate sensor data range,Bluetooth Sensor,Low,Audit/event record shall be generated where applicable.,Need SME,REVIEW-LATER
+Document 1 - URS - Heart Rate Monitor Application,URS,92,URS_92.1,Display current BPM with timestamp,Android/iOS,Not ranked,User shall receive clear error message on failure.,In Review,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,92,URS-092-02,Generate high/low heart-rate alert,Android,Not ranked,Data shall be encrypted in transit and at rest.,Need SME,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,92,URS_92.3,Display current BPM with timestamp,Android,Not ranked,TBD by clinical SME - intentionally incomplete.,Rejected once,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,92,URS-092-04,Generate high/low heart-rate alert,Notification Service,TBD,Data shall be encrypted in transit and at rest.,Draft,??
+Document 1 - URS - Heart Rate Monitor Application,URS,92,URS-092-05,Handle offline mode,Cloud Sync,Medium,Data shall be encrypted in transit and at rest.,Pending QA,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,93,URS-093-01,Battery and Bluetooth warning,Bluetooth Sensor,High,Audit/event record shall be generated where applicable.,Pending QA,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,93,URS-093-02,Battery and Bluetooth warning,Backend API,TBD,TBD by clinical SME - intentionally incomplete.,In Review,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,93,URS-093-03,Sync readings to cloud API,Bluetooth Sensor,Medium,System shall complete the action without data loss.,Pending QA,??
+Document 1 - URS - Heart Rate Monitor Application,URS,93,URS-093-04,Export readings as PDF/CSV,Backend API,Medium,System shall complete the action without data loss.,In Review,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,93,URS-093-05,Capture heart rate from paired device,iOS,Low,User shall receive clear error message on failure.,Pending QA,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,94,URS-094-01,Battery and Bluetooth warning,Notification Service,Medium,Audit/event record shall be generated where applicable.,Approved?,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,94,URS-094-02,Support caregiver view,Cloud Sync,High,Data shall be encrypted in transit and at rest.,Pending QA,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,94,URS-094-03,Battery and Bluetooth warning,Android/iOS,TBD,Data shall be encrypted in transit and at rest.,Pending QA,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,94,URS_94.4,Consent capture and privacy notice,Android/iOS,High,Data shall be encrypted in transit and at rest.,Approved?,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,94,URS-094-05,Support caregiver view,Local DB,TBD,TBD by clinical SME - intentionally incomplete.,Need SME,??
+Document 1 - URS - Heart Rate Monitor Application,URS,95,URS-095-01,Support caregiver view,Android,High,System shall complete the action without data loss.,Approved?,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,95,URS_95.2,Battery and Bluetooth warning,Bluetooth Sensor,Medium,Audit/event record shall be generated where applicable.,Approved?,REVIEW-LATER
+Document 1 - URS - Heart Rate Monitor Application,URS,95,URS-095-03,Show trend chart for 7/30/90 days,iOS,High,System shall complete the action without data loss.,Pending QA,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,95,URS-095-04,Sync readings to cloud API,Notification Service,Medium,Result must be visible in mobile UI within expected time.,Draft,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,95,URS-095-05,Export readings as PDF/CSV,Bluetooth Sensor,Not ranked,TBD by clinical SME - intentionally incomplete.,Need SME,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,96,URS-096-01,Battery and Bluetooth warning,Local DB,High,Audit/event record shall be generated where applicable.,Approved?,??
+Document 1 - URS - Heart Rate Monitor Application,URS,96,URS-096-02,Capture heart rate from paired device,Android,TBD,TBD by clinical SME - intentionally incomplete.,Draft,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,96,URS-096-03,Store readings securely on device,Android,Medium,Data shall be encrypted in transit and at rest.,Approved?,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,96,URS-096-04,Show trend chart for 7/30/90 days,Notification Service,Low,Data shall be encrypted in transit and at rest.,Rejected once,??
+Document 1 - URS - Heart Rate Monitor Application,URS,96,URS-096-05,Store readings securely on device,Notification Service,Not ranked,Result must be visible in mobile UI within expected time.,Rejected once,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,97,URS-097-01,Manual heart rate entry when device unavailable,Android,Low,User shall receive clear error message on failure.,Need SME,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,97,URS-097-02,Biometric login option,Android/iOS,TBD,Data shall be encrypted in transit and at rest.,Draft,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,97,URS-097-03,Consent capture and privacy notice,Local DB,Not ranked,TBD by clinical SME - intentionally incomplete.,Rejected once,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,97,URS-097-04,Store readings securely on device,Local DB,High,TBD by clinical SME - intentionally incomplete.,Need SME,v0.1/v1.0 mixed
+Document 1 - URS - Heart Rate Monitor Application,URS,97,URS-097-05,Capture heart rate from paired device,Local DB,TBD,System shall complete the action without data loss.,In Review,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,98,URS-098-01,Handle offline mode,Backend API,TBD,Data shall be encrypted in transit and at rest.,Rejected once,??
+Document 1 - URS - Heart Rate Monitor Application,URS,98,URS-098-02,Sync readings to cloud API,Local DB,High,Result must be visible in mobile UI within expected time.,Rejected once,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,98,URS_98.3,Generate high/low heart-rate alert,Cloud Sync,High,System shall complete the action without data loss.,In Review,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,98,URS-098-04,Validate sensor data range,Notification Service,Low,User shall receive clear error message on failure.,Approved?,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,98,URS-098-05,Store readings securely on device,Local DB,High,Data shall be encrypted in transit and at rest.,Pending QA,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,99,URS-099-01,Audit user actions,Notification Service,High,Data shall be encrypted in transit and at rest.,Approved?,OCR noisy line
+Document 1 - URS - Heart Rate Monitor Application,URS,99,URS-099-02,Display current BPM with timestamp,Notification Service,TBD,User shall receive clear error message on failure.,In Review,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,99,URS-099-03,Generate high/low heart-rate alert,Android,High,Data shall be encrypted in transit and at rest.,Approved?,TBD
+Document 1 - URS - Heart Rate Monitor Application,URS,99,URS-099-04,Generate high/low heart-rate alert,Android,Not ranked,System shall complete the action without data loss.,Rejected once,RAG TEST CHUNK
+Document 1 - URS - Heart Rate Monitor Application,URS,99,URS-099-05,Biometric login option,Android,Not ranked,User shall receive clear error message on failure.,In Review,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,100,URS-100-01,Show trend chart for 7/30/90 days,iOS,Medium,Audit/event record shall be generated where applicable.,Need SME,duplicate section
+Document 1 - URS - Heart Rate Monitor Application,URS,100,URS-100-02,Show trend chart for 7/30/90 days,iOS,Low,User shall receive clear error message on failure.,Need SME,manual note
+Document 1 - URS - Heart Rate Monitor Application,URS,100,URS-100-03,Export readings as PDF/CSV,Backend API,High,Audit/event record shall be generated where applicable.,Need SME,missing owner
+Document 1 - URS - Heart Rate Monitor Application,URS,100,URS_100.4,Sync readings to cloud API,Backend API,High,TBD by clinical SME - intentionally incomplete.,Rejected once,old text retained
+Document 1 - URS - Heart Rate Monitor Application,URS,100,URS-100-05,Support caregiver view,Android,Low,Result must be visible in mobile UI within expected time.,Draft,duplicate section

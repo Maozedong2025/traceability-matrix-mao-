@@ -1,0 +1,1003 @@
+Document 4 - IQ - Heart Rate Monitor Application
+Synthetic messy validation test document. Not for real medical or regulatory use.
+
+--- PAGE 001 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-001-01 | Sync readings to cloud API | Backend API | TBD | Audit/event record shall be generated where applicable. | Pending QA
+IQ-001-02 | Handle offline mode | iOS | High | Data shall be encrypted in transit and at rest. | Draft
+IQ-001-03 | Battery and Bluetooth warning | iOS | High | Result must be visible in mobile UI within expected time. | In Review
+IQ_1.4 | Notification retry and suppression | Local DB | Not ranked | User shall receive clear error message on failure. | Rejected once
+IQ-001-05 | Validate sensor data range | iOS | TBD | Data shall be encrypted in transit and at rest. | Pending QA
+IQ-001-06 | Validate sensor data range | Cloud Sync | High | Audit/event record shall be generated where applicable. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 002 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-002-01 | Audit user actions | Local DB | High | User shall receive clear error message on failure. | Rejected once
+IQ-002-02 | Generate high/low heart-rate alert | Local DB | Low | Result must be visible in mobile UI within expected time. | Pending QA
+IQ-002-03 | Capture heart rate from paired device | Android/iOS | Low | Audit/event record shall be generated where applicable. | Need SME
+IQ-002-04 | Sync readings to cloud API | Local DB | TBD | User shall receive clear error message on failure. | Approved?
+IQ-002-05 | Capture heart rate from paired device | Bluetooth Sensor | High | System shall complete the action without data loss. | In Review
+IQ-002-06 | Notification retry and suppression | Android/iOS | High | TBD by clinical SME - intentionally incomplete. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 003 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-003-01 | Manual heart rate entry when device unavailable | Local DB | Medium | Audit/event record shall be generated where applicable. | Need SME
+IQ-003-02 | Manual heart rate entry when device unavailable | Notification Service | Not ranked | System shall complete the action without data loss. | Pending QA
+IQ-003-03 | Manual heart rate entry when device unavailable | Local DB | Not ranked | Audit/event record shall be generated where applicable. | Need SME
+IQ-003-04 | Validate sensor data range | Android | Medium | Data shall be encrypted in transit and at rest. | Need SME
+IQ_3.5 | Consent capture and privacy notice | Backend API | Low | System shall complete the action without data loss. | Pending QA
+IQ-003-06 | Notification retry and suppression | Android | Medium | TBD by clinical SME - intentionally incomplete. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 004 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-004-01 | Battery and Bluetooth warning | iOS | High | Data shall be encrypted in transit and at rest. | In Review
+IQ-004-02 | Generate high/low heart-rate alert | Bluetooth Sensor | TBD | Audit/event record shall be generated where applicable. | Approved?
+IQ-004-03 | Store readings securely on device | Cloud Sync | Medium | User shall receive clear error message on failure. | Draft
+IQ_4.4 | Validate sensor data range | Cloud Sync | Low | Result must be visible in mobile UI within expected time. | Approved?
+IQ_4.5 | Biometric login option | Notification Service | Low | Result must be visible in mobile UI within expected time. | Approved?
+IQ-004-06 | Capture heart rate from paired device | Android/iOS | Medium | User shall receive clear error message on failure. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 005 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ_5.1 | Sync readings to cloud API | iOS | Low | Result must be visible in mobile UI within expected time. | Approved?
+IQ-005-02 | Display current BPM with timestamp | Bluetooth Sensor | Not ranked | TBD by clinical SME - intentionally incomplete. | Rejected once
+IQ-005-03 | Validate sensor data range | Android/iOS | Not ranked | Data shall be encrypted in transit and at rest. | Approved?
+IQ-005-04 | Display current BPM with timestamp | Notification Service | Medium | Result must be visible in mobile UI within expected time. | Draft
+IQ-005-05 | Battery and Bluetooth warning | Bluetooth Sensor | TBD | TBD by clinical SME - intentionally incomplete. | Approved?
+IQ-005-06 | Store readings securely on device | Bluetooth Sensor | Not ranked | System shall complete the action without data loss. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 006 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-006-01 | Battery and Bluetooth warning | Android | Not ranked | TBD by clinical SME - intentionally incomplete. | Approved?
+IQ-006-02 | Support caregiver view | Cloud Sync | Low | TBD by clinical SME - intentionally incomplete. | Pending QA
+IQ-006-03 | Support caregiver view | Android | High | Data shall be encrypted in transit and at rest. | Draft
+IQ-006-04 | Show trend chart for 7/30/90 days | Bluetooth Sensor | Not ranked | Result must be visible in mobile UI within expected time. | Draft
+IQ-006-05 | Battery and Bluetooth warning | Cloud Sync | Medium | Audit/event record shall be generated where applicable. | In Review
+IQ_6.6 | Notification retry and suppression | Backend API | High | TBD by clinical SME - intentionally incomplete. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 007 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ_7.1 | Notification retry and suppression | Notification Service | Medium | System shall complete the action without data loss. | Approved?
+IQ-007-02 | Export readings as PDF/CSV | Notification Service | Not ranked | TBD by clinical SME - intentionally incomplete. | Pending QA
+IQ-007-03 | Generate high/low heart-rate alert | Notification Service | Not ranked | TBD by clinical SME - intentionally incomplete. | Need SME
+IQ-007-04 | Display current BPM with timestamp | Notification Service | TBD | Data shall be encrypted in transit and at rest. | Approved?
+IQ-007-05 | Consent capture and privacy notice | iOS | High | TBD by clinical SME - intentionally incomplete. | Draft
+IQ-007-06 | Consent capture and privacy notice | Notification Service | Not ranked | TBD by clinical SME - intentionally incomplete. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 008 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-008-01 | Display current BPM with timestamp | Notification Service | Medium | TBD by clinical SME - intentionally incomplete. | Draft
+IQ-008-02 | Display current BPM with timestamp | Backend API | Medium | TBD by clinical SME - intentionally incomplete. | Rejected once
+IQ_8.3 | Support caregiver view | Local DB | Medium | TBD by clinical SME - intentionally incomplete. | Pending QA
+IQ-008-04 | Handle offline mode | Android | TBD | User shall receive clear error message on failure. | Rejected once
+IQ-008-05 | Sync readings to cloud API | iOS | Low | TBD by clinical SME - intentionally incomplete. | Approved?
+IQ-008-06 | Validate sensor data range | Cloud Sync | Not ranked | System shall complete the action without data loss. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 009 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-009-01 | Generate high/low heart-rate alert | iOS | Not ranked | Data shall be encrypted in transit and at rest. | Need SME
+IQ-009-02 | Audit user actions | Backend API | High | Result must be visible in mobile UI within expected time. | Pending QA
+IQ_9.3 | Export readings as PDF/CSV | Backend API | Medium | Data shall be encrypted in transit and at rest. | In Review
+IQ_9.4 | Manual heart rate entry when device unavailable | Backend API | Not ranked | Data shall be encrypted in transit and at rest. | In Review
+IQ-009-05 | Validate sensor data range | Notification Service | Medium | Data shall be encrypted in transit and at rest. | Rejected once
+IQ-009-06 | Export readings as PDF/CSV | Backend API | High | User shall receive clear error message on failure. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 010 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-010-01 | Support caregiver view | Backend API | TBD | System shall complete the action without data loss. | Approved?
+IQ_10.2 | Handle offline mode | Notification Service | Low | User shall receive clear error message on failure. | Approved?
+IQ-010-03 | Capture heart rate from paired device | Notification Service | Low | Result must be visible in mobile UI within expected time. | Rejected once
+IQ-010-04 | Export readings as PDF/CSV | Backend API | High | Data shall be encrypted in transit and at rest. | Draft
+IQ-010-05 | Export readings as PDF/CSV | Bluetooth Sensor | Not ranked | System shall complete the action without data loss. | Approved?
+IQ-010-06 | Display current BPM with timestamp | iOS | Not ranked | Data shall be encrypted in transit and at rest. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 011 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-011-01 | Show trend chart for 7/30/90 days | Notification Service | Not ranked | Result must be visible in mobile UI within expected time. | Need SME
+IQ-011-02 | Display current BPM with timestamp | Android/iOS | Low | Data shall be encrypted in transit and at rest. | Pending QA
+IQ_11.3 | Audit user actions | Cloud Sync | TBD | Data shall be encrypted in transit and at rest. | Pending QA
+IQ-011-04 | Store readings securely on device | Notification Service | Low | Data shall be encrypted in transit and at rest. | Draft
+IQ_11.5 | Export readings as PDF/CSV | iOS | Medium | Result must be visible in mobile UI within expected time. | In Review
+IQ-011-06 | Generate high/low heart-rate alert | Backend API | TBD | Audit/event record shall be generated where applicable. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 012 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ_12.1 | Handle offline mode | Android/iOS | TBD | Result must be visible in mobile UI within expected time. | Pending QA
+IQ-012-02 | Store readings securely on device | Cloud Sync | Medium | User shall receive clear error message on failure. | Draft
+IQ-012-03 | Generate high/low heart-rate alert | iOS | TBD | Data shall be encrypted in transit and at rest. | Rejected once
+IQ-012-04 | Capture heart rate from paired device | Local DB | TBD | Audit/event record shall be generated where applicable. | Need SME
+IQ_12.5 | Validate sensor data range | Android | Not ranked | System shall complete the action without data loss. | Draft
+IQ-012-06 | Support caregiver view | iOS | High | TBD by clinical SME - intentionally incomplete. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 013 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-013-01 | Manual heart rate entry when device unavailable | Android/iOS | Not ranked | Data shall be encrypted in transit and at rest. | Draft
+IQ-013-02 | Handle offline mode | Notification Service | TBD | User shall receive clear error message on failure. | Rejected once
+IQ-013-03 | Battery and Bluetooth warning | Bluetooth Sensor | Medium | User shall receive clear error message on failure. | Pending QA
+IQ-013-04 | Handle offline mode | Android/iOS | High | TBD by clinical SME - intentionally incomplete. | Need SME
+IQ-013-05 | Store readings securely on device | Backend API | TBD | Data shall be encrypted in transit and at rest. | In Review
+IQ_13.6 | Battery and Bluetooth warning | Android | Medium | Result must be visible in mobile UI within expected time. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 014 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-014-01 | Store readings securely on device | iOS | Medium | Audit/event record shall be generated where applicable. | Draft
+IQ-014-02 | Manual heart rate entry when device unavailable | Local DB | Low | Result must be visible in mobile UI within expected time. | In Review
+IQ_14.3 | Handle offline mode | Android | Not ranked | Result must be visible in mobile UI within expected time. | Pending QA
+IQ-014-04 | Biometric login option | Cloud Sync | High | TBD by clinical SME - intentionally incomplete. | Need SME
+IQ-014-05 | Validate sensor data range | Bluetooth Sensor | High | TBD by clinical SME - intentionally incomplete. | Approved?
+IQ_14.6 | Show trend chart for 7/30/90 days | Notification Service | TBD | TBD by clinical SME - intentionally incomplete. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 015 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-015-01 | Notification retry and suppression | Local DB | Not ranked | TBD by clinical SME - intentionally incomplete. | Pending QA
+IQ-015-02 | Capture heart rate from paired device | Android | High | System shall complete the action without data loss. | Draft
+IQ-015-03 | Audit user actions | Notification Service | High | Result must be visible in mobile UI within expected time. | Rejected once
+IQ-015-04 | Export readings as PDF/CSV | Notification Service | Medium | User shall receive clear error message on failure. | Rejected once
+IQ_15.5 | Manual heart rate entry when device unavailable | Backend API | Medium | User shall receive clear error message on failure. | Approved?
+IQ-015-06 | Sync readings to cloud API | Bluetooth Sensor | Medium | User shall receive clear error message on failure. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 016 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-016-01 | Battery and Bluetooth warning | Android | Low | System shall complete the action without data loss. | Rejected once
+IQ_16.2 | Generate high/low heart-rate alert | Notification Service | Low | Result must be visible in mobile UI within expected time. | Draft
+IQ-016-03 | Handle offline mode | Bluetooth Sensor | High | Data shall be encrypted in transit and at rest. | Approved?
+IQ-016-04 | Biometric login option | Cloud Sync | Not ranked | User shall receive clear error message on failure. | Draft
+IQ-016-05 | Sync readings to cloud API | iOS | Low | Data shall be encrypted in transit and at rest. | Approved?
+IQ-016-06 | Audit user actions | Notification Service | Medium | TBD by clinical SME - intentionally incomplete. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 017 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ_17.1 | Manual heart rate entry when device unavailable | Android/iOS | TBD | Data shall be encrypted in transit and at rest. | Draft
+IQ-017-02 | Notification retry and suppression | Backend API | Not ranked | Result must be visible in mobile UI within expected time. | Draft
+IQ-017-03 | Capture heart rate from paired device | Backend API | TBD | TBD by clinical SME - intentionally incomplete. | In Review
+IQ-017-04 | Generate high/low heart-rate alert | Local DB | High | Data shall be encrypted in transit and at rest. | Draft
+IQ-017-05 | Sync readings to cloud API | Notification Service | High | Audit/event record shall be generated where applicable. | Approved?
+IQ_17.6 | Biometric login option | Bluetooth Sensor | Medium | TBD by clinical SME - intentionally incomplete. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 018 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-018-01 | Validate sensor data range | Bluetooth Sensor | High | Data shall be encrypted in transit and at rest. | Need SME
+IQ-018-02 | Manual heart rate entry when device unavailable | Backend API | TBD | Audit/event record shall be generated where applicable. | Pending QA
+IQ-018-03 | Support caregiver view | Cloud Sync | TBD | Audit/event record shall be generated where applicable. | Draft
+IQ-018-04 | Battery and Bluetooth warning | Notification Service | High | User shall receive clear error message on failure. | Need SME
+IQ_18.5 | Battery and Bluetooth warning | Backend API | Medium | User shall receive clear error message on failure. | Need SME
+IQ-018-06 | Handle offline mode | Notification Service | TBD | Result must be visible in mobile UI within expected time. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 019 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ_19.1 | Store readings securely on device | Android/iOS | TBD | TBD by clinical SME - intentionally incomplete. | Pending QA
+IQ-019-02 | Notification retry and suppression | Bluetooth Sensor | Not ranked | Result must be visible in mobile UI within expected time. | Pending QA
+IQ_19.3 | Generate high/low heart-rate alert | Android | High | System shall complete the action without data loss. | Pending QA
+IQ-019-04 | Battery and Bluetooth warning | Cloud Sync | TBD | Audit/event record shall be generated where applicable. | Rejected once
+IQ_19.5 | Manual heart rate entry when device unavailable | Android/iOS | TBD | System shall complete the action without data loss. | Draft
+IQ-019-06 | Store readings securely on device | Android | TBD | Result must be visible in mobile UI within expected time. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 020 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-020-01 | Display current BPM with timestamp | Android/iOS | High | Data shall be encrypted in transit and at rest. | Rejected once
+IQ-020-02 | Display current BPM with timestamp | Bluetooth Sensor | Not ranked | Audit/event record shall be generated where applicable. | Draft
+IQ-020-03 | Consent capture and privacy notice | Local DB | Medium | Data shall be encrypted in transit and at rest. | Draft
+IQ-020-04 | Generate high/low heart-rate alert | Android/iOS | Low | System shall complete the action without data loss. | Pending QA
+IQ-020-05 | Capture heart rate from paired device | Local DB | Low | Data shall be encrypted in transit and at rest. | Pending QA
+IQ-020-06 | Notification retry and suppression | Android/iOS | High | Result must be visible in mobile UI within expected time. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 021 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ_21.1 | Display current BPM with timestamp | Notification Service | Not ranked | Result must be visible in mobile UI within expected time. | Need SME
+IQ-021-02 | Battery and Bluetooth warning | Cloud Sync | Not ranked | System shall complete the action without data loss. | Rejected once
+IQ-021-03 | Sync readings to cloud API | Cloud Sync | TBD | TBD by clinical SME - intentionally incomplete. | Draft
+IQ-021-04 | Manual heart rate entry when device unavailable | Local DB | TBD | Audit/event record shall be generated where applicable. | Rejected once
+IQ-021-05 | Export readings as PDF/CSV | Backend API | Medium | TBD by clinical SME - intentionally incomplete. | Need SME
+IQ_21.6 | Export readings as PDF/CSV | Notification Service | Not ranked | Data shall be encrypted in transit and at rest. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 022 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ_22.1 | Battery and Bluetooth warning | Bluetooth Sensor | Not ranked | System shall complete the action without data loss. | Draft
+IQ_22.2 | Battery and Bluetooth warning | Backend API | Medium | Data shall be encrypted in transit and at rest. | In Review
+IQ-022-03 | Display current BPM with timestamp | Local DB | Medium | TBD by clinical SME - intentionally incomplete. | Draft
+IQ-022-04 | Validate sensor data range | Android/iOS | Medium | Audit/event record shall be generated where applicable. | Need SME
+IQ_22.5 | Notification retry and suppression | Backend API | TBD | User shall receive clear error message on failure. | Draft
+IQ-022-06 | Consent capture and privacy notice | Local DB | Not ranked | Result must be visible in mobile UI within expected time. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 023 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-023-01 | Manual heart rate entry when device unavailable | iOS | TBD | System shall complete the action without data loss. | In Review
+IQ-023-02 | Display current BPM with timestamp | Android | TBD | TBD by clinical SME - intentionally incomplete. | Rejected once
+IQ-023-03 | Support caregiver view | Local DB | High | Audit/event record shall be generated where applicable. | Draft
+IQ-023-04 | Support caregiver view | Bluetooth Sensor | High | TBD by clinical SME - intentionally incomplete. | Approved?
+IQ-023-05 | Show trend chart for 7/30/90 days | Notification Service | Medium | TBD by clinical SME - intentionally incomplete. | Need SME
+IQ-023-06 | Handle offline mode | Android | High | TBD by clinical SME - intentionally incomplete. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 024 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-024-01 | Sync readings to cloud API | Bluetooth Sensor | Not ranked | Result must be visible in mobile UI within expected time. | In Review
+IQ-024-02 | Notification retry and suppression | Android/iOS | High | Result must be visible in mobile UI within expected time. | Rejected once
+IQ-024-03 | Sync readings to cloud API | Android | High | Audit/event record shall be generated where applicable. | Rejected once
+IQ_24.4 | Show trend chart for 7/30/90 days | Bluetooth Sensor | High | Result must be visible in mobile UI within expected time. | Rejected once
+IQ_24.5 | Consent capture and privacy notice | Bluetooth Sensor | Not ranked | Result must be visible in mobile UI within expected time. | Approved?
+IQ-024-06 | Store readings securely on device | Bluetooth Sensor | TBD | Data shall be encrypted in transit and at rest. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 025 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-025-01 | Display current BPM with timestamp | Android/iOS | TBD | Result must be visible in mobile UI within expected time. | Approved?
+IQ-025-02 | Store readings securely on device | Bluetooth Sensor | Not ranked | Result must be visible in mobile UI within expected time. | Pending QA
+IQ-025-03 | Manual heart rate entry when device unavailable | Notification Service | Not ranked | Data shall be encrypted in transit and at rest. | Need SME
+IQ-025-04 | Battery and Bluetooth warning | Cloud Sync | Low | Result must be visible in mobile UI within expected time. | Need SME
+IQ-025-05 | Handle offline mode | Cloud Sync | Low | Result must be visible in mobile UI within expected time. | Pending QA
+IQ-025-06 | Manual heart rate entry when device unavailable | iOS | High | System shall complete the action without data loss. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 026 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-026-01 | Notification retry and suppression | Android | High | Audit/event record shall be generated where applicable. | Rejected once
+IQ-026-02 | Battery and Bluetooth warning | Android/iOS | Low | Data shall be encrypted in transit and at rest. | Pending QA
+IQ_26.3 | Consent capture and privacy notice | Notification Service | Medium | TBD by clinical SME - intentionally incomplete. | Need SME
+IQ-026-04 | Handle offline mode | Local DB | Low | Data shall be encrypted in transit and at rest. | Pending QA
+IQ-026-05 | Notification retry and suppression | Notification Service | Not ranked | Data shall be encrypted in transit and at rest. | Approved?
+IQ-026-06 | Export readings as PDF/CSV | iOS | Low | User shall receive clear error message on failure. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 027 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-027-01 | Audit user actions | Android/iOS | TBD | Audit/event record shall be generated where applicable. | In Review
+IQ-027-02 | Manual heart rate entry when device unavailable | Android/iOS | Low | Data shall be encrypted in transit and at rest. | Approved?
+IQ_27.3 | Capture heart rate from paired device | iOS | Medium | Audit/event record shall be generated where applicable. | Pending QA
+IQ_27.4 | Generate high/low heart-rate alert | Local DB | Medium | Audit/event record shall be generated where applicable. | Approved?
+IQ-027-05 | Export readings as PDF/CSV | Cloud Sync | TBD | User shall receive clear error message on failure. | Rejected once
+IQ-027-06 | Biometric login option | iOS | Low | System shall complete the action without data loss. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 028 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-028-01 | Consent capture and privacy notice | Local DB | High | Data shall be encrypted in transit and at rest. | In Review
+IQ-028-02 | Export readings as PDF/CSV | Cloud Sync | Medium | System shall complete the action without data loss. | In Review
+IQ-028-03 | Audit user actions | iOS | Medium | System shall complete the action without data loss. | Draft
+IQ_28.4 | Support caregiver view | Local DB | TBD | Data shall be encrypted in transit and at rest. | Need SME
+IQ-028-05 | Generate high/low heart-rate alert | iOS | TBD | System shall complete the action without data loss. | Approved?
+IQ-028-06 | Consent capture and privacy notice | Android | TBD | Data shall be encrypted in transit and at rest. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 029 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-029-01 | Biometric login option | Notification Service | Not ranked | User shall receive clear error message on failure. | Rejected once
+IQ-029-02 | Manual heart rate entry when device unavailable | Bluetooth Sensor | Medium | System shall complete the action without data loss. | Approved?
+IQ-029-03 | Audit user actions | Android | Medium | Result must be visible in mobile UI within expected time. | In Review
+IQ-029-04 | Generate high/low heart-rate alert | Android | Low | Result must be visible in mobile UI within expected time. | Rejected once
+IQ-029-05 | Display current BPM with timestamp | Android/iOS | Low | Data shall be encrypted in transit and at rest. | In Review
+IQ-029-06 | Validate sensor data range | Bluetooth Sensor | Low | Audit/event record shall be generated where applicable. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 030 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-030-01 | Support caregiver view | Android | Medium | TBD by clinical SME - intentionally incomplete. | Pending QA
+IQ_30.2 | Handle offline mode | Local DB | TBD | TBD by clinical SME - intentionally incomplete. | Approved?
+IQ-030-03 | Support caregiver view | iOS | Medium | TBD by clinical SME - intentionally incomplete. | Approved?
+IQ-030-04 | Sync readings to cloud API | iOS | High | System shall complete the action without data loss. | Pending QA
+IQ-030-05 | Manual heart rate entry when device unavailable | Bluetooth Sensor | Not ranked | User shall receive clear error message on failure. | Need SME
+IQ_30.6 | Consent capture and privacy notice | Local DB | Low | Data shall be encrypted in transit and at rest. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 031 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-031-01 | Notification retry and suppression | Notification Service | Not ranked | Audit/event record shall be generated where applicable. | Approved?
+IQ-031-02 | Notification retry and suppression | Notification Service | Not ranked | Result must be visible in mobile UI within expected time. | Pending QA
+IQ-031-03 | Store readings securely on device | Android | TBD | TBD by clinical SME - intentionally incomplete. | Rejected once
+IQ-031-04 | Biometric login option | iOS | High | System shall complete the action without data loss. | Draft
+IQ-031-05 | Sync readings to cloud API | Cloud Sync | TBD | System shall complete the action without data loss. | Rejected once
+IQ-031-06 | Support caregiver view | Notification Service | High | User shall receive clear error message on failure. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 032 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-032-01 | Manual heart rate entry when device unavailable | iOS | Medium | User shall receive clear error message on failure. | Approved?
+IQ-032-02 | Battery and Bluetooth warning | Cloud Sync | TBD | Audit/event record shall be generated where applicable. | Draft
+IQ-032-03 | Manual heart rate entry when device unavailable | Notification Service | TBD | User shall receive clear error message on failure. | Pending QA
+IQ-032-04 | Battery and Bluetooth warning | Bluetooth Sensor | TBD | TBD by clinical SME - intentionally incomplete. | Pending QA
+IQ_32.5 | Capture heart rate from paired device | Android | Low | Data shall be encrypted in transit and at rest. | Pending QA
+IQ-032-06 | Support caregiver view | iOS | TBD | User shall receive clear error message on failure. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 033 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-033-01 | Validate sensor data range | Backend API | TBD | Audit/event record shall be generated where applicable. | Need SME
+IQ-033-02 | Show trend chart for 7/30/90 days | Notification Service | Medium | Result must be visible in mobile UI within expected time. | In Review
+IQ-033-03 | Consent capture and privacy notice | iOS | TBD | Result must be visible in mobile UI within expected time. | Pending QA
+IQ-033-04 | Support caregiver view | iOS | High | Audit/event record shall be generated where applicable. | Pending QA
+IQ-033-05 | Display current BPM with timestamp | Android | Not ranked | Audit/event record shall be generated where applicable. | Draft
+IQ-033-06 | Notification retry and suppression | Backend API | TBD | Audit/event record shall be generated where applicable. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 034 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ_34.1 | Notification retry and suppression | Backend API | Not ranked | Audit/event record shall be generated where applicable. | Pending QA
+IQ-034-02 | Consent capture and privacy notice | Android/iOS | Medium | Data shall be encrypted in transit and at rest. | Approved?
+IQ_34.3 | Export readings as PDF/CSV | Local DB | Not ranked | User shall receive clear error message on failure. | Need SME
+IQ_34.4 | Audit user actions | Notification Service | Low | System shall complete the action without data loss. | Draft
+IQ-034-05 | Generate high/low heart-rate alert | Cloud Sync | TBD | Audit/event record shall be generated where applicable. | Pending QA
+IQ-034-06 | Handle offline mode | iOS | High | Data shall be encrypted in transit and at rest. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 035 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-035-01 | Biometric login option | Backend API | High | User shall receive clear error message on failure. | Need SME
+IQ-035-02 | Store readings securely on device | Notification Service | TBD | TBD by clinical SME - intentionally incomplete. | Need SME
+IQ_35.3 | Handle offline mode | Android | TBD | User shall receive clear error message on failure. | Draft
+IQ-035-04 | Biometric login option | Android | TBD | System shall complete the action without data loss. | In Review
+IQ-035-05 | Manual heart rate entry when device unavailable | Cloud Sync | Medium | User shall receive clear error message on failure. | Approved?
+IQ_35.6 | Manual heart rate entry when device unavailable | Local DB | Low | Data shall be encrypted in transit and at rest. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 036 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-036-01 | Display current BPM with timestamp | Android | TBD | Result must be visible in mobile UI within expected time. | Approved?
+IQ_36.2 | Support caregiver view | Notification Service | Medium | TBD by clinical SME - intentionally incomplete. | Approved?
+IQ_36.3 | Sync readings to cloud API | Cloud Sync | TBD | TBD by clinical SME - intentionally incomplete. | Approved?
+IQ-036-04 | Manual heart rate entry when device unavailable | Backend API | Not ranked | User shall receive clear error message on failure. | Need SME
+IQ-036-05 | Capture heart rate from paired device | Android/iOS | TBD | TBD by clinical SME - intentionally incomplete. | Draft
+IQ-036-06 | Sync readings to cloud API | Local DB | High | Audit/event record shall be generated where applicable. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 037 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ_37.1 | Sync readings to cloud API | Notification Service | Not ranked | Audit/event record shall be generated where applicable. | Pending QA
+IQ-037-02 | Show trend chart for 7/30/90 days | Local DB | Medium | Audit/event record shall be generated where applicable. | Draft
+IQ-037-03 | Capture heart rate from paired device | Local DB | Low | Audit/event record shall be generated where applicable. | Pending QA
+IQ-037-04 | Biometric login option | Cloud Sync | Low | System shall complete the action without data loss. | Approved?
+IQ-037-05 | Battery and Bluetooth warning | Local DB | TBD | Result must be visible in mobile UI within expected time. | Draft
+IQ-037-06 | Manual heart rate entry when device unavailable | Cloud Sync | Not ranked | Data shall be encrypted in transit and at rest. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 038 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-038-01 | Consent capture and privacy notice | Backend API | Medium | System shall complete the action without data loss. | Draft
+IQ-038-02 | Export readings as PDF/CSV | iOS | High | Data shall be encrypted in transit and at rest. | Rejected once
+IQ-038-03 | Generate high/low heart-rate alert | Bluetooth Sensor | High | Data shall be encrypted in transit and at rest. | Rejected once
+IQ-038-04 | Handle offline mode | Android/iOS | High | Audit/event record shall be generated where applicable. | Need SME
+IQ_38.5 | Store readings securely on device | Notification Service | TBD | TBD by clinical SME - intentionally incomplete. | Draft
+IQ-038-06 | Export readings as PDF/CSV | Notification Service | Not ranked | Audit/event record shall be generated where applicable. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 039 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-039-01 | Battery and Bluetooth warning | iOS | TBD | User shall receive clear error message on failure. | Rejected once
+IQ-039-02 | Display current BPM with timestamp | Bluetooth Sensor | High | User shall receive clear error message on failure. | Pending QA
+IQ-039-03 | Sync readings to cloud API | Android | Medium | Audit/event record shall be generated where applicable. | Pending QA
+IQ-039-04 | Notification retry and suppression | Bluetooth Sensor | Low | System shall complete the action without data loss. | Need SME
+IQ-039-05 | Export readings as PDF/CSV | Backend API | Medium | Result must be visible in mobile UI within expected time. | In Review
+IQ-039-06 | Notification retry and suppression | Local DB | Low | Data shall be encrypted in transit and at rest. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 040 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-040-01 | Validate sensor data range | Notification Service | Medium | Audit/event record shall be generated where applicable. | In Review
+IQ_40.2 | Sync readings to cloud API | Local DB | High | TBD by clinical SME - intentionally incomplete. | Approved?
+IQ-040-03 | Capture heart rate from paired device | Local DB | Low | Result must be visible in mobile UI within expected time. | Pending QA
+IQ-040-04 | Audit user actions | Android | High | User shall receive clear error message on failure. | Pending QA
+IQ-040-05 | Support caregiver view | Notification Service | Low | Audit/event record shall be generated where applicable. | Pending QA
+IQ_40.6 | Validate sensor data range | Local DB | Low | User shall receive clear error message on failure. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 041 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-041-01 | Audit user actions | Android/iOS | Medium | Audit/event record shall be generated where applicable. | Need SME
+IQ_41.2 | Manual heart rate entry when device unavailable | Local DB | Not ranked | TBD by clinical SME - intentionally incomplete. | Draft
+IQ-041-03 | Battery and Bluetooth warning | iOS | Low | Data shall be encrypted in transit and at rest. | Rejected once
+IQ_41.4 | Notification retry and suppression | Backend API | Medium | Data shall be encrypted in transit and at rest. | Approved?
+IQ-041-05 | Validate sensor data range | Android | Medium | User shall receive clear error message on failure. | Approved?
+IQ-041-06 | Consent capture and privacy notice | iOS | High | TBD by clinical SME - intentionally incomplete. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 042 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-042-01 | Manual heart rate entry when device unavailable | Local DB | Medium | User shall receive clear error message on failure. | Need SME
+IQ-042-02 | Manual heart rate entry when device unavailable | Notification Service | Low | System shall complete the action without data loss. | Pending QA
+IQ_42.3 | Validate sensor data range | Android/iOS | High | Audit/event record shall be generated where applicable. | Pending QA
+IQ-042-04 | Capture heart rate from paired device | iOS | Medium | Result must be visible in mobile UI within expected time. | Approved?
+IQ-042-05 | Biometric login option | Notification Service | Low | System shall complete the action without data loss. | Need SME
+IQ-042-06 | Show trend chart for 7/30/90 days | iOS | Not ranked | User shall receive clear error message on failure. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 043 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ_43.1 | Display current BPM with timestamp | Bluetooth Sensor | Medium | Result must be visible in mobile UI within expected time. | In Review
+IQ-043-02 | Notification retry and suppression | Bluetooth Sensor | High | Audit/event record shall be generated where applicable. | Approved?
+IQ-043-03 | Export readings as PDF/CSV | Android | Low | TBD by clinical SME - intentionally incomplete. | In Review
+IQ-043-04 | Export readings as PDF/CSV | iOS | Medium | Data shall be encrypted in transit and at rest. | Pending QA
+IQ-043-05 | Biometric login option | Android | TBD | Data shall be encrypted in transit and at rest. | Pending QA
+IQ-043-06 | Generate high/low heart-rate alert | Notification Service | TBD | System shall complete the action without data loss. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 044 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-044-01 | Consent capture and privacy notice | Android | TBD | User shall receive clear error message on failure. | Approved?
+IQ-044-02 | Export readings as PDF/CSV | Backend API | Medium | Data shall be encrypted in transit and at rest. | Pending QA
+IQ-044-03 | Sync readings to cloud API | Bluetooth Sensor | Medium | System shall complete the action without data loss. | Pending QA
+IQ_44.4 | Battery and Bluetooth warning | Android/iOS | TBD | Data shall be encrypted in transit and at rest. | Rejected once
+IQ-044-05 | Battery and Bluetooth warning | Notification Service | Not ranked | TBD by clinical SME - intentionally incomplete. | Draft
+IQ_44.6 | Display current BPM with timestamp | Local DB | Medium | System shall complete the action without data loss. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 045 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-045-01 | Notification retry and suppression | Notification Service | High | Result must be visible in mobile UI within expected time. | Rejected once
+IQ-045-02 | Consent capture and privacy notice | Local DB | Low | Audit/event record shall be generated where applicable. | Pending QA
+IQ_45.3 | Support caregiver view | Local DB | Low | Data shall be encrypted in transit and at rest. | In Review
+IQ-045-04 | Manual heart rate entry when device unavailable | Cloud Sync | Not ranked | Data shall be encrypted in transit and at rest. | In Review
+IQ_45.5 | Generate high/low heart-rate alert | Android/iOS | High | User shall receive clear error message on failure. | Need SME
+IQ_45.6 | Validate sensor data range | Bluetooth Sensor | High | TBD by clinical SME - intentionally incomplete. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 046 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-046-01 | Capture heart rate from paired device | iOS | Medium | Result must be visible in mobile UI within expected time. | In Review
+IQ-046-02 | Notification retry and suppression | Android/iOS | High | User shall receive clear error message on failure. | In Review
+IQ-046-03 | Notification retry and suppression | Notification Service | TBD | System shall complete the action without data loss. | Need SME
+IQ-046-04 | Consent capture and privacy notice | Backend API | TBD | Result must be visible in mobile UI within expected time. | In Review
+IQ-046-05 | Notification retry and suppression | iOS | Not ranked | Data shall be encrypted in transit and at rest. | Approved?
+IQ-046-06 | Generate high/low heart-rate alert | Notification Service | High | User shall receive clear error message on failure. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 047 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-047-01 | Support caregiver view | Local DB | TBD | User shall receive clear error message on failure. | Draft
+IQ-047-02 | Notification retry and suppression | Backend API | Medium | User shall receive clear error message on failure. | Pending QA
+IQ-047-03 | Notification retry and suppression | Cloud Sync | Not ranked | System shall complete the action without data loss. | Draft
+IQ-047-04 | Sync readings to cloud API | Backend API | High | Data shall be encrypted in transit and at rest. | In Review
+IQ-047-05 | Capture heart rate from paired device | Notification Service | High | Audit/event record shall be generated where applicable. | Rejected once
+IQ-047-06 | Show trend chart for 7/30/90 days | Android/iOS | Not ranked | Audit/event record shall be generated where applicable. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 048 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-048-01 | Battery and Bluetooth warning | iOS | High | TBD by clinical SME - intentionally incomplete. | Pending QA
+IQ-048-02 | Validate sensor data range | Notification Service | TBD | System shall complete the action without data loss. | Approved?
+IQ_48.3 | Biometric login option | iOS | TBD | Audit/event record shall be generated where applicable. | In Review
+IQ-048-04 | Validate sensor data range | Local DB | High | TBD by clinical SME - intentionally incomplete. | Rejected once
+IQ_48.5 | Biometric login option | Bluetooth Sensor | Low | Audit/event record shall be generated where applicable. | Approved?
+IQ-048-06 | Validate sensor data range | Local DB | Low | System shall complete the action without data loss. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 049 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-049-01 | Export readings as PDF/CSV | Local DB | High | TBD by clinical SME - intentionally incomplete. | Approved?
+IQ-049-02 | Show trend chart for 7/30/90 days | Backend API | Medium | User shall receive clear error message on failure. | In Review
+IQ_49.3 | Biometric login option | Android | Not ranked | TBD by clinical SME - intentionally incomplete. | Rejected once
+IQ_49.4 | Export readings as PDF/CSV | Android/iOS | Not ranked | Data shall be encrypted in transit and at rest. | Draft
+IQ-049-05 | Support caregiver view | Backend API | Not ranked | Result must be visible in mobile UI within expected time. | Draft
+IQ-049-06 | Show trend chart for 7/30/90 days | Cloud Sync | High | User shall receive clear error message on failure. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 050 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-050-01 | Support caregiver view | Notification Service | Not ranked | Data shall be encrypted in transit and at rest. | Draft
+IQ-050-02 | Notification retry and suppression | Android/iOS | Not ranked | User shall receive clear error message on failure. | Approved?
+IQ-050-03 | Support caregiver view | Android/iOS | Not ranked | System shall complete the action without data loss. | Pending QA
+IQ-050-04 | Validate sensor data range | Android/iOS | Not ranked | Result must be visible in mobile UI within expected time. | Rejected once
+IQ-050-05 | Sync readings to cloud API | iOS | Medium | System shall complete the action without data loss. | Rejected once
+IQ-050-06 | Show trend chart for 7/30/90 days | Bluetooth Sensor | High | User shall receive clear error message on failure. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 051 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-051-01 | Battery and Bluetooth warning | Android | TBD | User shall receive clear error message on failure. | Pending QA
+IQ-051-02 | Biometric login option | Local DB | Low | Audit/event record shall be generated where applicable. | In Review
+IQ-051-03 | Export readings as PDF/CSV | iOS | Medium | Audit/event record shall be generated where applicable. | Pending QA
+IQ-051-04 | Handle offline mode | iOS | Not ranked | Data shall be encrypted in transit and at rest. | Pending QA
+IQ_51.5 | Export readings as PDF/CSV | Notification Service | Medium | Data shall be encrypted in transit and at rest. | Rejected once
+IQ_51.6 | Store readings securely on device | iOS | Medium | Result must be visible in mobile UI within expected time. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 052 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-052-01 | Audit user actions | Local DB | TBD | Result must be visible in mobile UI within expected time. | Draft
+IQ-052-02 | Validate sensor data range | Local DB | TBD | System shall complete the action without data loss. | Pending QA
+IQ-052-03 | Validate sensor data range | Local DB | Low | User shall receive clear error message on failure. | Approved?
+IQ-052-04 | Show trend chart for 7/30/90 days | Bluetooth Sensor | Low | Data shall be encrypted in transit and at rest. | In Review
+IQ-052-05 | Export readings as PDF/CSV | iOS | Not ranked | TBD by clinical SME - intentionally incomplete. | Draft
+IQ-052-06 | Notification retry and suppression | Notification Service | Low | User shall receive clear error message on failure. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 053 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-053-01 | Store readings securely on device | Notification Service | TBD | Data shall be encrypted in transit and at rest. | Rejected once
+IQ_53.2 | Audit user actions | Android | Not ranked | Result must be visible in mobile UI within expected time. | Need SME
+IQ-053-03 | Biometric login option | Notification Service | Not ranked | Data shall be encrypted in transit and at rest. | Approved?
+IQ-053-04 | Notification retry and suppression | Android | TBD | TBD by clinical SME - intentionally incomplete. | In Review
+IQ-053-05 | Battery and Bluetooth warning | Cloud Sync | Low | Audit/event record shall be generated where applicable. | In Review
+IQ-053-06 | Show trend chart for 7/30/90 days | Bluetooth Sensor | Low | Result must be visible in mobile UI within expected time. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 054 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ_54.1 | Handle offline mode | iOS | High | Result must be visible in mobile UI within expected time. | Approved?
+IQ-054-02 | Generate high/low heart-rate alert | Android/iOS | Low | User shall receive clear error message on failure. | Draft
+IQ-054-03 | Generate high/low heart-rate alert | Android | Not ranked | User shall receive clear error message on failure. | Draft
+IQ-054-04 | Export readings as PDF/CSV | iOS | TBD | Data shall be encrypted in transit and at rest. | Rejected once
+IQ-054-05 | Store readings securely on device | Backend API | Low | System shall complete the action without data loss. | Draft
+IQ_54.6 | Store readings securely on device | Notification Service | Medium | System shall complete the action without data loss. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 055 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-055-01 | Manual heart rate entry when device unavailable | Bluetooth Sensor | Low | Data shall be encrypted in transit and at rest. | Rejected once
+IQ-055-02 | Show trend chart for 7/30/90 days | iOS | Low | System shall complete the action without data loss. | Approved?
+IQ_55.3 | Validate sensor data range | Local DB | TBD | Result must be visible in mobile UI within expected time. | Pending QA
+IQ-055-04 | Sync readings to cloud API | Backend API | Medium | Data shall be encrypted in transit and at rest. | In Review
+IQ-055-05 | Audit user actions | iOS | Medium | Data shall be encrypted in transit and at rest. | Approved?
+IQ-055-06 | Battery and Bluetooth warning | Android/iOS | TBD | System shall complete the action without data loss. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 056 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ_56.1 | Consent capture and privacy notice | Notification Service | Low | User shall receive clear error message on failure. | Rejected once
+IQ-056-02 | Show trend chart for 7/30/90 days | Android/iOS | TBD | System shall complete the action without data loss. | Approved?
+IQ-056-03 | Validate sensor data range | Local DB | Not ranked | Audit/event record shall be generated where applicable. | Rejected once
+IQ-056-04 | Generate high/low heart-rate alert | Bluetooth Sensor | Low | Audit/event record shall be generated where applicable. | Approved?
+IQ-056-05 | Display current BPM with timestamp | Cloud Sync | High | Result must be visible in mobile UI within expected time. | Pending QA
+IQ-056-06 | Export readings as PDF/CSV | Cloud Sync | High | User shall receive clear error message on failure. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 057 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-057-01 | Handle offline mode | Local DB | Medium | Audit/event record shall be generated where applicable. | Draft
+IQ-057-02 | Capture heart rate from paired device | Notification Service | High | TBD by clinical SME - intentionally incomplete. | In Review
+IQ-057-03 | Generate high/low heart-rate alert | Bluetooth Sensor | Medium | TBD by clinical SME - intentionally incomplete. | Rejected once
+IQ-057-04 | Biometric login option | Bluetooth Sensor | High | Data shall be encrypted in transit and at rest. | Rejected once
+IQ-057-05 | Battery and Bluetooth warning | Bluetooth Sensor | Not ranked | TBD by clinical SME - intentionally incomplete. | Pending QA
+IQ-057-06 | Audit user actions | Android/iOS | Not ranked | Audit/event record shall be generated where applicable. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 058 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-058-01 | Show trend chart for 7/30/90 days | Android/iOS | TBD | TBD by clinical SME - intentionally incomplete. | Draft
+IQ-058-02 | Capture heart rate from paired device | Backend API | Low | Result must be visible in mobile UI within expected time. | In Review
+IQ-058-03 | Export readings as PDF/CSV | Notification Service | Medium | Result must be visible in mobile UI within expected time. | Rejected once
+IQ_58.4 | Store readings securely on device | Bluetooth Sensor | Low | System shall complete the action without data loss. | Pending QA
+IQ-058-05 | Audit user actions | Notification Service | Low | Result must be visible in mobile UI within expected time. | In Review
+IQ-058-06 | Generate high/low heart-rate alert | Android/iOS | Not ranked | Data shall be encrypted in transit and at rest. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 059 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-059-01 | Sync readings to cloud API | Cloud Sync | High | User shall receive clear error message on failure. | Rejected once
+IQ-059-02 | Export readings as PDF/CSV | iOS | Not ranked | User shall receive clear error message on failure. | Pending QA
+IQ_59.3 | Consent capture and privacy notice | Local DB | Low | System shall complete the action without data loss. | Approved?
+IQ-059-04 | Audit user actions | Android | High | Data shall be encrypted in transit and at rest. | Need SME
+IQ-059-05 | Capture heart rate from paired device | Cloud Sync | Medium | System shall complete the action without data loss. | Need SME
+IQ_59.6 | Capture heart rate from paired device | Android/iOS | Medium | Data shall be encrypted in transit and at rest. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 060 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-060-01 | Generate high/low heart-rate alert | Notification Service | Low | System shall complete the action without data loss. | Pending QA
+IQ-060-02 | Validate sensor data range | Android | Medium | Data shall be encrypted in transit and at rest. | Rejected once
+IQ-060-03 | Biometric login option | Android | Not ranked | System shall complete the action without data loss. | In Review
+IQ-060-04 | Store readings securely on device | Android | TBD | Data shall be encrypted in transit and at rest. | Draft
+IQ-060-05 | Export readings as PDF/CSV | Backend API | Low | User shall receive clear error message on failure. | Need SME
+IQ-060-06 | Consent capture and privacy notice | Backend API | Medium | Data shall be encrypted in transit and at rest. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 061 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-061-01 | Consent capture and privacy notice | Android/iOS | Medium | User shall receive clear error message on failure. | Draft
+IQ_61.2 | Validate sensor data range | Backend API | High | TBD by clinical SME - intentionally incomplete. | Need SME
+IQ-061-03 | Support caregiver view | iOS | High | Data shall be encrypted in transit and at rest. | Approved?
+IQ-061-04 | Export readings as PDF/CSV | iOS | TBD | Data shall be encrypted in transit and at rest. | Rejected once
+IQ_61.5 | Battery and Bluetooth warning | Cloud Sync | Medium | System shall complete the action without data loss. | Rejected once
+IQ-061-06 | Support caregiver view | Backend API | High | TBD by clinical SME - intentionally incomplete. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 062 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-062-01 | Support caregiver view | Android/iOS | High | User shall receive clear error message on failure. | Draft
+IQ_62.2 | Support caregiver view | Android | Low | TBD by clinical SME - intentionally incomplete. | Approved?
+IQ-062-03 | Capture heart rate from paired device | Local DB | Not ranked | Audit/event record shall be generated where applicable. | Rejected once
+IQ_62.4 | Biometric login option | Notification Service | Low | System shall complete the action without data loss. | Pending QA
+IQ-062-05 | Handle offline mode | iOS | Low | Result must be visible in mobile UI within expected time. | Pending QA
+IQ-062-06 | Support caregiver view | Android | High | User shall receive clear error message on failure. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 063 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ_63.1 | Manual heart rate entry when device unavailable | Local DB | TBD | System shall complete the action without data loss. | In Review
+IQ_63.2 | Sync readings to cloud API | Backend API | Not ranked | Audit/event record shall be generated where applicable. | Need SME
+IQ-063-03 | Sync readings to cloud API | Android/iOS | TBD | Result must be visible in mobile UI within expected time. | Need SME
+IQ-063-04 | Validate sensor data range | Android | TBD | User shall receive clear error message on failure. | Approved?
+IQ-063-05 | Store readings securely on device | Backend API | TBD | System shall complete the action without data loss. | Pending QA
+IQ-063-06 | Generate high/low heart-rate alert | Cloud Sync | Low | Data shall be encrypted in transit and at rest. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 064 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-064-01 | Audit user actions | Bluetooth Sensor | High | User shall receive clear error message on failure. | Need SME
+IQ-064-02 | Audit user actions | Bluetooth Sensor | TBD | User shall receive clear error message on failure. | Need SME
+IQ-064-03 | Audit user actions | Android/iOS | Not ranked | Audit/event record shall be generated where applicable. | Draft
+IQ-064-04 | Capture heart rate from paired device | iOS | Low | TBD by clinical SME - intentionally incomplete. | Draft
+IQ-064-05 | Consent capture and privacy notice | Android | High | TBD by clinical SME - intentionally incomplete. | Approved?
+IQ-064-06 | Capture heart rate from paired device | Cloud Sync | Low | System shall complete the action without data loss. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 065 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-065-01 | Display current BPM with timestamp | Notification Service | Not ranked | User shall receive clear error message on failure. | Need SME
+IQ_65.2 | Audit user actions | Android/iOS | Low | System shall complete the action without data loss. | In Review
+IQ-065-03 | Handle offline mode | Android | TBD | Data shall be encrypted in transit and at rest. | In Review
+IQ-065-04 | Generate high/low heart-rate alert | Android/iOS | Medium | Data shall be encrypted in transit and at rest. | In Review
+IQ-065-05 | Display current BPM with timestamp | Notification Service | High | Result must be visible in mobile UI within expected time. | Rejected once
+IQ_65.6 | Biometric login option | Android/iOS | High | Data shall be encrypted in transit and at rest. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 066 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-066-01 | Notification retry and suppression | Android/iOS | Low | TBD by clinical SME - intentionally incomplete. | In Review
+IQ-066-02 | Generate high/low heart-rate alert | iOS | TBD | User shall receive clear error message on failure. | Approved?
+IQ-066-03 | Audit user actions | Notification Service | Not ranked | User shall receive clear error message on failure. | Rejected once
+IQ-066-04 | Generate high/low heart-rate alert | Backend API | Low | Data shall be encrypted in transit and at rest. | Draft
+IQ-066-05 | Support caregiver view | iOS | Low | Audit/event record shall be generated where applicable. | Approved?
+IQ-066-06 | Notification retry and suppression | Backend API | Not ranked | System shall complete the action without data loss. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 067 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-067-01 | Generate high/low heart-rate alert | Local DB | Low | Audit/event record shall be generated where applicable. | Need SME
+IQ-067-02 | Display current BPM with timestamp | Notification Service | Low | User shall receive clear error message on failure. | In Review
+IQ-067-03 | Audit user actions | Notification Service | Medium | TBD by clinical SME - intentionally incomplete. | Rejected once
+IQ-067-04 | Biometric login option | Cloud Sync | High | User shall receive clear error message on failure. | Approved?
+IQ-067-05 | Capture heart rate from paired device | Cloud Sync | Low | TBD by clinical SME - intentionally incomplete. | In Review
+IQ_67.6 | Generate high/low heart-rate alert | Local DB | TBD | User shall receive clear error message on failure. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 068 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-068-01 | Support caregiver view | Backend API | High | Audit/event record shall be generated where applicable. | Need SME
+IQ-068-02 | Show trend chart for 7/30/90 days | Bluetooth Sensor | Low | TBD by clinical SME - intentionally incomplete. | Approved?
+IQ-068-03 | Sync readings to cloud API | Bluetooth Sensor | TBD | Data shall be encrypted in transit and at rest. | In Review
+IQ-068-04 | Show trend chart for 7/30/90 days | Android | Medium | TBD by clinical SME - intentionally incomplete. | Pending QA
+IQ-068-05 | Support caregiver view | Android/iOS | High | Data shall be encrypted in transit and at rest. | Need SME
+IQ-068-06 | Notification retry and suppression | Android/iOS | High | Audit/event record shall be generated where applicable. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 069 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ_69.1 | Generate high/low heart-rate alert | Bluetooth Sensor | TBD | Result must be visible in mobile UI within expected time. | Need SME
+IQ-069-02 | Consent capture and privacy notice | Bluetooth Sensor | TBD | Audit/event record shall be generated where applicable. | In Review
+IQ-069-03 | Notification retry and suppression | Cloud Sync | TBD | System shall complete the action without data loss. | Pending QA
+IQ-069-04 | Battery and Bluetooth warning | Bluetooth Sensor | Medium | System shall complete the action without data loss. | Need SME
+IQ-069-05 | Consent capture and privacy notice | Notification Service | TBD | TBD by clinical SME - intentionally incomplete. | Pending QA
+IQ_69.6 | Show trend chart for 7/30/90 days | Bluetooth Sensor | Low | System shall complete the action without data loss. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 070 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ_70.1 | Consent capture and privacy notice | Notification Service | Medium | Data shall be encrypted in transit and at rest. | Pending QA
+IQ_70.2 | Display current BPM with timestamp | Backend API | TBD | TBD by clinical SME - intentionally incomplete. | Draft
+IQ-070-03 | Biometric login option | Android | High | User shall receive clear error message on failure. | Rejected once
+IQ_70.4 | Consent capture and privacy notice | Backend API | High | System shall complete the action without data loss. | Pending QA
+IQ-070-05 | Consent capture and privacy notice | Backend API | Not ranked | User shall receive clear error message on failure. | In Review
+IQ-070-06 | Export readings as PDF/CSV | Bluetooth Sensor | Not ranked | TBD by clinical SME - intentionally incomplete. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 071 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-071-01 | Generate high/low heart-rate alert | Android/iOS | TBD | System shall complete the action without data loss. | Rejected once
+IQ_71.2 | Battery and Bluetooth warning | Local DB | High | User shall receive clear error message on failure. | Rejected once
+IQ-071-03 | Validate sensor data range | Notification Service | Not ranked | System shall complete the action without data loss. | Approved?
+IQ-071-04 | Manual heart rate entry when device unavailable | Cloud Sync | Not ranked | System shall complete the action without data loss. | Draft
+IQ-071-05 | Generate high/low heart-rate alert | Local DB | Not ranked | Result must be visible in mobile UI within expected time. | In Review
+IQ_71.6 | Biometric login option | Local DB | TBD | Data shall be encrypted in transit and at rest. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 072 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-072-01 | Sync readings to cloud API | Android | Not ranked | User shall receive clear error message on failure. | In Review
+IQ_72.2 | Support caregiver view | Android/iOS | Medium | User shall receive clear error message on failure. | Draft
+IQ-072-03 | Manual heart rate entry when device unavailable | Backend API | Low | System shall complete the action without data loss. | In Review
+IQ-072-04 | Battery and Bluetooth warning | Notification Service | TBD | Result must be visible in mobile UI within expected time. | Approved?
+IQ-072-05 | Generate high/low heart-rate alert | Android/iOS | High | Audit/event record shall be generated where applicable. | Pending QA
+IQ_72.6 | Battery and Bluetooth warning | Notification Service | High | Audit/event record shall be generated where applicable. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 073 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-073-01 | Export readings as PDF/CSV | Android | TBD | System shall complete the action without data loss. | Draft
+IQ-073-02 | Generate high/low heart-rate alert | iOS | High | Result must be visible in mobile UI within expected time. | Rejected once
+IQ_73.3 | Sync readings to cloud API | Backend API | Low | TBD by clinical SME - intentionally incomplete. | Rejected once
+IQ-073-04 | Manual heart rate entry when device unavailable | Cloud Sync | Not ranked | System shall complete the action without data loss. | Draft
+IQ-073-05 | Biometric login option | Android/iOS | Medium | User shall receive clear error message on failure. | In Review
+IQ-073-06 | Store readings securely on device | iOS | High | Result must be visible in mobile UI within expected time. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 074 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-074-01 | Capture heart rate from paired device | Bluetooth Sensor | Medium | Result must be visible in mobile UI within expected time. | In Review
+IQ-074-02 | Validate sensor data range | Android/iOS | TBD | TBD by clinical SME - intentionally incomplete. | Need SME
+IQ-074-03 | Handle offline mode | Local DB | Medium | Result must be visible in mobile UI within expected time. | Need SME
+IQ-074-04 | Notification retry and suppression | Cloud Sync | High | Data shall be encrypted in transit and at rest. | Need SME
+IQ-074-05 | Capture heart rate from paired device | Backend API | TBD | Result must be visible in mobile UI within expected time. | Draft
+IQ-074-06 | Biometric login option | Cloud Sync | High | Audit/event record shall be generated where applicable. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 075 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-075-01 | Show trend chart for 7/30/90 days | Notification Service | High | Result must be visible in mobile UI within expected time. | Approved?
+IQ-075-02 | Show trend chart for 7/30/90 days | Cloud Sync | TBD | User shall receive clear error message on failure. | Draft
+IQ_75.3 | Display current BPM with timestamp | iOS | Not ranked | Result must be visible in mobile UI within expected time. | Need SME
+IQ-075-04 | Consent capture and privacy notice | Backend API | Not ranked | User shall receive clear error message on failure. | Pending QA
+IQ-075-05 | Biometric login option | Android/iOS | Medium | System shall complete the action without data loss. | Draft
+IQ-075-06 | Notification retry and suppression | Android/iOS | Low | System shall complete the action without data loss. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 076 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-076-01 | Manual heart rate entry when device unavailable | Backend API | Not ranked | Result must be visible in mobile UI within expected time. | Pending QA
+IQ_76.2 | Support caregiver view | Notification Service | Not ranked | TBD by clinical SME - intentionally incomplete. | Pending QA
+IQ-076-03 | Audit user actions | Notification Service | TBD | TBD by clinical SME - intentionally incomplete. | Need SME
+IQ-076-04 | Handle offline mode | Notification Service | Not ranked | Data shall be encrypted in transit and at rest. | In Review
+IQ-076-05 | Audit user actions | Local DB | TBD | TBD by clinical SME - intentionally incomplete. | Draft
+IQ-076-06 | Support caregiver view | Bluetooth Sensor | Medium | Data shall be encrypted in transit and at rest. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 077 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-077-01 | Handle offline mode | iOS | Low | Audit/event record shall be generated where applicable. | Need SME
+IQ-077-02 | Generate high/low heart-rate alert | Cloud Sync | Low | User shall receive clear error message on failure. | In Review
+IQ-077-03 | Audit user actions | Android/iOS | TBD | Audit/event record shall be generated where applicable. | Rejected once
+IQ-077-04 | Consent capture and privacy notice | Android | TBD | Result must be visible in mobile UI within expected time. | Approved?
+IQ_77.5 | Show trend chart for 7/30/90 days | Cloud Sync | Medium | TBD by clinical SME - intentionally incomplete. | Rejected once
+IQ_77.6 | Validate sensor data range | Cloud Sync | High | System shall complete the action without data loss. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 078 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-078-01 | Notification retry and suppression | Android/iOS | Medium | System shall complete the action without data loss. | Draft
+IQ-078-02 | Capture heart rate from paired device | iOS | Low | System shall complete the action without data loss. | Draft
+IQ-078-03 | Handle offline mode | Android | TBD | Audit/event record shall be generated where applicable. | Pending QA
+IQ_78.4 | Consent capture and privacy notice | iOS | High | Data shall be encrypted in transit and at rest. | Rejected once
+IQ-078-05 | Display current BPM with timestamp | Android | Low | Data shall be encrypted in transit and at rest. | Rejected once
+IQ-078-06 | Consent capture and privacy notice | Backend API | Not ranked | System shall complete the action without data loss. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 079 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-079-01 | Store readings securely on device | Local DB | High | TBD by clinical SME - intentionally incomplete. | Draft
+IQ-079-02 | Battery and Bluetooth warning | Cloud Sync | Not ranked | Result must be visible in mobile UI within expected time. | Need SME
+IQ-079-03 | Support caregiver view | Android | High | Data shall be encrypted in transit and at rest. | In Review
+IQ_79.4 | Sync readings to cloud API | Notification Service | Low | System shall complete the action without data loss. | Rejected once
+IQ-079-05 | Validate sensor data range | Bluetooth Sensor | Low | Audit/event record shall be generated where applicable. | Pending QA
+IQ_79.6 | Show trend chart for 7/30/90 days | Bluetooth Sensor | Not ranked | Audit/event record shall be generated where applicable. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 080 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-080-01 | Battery and Bluetooth warning | Cloud Sync | TBD | Result must be visible in mobile UI within expected time. | Pending QA
+IQ-080-02 | Manual heart rate entry when device unavailable | Local DB | Medium | System shall complete the action without data loss. | In Review
+IQ-080-03 | Manual heart rate entry when device unavailable | Local DB | Medium | System shall complete the action without data loss. | Approved?
+IQ-080-04 | Support caregiver view | Android/iOS | Not ranked | User shall receive clear error message on failure. | Draft
+IQ-080-05 | Sync readings to cloud API | Bluetooth Sensor | Not ranked | TBD by clinical SME - intentionally incomplete. | Need SME
+IQ-080-06 | Store readings securely on device | Cloud Sync | High | Data shall be encrypted in transit and at rest. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 081 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ_81.1 | Show trend chart for 7/30/90 days | Bluetooth Sensor | High | User shall receive clear error message on failure. | In Review
+IQ-081-02 | Generate high/low heart-rate alert | Android | Low | User shall receive clear error message on failure. | Approved?
+IQ-081-03 | Consent capture and privacy notice | Bluetooth Sensor | High | Result must be visible in mobile UI within expected time. | Rejected once
+IQ-081-04 | Export readings as PDF/CSV | Local DB | TBD | Result must be visible in mobile UI within expected time. | Approved?
+IQ-081-05 | Support caregiver view | Android/iOS | High | Audit/event record shall be generated where applicable. | Draft
+IQ-081-06 | Store readings securely on device | iOS | Medium | User shall receive clear error message on failure. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 082 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-082-01 | Biometric login option | iOS | Medium | Audit/event record shall be generated where applicable. | Pending QA
+IQ-082-02 | Sync readings to cloud API | Local DB | TBD | Audit/event record shall be generated where applicable. | In Review
+IQ_82.3 | Biometric login option | Notification Service | Medium | Result must be visible in mobile UI within expected time. | Pending QA
+IQ-082-04 | Support caregiver view | Bluetooth Sensor | Medium | Result must be visible in mobile UI within expected time. | Rejected once
+IQ-082-05 | Support caregiver view | Notification Service | TBD | Result must be visible in mobile UI within expected time. | Rejected once
+IQ-082-06 | Generate high/low heart-rate alert | Notification Service | TBD | TBD by clinical SME - intentionally incomplete. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 083 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ_83.1 | Battery and Bluetooth warning | Notification Service | Not ranked | Audit/event record shall be generated where applicable. | Draft
+IQ-083-02 | Display current BPM with timestamp | Bluetooth Sensor | High | Audit/event record shall be generated where applicable. | Draft
+IQ-083-03 | Biometric login option | iOS | Low | TBD by clinical SME - intentionally incomplete. | Need SME
+IQ-083-04 | Biometric login option | Android | Medium | TBD by clinical SME - intentionally incomplete. | Draft
+IQ-083-05 | Store readings securely on device | Cloud Sync | TBD | User shall receive clear error message on failure. | Need SME
+IQ-083-06 | Audit user actions | Bluetooth Sensor | Not ranked | Audit/event record shall be generated where applicable. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 084 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-084-01 | Support caregiver view | Notification Service | Low | Data shall be encrypted in transit and at rest. | Approved?
+IQ-084-02 | Consent capture and privacy notice | iOS | TBD | Result must be visible in mobile UI within expected time. | Pending QA
+IQ-084-03 | Consent capture and privacy notice | Android | TBD | Audit/event record shall be generated where applicable. | Need SME
+IQ-084-04 | Manual heart rate entry when device unavailable | Android | Low | Data shall be encrypted in transit and at rest. | Pending QA
+IQ-084-05 | Manual heart rate entry when device unavailable | Bluetooth Sensor | Not ranked | Result must be visible in mobile UI within expected time. | Draft
+IQ-084-06 | Export readings as PDF/CSV | Notification Service | Low | Data shall be encrypted in transit and at rest. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 085 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-085-01 | Export readings as PDF/CSV | Android | High | TBD by clinical SME - intentionally incomplete. | Approved?
+IQ-085-02 | Manual heart rate entry when device unavailable | Bluetooth Sensor | TBD | User shall receive clear error message on failure. | Need SME
+IQ-085-03 | Handle offline mode | Cloud Sync | Not ranked | Audit/event record shall be generated where applicable. | Need SME
+IQ_85.4 | Consent capture and privacy notice | Android/iOS | Medium | Audit/event record shall be generated where applicable. | Need SME
+IQ-085-05 | Show trend chart for 7/30/90 days | Android/iOS | Low | TBD by clinical SME - intentionally incomplete. | Pending QA
+IQ-085-06 | Notification retry and suppression | Android | Not ranked | User shall receive clear error message on failure. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 086 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ_86.1 | Handle offline mode | Notification Service | High | System shall complete the action without data loss. | Rejected once
+IQ-086-02 | Display current BPM with timestamp | Bluetooth Sensor | Not ranked | User shall receive clear error message on failure. | Rejected once
+IQ-086-03 | Generate high/low heart-rate alert | Android/iOS | Not ranked | TBD by clinical SME - intentionally incomplete. | Draft
+IQ_86.4 | Audit user actions | Bluetooth Sensor | TBD | Data shall be encrypted in transit and at rest. | Rejected once
+IQ-086-05 | Validate sensor data range | Bluetooth Sensor | Low | System shall complete the action without data loss. | Need SME
+IQ_86.6 | Consent capture and privacy notice | Android/iOS | High | TBD by clinical SME - intentionally incomplete. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 087 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-087-01 | Manual heart rate entry when device unavailable | iOS | High | System shall complete the action without data loss. | Rejected once
+IQ-087-02 | Export readings as PDF/CSV | Android/iOS | TBD | Result must be visible in mobile UI within expected time. | Draft
+IQ-087-03 | Capture heart rate from paired device | Cloud Sync | Medium | Result must be visible in mobile UI within expected time. | Pending QA
+IQ-087-04 | Export readings as PDF/CSV | Cloud Sync | High | Audit/event record shall be generated where applicable. | Rejected once
+IQ-087-05 | Store readings securely on device | Android/iOS | Not ranked | Audit/event record shall be generated where applicable. | Approved?
+IQ-087-06 | Capture heart rate from paired device | Android | Medium | Data shall be encrypted in transit and at rest. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 088 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-088-01 | Store readings securely on device | Local DB | High | TBD by clinical SME - intentionally incomplete. | Approved?
+IQ-088-02 | Store readings securely on device | Notification Service | Low | Result must be visible in mobile UI within expected time. | Need SME
+IQ-088-03 | Battery and Bluetooth warning | iOS | Not ranked | System shall complete the action without data loss. | Need SME
+IQ-088-04 | Store readings securely on device | Backend API | High | System shall complete the action without data loss. | In Review
+IQ-088-05 | Biometric login option | Bluetooth Sensor | Low | Audit/event record shall be generated where applicable. | Rejected once
+IQ_88.6 | Store readings securely on device | Android | High | User shall receive clear error message on failure. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 089 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-089-01 | Store readings securely on device | Local DB | Not ranked | TBD by clinical SME - intentionally incomplete. | Rejected once
+IQ-089-02 | Battery and Bluetooth warning | Android | Medium | Audit/event record shall be generated where applicable. | Draft
+IQ-089-03 | Show trend chart for 7/30/90 days | iOS | TBD | Data shall be encrypted in transit and at rest. | Need SME
+IQ-089-04 | Store readings securely on device | Bluetooth Sensor | Not ranked | User shall receive clear error message on failure. | Rejected once
+IQ-089-05 | Support caregiver view | Notification Service | High | TBD by clinical SME - intentionally incomplete. | Pending QA
+IQ-089-06 | Sync readings to cloud API | Android/iOS | Low | User shall receive clear error message on failure. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 090 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-090-01 | Sync readings to cloud API | Bluetooth Sensor | Low | User shall receive clear error message on failure. | Pending QA
+IQ-090-02 | Biometric login option | Android | Not ranked | System shall complete the action without data loss. | Approved?
+IQ-090-03 | Display current BPM with timestamp | Android/iOS | High | System shall complete the action without data loss. | Rejected once
+IQ_90.4 | Notification retry and suppression | Bluetooth Sensor | TBD | TBD by clinical SME - intentionally incomplete. | Rejected once
+IQ-090-05 | Show trend chart for 7/30/90 days | Backend API | Low | User shall receive clear error message on failure. | Approved?
+IQ-090-06 | Battery and Bluetooth warning | Android/iOS | TBD | TBD by clinical SME - intentionally incomplete. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 091 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-091-01 | Show trend chart for 7/30/90 days | Cloud Sync | Not ranked | Data shall be encrypted in transit and at rest. | Pending QA
+IQ-091-02 | Capture heart rate from paired device | iOS | TBD | TBD by clinical SME - intentionally incomplete. | Draft
+IQ-091-03 | Generate high/low heart-rate alert | Notification Service | TBD | Audit/event record shall be generated where applicable. | Need SME
+IQ-091-04 | Biometric login option | Notification Service | Medium | Data shall be encrypted in transit and at rest. | Draft
+IQ-091-05 | Show trend chart for 7/30/90 days | iOS | Medium | Data shall be encrypted in transit and at rest. | Pending QA
+IQ-091-06 | Biometric login option | Notification Service | High | System shall complete the action without data loss. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 092 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ_92.1 | Audit user actions | Local DB | High | Audit/event record shall be generated where applicable. | Rejected once
+IQ_92.2 | Show trend chart for 7/30/90 days | Local DB | Low | TBD by clinical SME - intentionally incomplete. | Pending QA
+IQ-092-03 | Generate high/low heart-rate alert | Local DB | Low | Audit/event record shall be generated where applicable. | Approved?
+IQ_92.4 | Capture heart rate from paired device | Android | High | User shall receive clear error message on failure. | Pending QA
+IQ_92.5 | Capture heart rate from paired device | Android | TBD | Result must be visible in mobile UI within expected time. | In Review
+IQ-092-06 | Validate sensor data range | iOS | Low | Result must be visible in mobile UI within expected time. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 093 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-093-01 | Export readings as PDF/CSV | Notification Service | Not ranked | System shall complete the action without data loss. | Pending QA
+IQ-093-02 | Sync readings to cloud API | Backend API | TBD | System shall complete the action without data loss. | Pending QA
+IQ-093-03 | Battery and Bluetooth warning | Local DB | High | Audit/event record shall be generated where applicable. | In Review
+IQ-093-04 | Capture heart rate from paired device | Backend API | Not ranked | TBD by clinical SME - intentionally incomplete. | Rejected once
+IQ-093-05 | Validate sensor data range | Bluetooth Sensor | Medium | Result must be visible in mobile UI within expected time. | Rejected once
+IQ_93.6 | Export readings as PDF/CSV | Android/iOS | Not ranked | Audit/event record shall be generated where applicable. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 094 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ_94.1 | Store readings securely on device | Notification Service | Not ranked | Data shall be encrypted in transit and at rest. | Pending QA
+IQ-094-02 | Consent capture and privacy notice | Cloud Sync | TBD | Data shall be encrypted in transit and at rest. | Pending QA
+IQ-094-03 | Store readings securely on device | Notification Service | High | User shall receive clear error message on failure. | Draft
+IQ-094-04 | Manual heart rate entry when device unavailable | Backend API | Not ranked | User shall receive clear error message on failure. | In Review
+IQ-094-05 | Notification retry and suppression | Cloud Sync | Not ranked | TBD by clinical SME - intentionally incomplete. | In Review
+IQ-094-06 | Manual heart rate entry when device unavailable | Backend API | Medium | Audit/event record shall be generated where applicable. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 095 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-095-01 | Capture heart rate from paired device | Backend API | Medium | User shall receive clear error message on failure. | Need SME
+IQ-095-02 | Generate high/low heart-rate alert | Notification Service | TBD | Data shall be encrypted in transit and at rest. | Rejected once
+IQ-095-03 | Capture heart rate from paired device | Notification Service | Medium | Data shall be encrypted in transit and at rest. | Draft
+IQ-095-04 | Biometric login option | iOS | High | User shall receive clear error message on failure. | Pending QA
+IQ-095-05 | Store readings securely on device | Bluetooth Sensor | TBD | User shall receive clear error message on failure. | In Review
+IQ-095-06 | Validate sensor data range | Bluetooth Sensor | Not ranked | Result must be visible in mobile UI within expected time. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 096 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-096-01 | Generate high/low heart-rate alert | Android | Not ranked | Audit/event record shall be generated where applicable. | In Review
+IQ-096-02 | Audit user actions | Bluetooth Sensor | High | System shall complete the action without data loss. | Need SME
+IQ-096-03 | Capture heart rate from paired device | Local DB | Medium | System shall complete the action without data loss. | Rejected once
+IQ_96.4 | Show trend chart for 7/30/90 days | Local DB | Medium | System shall complete the action without data loss. | Approved?
+IQ-096-05 | Validate sensor data range | Android | Low | Audit/event record shall be generated where applicable. | Pending QA
+IQ-096-06 | Display current BPM with timestamp | Android/iOS | Medium | Result must be visible in mobile UI within expected time. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 097 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-097-01 | Show trend chart for 7/30/90 days | Local DB | Not ranked | System shall complete the action without data loss. | Pending QA
+IQ-097-02 | Battery and Bluetooth warning | Backend API | Not ranked | Result must be visible in mobile UI within expected time. | Draft
+IQ-097-03 | Battery and Bluetooth warning | iOS | High | Data shall be encrypted in transit and at rest. | In Review
+IQ-097-04 | Capture heart rate from paired device | Local DB | Low | User shall receive clear error message on failure. | Draft
+IQ-097-05 | Export readings as PDF/CSV | Bluetooth Sensor | TBD | User shall receive clear error message on failure. | Rejected once
+IQ-097-06 | Display current BPM with timestamp | Cloud Sync | High | Audit/event record shall be generated where applicable. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 098 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-098-01 | Biometric login option | iOS | TBD | Result must be visible in mobile UI within expected time. | Pending QA
+IQ-098-02 | Biometric login option | Bluetooth Sensor | TBD | User shall receive clear error message on failure. | Pending QA
+IQ-098-03 | Generate high/low heart-rate alert | Android/iOS | High | System shall complete the action without data loss. | In Review
+IQ_98.4 | Battery and Bluetooth warning | Android/iOS | Low | Result must be visible in mobile UI within expected time. | In Review
+IQ-098-05 | Support caregiver view | Bluetooth Sensor | Not ranked | Audit/event record shall be generated where applicable. | Need SME
+IQ-098-06 | Battery and Bluetooth warning | Local DB | TBD | User shall receive clear error message on failure. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 099 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ-099-01 | Export readings as PDF/CSV | iOS | TBD | Result must be visible in mobile UI within expected time. | Pending QA
+IQ-099-02 | Biometric login option | Cloud Sync | TBD | System shall complete the action without data loss. | Approved?
+IQ_99.3 | Support caregiver view | Android | TBD | Result must be visible in mobile UI within expected time. | Pending QA
+IQ-099-04 | Display current BPM with timestamp | Local DB | Medium | User shall receive clear error message on failure. | Draft
+IQ-099-05 | Audit user actions | Cloud Sync | Medium | User shall receive clear error message on failure. | In Review
+IQ-099-06 | Battery and Bluetooth warning | Notification Service | High | System shall complete the action without data loss. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 100 / IQ ---
+This IQ defines installation verification for development, test, staging, and production-like mobile environments. It includes mixed prerequisite, evidence, and acceptance criteria styles for test parsing.
+IQ_100.1 | Battery and Bluetooth warning | Cloud Sync | Low | Data shall be encrypted in transit and at rest. | Rejected once
+IQ-100-02 | Audit user actions | Notification Service | Medium | Audit/event record shall be generated where applicable. | In Review
+IQ-100-03 | Battery and Bluetooth warning | iOS | Not ranked | Result must be visible in mobile UI within expected time. | Need SME
+IQ-100-04 | Export readings as PDF/CSV | Cloud Sync | TBD | Audit/event record shall be generated where applicable. | Approved?
+IQ-100-05 | Generate high/low heart-rate alert | Android/iOS | Not ranked | Data shall be encrypted in transit and at rest. | Approved?
+IQ-100-06 | Support caregiver view | Android | Low | System shall complete the action without data loss. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+

@@ -1,0 +1,1003 @@
+Document 5 - OQ - Heart Rate Monitor Application
+Synthetic messy validation test document. Not for real medical or regulatory use.
+
+--- PAGE 001 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-001-01 | Battery and Bluetooth warning | Cloud Sync | TBD | System shall complete the action without data loss. | Approved?
+OQ-001-02 | Show trend chart for 7/30/90 days | Backend API | Low | System shall complete the action without data loss. | Rejected once
+OQ-001-03 | Generate high/low heart-rate alert | Notification Service | Not ranked | System shall complete the action without data loss. | Approved?
+OQ_1.4 | Handle offline mode | Notification Service | Low | System shall complete the action without data loss. | Approved?
+OQ-001-05 | Show trend chart for 7/30/90 days | Bluetooth Sensor | Not ranked | User shall receive clear error message on failure. | Approved?
+OQ-001-06 | Consent capture and privacy notice | Notification Service | Not ranked | Data shall be encrypted in transit and at rest. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 002 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-002-01 | Support caregiver view | Cloud Sync | Low | System shall complete the action without data loss. | Rejected once
+OQ-002-02 | Store readings securely on device | Backend API | Not ranked | Result must be visible in mobile UI within expected time. | Need SME
+OQ-002-03 | Manual heart rate entry when device unavailable | Android | Medium | User shall receive clear error message on failure. | In Review
+OQ_2.4 | Audit user actions | Notification Service | High | Data shall be encrypted in transit and at rest. | Draft
+OQ-002-05 | Show trend chart for 7/30/90 days | Cloud Sync | TBD | TBD by clinical SME - intentionally incomplete. | In Review
+OQ-002-06 | Sync readings to cloud API | Notification Service | High | Data shall be encrypted in transit and at rest. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 003 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-003-01 | Handle offline mode | Local DB | High | Result must be visible in mobile UI within expected time. | Pending QA
+OQ_3.2 | Export readings as PDF/CSV | Android | High | System shall complete the action without data loss. | Need SME
+OQ-003-03 | Consent capture and privacy notice | Local DB | TBD | TBD by clinical SME - intentionally incomplete. | Pending QA
+OQ-003-04 | Store readings securely on device | Local DB | Medium | System shall complete the action without data loss. | Draft
+OQ-003-05 | Notification retry and suppression | Bluetooth Sensor | Not ranked | User shall receive clear error message on failure. | Pending QA
+OQ-003-06 | Store readings securely on device | Bluetooth Sensor | Medium | Result must be visible in mobile UI within expected time. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 004 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-004-01 | Handle offline mode | Notification Service | Medium | Result must be visible in mobile UI within expected time. | Pending QA
+OQ-004-02 | Notification retry and suppression | Android/iOS | Not ranked | System shall complete the action without data loss. | Pending QA
+OQ-004-03 | Show trend chart for 7/30/90 days | iOS | Medium | Data shall be encrypted in transit and at rest. | Rejected once
+OQ-004-04 | Show trend chart for 7/30/90 days | Notification Service | Low | Audit/event record shall be generated where applicable. | Approved?
+OQ_4.5 | Validate sensor data range | Notification Service | Medium | Data shall be encrypted in transit and at rest. | Draft
+OQ-004-06 | Battery and Bluetooth warning | Android | Not ranked | Data shall be encrypted in transit and at rest. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 005 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-005-01 | Store readings securely on device | Cloud Sync | Low | Audit/event record shall be generated where applicable. | Draft
+OQ_5.2 | Manual heart rate entry when device unavailable | Android | Medium | Data shall be encrypted in transit and at rest. | Pending QA
+OQ-005-03 | Sync readings to cloud API | Notification Service | High | User shall receive clear error message on failure. | In Review
+OQ_5.4 | Battery and Bluetooth warning | Backend API | Not ranked | Result must be visible in mobile UI within expected time. | Approved?
+OQ-005-05 | Store readings securely on device | Backend API | TBD | Result must be visible in mobile UI within expected time. | Approved?
+OQ_5.6 | Notification retry and suppression | iOS | Low | User shall receive clear error message on failure. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 006 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-006-01 | Capture heart rate from paired device | Android | TBD | Audit/event record shall be generated where applicable. | Draft
+OQ-006-02 | Show trend chart for 7/30/90 days | iOS | Medium | Data shall be encrypted in transit and at rest. | Draft
+OQ-006-03 | Generate high/low heart-rate alert | Bluetooth Sensor | TBD | Result must be visible in mobile UI within expected time. | In Review
+OQ-006-04 | Battery and Bluetooth warning | Local DB | Medium | Result must be visible in mobile UI within expected time. | Rejected once
+OQ-006-05 | Validate sensor data range | Local DB | Medium | Data shall be encrypted in transit and at rest. | Approved?
+OQ_6.6 | Consent capture and privacy notice | Android/iOS | TBD | System shall complete the action without data loss. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 007 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-007-01 | Display current BPM with timestamp | Cloud Sync | Low | TBD by clinical SME - intentionally incomplete. | Approved?
+OQ-007-02 | Handle offline mode | Bluetooth Sensor | Not ranked | System shall complete the action without data loss. | Pending QA
+OQ_7.3 | Show trend chart for 7/30/90 days | Bluetooth Sensor | High | TBD by clinical SME - intentionally incomplete. | Draft
+OQ_7.4 | Battery and Bluetooth warning | Local DB | High | TBD by clinical SME - intentionally incomplete. | Pending QA
+OQ-007-05 | Biometric login option | iOS | TBD | TBD by clinical SME - intentionally incomplete. | Rejected once
+OQ-007-06 | Support caregiver view | Android/iOS | TBD | TBD by clinical SME - intentionally incomplete. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 008 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ_8.1 | Store readings securely on device | Android | TBD | System shall complete the action without data loss. | Approved?
+OQ_8.2 | Audit user actions | iOS | Not ranked | Audit/event record shall be generated where applicable. | In Review
+OQ-008-03 | Export readings as PDF/CSV | iOS | Low | Audit/event record shall be generated where applicable. | Need SME
+OQ-008-04 | Battery and Bluetooth warning | Backend API | Low | System shall complete the action without data loss. | Pending QA
+OQ-008-05 | Generate high/low heart-rate alert | Backend API | Low | System shall complete the action without data loss. | In Review
+OQ-008-06 | Validate sensor data range | Android/iOS | Medium | Result must be visible in mobile UI within expected time. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 009 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-009-01 | Manual heart rate entry when device unavailable | iOS | Low | TBD by clinical SME - intentionally incomplete. | Approved?
+OQ-009-02 | Audit user actions | Backend API | Not ranked | Audit/event record shall be generated where applicable. | Approved?
+OQ-009-03 | Manual heart rate entry when device unavailable | Android | TBD | Result must be visible in mobile UI within expected time. | Rejected once
+OQ_9.4 | Show trend chart for 7/30/90 days | Android/iOS | TBD | System shall complete the action without data loss. | Rejected once
+OQ-009-05 | Store readings securely on device | Bluetooth Sensor | Medium | Result must be visible in mobile UI within expected time. | Draft
+OQ_9.6 | Consent capture and privacy notice | iOS | Medium | Result must be visible in mobile UI within expected time. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 010 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-010-01 | Capture heart rate from paired device | Backend API | High | Audit/event record shall be generated where applicable. | Approved?
+OQ-010-02 | Biometric login option | Android | Not ranked | Data shall be encrypted in transit and at rest. | Rejected once
+OQ-010-03 | Show trend chart for 7/30/90 days | Android | Low | System shall complete the action without data loss. | Draft
+OQ-010-04 | Generate high/low heart-rate alert | Cloud Sync | TBD | TBD by clinical SME - intentionally incomplete. | Draft
+OQ-010-05 | Support caregiver view | Backend API | Low | User shall receive clear error message on failure. | Draft
+OQ-010-06 | Support caregiver view | Android/iOS | High | Result must be visible in mobile UI within expected time. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 011 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ_11.1 | Export readings as PDF/CSV | Android | High | TBD by clinical SME - intentionally incomplete. | Rejected once
+OQ_11.2 | Consent capture and privacy notice | iOS | Low | User shall receive clear error message on failure. | Approved?
+OQ-011-03 | Manual heart rate entry when device unavailable | Bluetooth Sensor | High | System shall complete the action without data loss. | In Review
+OQ-011-04 | Generate high/low heart-rate alert | Cloud Sync | Medium | Data shall be encrypted in transit and at rest. | Need SME
+OQ_11.5 | Biometric login option | Backend API | Medium | Result must be visible in mobile UI within expected time. | Draft
+OQ-011-06 | Sync readings to cloud API | Notification Service | High | System shall complete the action without data loss. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 012 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-012-01 | Notification retry and suppression | Local DB | Not ranked | User shall receive clear error message on failure. | In Review
+OQ-012-02 | Display current BPM with timestamp | Local DB | High | Result must be visible in mobile UI within expected time. | Need SME
+OQ-012-03 | Biometric login option | Android | High | Data shall be encrypted in transit and at rest. | Draft
+OQ_12.4 | Validate sensor data range | Cloud Sync | Low | User shall receive clear error message on failure. | Draft
+OQ-012-05 | Capture heart rate from paired device | iOS | Medium | TBD by clinical SME - intentionally incomplete. | Approved?
+OQ-012-06 | Battery and Bluetooth warning | Backend API | High | Result must be visible in mobile UI within expected time. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 013 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-013-01 | Store readings securely on device | Android/iOS | Low | TBD by clinical SME - intentionally incomplete. | Need SME
+OQ-013-02 | Support caregiver view | Local DB | TBD | User shall receive clear error message on failure. | Need SME
+OQ-013-03 | Handle offline mode | Bluetooth Sensor | High | Audit/event record shall be generated where applicable. | Approved?
+OQ-013-04 | Consent capture and privacy notice | Local DB | High | User shall receive clear error message on failure. | In Review
+OQ-013-05 | Capture heart rate from paired device | Android/iOS | Medium | User shall receive clear error message on failure. | Need SME
+OQ-013-06 | Export readings as PDF/CSV | Backend API | Medium | User shall receive clear error message on failure. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 014 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-014-01 | Support caregiver view | Android | Medium | System shall complete the action without data loss. | Rejected once
+OQ-014-02 | Notification retry and suppression | Android/iOS | Not ranked | User shall receive clear error message on failure. | Need SME
+OQ_14.3 | Battery and Bluetooth warning | Cloud Sync | High | Audit/event record shall be generated where applicable. | Draft
+OQ-014-04 | Show trend chart for 7/30/90 days | Android | High | User shall receive clear error message on failure. | Approved?
+OQ-014-05 | Capture heart rate from paired device | iOS | Medium | Data shall be encrypted in transit and at rest. | Pending QA
+OQ-014-06 | Capture heart rate from paired device | iOS | Not ranked | Audit/event record shall be generated where applicable. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 015 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-015-01 | Validate sensor data range | Android | Medium | Data shall be encrypted in transit and at rest. | Need SME
+OQ-015-02 | Biometric login option | Bluetooth Sensor | Medium | User shall receive clear error message on failure. | Pending QA
+OQ-015-03 | Generate high/low heart-rate alert | Bluetooth Sensor | Low | TBD by clinical SME - intentionally incomplete. | Need SME
+OQ-015-04 | Generate high/low heart-rate alert | Notification Service | Not ranked | Audit/event record shall be generated where applicable. | In Review
+OQ_15.5 | Support caregiver view | Android/iOS | TBD | Audit/event record shall be generated where applicable. | Approved?
+OQ-015-06 | Notification retry and suppression | Local DB | TBD | User shall receive clear error message on failure. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 016 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-016-01 | Show trend chart for 7/30/90 days | Android/iOS | Not ranked | System shall complete the action without data loss. | In Review
+OQ-016-02 | Consent capture and privacy notice | Backend API | Low | Audit/event record shall be generated where applicable. | Rejected once
+OQ-016-03 | Display current BPM with timestamp | Cloud Sync | High | Result must be visible in mobile UI within expected time. | Need SME
+OQ_16.4 | Store readings securely on device | Local DB | TBD | Result must be visible in mobile UI within expected time. | Rejected once
+OQ-016-05 | Store readings securely on device | Android | TBD | Audit/event record shall be generated where applicable. | Draft
+OQ-016-06 | Handle offline mode | Notification Service | TBD | Result must be visible in mobile UI within expected time. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 017 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-017-01 | Display current BPM with timestamp | Android | High | Data shall be encrypted in transit and at rest. | Draft
+OQ-017-02 | Battery and Bluetooth warning | Backend API | High | Result must be visible in mobile UI within expected time. | In Review
+OQ-017-03 | Consent capture and privacy notice | Cloud Sync | Low | User shall receive clear error message on failure. | In Review
+OQ_17.4 | Store readings securely on device | Bluetooth Sensor | Not ranked | TBD by clinical SME - intentionally incomplete. | In Review
+OQ_17.5 | Store readings securely on device | Backend API | Medium | Audit/event record shall be generated where applicable. | Need SME
+OQ-017-06 | Sync readings to cloud API | Bluetooth Sensor | Medium | System shall complete the action without data loss. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 018 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-018-01 | Support caregiver view | Local DB | Low | Audit/event record shall be generated where applicable. | Approved?
+OQ_18.2 | Audit user actions | Notification Service | Low | Result must be visible in mobile UI within expected time. | Approved?
+OQ-018-03 | Generate high/low heart-rate alert | Cloud Sync | Medium | User shall receive clear error message on failure. | Draft
+OQ_18.4 | Notification retry and suppression | Android | TBD | Data shall be encrypted in transit and at rest. | Need SME
+OQ-018-05 | Display current BPM with timestamp | Cloud Sync | Low | Audit/event record shall be generated where applicable. | Pending QA
+OQ_18.6 | Generate high/low heart-rate alert | Notification Service | Low | User shall receive clear error message on failure. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 019 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-019-01 | Generate high/low heart-rate alert | Local DB | Low | Data shall be encrypted in transit and at rest. | Need SME
+OQ-019-02 | Display current BPM with timestamp | Notification Service | Low | Data shall be encrypted in transit and at rest. | Rejected once
+OQ-019-03 | Display current BPM with timestamp | Notification Service | Low | Data shall be encrypted in transit and at rest. | Pending QA
+OQ-019-04 | Show trend chart for 7/30/90 days | Bluetooth Sensor | TBD | TBD by clinical SME - intentionally incomplete. | Approved?
+OQ_19.5 | Handle offline mode | Cloud Sync | Not ranked | User shall receive clear error message on failure. | Need SME
+OQ-019-06 | Capture heart rate from paired device | Android | TBD | System shall complete the action without data loss. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 020 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ_20.1 | Notification retry and suppression | Local DB | Low | Data shall be encrypted in transit and at rest. | In Review
+OQ-020-02 | Validate sensor data range | Backend API | High | Result must be visible in mobile UI within expected time. | In Review
+OQ-020-03 | Audit user actions | Notification Service | Low | Data shall be encrypted in transit and at rest. | Approved?
+OQ-020-04 | Show trend chart for 7/30/90 days | Bluetooth Sensor | TBD | TBD by clinical SME - intentionally incomplete. | Need SME
+OQ-020-05 | Show trend chart for 7/30/90 days | Notification Service | Medium | User shall receive clear error message on failure. | Approved?
+OQ_20.6 | Biometric login option | Notification Service | High | System shall complete the action without data loss. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 021 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ_21.1 | Store readings securely on device | Local DB | TBD | User shall receive clear error message on failure. | Rejected once
+OQ-021-02 | Capture heart rate from paired device | Android | Low | Audit/event record shall be generated where applicable. | In Review
+OQ-021-03 | Store readings securely on device | Bluetooth Sensor | Medium | Data shall be encrypted in transit and at rest. | Rejected once
+OQ_21.4 | Capture heart rate from paired device | Android | Medium | Result must be visible in mobile UI within expected time. | Pending QA
+OQ-021-05 | Consent capture and privacy notice | Android | TBD | TBD by clinical SME - intentionally incomplete. | Need SME
+OQ_21.6 | Sync readings to cloud API | Android/iOS | Medium | User shall receive clear error message on failure. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 022 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-022-01 | Notification retry and suppression | Bluetooth Sensor | Medium | Data shall be encrypted in transit and at rest. | Approved?
+OQ-022-02 | Export readings as PDF/CSV | Backend API | TBD | User shall receive clear error message on failure. | Approved?
+OQ-022-03 | Display current BPM with timestamp | Local DB | Medium | User shall receive clear error message on failure. | Draft
+OQ-022-04 | Display current BPM with timestamp | iOS | Low | System shall complete the action without data loss. | Need SME
+OQ-022-05 | Consent capture and privacy notice | Local DB | High | Result must be visible in mobile UI within expected time. | Rejected once
+OQ-022-06 | Audit user actions | Local DB | High | User shall receive clear error message on failure. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 023 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-023-01 | Sync readings to cloud API | Cloud Sync | TBD | System shall complete the action without data loss. | Approved?
+OQ-023-02 | Consent capture and privacy notice | iOS | High | Result must be visible in mobile UI within expected time. | Approved?
+OQ-023-03 | Validate sensor data range | Local DB | Medium | TBD by clinical SME - intentionally incomplete. | Draft
+OQ-023-04 | Show trend chart for 7/30/90 days | Local DB | Medium | User shall receive clear error message on failure. | Draft
+OQ_23.5 | Capture heart rate from paired device | Notification Service | High | Audit/event record shall be generated where applicable. | Need SME
+OQ-023-06 | Battery and Bluetooth warning | Notification Service | TBD | Data shall be encrypted in transit and at rest. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 024 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-024-01 | Notification retry and suppression | Backend API | Not ranked | Data shall be encrypted in transit and at rest. | Pending QA
+OQ-024-02 | Show trend chart for 7/30/90 days | Android/iOS | Low | TBD by clinical SME - intentionally incomplete. | Rejected once
+OQ_24.3 | Notification retry and suppression | Bluetooth Sensor | Medium | Data shall be encrypted in transit and at rest. | Rejected once
+OQ-024-04 | Export readings as PDF/CSV | Android/iOS | Not ranked | User shall receive clear error message on failure. | Rejected once
+OQ-024-05 | Audit user actions | Bluetooth Sensor | High | Audit/event record shall be generated where applicable. | Rejected once
+OQ_24.6 | Support caregiver view | Cloud Sync | High | Audit/event record shall be generated where applicable. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 025 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ_25.1 | Notification retry and suppression | Cloud Sync | Medium | User shall receive clear error message on failure. | Pending QA
+OQ-025-02 | Store readings securely on device | Bluetooth Sensor | Not ranked | Audit/event record shall be generated where applicable. | Rejected once
+OQ-025-03 | Generate high/low heart-rate alert | Bluetooth Sensor | High | Result must be visible in mobile UI within expected time. | Approved?
+OQ-025-04 | Store readings securely on device | iOS | Low | Audit/event record shall be generated where applicable. | Pending QA
+OQ_25.5 | Audit user actions | Local DB | Low | TBD by clinical SME - intentionally incomplete. | In Review
+OQ-025-06 | Validate sensor data range | Cloud Sync | TBD | Data shall be encrypted in transit and at rest. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 026 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-026-01 | Battery and Bluetooth warning | iOS | TBD | TBD by clinical SME - intentionally incomplete. | In Review
+OQ_26.2 | Capture heart rate from paired device | Local DB | Low | TBD by clinical SME - intentionally incomplete. | Draft
+OQ-026-03 | Manual heart rate entry when device unavailable | iOS | Medium | System shall complete the action without data loss. | Need SME
+OQ-026-04 | Sync readings to cloud API | Notification Service | Medium | TBD by clinical SME - intentionally incomplete. | Need SME
+OQ-026-05 | Notification retry and suppression | Backend API | Not ranked | System shall complete the action without data loss. | Rejected once
+OQ-026-06 | Show trend chart for 7/30/90 days | Android | TBD | Audit/event record shall be generated where applicable. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 027 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-027-01 | Battery and Bluetooth warning | iOS | Medium | User shall receive clear error message on failure. | Approved?
+OQ-027-02 | Consent capture and privacy notice | Android/iOS | High | TBD by clinical SME - intentionally incomplete. | Rejected once
+OQ_27.3 | Notification retry and suppression | iOS | Not ranked | Audit/event record shall be generated where applicable. | Rejected once
+OQ-027-04 | Handle offline mode | Backend API | Not ranked | Result must be visible in mobile UI within expected time. | Pending QA
+OQ-027-05 | Show trend chart for 7/30/90 days | Cloud Sync | Medium | Result must be visible in mobile UI within expected time. | In Review
+OQ-027-06 | Capture heart rate from paired device | Cloud Sync | High | Audit/event record shall be generated where applicable. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 028 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-028-01 | Support caregiver view | Android | TBD | Result must be visible in mobile UI within expected time. | Approved?
+OQ_28.2 | Capture heart rate from paired device | Cloud Sync | Not ranked | System shall complete the action without data loss. | Draft
+OQ-028-03 | Store readings securely on device | Backend API | Low | System shall complete the action without data loss. | In Review
+OQ-028-04 | Show trend chart for 7/30/90 days | Notification Service | Medium | User shall receive clear error message on failure. | Need SME
+OQ-028-05 | Notification retry and suppression | Local DB | Low | Audit/event record shall be generated where applicable. | Approved?
+OQ-028-06 | Sync readings to cloud API | Android/iOS | Not ranked | TBD by clinical SME - intentionally incomplete. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 029 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-029-01 | Biometric login option | Local DB | Low | TBD by clinical SME - intentionally incomplete. | In Review
+OQ-029-02 | Battery and Bluetooth warning | Bluetooth Sensor | High | System shall complete the action without data loss. | Pending QA
+OQ-029-03 | Export readings as PDF/CSV | Bluetooth Sensor | Medium | Result must be visible in mobile UI within expected time. | Need SME
+OQ-029-04 | Sync readings to cloud API | Android/iOS | Medium | User shall receive clear error message on failure. | Approved?
+OQ-029-05 | Battery and Bluetooth warning | Android | Medium | Data shall be encrypted in transit and at rest. | Approved?
+OQ_29.6 | Consent capture and privacy notice | iOS | Medium | User shall receive clear error message on failure. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 030 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-030-01 | Export readings as PDF/CSV | Android | Medium | Result must be visible in mobile UI within expected time. | Approved?
+OQ-030-02 | Audit user actions | Cloud Sync | Low | User shall receive clear error message on failure. | Approved?
+OQ-030-03 | Store readings securely on device | Android/iOS | Medium | User shall receive clear error message on failure. | Rejected once
+OQ-030-04 | Notification retry and suppression | iOS | Medium | Data shall be encrypted in transit and at rest. | In Review
+OQ_30.5 | Export readings as PDF/CSV | Bluetooth Sensor | Medium | Result must be visible in mobile UI within expected time. | In Review
+OQ-030-06 | Audit user actions | Cloud Sync | Medium | TBD by clinical SME - intentionally incomplete. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 031 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-031-01 | Show trend chart for 7/30/90 days | Backend API | High | Data shall be encrypted in transit and at rest. | Approved?
+OQ_31.2 | Biometric login option | Notification Service | TBD | TBD by clinical SME - intentionally incomplete. | In Review
+OQ-031-03 | Notification retry and suppression | Notification Service | Medium | User shall receive clear error message on failure. | Approved?
+OQ-031-04 | Export readings as PDF/CSV | Cloud Sync | Low | System shall complete the action without data loss. | Pending QA
+OQ-031-05 | Manual heart rate entry when device unavailable | Android | High | Data shall be encrypted in transit and at rest. | Draft
+OQ-031-06 | Handle offline mode | Backend API | Not ranked | TBD by clinical SME - intentionally incomplete. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 032 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-032-01 | Notification retry and suppression | Local DB | Low | TBD by clinical SME - intentionally incomplete. | Need SME
+OQ-032-02 | Audit user actions | Cloud Sync | Not ranked | Result must be visible in mobile UI within expected time. | Need SME
+OQ-032-03 | Manual heart rate entry when device unavailable | Local DB | TBD | System shall complete the action without data loss. | Draft
+OQ-032-04 | Export readings as PDF/CSV | Local DB | Medium | Result must be visible in mobile UI within expected time. | Pending QA
+OQ-032-05 | Generate high/low heart-rate alert | Android | Low | Data shall be encrypted in transit and at rest. | Pending QA
+OQ-032-06 | Audit user actions | Android/iOS | Not ranked | Result must be visible in mobile UI within expected time. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 033 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-033-01 | Handle offline mode | Local DB | TBD | System shall complete the action without data loss. | Draft
+OQ-033-02 | Notification retry and suppression | Notification Service | Not ranked | Data shall be encrypted in transit and at rest. | Pending QA
+OQ-033-03 | Handle offline mode | Notification Service | Not ranked | Result must be visible in mobile UI within expected time. | Need SME
+OQ-033-04 | Consent capture and privacy notice | Bluetooth Sensor | High | Result must be visible in mobile UI within expected time. | Draft
+OQ-033-05 | Battery and Bluetooth warning | Notification Service | Low | Result must be visible in mobile UI within expected time. | Pending QA
+OQ-033-06 | Consent capture and privacy notice | Cloud Sync | Low | Result must be visible in mobile UI within expected time. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 034 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-034-01 | Capture heart rate from paired device | Notification Service | High | TBD by clinical SME - intentionally incomplete. | Need SME
+OQ_34.2 | Notification retry and suppression | Notification Service | TBD | System shall complete the action without data loss. | In Review
+OQ-034-03 | Consent capture and privacy notice | Android/iOS | TBD | Data shall be encrypted in transit and at rest. | In Review
+OQ-034-04 | Export readings as PDF/CSV | iOS | High | Audit/event record shall be generated where applicable. | In Review
+OQ_34.5 | Consent capture and privacy notice | Cloud Sync | Medium | Audit/event record shall be generated where applicable. | In Review
+OQ-034-06 | Battery and Bluetooth warning | Bluetooth Sensor | Not ranked | System shall complete the action without data loss. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 035 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-035-01 | Display current BPM with timestamp | iOS | Medium | Audit/event record shall be generated where applicable. | Draft
+OQ-035-02 | Capture heart rate from paired device | Notification Service | Medium | Audit/event record shall be generated where applicable. | Pending QA
+OQ-035-03 | Display current BPM with timestamp | iOS | High | User shall receive clear error message on failure. | Rejected once
+OQ-035-04 | Handle offline mode | Bluetooth Sensor | Not ranked | Data shall be encrypted in transit and at rest. | Approved?
+OQ-035-05 | Support caregiver view | Cloud Sync | Not ranked | System shall complete the action without data loss. | Pending QA
+OQ_35.6 | Audit user actions | Android/iOS | Not ranked | TBD by clinical SME - intentionally incomplete. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 036 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-036-01 | Consent capture and privacy notice | Android | High | Audit/event record shall be generated where applicable. | Draft
+OQ-036-02 | Biometric login option | Android/iOS | Not ranked | User shall receive clear error message on failure. | Approved?
+OQ-036-03 | Handle offline mode | Android | Low | Data shall be encrypted in transit and at rest. | Need SME
+OQ-036-04 | Capture heart rate from paired device | Bluetooth Sensor | Medium | Data shall be encrypted in transit and at rest. | Approved?
+OQ-036-05 | Generate high/low heart-rate alert | Bluetooth Sensor | Low | Audit/event record shall be generated where applicable. | In Review
+OQ-036-06 | Capture heart rate from paired device | Android/iOS | TBD | Result must be visible in mobile UI within expected time. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 037 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-037-01 | Biometric login option | Android/iOS | High | Result must be visible in mobile UI within expected time. | Rejected once
+OQ-037-02 | Generate high/low heart-rate alert | Bluetooth Sensor | Low | Data shall be encrypted in transit and at rest. | In Review
+OQ-037-03 | Manual heart rate entry when device unavailable | Cloud Sync | Medium | Data shall be encrypted in transit and at rest. | Rejected once
+OQ-037-04 | Biometric login option | Local DB | High | Result must be visible in mobile UI within expected time. | In Review
+OQ-037-05 | Audit user actions | Bluetooth Sensor | Medium | Data shall be encrypted in transit and at rest. | Draft
+OQ-037-06 | Export readings as PDF/CSV | Android/iOS | TBD | User shall receive clear error message on failure. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 038 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ_38.1 | Support caregiver view | Backend API | TBD | Audit/event record shall be generated where applicable. | Rejected once
+OQ-038-02 | Audit user actions | Android | High | Result must be visible in mobile UI within expected time. | In Review
+OQ_38.3 | Export readings as PDF/CSV | Cloud Sync | Medium | Result must be visible in mobile UI within expected time. | Rejected once
+OQ-038-04 | Store readings securely on device | iOS | TBD | System shall complete the action without data loss. | Draft
+OQ_38.5 | Biometric login option | Notification Service | High | Data shall be encrypted in transit and at rest. | Need SME
+OQ-038-06 | Handle offline mode | Android/iOS | High | TBD by clinical SME - intentionally incomplete. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 039 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-039-01 | Validate sensor data range | Cloud Sync | Medium | User shall receive clear error message on failure. | Draft
+OQ-039-02 | Show trend chart for 7/30/90 days | Cloud Sync | Medium | Data shall be encrypted in transit and at rest. | In Review
+OQ-039-03 | Battery and Bluetooth warning | Bluetooth Sensor | TBD | Result must be visible in mobile UI within expected time. | In Review
+OQ-039-04 | Handle offline mode | Android | Low | User shall receive clear error message on failure. | Approved?
+OQ-039-05 | Handle offline mode | Cloud Sync | Medium | Result must be visible in mobile UI within expected time. | Rejected once
+OQ-039-06 | Generate high/low heart-rate alert | Android | High | System shall complete the action without data loss. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 040 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-040-01 | Capture heart rate from paired device | Android/iOS | High | System shall complete the action without data loss. | Need SME
+OQ-040-02 | Capture heart rate from paired device | Backend API | TBD | Audit/event record shall be generated where applicable. | Rejected once
+OQ_40.3 | Show trend chart for 7/30/90 days | Android/iOS | Not ranked | System shall complete the action without data loss. | Pending QA
+OQ_40.4 | Display current BPM with timestamp | Notification Service | Not ranked | TBD by clinical SME - intentionally incomplete. | Pending QA
+OQ-040-05 | Show trend chart for 7/30/90 days | Cloud Sync | High | System shall complete the action without data loss. | Draft
+OQ-040-06 | Battery and Bluetooth warning | Android | High | Result must be visible in mobile UI within expected time. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 041 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-041-01 | Handle offline mode | Bluetooth Sensor | High | TBD by clinical SME - intentionally incomplete. | Approved?
+OQ_41.2 | Sync readings to cloud API | Backend API | TBD | Result must be visible in mobile UI within expected time. | Pending QA
+OQ-041-03 | Export readings as PDF/CSV | Bluetooth Sensor | Not ranked | Data shall be encrypted in transit and at rest. | Need SME
+OQ-041-04 | Support caregiver view | Android/iOS | Not ranked | TBD by clinical SME - intentionally incomplete. | In Review
+OQ-041-05 | Sync readings to cloud API | Android | TBD | Data shall be encrypted in transit and at rest. | Approved?
+OQ-041-06 | Audit user actions | Bluetooth Sensor | High | Result must be visible in mobile UI within expected time. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 042 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-042-01 | Notification retry and suppression | Android/iOS | Medium | Data shall be encrypted in transit and at rest. | Approved?
+OQ-042-02 | Handle offline mode | Bluetooth Sensor | Medium | TBD by clinical SME - intentionally incomplete. | Rejected once
+OQ_42.3 | Sync readings to cloud API | Local DB | Not ranked | Data shall be encrypted in transit and at rest. | In Review
+OQ-042-04 | Handle offline mode | Local DB | Not ranked | TBD by clinical SME - intentionally incomplete. | Rejected once
+OQ-042-05 | Show trend chart for 7/30/90 days | Local DB | Medium | TBD by clinical SME - intentionally incomplete. | Need SME
+OQ-042-06 | Audit user actions | Bluetooth Sensor | Medium | Data shall be encrypted in transit and at rest. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 043 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-043-01 | Capture heart rate from paired device | Notification Service | High | Result must be visible in mobile UI within expected time. | Draft
+OQ-043-02 | Validate sensor data range | Local DB | TBD | TBD by clinical SME - intentionally incomplete. | Rejected once
+OQ-043-03 | Validate sensor data range | Cloud Sync | High | User shall receive clear error message on failure. | In Review
+OQ-043-04 | Generate high/low heart-rate alert | iOS | Medium | TBD by clinical SME - intentionally incomplete. | Approved?
+OQ-043-05 | Consent capture and privacy notice | Backend API | Low | TBD by clinical SME - intentionally incomplete. | In Review
+OQ_43.6 | Validate sensor data range | Bluetooth Sensor | Low | TBD by clinical SME - intentionally incomplete. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 044 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-044-01 | Handle offline mode | Backend API | Low | User shall receive clear error message on failure. | Rejected once
+OQ-044-02 | Sync readings to cloud API | Cloud Sync | TBD | Data shall be encrypted in transit and at rest. | Rejected once
+OQ-044-03 | Notification retry and suppression | Android/iOS | Medium | TBD by clinical SME - intentionally incomplete. | Pending QA
+OQ-044-04 | Export readings as PDF/CSV | Cloud Sync | Not ranked | User shall receive clear error message on failure. | Rejected once
+OQ-044-05 | Validate sensor data range | Android/iOS | Not ranked | User shall receive clear error message on failure. | Pending QA
+OQ_44.6 | Generate high/low heart-rate alert | Android/iOS | Not ranked | Result must be visible in mobile UI within expected time. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 045 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-045-01 | Audit user actions | Backend API | Medium | Audit/event record shall be generated where applicable. | Pending QA
+OQ_45.2 | Consent capture and privacy notice | Local DB | High | Audit/event record shall be generated where applicable. | In Review
+OQ-045-03 | Biometric login option | Local DB | Low | Audit/event record shall be generated where applicable. | Approved?
+OQ-045-04 | Export readings as PDF/CSV | Android | High | System shall complete the action without data loss. | Need SME
+OQ-045-05 | Manual heart rate entry when device unavailable | Bluetooth Sensor | Medium | System shall complete the action without data loss. | In Review
+OQ-045-06 | Biometric login option | Local DB | Not ranked | Result must be visible in mobile UI within expected time. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 046 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ_46.1 | Support caregiver view | Local DB | Medium | Data shall be encrypted in transit and at rest. | Draft
+OQ-046-02 | Generate high/low heart-rate alert | Android | Low | System shall complete the action without data loss. | Rejected once
+OQ-046-03 | Display current BPM with timestamp | Cloud Sync | Medium | TBD by clinical SME - intentionally incomplete. | Approved?
+OQ-046-04 | Export readings as PDF/CSV | Android | Low | Result must be visible in mobile UI within expected time. | Rejected once
+OQ-046-05 | Support caregiver view | Bluetooth Sensor | TBD | Result must be visible in mobile UI within expected time. | Pending QA
+OQ-046-06 | Handle offline mode | Cloud Sync | High | TBD by clinical SME - intentionally incomplete. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 047 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-047-01 | Handle offline mode | Cloud Sync | Low | TBD by clinical SME - intentionally incomplete. | Rejected once
+OQ-047-02 | Store readings securely on device | Notification Service | High | Audit/event record shall be generated where applicable. | Rejected once
+OQ-047-03 | Handle offline mode | iOS | Medium | Data shall be encrypted in transit and at rest. | Pending QA
+OQ_47.4 | Show trend chart for 7/30/90 days | Backend API | Low | TBD by clinical SME - intentionally incomplete. | Approved?
+OQ-047-05 | Consent capture and privacy notice | Notification Service | Medium | Result must be visible in mobile UI within expected time. | In Review
+OQ-047-06 | Handle offline mode | Bluetooth Sensor | Low | User shall receive clear error message on failure. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 048 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-048-01 | Export readings as PDF/CSV | Cloud Sync | High | User shall receive clear error message on failure. | Need SME
+OQ-048-02 | Validate sensor data range | Backend API | Medium | User shall receive clear error message on failure. | Draft
+OQ_48.3 | Generate high/low heart-rate alert | Cloud Sync | Not ranked | System shall complete the action without data loss. | Need SME
+OQ-048-04 | Notification retry and suppression | Notification Service | Medium | Audit/event record shall be generated where applicable. | In Review
+OQ-048-05 | Sync readings to cloud API | Android/iOS | Medium | Data shall be encrypted in transit and at rest. | In Review
+OQ_48.6 | Display current BPM with timestamp | Cloud Sync | High | Result must be visible in mobile UI within expected time. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 049 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-049-01 | Store readings securely on device | Backend API | Low | User shall receive clear error message on failure. | Pending QA
+OQ-049-02 | Battery and Bluetooth warning | iOS | Medium | User shall receive clear error message on failure. | In Review
+OQ_49.3 | Generate high/low heart-rate alert | Backend API | Medium | Result must be visible in mobile UI within expected time. | Draft
+OQ-049-04 | Show trend chart for 7/30/90 days | Bluetooth Sensor | Low | User shall receive clear error message on failure. | Need SME
+OQ-049-05 | Store readings securely on device | Bluetooth Sensor | TBD | Audit/event record shall be generated where applicable. | Approved?
+OQ-049-06 | Capture heart rate from paired device | Bluetooth Sensor | TBD | User shall receive clear error message on failure. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 050 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-050-01 | Export readings as PDF/CSV | Android/iOS | Low | Result must be visible in mobile UI within expected time. | Rejected once
+OQ_50.2 | Manual heart rate entry when device unavailable | Backend API | Low | TBD by clinical SME - intentionally incomplete. | Rejected once
+OQ-050-03 | Biometric login option | iOS | TBD | TBD by clinical SME - intentionally incomplete. | Pending QA
+OQ-050-04 | Show trend chart for 7/30/90 days | Notification Service | Low | User shall receive clear error message on failure. | Pending QA
+OQ-050-05 | Capture heart rate from paired device | Cloud Sync | TBD | System shall complete the action without data loss. | Pending QA
+OQ-050-06 | Biometric login option | iOS | Low | System shall complete the action without data loss. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 051 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ_51.1 | Display current BPM with timestamp | Local DB | Medium | System shall complete the action without data loss. | Need SME
+OQ-051-02 | Display current BPM with timestamp | Local DB | TBD | Result must be visible in mobile UI within expected time. | Need SME
+OQ-051-03 | Handle offline mode | Bluetooth Sensor | Not ranked | System shall complete the action without data loss. | Pending QA
+OQ-051-04 | Store readings securely on device | Cloud Sync | Medium | User shall receive clear error message on failure. | Draft
+OQ_51.5 | Show trend chart for 7/30/90 days | iOS | TBD | System shall complete the action without data loss. | In Review
+OQ-051-06 | Validate sensor data range | Cloud Sync | Low | Data shall be encrypted in transit and at rest. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 052 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-052-01 | Handle offline mode | Backend API | TBD | Audit/event record shall be generated where applicable. | Need SME
+OQ_52.2 | Audit user actions | Backend API | Not ranked | Data shall be encrypted in transit and at rest. | Approved?
+OQ-052-03 | Capture heart rate from paired device | Android/iOS | Medium | TBD by clinical SME - intentionally incomplete. | Need SME
+OQ_52.4 | Battery and Bluetooth warning | Local DB | TBD | Result must be visible in mobile UI within expected time. | Approved?
+OQ_52.5 | Show trend chart for 7/30/90 days | Android/iOS | Medium | Result must be visible in mobile UI within expected time. | Need SME
+OQ-052-06 | Store readings securely on device | Local DB | Not ranked | System shall complete the action without data loss. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 053 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-053-01 | Handle offline mode | iOS | Not ranked | Audit/event record shall be generated where applicable. | In Review
+OQ-053-02 | Show trend chart for 7/30/90 days | Local DB | High | Audit/event record shall be generated where applicable. | In Review
+OQ-053-03 | Validate sensor data range | Android/iOS | Low | System shall complete the action without data loss. | In Review
+OQ-053-04 | Biometric login option | iOS | Medium | System shall complete the action without data loss. | Need SME
+OQ-053-05 | Battery and Bluetooth warning | iOS | High | Result must be visible in mobile UI within expected time. | Need SME
+OQ-053-06 | Show trend chart for 7/30/90 days | Cloud Sync | Not ranked | Audit/event record shall be generated where applicable. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 054 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-054-01 | Audit user actions | Cloud Sync | High | System shall complete the action without data loss. | Pending QA
+OQ-054-02 | Show trend chart for 7/30/90 days | iOS | Low | Audit/event record shall be generated where applicable. | Draft
+OQ-054-03 | Handle offline mode | Cloud Sync | High | Result must be visible in mobile UI within expected time. | Rejected once
+OQ-054-04 | Export readings as PDF/CSV | Cloud Sync | TBD | User shall receive clear error message on failure. | Approved?
+OQ-054-05 | Generate high/low heart-rate alert | Notification Service | TBD | System shall complete the action without data loss. | Rejected once
+OQ_54.6 | Validate sensor data range | iOS | Medium | Audit/event record shall be generated where applicable. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 055 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-055-01 | Battery and Bluetooth warning | Backend API | High | Audit/event record shall be generated where applicable. | In Review
+OQ-055-02 | Show trend chart for 7/30/90 days | Bluetooth Sensor | Low | User shall receive clear error message on failure. | In Review
+OQ-055-03 | Sync readings to cloud API | Notification Service | Medium | TBD by clinical SME - intentionally incomplete. | Pending QA
+OQ-055-04 | Support caregiver view | Local DB | Medium | Data shall be encrypted in transit and at rest. | In Review
+OQ-055-05 | Handle offline mode | Android | TBD | Audit/event record shall be generated where applicable. | Draft
+OQ-055-06 | Store readings securely on device | Android | Medium | Result must be visible in mobile UI within expected time. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 056 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-056-01 | Capture heart rate from paired device | Local DB | Medium | Audit/event record shall be generated where applicable. | Rejected once
+OQ-056-02 | Validate sensor data range | iOS | Not ranked | User shall receive clear error message on failure. | In Review
+OQ_56.3 | Show trend chart for 7/30/90 days | Android | Low | System shall complete the action without data loss. | Rejected once
+OQ_56.4 | Audit user actions | Android/iOS | Not ranked | TBD by clinical SME - intentionally incomplete. | Draft
+OQ-056-05 | Display current BPM with timestamp | Android/iOS | Medium | System shall complete the action without data loss. | Pending QA
+OQ_56.6 | Generate high/low heart-rate alert | Local DB | High | Result must be visible in mobile UI within expected time. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 057 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-057-01 | Capture heart rate from paired device | Backend API | Not ranked | Audit/event record shall be generated where applicable. | Pending QA
+OQ-057-02 | Generate high/low heart-rate alert | Backend API | Not ranked | TBD by clinical SME - intentionally incomplete. | Rejected once
+OQ-057-03 | Validate sensor data range | iOS | Medium | User shall receive clear error message on failure. | Rejected once
+OQ-057-04 | Sync readings to cloud API | Android/iOS | TBD | Data shall be encrypted in transit and at rest. | Pending QA
+OQ_57.5 | Handle offline mode | Notification Service | TBD | User shall receive clear error message on failure. | In Review
+OQ-057-06 | Support caregiver view | Android | Low | Audit/event record shall be generated where applicable. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 058 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-058-01 | Support caregiver view | Notification Service | High | User shall receive clear error message on failure. | Pending QA
+OQ-058-02 | Show trend chart for 7/30/90 days | iOS | Not ranked | Result must be visible in mobile UI within expected time. | Rejected once
+OQ-058-03 | Show trend chart for 7/30/90 days | Bluetooth Sensor | Low | System shall complete the action without data loss. | Draft
+OQ_58.4 | Support caregiver view | Notification Service | Low | Audit/event record shall be generated where applicable. | Approved?
+OQ-058-05 | Support caregiver view | Android | High | Audit/event record shall be generated where applicable. | Draft
+OQ_58.6 | Export readings as PDF/CSV | Android/iOS | TBD | User shall receive clear error message on failure. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 059 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ_59.1 | Notification retry and suppression | iOS | Medium | Result must be visible in mobile UI within expected time. | Pending QA
+OQ-059-02 | Capture heart rate from paired device | Android | Not ranked | User shall receive clear error message on failure. | Draft
+OQ-059-03 | Generate high/low heart-rate alert | Android | Medium | Data shall be encrypted in transit and at rest. | In Review
+OQ-059-04 | Notification retry and suppression | Cloud Sync | Low | Audit/event record shall be generated where applicable. | Need SME
+OQ-059-05 | Capture heart rate from paired device | Notification Service | High | Data shall be encrypted in transit and at rest. | Need SME
+OQ-059-06 | Validate sensor data range | iOS | High | Result must be visible in mobile UI within expected time. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 060 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ_60.1 | Handle offline mode | Cloud Sync | Not ranked | Result must be visible in mobile UI within expected time. | Rejected once
+OQ-060-02 | Export readings as PDF/CSV | Notification Service | Medium | Result must be visible in mobile UI within expected time. | In Review
+OQ-060-03 | Export readings as PDF/CSV | Android/iOS | Low | Data shall be encrypted in transit and at rest. | Need SME
+OQ_60.4 | Support caregiver view | Bluetooth Sensor | Low | Data shall be encrypted in transit and at rest. | Pending QA
+OQ-060-05 | Export readings as PDF/CSV | Bluetooth Sensor | Medium | Result must be visible in mobile UI within expected time. | Pending QA
+OQ-060-06 | Capture heart rate from paired device | Bluetooth Sensor | Low | System shall complete the action without data loss. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 061 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ_61.1 | Support caregiver view | Android | Not ranked | Data shall be encrypted in transit and at rest. | Draft
+OQ_61.2 | Handle offline mode | Local DB | High | Data shall be encrypted in transit and at rest. | Draft
+OQ-061-03 | Battery and Bluetooth warning | Backend API | High | Audit/event record shall be generated where applicable. | In Review
+OQ-061-04 | Show trend chart for 7/30/90 days | Bluetooth Sensor | Low | System shall complete the action without data loss. | Need SME
+OQ-061-05 | Handle offline mode | Backend API | TBD | Data shall be encrypted in transit and at rest. | Approved?
+OQ-061-06 | Support caregiver view | Notification Service | TBD | Data shall be encrypted in transit and at rest. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 062 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-062-01 | Consent capture and privacy notice | Cloud Sync | Not ranked | Audit/event record shall be generated where applicable. | In Review
+OQ-062-02 | Display current BPM with timestamp | Local DB | Low | User shall receive clear error message on failure. | Pending QA
+OQ-062-03 | Display current BPM with timestamp | Backend API | High | Data shall be encrypted in transit and at rest. | Approved?
+OQ-062-04 | Store readings securely on device | Backend API | Not ranked | Result must be visible in mobile UI within expected time. | Approved?
+OQ-062-05 | Display current BPM with timestamp | Bluetooth Sensor | High | TBD by clinical SME - intentionally incomplete. | Pending QA
+OQ-062-06 | Export readings as PDF/CSV | Notification Service | TBD | System shall complete the action without data loss. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 063 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-063-01 | Validate sensor data range | Notification Service | High | Data shall be encrypted in transit and at rest. | Approved?
+OQ-063-02 | Store readings securely on device | Local DB | Low | System shall complete the action without data loss. | Pending QA
+OQ_63.3 | Battery and Bluetooth warning | iOS | TBD | Data shall be encrypted in transit and at rest. | In Review
+OQ-063-04 | Support caregiver view | Android | Low | TBD by clinical SME - intentionally incomplete. | In Review
+OQ-063-05 | Validate sensor data range | Notification Service | Low | Data shall be encrypted in transit and at rest. | Need SME
+OQ-063-06 | Consent capture and privacy notice | Bluetooth Sensor | Low | TBD by clinical SME - intentionally incomplete. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 064 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-064-01 | Show trend chart for 7/30/90 days | Backend API | Medium | Data shall be encrypted in transit and at rest. | Rejected once
+OQ-064-02 | Sync readings to cloud API | Android/iOS | Low | TBD by clinical SME - intentionally incomplete. | Need SME
+OQ-064-03 | Display current BPM with timestamp | Android/iOS | High | System shall complete the action without data loss. | Pending QA
+OQ_64.4 | Notification retry and suppression | Local DB | TBD | User shall receive clear error message on failure. | Rejected once
+OQ-064-05 | Consent capture and privacy notice | iOS | Medium | Data shall be encrypted in transit and at rest. | Rejected once
+OQ-064-06 | Support caregiver view | iOS | Low | TBD by clinical SME - intentionally incomplete. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 065 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-065-01 | Capture heart rate from paired device | Bluetooth Sensor | Not ranked | TBD by clinical SME - intentionally incomplete. | Pending QA
+OQ-065-02 | Support caregiver view | Backend API | High | TBD by clinical SME - intentionally incomplete. | Pending QA
+OQ-065-03 | Sync readings to cloud API | Android/iOS | Not ranked | Data shall be encrypted in transit and at rest. | In Review
+OQ-065-04 | Handle offline mode | Notification Service | Low | System shall complete the action without data loss. | In Review
+OQ-065-05 | Export readings as PDF/CSV | iOS | Low | Result must be visible in mobile UI within expected time. | Need SME
+OQ-065-06 | Store readings securely on device | Android | Medium | System shall complete the action without data loss. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 066 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ_66.1 | Battery and Bluetooth warning | Cloud Sync | High | Audit/event record shall be generated where applicable. | Approved?
+OQ-066-02 | Handle offline mode | Local DB | TBD | User shall receive clear error message on failure. | Pending QA
+OQ-066-03 | Consent capture and privacy notice | Android | High | User shall receive clear error message on failure. | Approved?
+OQ-066-04 | Notification retry and suppression | Notification Service | Medium | User shall receive clear error message on failure. | Pending QA
+OQ_66.5 | Show trend chart for 7/30/90 days | iOS | TBD | Audit/event record shall be generated where applicable. | Need SME
+OQ_66.6 | Display current BPM with timestamp | Cloud Sync | Medium | Data shall be encrypted in transit and at rest. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 067 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-067-01 | Audit user actions | Backend API | Medium | System shall complete the action without data loss. | In Review
+OQ-067-02 | Validate sensor data range | Bluetooth Sensor | Medium | User shall receive clear error message on failure. | In Review
+OQ_67.3 | Biometric login option | Android/iOS | Medium | Result must be visible in mobile UI within expected time. | Rejected once
+OQ-067-04 | Notification retry and suppression | Local DB | Medium | User shall receive clear error message on failure. | Pending QA
+OQ-067-05 | Validate sensor data range | Bluetooth Sensor | Medium | User shall receive clear error message on failure. | In Review
+OQ-067-06 | Biometric login option | Cloud Sync | Not ranked | Result must be visible in mobile UI within expected time. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 068 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-068-01 | Generate high/low heart-rate alert | Bluetooth Sensor | High | User shall receive clear error message on failure. | Approved?
+OQ-068-02 | Generate high/low heart-rate alert | Notification Service | Not ranked | Audit/event record shall be generated where applicable. | Draft
+OQ-068-03 | Support caregiver view | Android/iOS | Low | Data shall be encrypted in transit and at rest. | In Review
+OQ-068-04 | Store readings securely on device | iOS | High | User shall receive clear error message on failure. | Pending QA
+OQ-068-05 | Export readings as PDF/CSV | Local DB | Not ranked | Data shall be encrypted in transit and at rest. | Rejected once
+OQ-068-06 | Show trend chart for 7/30/90 days | Bluetooth Sensor | High | User shall receive clear error message on failure. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 069 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-069-01 | Show trend chart for 7/30/90 days | Android | Medium | Result must be visible in mobile UI within expected time. | Need SME
+OQ-069-02 | Capture heart rate from paired device | Android | Medium | Result must be visible in mobile UI within expected time. | Rejected once
+OQ-069-03 | Notification retry and suppression | Android/iOS | TBD | System shall complete the action without data loss. | Approved?
+OQ-069-04 | Export readings as PDF/CSV | Bluetooth Sensor | Medium | TBD by clinical SME - intentionally incomplete. | Pending QA
+OQ-069-05 | Generate high/low heart-rate alert | Local DB | Low | Data shall be encrypted in transit and at rest. | Rejected once
+OQ-069-06 | Handle offline mode | Android | Medium | Audit/event record shall be generated where applicable. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 070 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-070-01 | Manual heart rate entry when device unavailable | Local DB | Not ranked | System shall complete the action without data loss. | Pending QA
+OQ_70.2 | Handle offline mode | Backend API | High | System shall complete the action without data loss. | Pending QA
+OQ-070-03 | Battery and Bluetooth warning | Notification Service | Not ranked | System shall complete the action without data loss. | Pending QA
+OQ-070-04 | Store readings securely on device | Android/iOS | Low | Audit/event record shall be generated where applicable. | Rejected once
+OQ-070-05 | Manual heart rate entry when device unavailable | Backend API | Medium | Audit/event record shall be generated where applicable. | Pending QA
+OQ-070-06 | Sync readings to cloud API | Android/iOS | Medium | TBD by clinical SME - intentionally incomplete. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 071 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-071-01 | Manual heart rate entry when device unavailable | Android/iOS | Not ranked | Audit/event record shall be generated where applicable. | Approved?
+OQ_71.2 | Notification retry and suppression | Android | High | User shall receive clear error message on failure. | Pending QA
+OQ_71.3 | Notification retry and suppression | iOS | Low | System shall complete the action without data loss. | Pending QA
+OQ-071-04 | Sync readings to cloud API | Backend API | Low | System shall complete the action without data loss. | Pending QA
+OQ-071-05 | Consent capture and privacy notice | Android | Medium | User shall receive clear error message on failure. | Draft
+OQ-071-06 | Manual heart rate entry when device unavailable | iOS | Low | Audit/event record shall be generated where applicable. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 072 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-072-01 | Sync readings to cloud API | iOS | Not ranked | Result must be visible in mobile UI within expected time. | Draft
+OQ_72.2 | Sync readings to cloud API | Bluetooth Sensor | TBD | System shall complete the action without data loss. | Rejected once
+OQ-072-03 | Store readings securely on device | iOS | Low | Result must be visible in mobile UI within expected time. | Need SME
+OQ-072-04 | Show trend chart for 7/30/90 days | Local DB | TBD | Result must be visible in mobile UI within expected time. | In Review
+OQ-072-05 | Sync readings to cloud API | Notification Service | High | Audit/event record shall be generated where applicable. | Need SME
+OQ_72.6 | Battery and Bluetooth warning | Bluetooth Sensor | Medium | Data shall be encrypted in transit and at rest. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 073 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-073-01 | Validate sensor data range | Android/iOS | Low | TBD by clinical SME - intentionally incomplete. | In Review
+OQ-073-02 | Export readings as PDF/CSV | iOS | Not ranked | Audit/event record shall be generated where applicable. | In Review
+OQ-073-03 | Validate sensor data range | Android/iOS | Low | System shall complete the action without data loss. | Draft
+OQ_73.4 | Show trend chart for 7/30/90 days | Notification Service | Low | Result must be visible in mobile UI within expected time. | Pending QA
+OQ-073-05 | Manual heart rate entry when device unavailable | Backend API | Medium | System shall complete the action without data loss. | Rejected once
+OQ-073-06 | Support caregiver view | Bluetooth Sensor | TBD | User shall receive clear error message on failure. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 074 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-074-01 | Export readings as PDF/CSV | Notification Service | High | Audit/event record shall be generated where applicable. | In Review
+OQ-074-02 | Display current BPM with timestamp | Bluetooth Sensor | Low | Audit/event record shall be generated where applicable. | Need SME
+OQ-074-03 | Audit user actions | iOS | High | User shall receive clear error message on failure. | In Review
+OQ-074-04 | Biometric login option | Android | Medium | TBD by clinical SME - intentionally incomplete. | In Review
+OQ_74.5 | Sync readings to cloud API | Cloud Sync | Low | User shall receive clear error message on failure. | Approved?
+OQ-074-06 | Show trend chart for 7/30/90 days | Notification Service | Medium | Data shall be encrypted in transit and at rest. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 075 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-075-01 | Validate sensor data range | Cloud Sync | Medium | User shall receive clear error message on failure. | Draft
+OQ-075-02 | Generate high/low heart-rate alert | Local DB | Medium | System shall complete the action without data loss. | Need SME
+OQ-075-03 | Consent capture and privacy notice | iOS | TBD | Audit/event record shall be generated where applicable. | In Review
+OQ-075-04 | Generate high/low heart-rate alert | Notification Service | High | Data shall be encrypted in transit and at rest. | Draft
+OQ-075-05 | Store readings securely on device | Notification Service | Medium | Result must be visible in mobile UI within expected time. | Approved?
+OQ_75.6 | Notification retry and suppression | Android/iOS | Medium | Result must be visible in mobile UI within expected time. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 076 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-076-01 | Sync readings to cloud API | Local DB | Low | User shall receive clear error message on failure. | Need SME
+OQ-076-02 | Consent capture and privacy notice | Android/iOS | TBD | User shall receive clear error message on failure. | Need SME
+OQ-076-03 | Store readings securely on device | Backend API | Not ranked | TBD by clinical SME - intentionally incomplete. | Pending QA
+OQ-076-04 | Capture heart rate from paired device | Android/iOS | High | Audit/event record shall be generated where applicable. | Rejected once
+OQ-076-05 | Validate sensor data range | Notification Service | Medium | Result must be visible in mobile UI within expected time. | Draft
+OQ-076-06 | Battery and Bluetooth warning | iOS | Medium | System shall complete the action without data loss. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 077 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-077-01 | Battery and Bluetooth warning | Android | Low | User shall receive clear error message on failure. | Need SME
+OQ-077-02 | Biometric login option | Android | Medium | TBD by clinical SME - intentionally incomplete. | Draft
+OQ-077-03 | Sync readings to cloud API | Local DB | TBD | TBD by clinical SME - intentionally incomplete. | Approved?
+OQ-077-04 | Support caregiver view | Backend API | Low | Result must be visible in mobile UI within expected time. | In Review
+OQ_77.5 | Biometric login option | Android | High | TBD by clinical SME - intentionally incomplete. | Draft
+OQ-077-06 | Display current BPM with timestamp | Android | Medium | Data shall be encrypted in transit and at rest. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 078 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-078-01 | Store readings securely on device | Android/iOS | High | User shall receive clear error message on failure. | Need SME
+OQ-078-02 | Sync readings to cloud API | Android/iOS | TBD | System shall complete the action without data loss. | Draft
+OQ-078-03 | Handle offline mode | Notification Service | Medium | TBD by clinical SME - intentionally incomplete. | Draft
+OQ-078-04 | Support caregiver view | Android | Low | Audit/event record shall be generated where applicable. | Need SME
+OQ-078-05 | Support caregiver view | iOS | Not ranked | Data shall be encrypted in transit and at rest. | Rejected once
+OQ-078-06 | Sync readings to cloud API | Backend API | TBD | System shall complete the action without data loss. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 079 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-079-01 | Manual heart rate entry when device unavailable | Cloud Sync | Not ranked | System shall complete the action without data loss. | Pending QA
+OQ-079-02 | Store readings securely on device | Cloud Sync | Medium | System shall complete the action without data loss. | Pending QA
+OQ-079-03 | Generate high/low heart-rate alert | Android/iOS | High | TBD by clinical SME - intentionally incomplete. | Approved?
+OQ_79.4 | Generate high/low heart-rate alert | Backend API | TBD | User shall receive clear error message on failure. | Rejected once
+OQ-079-05 | Generate high/low heart-rate alert | Notification Service | TBD | Audit/event record shall be generated where applicable. | Approved?
+OQ-079-06 | Handle offline mode | iOS | Low | TBD by clinical SME - intentionally incomplete. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 080 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-080-01 | Consent capture and privacy notice | Bluetooth Sensor | TBD | User shall receive clear error message on failure. | In Review
+OQ-080-02 | Validate sensor data range | Android | Low | Result must be visible in mobile UI within expected time. | Draft
+OQ_80.3 | Consent capture and privacy notice | iOS | Not ranked | Data shall be encrypted in transit and at rest. | Pending QA
+OQ-080-04 | Notification retry and suppression | Android | High | Data shall be encrypted in transit and at rest. | Need SME
+OQ-080-05 | Store readings securely on device | Android/iOS | Low | TBD by clinical SME - intentionally incomplete. | Rejected once
+OQ-080-06 | Sync readings to cloud API | Bluetooth Sensor | Medium | System shall complete the action without data loss. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 081 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-081-01 | Audit user actions | Cloud Sync | Not ranked | System shall complete the action without data loss. | Pending QA
+OQ-081-02 | Biometric login option | Cloud Sync | High | TBD by clinical SME - intentionally incomplete. | Pending QA
+OQ-081-03 | Biometric login option | Android/iOS | Not ranked | TBD by clinical SME - intentionally incomplete. | Rejected once
+OQ_81.4 | Capture heart rate from paired device | Backend API | Not ranked | System shall complete the action without data loss. | In Review
+OQ-081-05 | Store readings securely on device | iOS | Low | Data shall be encrypted in transit and at rest. | Pending QA
+OQ-081-06 | Battery and Bluetooth warning | Backend API | Medium | Audit/event record shall be generated where applicable. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 082 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-082-01 | Show trend chart for 7/30/90 days | Cloud Sync | Low | TBD by clinical SME - intentionally incomplete. | Need SME
+OQ_82.2 | Show trend chart for 7/30/90 days | Backend API | Medium | TBD by clinical SME - intentionally incomplete. | Approved?
+OQ-082-03 | Battery and Bluetooth warning | Local DB | Medium | System shall complete the action without data loss. | In Review
+OQ-082-04 | Generate high/low heart-rate alert | Android | Medium | Result must be visible in mobile UI within expected time. | Pending QA
+OQ-082-05 | Manual heart rate entry when device unavailable | Cloud Sync | TBD | Data shall be encrypted in transit and at rest. | Draft
+OQ-082-06 | Export readings as PDF/CSV | Cloud Sync | Not ranked | Data shall be encrypted in transit and at rest. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 083 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-083-01 | Handle offline mode | Cloud Sync | Not ranked | TBD by clinical SME - intentionally incomplete. | Draft
+OQ-083-02 | Manual heart rate entry when device unavailable | Backend API | Not ranked | System shall complete the action without data loss. | Pending QA
+OQ-083-03 | Sync readings to cloud API | Bluetooth Sensor | TBD | Result must be visible in mobile UI within expected time. | Need SME
+OQ_83.4 | Support caregiver view | Local DB | Medium | Audit/event record shall be generated where applicable. | Approved?
+OQ-083-05 | Show trend chart for 7/30/90 days | Android | TBD | Audit/event record shall be generated where applicable. | Approved?
+OQ-083-06 | Display current BPM with timestamp | Android/iOS | High | Data shall be encrypted in transit and at rest. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 084 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-084-01 | Capture heart rate from paired device | Android/iOS | High | Audit/event record shall be generated where applicable. | Need SME
+OQ-084-02 | Capture heart rate from paired device | Notification Service | High | TBD by clinical SME - intentionally incomplete. | In Review
+OQ_84.3 | Biometric login option | Backend API | Medium | System shall complete the action without data loss. | In Review
+OQ-084-04 | Capture heart rate from paired device | Bluetooth Sensor | High | TBD by clinical SME - intentionally incomplete. | Approved?
+OQ-084-05 | Manual heart rate entry when device unavailable | Local DB | Low | TBD by clinical SME - intentionally incomplete. | Pending QA
+OQ-084-06 | Capture heart rate from paired device | Notification Service | Low | System shall complete the action without data loss. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 085 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ_85.1 | Sync readings to cloud API | Cloud Sync | Medium | System shall complete the action without data loss. | Rejected once
+OQ-085-02 | Sync readings to cloud API | iOS | Low | TBD by clinical SME - intentionally incomplete. | In Review
+OQ-085-03 | Audit user actions | Local DB | Medium | Audit/event record shall be generated where applicable. | Pending QA
+OQ-085-04 | Show trend chart for 7/30/90 days | Backend API | High | Data shall be encrypted in transit and at rest. | Rejected once
+OQ-085-05 | Audit user actions | iOS | Low | System shall complete the action without data loss. | In Review
+OQ-085-06 | Battery and Bluetooth warning | Bluetooth Sensor | Not ranked | Result must be visible in mobile UI within expected time. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 086 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-086-01 | Store readings securely on device | Backend API | Medium | Audit/event record shall be generated where applicable. | In Review
+OQ-086-02 | Display current BPM with timestamp | Backend API | TBD | User shall receive clear error message on failure. | Need SME
+OQ-086-03 | Display current BPM with timestamp | Cloud Sync | Low | Audit/event record shall be generated where applicable. | Approved?
+OQ-086-04 | Support caregiver view | Notification Service | TBD | TBD by clinical SME - intentionally incomplete. | Draft
+OQ-086-05 | Audit user actions | Android/iOS | Low | Result must be visible in mobile UI within expected time. | Need SME
+OQ-086-06 | Generate high/low heart-rate alert | Android/iOS | High | System shall complete the action without data loss. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 087 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-087-01 | Display current BPM with timestamp | Bluetooth Sensor | High | User shall receive clear error message on failure. | Draft
+OQ-087-02 | Export readings as PDF/CSV | Backend API | Medium | User shall receive clear error message on failure. | Pending QA
+OQ-087-03 | Consent capture and privacy notice | Local DB | Low | System shall complete the action without data loss. | Approved?
+OQ_87.4 | Export readings as PDF/CSV | Notification Service | Not ranked | User shall receive clear error message on failure. | Rejected once
+OQ-087-05 | Audit user actions | Notification Service | TBD | Data shall be encrypted in transit and at rest. | Draft
+OQ-087-06 | Validate sensor data range | Local DB | Not ranked | User shall receive clear error message on failure. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 088 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-088-01 | Display current BPM with timestamp | Cloud Sync | Medium | System shall complete the action without data loss. | Rejected once
+OQ-088-02 | Support caregiver view | Cloud Sync | Medium | System shall complete the action without data loss. | In Review
+OQ_88.3 | Handle offline mode | iOS | High | Data shall be encrypted in transit and at rest. | Approved?
+OQ-088-04 | Display current BPM with timestamp | Android | High | TBD by clinical SME - intentionally incomplete. | Need SME
+OQ-088-05 | Consent capture and privacy notice | Backend API | Medium | Audit/event record shall be generated where applicable. | Approved?
+OQ-088-06 | Store readings securely on device | Backend API | TBD | System shall complete the action without data loss. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 089 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-089-01 | Generate high/low heart-rate alert | iOS | High | Audit/event record shall be generated where applicable. | Rejected once
+OQ-089-02 | Store readings securely on device | Android/iOS | TBD | System shall complete the action without data loss. | In Review
+OQ_89.3 | Support caregiver view | Bluetooth Sensor | TBD | Result must be visible in mobile UI within expected time. | Need SME
+OQ-089-04 | Display current BPM with timestamp | Local DB | High | Result must be visible in mobile UI within expected time. | Need SME
+OQ-089-05 | Store readings securely on device | iOS | High | Data shall be encrypted in transit and at rest. | Pending QA
+OQ-089-06 | Validate sensor data range | Android | TBD | Data shall be encrypted in transit and at rest. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 090 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-090-01 | Show trend chart for 7/30/90 days | iOS | TBD | Result must be visible in mobile UI within expected time. | Draft
+OQ-090-02 | Consent capture and privacy notice | Android | TBD | System shall complete the action without data loss. | Need SME
+OQ-090-03 | Show trend chart for 7/30/90 days | iOS | Low | Result must be visible in mobile UI within expected time. | Need SME
+OQ-090-04 | Sync readings to cloud API | Backend API | High | Result must be visible in mobile UI within expected time. | Rejected once
+OQ-090-05 | Handle offline mode | Android | TBD | System shall complete the action without data loss. | Rejected once
+OQ-090-06 | Validate sensor data range | Cloud Sync | Not ranked | Data shall be encrypted in transit and at rest. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 091 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-091-01 | Validate sensor data range | iOS | Medium | Result must be visible in mobile UI within expected time. | Approved?
+OQ-091-02 | Capture heart rate from paired device | iOS | TBD | TBD by clinical SME - intentionally incomplete. | Draft
+OQ-091-03 | Display current BPM with timestamp | Notification Service | Medium | System shall complete the action without data loss. | Need SME
+OQ-091-04 | Sync readings to cloud API | Notification Service | Low | Data shall be encrypted in transit and at rest. | In Review
+OQ-091-05 | Handle offline mode | Android | Not ranked | Audit/event record shall be generated where applicable. | Draft
+OQ-091-06 | Handle offline mode | iOS | Medium | TBD by clinical SME - intentionally incomplete. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 092 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-092-01 | Show trend chart for 7/30/90 days | Android | High | User shall receive clear error message on failure. | Need SME
+OQ-092-02 | Generate high/low heart-rate alert | Android | Medium | User shall receive clear error message on failure. | Need SME
+OQ-092-03 | Handle offline mode | Local DB | Not ranked | System shall complete the action without data loss. | Need SME
+OQ-092-04 | Capture heart rate from paired device | iOS | Not ranked | User shall receive clear error message on failure. | Draft
+OQ-092-05 | Audit user actions | Bluetooth Sensor | Medium | Result must be visible in mobile UI within expected time. | In Review
+OQ-092-06 | Display current BPM with timestamp | Local DB | TBD | System shall complete the action without data loss. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 093 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-093-01 | Show trend chart for 7/30/90 days | Android/iOS | Not ranked | System shall complete the action without data loss. | In Review
+OQ-093-02 | Capture heart rate from paired device | Android/iOS | High | TBD by clinical SME - intentionally incomplete. | Approved?
+OQ-093-03 | Manual heart rate entry when device unavailable | Backend API | Low | Result must be visible in mobile UI within expected time. | Draft
+OQ-093-04 | Show trend chart for 7/30/90 days | Notification Service | Medium | Data shall be encrypted in transit and at rest. | Rejected once
+OQ-093-05 | Export readings as PDF/CSV | Android/iOS | High | Data shall be encrypted in transit and at rest. | Pending QA
+OQ-093-06 | Battery and Bluetooth warning | Cloud Sync | Medium | User shall receive clear error message on failure. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 094 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-094-01 | Biometric login option | Android | Not ranked | System shall complete the action without data loss. | Pending QA
+OQ-094-02 | Notification retry and suppression | Local DB | Medium | TBD by clinical SME - intentionally incomplete. | Pending QA
+OQ_94.3 | Capture heart rate from paired device | iOS | Low | TBD by clinical SME - intentionally incomplete. | Approved?
+OQ-094-04 | Capture heart rate from paired device | Local DB | TBD | Data shall be encrypted in transit and at rest. | Rejected once
+OQ-094-05 | Show trend chart for 7/30/90 days | Cloud Sync | Low | System shall complete the action without data loss. | Pending QA
+OQ-094-06 | Consent capture and privacy notice | iOS | High | Audit/event record shall be generated where applicable. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 095 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-095-01 | Display current BPM with timestamp | Local DB | Medium | Result must be visible in mobile UI within expected time. | Draft
+OQ-095-02 | Export readings as PDF/CSV | Android | TBD | System shall complete the action without data loss. | Need SME
+OQ-095-03 | Manual heart rate entry when device unavailable | Notification Service | High | Audit/event record shall be generated where applicable. | Pending QA
+OQ-095-04 | Consent capture and privacy notice | Backend API | Medium | System shall complete the action without data loss. | Pending QA
+OQ-095-05 | Validate sensor data range | Bluetooth Sensor | TBD | Audit/event record shall be generated where applicable. | Pending QA
+OQ-095-06 | Generate high/low heart-rate alert | Local DB | Not ranked | User shall receive clear error message on failure. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 096 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-096-01 | Show trend chart for 7/30/90 days | Backend API | Medium | User shall receive clear error message on failure. | Draft
+OQ-096-02 | Handle offline mode | Bluetooth Sensor | Low | Audit/event record shall be generated where applicable. | Need SME
+OQ-096-03 | Consent capture and privacy notice | Android | Low | System shall complete the action without data loss. | Pending QA
+OQ-096-04 | Display current BPM with timestamp | Notification Service | Low | Data shall be encrypted in transit and at rest. | In Review
+OQ-096-05 | Validate sensor data range | Android | Not ranked | Result must be visible in mobile UI within expected time. | Pending QA
+OQ-096-06 | Capture heart rate from paired device | Local DB | Medium | User shall receive clear error message on failure. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 097 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ_97.1 | Show trend chart for 7/30/90 days | Cloud Sync | Not ranked | Data shall be encrypted in transit and at rest. | Pending QA
+OQ-097-02 | Battery and Bluetooth warning | Android/iOS | TBD | User shall receive clear error message on failure. | Rejected once
+OQ_97.3 | Battery and Bluetooth warning | Android | Low | User shall receive clear error message on failure. | Need SME
+OQ-097-04 | Export readings as PDF/CSV | Bluetooth Sensor | Low | User shall receive clear error message on failure. | Approved?
+OQ-097-05 | Handle offline mode | Cloud Sync | TBD | User shall receive clear error message on failure. | Rejected once
+OQ-097-06 | Generate high/low heart-rate alert | Bluetooth Sensor | Medium | Audit/event record shall be generated where applicable. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 098 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ_98.1 | Store readings securely on device | Android/iOS | Medium | TBD by clinical SME - intentionally incomplete. | In Review
+OQ-098-02 | Consent capture and privacy notice | Local DB | Low | Data shall be encrypted in transit and at rest. | Approved?
+OQ-098-03 | Battery and Bluetooth warning | Local DB | TBD | User shall receive clear error message on failure. | In Review
+OQ-098-04 | Display current BPM with timestamp | Cloud Sync | Not ranked | User shall receive clear error message on failure. | Need SME
+OQ-098-05 | Export readings as PDF/CSV | iOS | High | User shall receive clear error message on failure. | Pending QA
+OQ-098-06 | Battery and Bluetooth warning | Bluetooth Sensor | TBD | Result must be visible in mobile UI within expected time. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 099 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-099-01 | Export readings as PDF/CSV | Android/iOS | High | TBD by clinical SME - intentionally incomplete. | Draft
+OQ-099-02 | Manual heart rate entry when device unavailable | Android | Not ranked | Result must be visible in mobile UI within expected time. | Draft
+OQ-099-03 | Consent capture and privacy notice | Android | Medium | System shall complete the action without data loss. | Approved?
+OQ-099-04 | Capture heart rate from paired device | Backend API | High | System shall complete the action without data loss. | Pending QA
+OQ-099-05 | Support caregiver view | Bluetooth Sensor | Medium | TBD by clinical SME - intentionally incomplete. | Draft
+OQ-099-06 | Capture heart rate from paired device | Android | TBD | User shall receive clear error message on failure. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 100 / OQ ---
+This OQ defines operational verification for core app functions under controlled conditions. It intentionally mixes test cases, expected results, notes, and defects to stress a traceability engine.
+OQ-100-01 | Validate sensor data range | Local DB | TBD | Result must be visible in mobile UI within expected time. | Approved?
+OQ-100-02 | Battery and Bluetooth warning | Android | Low | Data shall be encrypted in transit and at rest. | Draft
+OQ-100-03 | Manual heart rate entry when device unavailable | Android | Medium | Result must be visible in mobile UI within expected time. | Pending QA
+OQ_100.4 | Notification retry and suppression | Cloud Sync | Low | System shall complete the action without data loss. | In Review
+OQ-100-05 | Capture heart rate from paired device | iOS | TBD | User shall receive clear error message on failure. | Draft
+OQ-100-06 | Generate high/low heart-rate alert | Android | High | System shall complete the action without data loss. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+

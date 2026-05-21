@@ -1,0 +1,501 @@
+document_name,doc_type,page,item_id,item_text,platform,risk,acceptance_expected,status,messy_flag
+Document 2 - FRS - Heart Rate Monitor Application,FRS,1,FRS_1.1,Show trend chart for 7/30/90 days,Local DB,TBD,TBD by clinical SME - intentionally incomplete.,Rejected once,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,1,FRS_1.2,Store readings securely on device,Bluetooth Sensor,Not ranked,Data shall be encrypted in transit and at rest.,Rejected once,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,1,FRS-001-03,Battery and Bluetooth warning,Notification Service,TBD,Result must be visible in mobile UI within expected time.,In Review,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,1,FRS-001-04,Capture heart rate from paired device,Notification Service,Medium,Data shall be encrypted in transit and at rest.,Need SME,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,1,FRS-001-05,Store readings securely on device,Android,Low,Audit/event record shall be generated where applicable.,Rejected once,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,2,FRS-002-01,Biometric login option,Bluetooth Sensor,High,Result must be visible in mobile UI within expected time.,In Review,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,2,FRS-002-02,Capture heart rate from paired device,Local DB,Not ranked,System shall complete the action without data loss.,Approved?,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,2,FRS_2.3,Display current BPM with timestamp,Notification Service,TBD,System shall complete the action without data loss.,Need SME,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,2,FRS-002-04,Validate sensor data range,Notification Service,High,TBD by clinical SME - intentionally incomplete.,In Review,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,2,FRS-002-05,Consent capture and privacy notice,Cloud Sync,Not ranked,System shall complete the action without data loss.,Rejected once,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,3,FRS-003-01,Consent capture and privacy notice,Android/iOS,Medium,Result must be visible in mobile UI within expected time.,Pending QA,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,3,FRS-003-02,Export readings as PDF/CSV,Backend API,Not ranked,User shall receive clear error message on failure.,Draft,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,3,FRS_3.3,Validate sensor data range,Cloud Sync,TBD,Result must be visible in mobile UI within expected time.,Need SME,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,3,FRS-003-04,Validate sensor data range,Backend API,Low,User shall receive clear error message on failure.,Rejected once,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,3,FRS-003-05,Battery and Bluetooth warning,Notification Service,Low,Result must be visible in mobile UI within expected time.,In Review,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,4,FRS-004-01,Support caregiver view,Android,Low,Audit/event record shall be generated where applicable.,Rejected once,RAG TEST CHUNK
+Document 2 - FRS - Heart Rate Monitor Application,FRS,4,FRS-004-02,Support caregiver view,Backend API,High,Data shall be encrypted in transit and at rest.,Rejected once,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,4,FRS-004-03,Biometric login option,Android/iOS,TBD,Audit/event record shall be generated where applicable.,Approved?,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,4,FRS-004-04,Validate sensor data range,Cloud Sync,Medium,Result must be visible in mobile UI within expected time.,Pending QA,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,4,FRS_4.5,Handle offline mode,iOS,Low,User shall receive clear error message on failure.,Approved?,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,5,FRS-005-01,Battery and Bluetooth warning,Local DB,Medium,Result must be visible in mobile UI within expected time.,Need SME,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,5,FRS-005-02,Show trend chart for 7/30/90 days,Android,TBD,User shall receive clear error message on failure.,Approved?,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,5,FRS-005-03,Validate sensor data range,Local DB,Not ranked,TBD by clinical SME - intentionally incomplete.,Rejected once,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,5,FRS-005-04,Manual heart rate entry when device unavailable,Cloud Sync,High,Result must be visible in mobile UI within expected time.,Rejected once,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,5,FRS_5.5,Audit user actions,Local DB,Not ranked,System shall complete the action without data loss.,Need SME,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,6,FRS-006-01,Battery and Bluetooth warning,iOS,Low,System shall complete the action without data loss.,In Review,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,6,FRS-006-02,Export readings as PDF/CSV,Android/iOS,Not ranked,TBD by clinical SME - intentionally incomplete.,Rejected once,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,6,FRS-006-03,Display current BPM with timestamp,iOS,Not ranked,Data shall be encrypted in transit and at rest.,Draft,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,6,FRS-006-04,Display current BPM with timestamp,Bluetooth Sensor,TBD,Result must be visible in mobile UI within expected time.,Need SME,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,6,FRS-006-05,Manual heart rate entry when device unavailable,Notification Service,High,TBD by clinical SME - intentionally incomplete.,Rejected once,RAG TEST CHUNK
+Document 2 - FRS - Heart Rate Monitor Application,FRS,7,FRS-007-01,Validate sensor data range,iOS,Not ranked,System shall complete the action without data loss.,In Review,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,7,FRS-007-02,Validate sensor data range,Local DB,High,Data shall be encrypted in transit and at rest.,In Review,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,7,FRS-007-03,Battery and Bluetooth warning,Android,Low,User shall receive clear error message on failure.,Draft,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,7,FRS-007-04,Manual heart rate entry when device unavailable,Local DB,Low,System shall complete the action without data loss.,Approved?,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,7,FRS-007-05,Handle offline mode,Notification Service,Low,Result must be visible in mobile UI within expected time.,Need SME,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,8,FRS-008-01,Show trend chart for 7/30/90 days,Android/iOS,High,Audit/event record shall be generated where applicable.,Approved?,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,8,FRS_8.2,Battery and Bluetooth warning,Notification Service,Not ranked,Result must be visible in mobile UI within expected time.,In Review,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,8,FRS-008-03,Support caregiver view,Cloud Sync,Low,TBD by clinical SME - intentionally incomplete.,Need SME,RAG TEST CHUNK
+Document 2 - FRS - Heart Rate Monitor Application,FRS,8,FRS-008-04,Store readings securely on device,Backend API,Low,TBD by clinical SME - intentionally incomplete.,Rejected once,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,8,FRS-008-05,Biometric login option,Cloud Sync,TBD,Audit/event record shall be generated where applicable.,Pending QA,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,9,FRS-009-01,Sync readings to cloud API,Cloud Sync,TBD,User shall receive clear error message on failure.,Pending QA,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,9,FRS-009-02,Biometric login option,Backend API,Low,TBD by clinical SME - intentionally incomplete.,In Review,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,9,FRS-009-03,Show trend chart for 7/30/90 days,Notification Service,Low,User shall receive clear error message on failure.,Need SME,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,9,FRS-009-04,Generate high/low heart-rate alert,Backend API,TBD,Audit/event record shall be generated where applicable.,Approved?,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,9,FRS-009-05,Generate high/low heart-rate alert,Android,High,TBD by clinical SME - intentionally incomplete.,Approved?,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,10,FRS_10.1,Consent capture and privacy notice,Local DB,Medium,System shall complete the action without data loss.,Need SME,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,10,FRS-010-02,Support caregiver view,Local DB,TBD,Audit/event record shall be generated where applicable.,In Review,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,10,FRS_10.3,Export readings as PDF/CSV,Backend API,High,Audit/event record shall be generated where applicable.,Rejected once,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,10,FRS-010-04,Store readings securely on device,Notification Service,High,Audit/event record shall be generated where applicable.,Approved?,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,10,FRS-010-05,Manual heart rate entry when device unavailable,Cloud Sync,Medium,Result must be visible in mobile UI within expected time.,Pending QA,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,11,FRS-011-01,Validate sensor data range,iOS,Not ranked,Audit/event record shall be generated where applicable.,In Review,RAG TEST CHUNK
+Document 2 - FRS - Heart Rate Monitor Application,FRS,11,FRS-011-02,Manual heart rate entry when device unavailable,Cloud Sync,Not ranked,User shall receive clear error message on failure.,Draft,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,11,FRS-011-03,Capture heart rate from paired device,Notification Service,High,TBD by clinical SME - intentionally incomplete.,In Review,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,11,FRS-011-04,Battery and Bluetooth warning,Backend API,Medium,Result must be visible in mobile UI within expected time.,Approved?,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,11,FRS-011-05,Display current BPM with timestamp,iOS,High,Data shall be encrypted in transit and at rest.,In Review,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,12,FRS-012-01,Biometric login option,Bluetooth Sensor,Not ranked,System shall complete the action without data loss.,Rejected once,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,12,FRS-012-02,Handle offline mode,Android,High,TBD by clinical SME - intentionally incomplete.,Approved?,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,12,FRS_12.3,Validate sensor data range,iOS,Medium,Audit/event record shall be generated where applicable.,Need SME,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,12,FRS-012-04,Export readings as PDF/CSV,Local DB,High,Audit/event record shall be generated where applicable.,Need SME,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,12,FRS-012-05,Notification retry and suppression,Cloud Sync,Not ranked,System shall complete the action without data loss.,Pending QA,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,13,FRS-013-01,Sync readings to cloud API,Local DB,TBD,User shall receive clear error message on failure.,Rejected once,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,13,FRS-013-02,Store readings securely on device,Backend API,Not ranked,Result must be visible in mobile UI within expected time.,Rejected once,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,13,FRS_13.3,Battery and Bluetooth warning,iOS,Low,TBD by clinical SME - intentionally incomplete.,Approved?,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,13,FRS-013-04,Sync readings to cloud API,iOS,High,Audit/event record shall be generated where applicable.,Need SME,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,13,FRS-013-05,Generate high/low heart-rate alert,iOS,High,System shall complete the action without data loss.,Draft,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,14,FRS-014-01,Capture heart rate from paired device,Backend API,High,User shall receive clear error message on failure.,Pending QA,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,14,FRS-014-02,Show trend chart for 7/30/90 days,Backend API,Low,User shall receive clear error message on failure.,Pending QA,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,14,FRS_14.3,Validate sensor data range,Android/iOS,Medium,TBD by clinical SME - intentionally incomplete.,In Review,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,14,FRS-014-04,Store readings securely on device,Local DB,TBD,Audit/event record shall be generated where applicable.,Draft,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,14,FRS-014-05,Manual heart rate entry when device unavailable,Cloud Sync,High,User shall receive clear error message on failure.,Need SME,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,15,FRS-015-01,Export readings as PDF/CSV,Android,Medium,User shall receive clear error message on failure.,Rejected once,RAG TEST CHUNK
+Document 2 - FRS - Heart Rate Monitor Application,FRS,15,FRS-015-02,Generate high/low heart-rate alert,Bluetooth Sensor,Medium,Result must be visible in mobile UI within expected time.,Approved?,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,15,FRS-015-03,Validate sensor data range,Notification Service,TBD,Result must be visible in mobile UI within expected time.,Need SME,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,15,FRS-015-04,Battery and Bluetooth warning,Bluetooth Sensor,Low,TBD by clinical SME - intentionally incomplete.,In Review,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,15,FRS-015-05,Notification retry and suppression,Local DB,High,Audit/event record shall be generated where applicable.,Draft,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,16,FRS-016-01,Notification retry and suppression,Notification Service,Low,Result must be visible in mobile UI within expected time.,Approved?,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,16,FRS-016-02,Store readings securely on device,Bluetooth Sensor,High,System shall complete the action without data loss.,Draft,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,16,FRS-016-03,Validate sensor data range,Android/iOS,Not ranked,Result must be visible in mobile UI within expected time.,Pending QA,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,16,FRS-016-04,Generate high/low heart-rate alert,Cloud Sync,Not ranked,Data shall be encrypted in transit and at rest.,In Review,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,16,FRS-016-05,Sync readings to cloud API,Bluetooth Sensor,Not ranked,User shall receive clear error message on failure.,Pending QA,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,17,FRS-017-01,Show trend chart for 7/30/90 days,Android,Medium,Audit/event record shall be generated where applicable.,Need SME,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,17,FRS-017-02,Biometric login option,Android/iOS,Low,Audit/event record shall be generated where applicable.,Pending QA,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,17,FRS-017-03,Manual heart rate entry when device unavailable,Notification Service,High,Audit/event record shall be generated where applicable.,Pending QA,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,17,FRS-017-04,Generate high/low heart-rate alert,Cloud Sync,Not ranked,User shall receive clear error message on failure.,Rejected once,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,17,FRS_17.5,Capture heart rate from paired device,Backend API,High,Audit/event record shall be generated where applicable.,Rejected once,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,18,FRS_18.1,Handle offline mode,Android/iOS,TBD,User shall receive clear error message on failure.,Approved?,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,18,FRS_18.2,Sync readings to cloud API,iOS,Low,Result must be visible in mobile UI within expected time.,Rejected once,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,18,FRS-018-03,Notification retry and suppression,iOS,Medium,Data shall be encrypted in transit and at rest.,Rejected once,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,18,FRS_18.4,Handle offline mode,Notification Service,High,Result must be visible in mobile UI within expected time.,Rejected once,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,18,FRS-018-05,Generate high/low heart-rate alert,Cloud Sync,Not ranked,Result must be visible in mobile UI within expected time.,Approved?,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,19,FRS-019-01,Display current BPM with timestamp,Android,TBD,User shall receive clear error message on failure.,Rejected once,RAG TEST CHUNK
+Document 2 - FRS - Heart Rate Monitor Application,FRS,19,FRS-019-02,Validate sensor data range,Bluetooth Sensor,TBD,System shall complete the action without data loss.,Rejected once,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,19,FRS_19.3,Consent capture and privacy notice,Cloud Sync,Medium,User shall receive clear error message on failure.,Pending QA,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,19,FRS-019-04,Audit user actions,Android,High,Result must be visible in mobile UI within expected time.,Pending QA,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,19,FRS-019-05,Handle offline mode,Bluetooth Sensor,Low,User shall receive clear error message on failure.,Approved?,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,20,FRS-020-01,Export readings as PDF/CSV,Cloud Sync,TBD,Audit/event record shall be generated where applicable.,Rejected once,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,20,FRS-020-02,Audit user actions,Cloud Sync,TBD,Audit/event record shall be generated where applicable.,Approved?,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,20,FRS-020-03,Manual heart rate entry when device unavailable,Bluetooth Sensor,Medium,User shall receive clear error message on failure.,Rejected once,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,20,FRS-020-04,Battery and Bluetooth warning,Android,High,Data shall be encrypted in transit and at rest.,Approved?,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,20,FRS-020-05,Notification retry and suppression,Notification Service,High,Audit/event record shall be generated where applicable.,In Review,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,21,FRS-021-01,Audit user actions,Cloud Sync,High,Audit/event record shall be generated where applicable.,Pending QA,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,21,FRS-021-02,Sync readings to cloud API,Cloud Sync,High,Result must be visible in mobile UI within expected time.,Draft,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,21,FRS_21.3,Export readings as PDF/CSV,Notification Service,TBD,Result must be visible in mobile UI within expected time.,In Review,RAG TEST CHUNK
+Document 2 - FRS - Heart Rate Monitor Application,FRS,21,FRS-021-04,Export readings as PDF/CSV,Bluetooth Sensor,Low,System shall complete the action without data loss.,In Review,RAG TEST CHUNK
+Document 2 - FRS - Heart Rate Monitor Application,FRS,21,FRS-021-05,Store readings securely on device,Notification Service,Medium,Data shall be encrypted in transit and at rest.,Pending QA,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,22,FRS_22.1,Validate sensor data range,Bluetooth Sensor,Medium,Data shall be encrypted in transit and at rest.,Draft,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,22,FRS-022-02,Handle offline mode,Cloud Sync,Not ranked,System shall complete the action without data loss.,Pending QA,RAG TEST CHUNK
+Document 2 - FRS - Heart Rate Monitor Application,FRS,22,FRS-022-03,Store readings securely on device,Local DB,Not ranked,Audit/event record shall be generated where applicable.,Need SME,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,22,FRS-022-04,Sync readings to cloud API,Android/iOS,TBD,Data shall be encrypted in transit and at rest.,Rejected once,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,22,FRS-022-05,Handle offline mode,Notification Service,Not ranked,Result must be visible in mobile UI within expected time.,Draft,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,23,FRS-023-01,Biometric login option,Backend API,Not ranked,TBD by clinical SME - intentionally incomplete.,Pending QA,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,23,FRS_23.2,Notification retry and suppression,Notification Service,High,Result must be visible in mobile UI within expected time.,In Review,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,23,FRS_23.3,Capture heart rate from paired device,Android,High,User shall receive clear error message on failure.,Draft,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,23,FRS-023-04,Notification retry and suppression,iOS,High,System shall complete the action without data loss.,Approved?,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,23,FRS_23.5,Audit user actions,Android,High,Data shall be encrypted in transit and at rest.,Rejected once,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,24,FRS-024-01,Support caregiver view,iOS,Not ranked,System shall complete the action without data loss.,Need SME,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,24,FRS-024-02,Consent capture and privacy notice,iOS,Not ranked,Audit/event record shall be generated where applicable.,In Review,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,24,FRS-024-03,Validate sensor data range,Local DB,TBD,Result must be visible in mobile UI within expected time.,In Review,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,24,FRS-024-04,Battery and Bluetooth warning,Backend API,Not ranked,Audit/event record shall be generated where applicable.,Draft,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,24,FRS-024-05,Export readings as PDF/CSV,Local DB,Low,Audit/event record shall be generated where applicable.,Draft,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,25,FRS-025-01,Validate sensor data range,Local DB,High,TBD by clinical SME - intentionally incomplete.,In Review,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,25,FRS-025-02,Handle offline mode,Notification Service,Medium,Audit/event record shall be generated where applicable.,Pending QA,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,25,FRS-025-03,Store readings securely on device,Notification Service,Low,Audit/event record shall be generated where applicable.,Draft,RAG TEST CHUNK
+Document 2 - FRS - Heart Rate Monitor Application,FRS,25,FRS-025-04,Support caregiver view,Android/iOS,Medium,System shall complete the action without data loss.,Rejected once,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,25,FRS-025-05,Display current BPM with timestamp,Local DB,Low,User shall receive clear error message on failure.,Need SME,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,26,FRS-026-01,Notification retry and suppression,Notification Service,High,Audit/event record shall be generated where applicable.,In Review,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,26,FRS-026-02,Battery and Bluetooth warning,Local DB,Low,Data shall be encrypted in transit and at rest.,Pending QA,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,26,FRS-026-03,Store readings securely on device,Bluetooth Sensor,Low,Result must be visible in mobile UI within expected time.,Pending QA,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,26,FRS-026-04,Audit user actions,Local DB,Low,Result must be visible in mobile UI within expected time.,Rejected once,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,26,FRS_26.5,Display current BPM with timestamp,Android,High,Audit/event record shall be generated where applicable.,Need SME,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,27,FRS_27.1,Validate sensor data range,Local DB,High,TBD by clinical SME - intentionally incomplete.,Approved?,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,27,FRS-027-02,Support caregiver view,Cloud Sync,TBD,User shall receive clear error message on failure.,In Review,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,27,FRS_27.3,Store readings securely on device,Android/iOS,High,System shall complete the action without data loss.,Approved?,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,27,FRS_27.4,Consent capture and privacy notice,Backend API,TBD,User shall receive clear error message on failure.,Draft,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,27,FRS-027-05,Notification retry and suppression,Backend API,Low,Data shall be encrypted in transit and at rest.,In Review,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,28,FRS-028-01,Support caregiver view,Notification Service,Medium,User shall receive clear error message on failure.,Rejected once,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,28,FRS-028-02,Show trend chart for 7/30/90 days,Notification Service,Low,Data shall be encrypted in transit and at rest.,Draft,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,28,FRS-028-03,Audit user actions,iOS,Medium,Audit/event record shall be generated where applicable.,Approved?,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,28,FRS-028-04,Show trend chart for 7/30/90 days,Local DB,Medium,Data shall be encrypted in transit and at rest.,Rejected once,RAG TEST CHUNK
+Document 2 - FRS - Heart Rate Monitor Application,FRS,28,FRS-028-05,Sync readings to cloud API,Local DB,Low,Audit/event record shall be generated where applicable.,Approved?,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,29,FRS-029-01,Capture heart rate from paired device,Android/iOS,TBD,Result must be visible in mobile UI within expected time.,Rejected once,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,29,FRS-029-02,Consent capture and privacy notice,Android/iOS,TBD,Data shall be encrypted in transit and at rest.,Rejected once,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,29,FRS-029-03,Manual heart rate entry when device unavailable,Notification Service,TBD,Result must be visible in mobile UI within expected time.,Pending QA,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,29,FRS-029-04,Audit user actions,Cloud Sync,Low,System shall complete the action without data loss.,Pending QA,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,29,FRS-029-05,Capture heart rate from paired device,Backend API,Medium,Result must be visible in mobile UI within expected time.,In Review,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,30,FRS-030-01,Sync readings to cloud API,iOS,TBD,Audit/event record shall be generated where applicable.,Draft,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,30,FRS-030-02,Show trend chart for 7/30/90 days,Local DB,Medium,System shall complete the action without data loss.,Approved?,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,30,FRS-030-03,Export readings as PDF/CSV,Android/iOS,High,Result must be visible in mobile UI within expected time.,Draft,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,30,FRS-030-04,Sync readings to cloud API,Android,TBD,Result must be visible in mobile UI within expected time.,Approved?,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,30,FRS-030-05,Support caregiver view,Local DB,Low,TBD by clinical SME - intentionally incomplete.,In Review,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,31,FRS-031-01,Support caregiver view,iOS,High,Data shall be encrypted in transit and at rest.,Need SME,RAG TEST CHUNK
+Document 2 - FRS - Heart Rate Monitor Application,FRS,31,FRS-031-02,Validate sensor data range,Bluetooth Sensor,TBD,System shall complete the action without data loss.,Need SME,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,31,FRS_31.3,Display current BPM with timestamp,Local DB,High,Data shall be encrypted in transit and at rest.,Rejected once,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,31,FRS-031-04,Export readings as PDF/CSV,Cloud Sync,High,System shall complete the action without data loss.,Draft,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,31,FRS-031-05,Store readings securely on device,Backend API,TBD,TBD by clinical SME - intentionally incomplete.,Approved?,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,32,FRS-032-01,Show trend chart for 7/30/90 days,Cloud Sync,High,User shall receive clear error message on failure.,In Review,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,32,FRS_32.2,Support caregiver view,Local DB,TBD,Data shall be encrypted in transit and at rest.,Approved?,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,32,FRS-032-03,Biometric login option,Bluetooth Sensor,Medium,Audit/event record shall be generated where applicable.,In Review,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,32,FRS-032-04,Handle offline mode,Android/iOS,High,TBD by clinical SME - intentionally incomplete.,Need SME,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,32,FRS_32.5,Generate high/low heart-rate alert,Local DB,Medium,TBD by clinical SME - intentionally incomplete.,Rejected once,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,33,FRS-033-01,Sync readings to cloud API,iOS,Medium,Result must be visible in mobile UI within expected time.,Rejected once,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,33,FRS-033-02,Support caregiver view,Backend API,Not ranked,Result must be visible in mobile UI within expected time.,In Review,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,33,FRS-033-03,Validate sensor data range,Android,Low,User shall receive clear error message on failure.,Rejected once,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,33,FRS_33.4,Capture heart rate from paired device,Android,Medium,TBD by clinical SME - intentionally incomplete.,Need SME,RAG TEST CHUNK
+Document 2 - FRS - Heart Rate Monitor Application,FRS,33,FRS-033-05,Notification retry and suppression,Android/iOS,Not ranked,Result must be visible in mobile UI within expected time.,In Review,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,34,FRS-034-01,Manual heart rate entry when device unavailable,Android/iOS,Low,User shall receive clear error message on failure.,Pending QA,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,34,FRS-034-02,Validate sensor data range,Bluetooth Sensor,High,Audit/event record shall be generated where applicable.,Approved?,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,34,FRS-034-03,Export readings as PDF/CSV,Android/iOS,High,User shall receive clear error message on failure.,Draft,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,34,FRS-034-04,Capture heart rate from paired device,Notification Service,Medium,System shall complete the action without data loss.,Rejected once,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,34,FRS-034-05,Store readings securely on device,iOS,TBD,Audit/event record shall be generated where applicable.,Rejected once,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,35,FRS-035-01,Generate high/low heart-rate alert,Backend API,Medium,Result must be visible in mobile UI within expected time.,Draft,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,35,FRS_35.2,Show trend chart for 7/30/90 days,Bluetooth Sensor,Not ranked,System shall complete the action without data loss.,Approved?,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,35,FRS_35.3,Show trend chart for 7/30/90 days,Android,Not ranked,User shall receive clear error message on failure.,Rejected once,RAG TEST CHUNK
+Document 2 - FRS - Heart Rate Monitor Application,FRS,35,FRS-035-04,Biometric login option,iOS,Medium,Result must be visible in mobile UI within expected time.,Draft,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,35,FRS-035-05,Validate sensor data range,iOS,Not ranked,System shall complete the action without data loss.,Approved?,RAG TEST CHUNK
+Document 2 - FRS - Heart Rate Monitor Application,FRS,36,FRS-036-01,Notification retry and suppression,Android/iOS,Low,Audit/event record shall be generated where applicable.,Approved?,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,36,FRS-036-02,Notification retry and suppression,Notification Service,High,User shall receive clear error message on failure.,Draft,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,36,FRS-036-03,Notification retry and suppression,Local DB,Medium,Result must be visible in mobile UI within expected time.,Need SME,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,36,FRS_36.4,Handle offline mode,Backend API,Low,TBD by clinical SME - intentionally incomplete.,In Review,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,36,FRS-036-05,Biometric login option,Backend API,Not ranked,Result must be visible in mobile UI within expected time.,Need SME,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,37,FRS-037-01,Biometric login option,Bluetooth Sensor,High,Data shall be encrypted in transit and at rest.,Approved?,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,37,FRS-037-02,Manual heart rate entry when device unavailable,Android/iOS,Low,Result must be visible in mobile UI within expected time.,Rejected once,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,37,FRS_37.3,Handle offline mode,iOS,Medium,Data shall be encrypted in transit and at rest.,Approved?,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,37,FRS-037-04,Display current BPM with timestamp,Bluetooth Sensor,TBD,User shall receive clear error message on failure.,Pending QA,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,37,FRS-037-05,Store readings securely on device,Notification Service,High,TBD by clinical SME - intentionally incomplete.,Draft,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,38,FRS-038-01,Show trend chart for 7/30/90 days,Local DB,Not ranked,Result must be visible in mobile UI within expected time.,Pending QA,RAG TEST CHUNK
+Document 2 - FRS - Heart Rate Monitor Application,FRS,38,FRS-038-02,Consent capture and privacy notice,Notification Service,Not ranked,Result must be visible in mobile UI within expected time.,Approved?,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,38,FRS-038-03,Capture heart rate from paired device,Android,High,Result must be visible in mobile UI within expected time.,Rejected once,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,38,FRS-038-04,Display current BPM with timestamp,Cloud Sync,Not ranked,Audit/event record shall be generated where applicable.,Approved?,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,38,FRS-038-05,Generate high/low heart-rate alert,iOS,TBD,Result must be visible in mobile UI within expected time.,Pending QA,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,39,FRS-039-01,Generate high/low heart-rate alert,Cloud Sync,High,TBD by clinical SME - intentionally incomplete.,Approved?,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,39,FRS-039-02,Validate sensor data range,Local DB,Not ranked,Audit/event record shall be generated where applicable.,Draft,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,39,FRS_39.3,Battery and Bluetooth warning,Notification Service,High,Audit/event record shall be generated where applicable.,Need SME,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,39,FRS-039-04,Display current BPM with timestamp,Android,High,Data shall be encrypted in transit and at rest.,In Review,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,39,FRS-039-05,Biometric login option,Bluetooth Sensor,Medium,Data shall be encrypted in transit and at rest.,Pending QA,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,40,FRS-040-01,Capture heart rate from paired device,Notification Service,Not ranked,System shall complete the action without data loss.,Pending QA,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,40,FRS-040-02,Sync readings to cloud API,Android,High,Data shall be encrypted in transit and at rest.,Draft,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,40,FRS-040-03,Store readings securely on device,Notification Service,Low,TBD by clinical SME - intentionally incomplete.,In Review,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,40,FRS-040-04,Validate sensor data range,Backend API,Low,System shall complete the action without data loss.,Rejected once,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,40,FRS-040-05,Generate high/low heart-rate alert,Local DB,TBD,User shall receive clear error message on failure.,Approved?,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,41,FRS-041-01,Store readings securely on device,Cloud Sync,Not ranked,Audit/event record shall be generated where applicable.,Draft,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,41,FRS-041-02,Handle offline mode,iOS,TBD,TBD by clinical SME - intentionally incomplete.,Draft,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,41,FRS-041-03,Support caregiver view,Notification Service,Not ranked,TBD by clinical SME - intentionally incomplete.,Draft,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,41,FRS-041-04,Validate sensor data range,Cloud Sync,TBD,Audit/event record shall be generated where applicable.,In Review,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,41,FRS-041-05,Audit user actions,Local DB,Not ranked,User shall receive clear error message on failure.,Rejected once,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,42,FRS-042-01,Capture heart rate from paired device,Local DB,TBD,Audit/event record shall be generated where applicable.,Approved?,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,42,FRS-042-02,Notification retry and suppression,Notification Service,High,Result must be visible in mobile UI within expected time.,Approved?,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,42,FRS_42.3,Validate sensor data range,Bluetooth Sensor,Medium,Data shall be encrypted in transit and at rest.,Rejected once,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,42,FRS-042-04,Handle offline mode,Cloud Sync,Medium,System shall complete the action without data loss.,Rejected once,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,42,FRS-042-05,Store readings securely on device,Cloud Sync,High,Audit/event record shall be generated where applicable.,Rejected once,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,43,FRS-043-01,Display current BPM with timestamp,Cloud Sync,High,TBD by clinical SME - intentionally incomplete.,Need SME,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,43,FRS-043-02,Audit user actions,Cloud Sync,Medium,Audit/event record shall be generated where applicable.,Rejected once,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,43,FRS-043-03,Store readings securely on device,iOS,High,Data shall be encrypted in transit and at rest.,Pending QA,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,43,FRS-043-04,Support caregiver view,Cloud Sync,High,User shall receive clear error message on failure.,Draft,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,43,FRS-043-05,Notification retry and suppression,Local DB,Low,User shall receive clear error message on failure.,Pending QA,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,44,FRS_44.1,Validate sensor data range,Bluetooth Sensor,TBD,TBD by clinical SME - intentionally incomplete.,Pending QA,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,44,FRS-044-02,Validate sensor data range,Android,Not ranked,System shall complete the action without data loss.,Need SME,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,44,FRS-044-03,Handle offline mode,Backend API,High,Data shall be encrypted in transit and at rest.,Approved?,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,44,FRS-044-04,Consent capture and privacy notice,Local DB,Medium,User shall receive clear error message on failure.,Pending QA,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,44,FRS-044-05,Display current BPM with timestamp,Cloud Sync,Not ranked,Audit/event record shall be generated where applicable.,Approved?,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,45,FRS_45.1,Export readings as PDF/CSV,Android/iOS,Low,Result must be visible in mobile UI within expected time.,Need SME,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,45,FRS-045-02,Biometric login option,Android,High,Data shall be encrypted in transit and at rest.,Need SME,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,45,FRS-045-03,Audit user actions,Android/iOS,Not ranked,User shall receive clear error message on failure.,Approved?,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,45,FRS-045-04,Biometric login option,Notification Service,Not ranked,Result must be visible in mobile UI within expected time.,Approved?,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,45,FRS-045-05,Display current BPM with timestamp,Bluetooth Sensor,TBD,Audit/event record shall be generated where applicable.,Draft,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,46,FRS-046-01,Display current BPM with timestamp,Cloud Sync,Not ranked,System shall complete the action without data loss.,Need SME,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,46,FRS-046-02,Notification retry and suppression,Backend API,Medium,TBD by clinical SME - intentionally incomplete.,Pending QA,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,46,FRS-046-03,Consent capture and privacy notice,Cloud Sync,TBD,Audit/event record shall be generated where applicable.,Draft,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,46,FRS-046-04,Display current BPM with timestamp,Bluetooth Sensor,Medium,Data shall be encrypted in transit and at rest.,Rejected once,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,46,FRS-046-05,Audit user actions,Backend API,Low,Result must be visible in mobile UI within expected time.,Rejected once,RAG TEST CHUNK
+Document 2 - FRS - Heart Rate Monitor Application,FRS,47,FRS-047-01,Battery and Bluetooth warning,Android,Low,System shall complete the action without data loss.,Approved?,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,47,FRS-047-02,Validate sensor data range,Notification Service,TBD,Result must be visible in mobile UI within expected time.,Approved?,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,47,FRS-047-03,Show trend chart for 7/30/90 days,Android/iOS,Medium,User shall receive clear error message on failure.,Need SME,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,47,FRS-047-04,Store readings securely on device,Bluetooth Sensor,Not ranked,Audit/event record shall be generated where applicable.,In Review,RAG TEST CHUNK
+Document 2 - FRS - Heart Rate Monitor Application,FRS,47,FRS-047-05,Sync readings to cloud API,Backend API,High,User shall receive clear error message on failure.,Draft,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,48,FRS-048-01,Support caregiver view,iOS,Low,System shall complete the action without data loss.,Draft,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,48,FRS-048-02,Notification retry and suppression,Backend API,Medium,Audit/event record shall be generated where applicable.,Need SME,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,48,FRS_48.3,Store readings securely on device,Local DB,TBD,User shall receive clear error message on failure.,Rejected once,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,48,FRS-048-04,Generate high/low heart-rate alert,iOS,Low,System shall complete the action without data loss.,Need SME,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,48,FRS-048-05,Store readings securely on device,Android,High,Audit/event record shall be generated where applicable.,Draft,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,49,FRS-049-01,Export readings as PDF/CSV,Android/iOS,Medium,Data shall be encrypted in transit and at rest.,Pending QA,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,49,FRS-049-02,Validate sensor data range,Bluetooth Sensor,TBD,System shall complete the action without data loss.,Need SME,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,49,FRS-049-03,Capture heart rate from paired device,Cloud Sync,High,System shall complete the action without data loss.,Rejected once,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,49,FRS-049-04,Export readings as PDF/CSV,Notification Service,Not ranked,Audit/event record shall be generated where applicable.,Approved?,RAG TEST CHUNK
+Document 2 - FRS - Heart Rate Monitor Application,FRS,49,FRS-049-05,Biometric login option,Backend API,Medium,Audit/event record shall be generated where applicable.,Draft,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,50,FRS-050-01,Audit user actions,iOS,TBD,Audit/event record shall be generated where applicable.,In Review,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,50,FRS-050-02,Sync readings to cloud API,Notification Service,Low,User shall receive clear error message on failure.,Rejected once,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,50,FRS-050-03,Show trend chart for 7/30/90 days,Cloud Sync,Not ranked,Data shall be encrypted in transit and at rest.,Rejected once,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,50,FRS-050-04,Sync readings to cloud API,Local DB,Medium,Audit/event record shall be generated where applicable.,In Review,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,50,FRS_50.5,Battery and Bluetooth warning,Backend API,Not ranked,User shall receive clear error message on failure.,Draft,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,51,FRS-051-01,Sync readings to cloud API,iOS,Medium,TBD by clinical SME - intentionally incomplete.,Need SME,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,51,FRS-051-02,Support caregiver view,Bluetooth Sensor,High,TBD by clinical SME - intentionally incomplete.,Draft,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,51,FRS-051-03,Sync readings to cloud API,Android/iOS,High,Audit/event record shall be generated where applicable.,Pending QA,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,51,FRS-051-04,Audit user actions,Local DB,Low,User shall receive clear error message on failure.,Draft,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,51,FRS-051-05,Handle offline mode,Bluetooth Sensor,TBD,Result must be visible in mobile UI within expected time.,Approved?,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,52,FRS-052-01,Generate high/low heart-rate alert,Backend API,Low,Result must be visible in mobile UI within expected time.,Need SME,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,52,FRS-052-02,Display current BPM with timestamp,Local DB,TBD,User shall receive clear error message on failure.,In Review,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,52,FRS-052-03,Handle offline mode,Bluetooth Sensor,TBD,Audit/event record shall be generated where applicable.,Rejected once,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,52,FRS-052-04,Support caregiver view,Local DB,Low,Data shall be encrypted in transit and at rest.,Approved?,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,52,FRS-052-05,Store readings securely on device,iOS,TBD,Audit/event record shall be generated where applicable.,Approved?,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,53,FRS_53.1,Validate sensor data range,Local DB,TBD,Audit/event record shall be generated where applicable.,Need SME,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,53,FRS_53.2,Biometric login option,Bluetooth Sensor,Low,Audit/event record shall be generated where applicable.,Approved?,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,53,FRS-053-03,Store readings securely on device,Android/iOS,TBD,Audit/event record shall be generated where applicable.,Pending QA,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,53,FRS-053-04,Audit user actions,Android/iOS,Not ranked,System shall complete the action without data loss.,Approved?,RAG TEST CHUNK
+Document 2 - FRS - Heart Rate Monitor Application,FRS,53,FRS-053-05,Export readings as PDF/CSV,Cloud Sync,High,System shall complete the action without data loss.,In Review,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,54,FRS-054-01,Consent capture and privacy notice,Cloud Sync,High,User shall receive clear error message on failure.,Pending QA,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,54,FRS-054-02,Support caregiver view,iOS,Not ranked,User shall receive clear error message on failure.,Need SME,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,54,FRS-054-03,Audit user actions,Android/iOS,TBD,TBD by clinical SME - intentionally incomplete.,Pending QA,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,54,FRS-054-04,Handle offline mode,Backend API,Not ranked,Data shall be encrypted in transit and at rest.,In Review,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,54,FRS_54.5,Notification retry and suppression,Local DB,High,Data shall be encrypted in transit and at rest.,Pending QA,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,55,FRS-055-01,Battery and Bluetooth warning,Android,TBD,Data shall be encrypted in transit and at rest.,In Review,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,55,FRS-055-02,Generate high/low heart-rate alert,Bluetooth Sensor,High,System shall complete the action without data loss.,In Review,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,55,FRS-055-03,Notification retry and suppression,Android/iOS,Low,Data shall be encrypted in transit and at rest.,In Review,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,55,FRS-055-04,Consent capture and privacy notice,Android/iOS,Not ranked,Data shall be encrypted in transit and at rest.,Approved?,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,55,FRS_55.5,Store readings securely on device,Backend API,Medium,Result must be visible in mobile UI within expected time.,In Review,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,56,FRS-056-01,Show trend chart for 7/30/90 days,Android,High,Audit/event record shall be generated where applicable.,Need SME,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,56,FRS-056-02,Consent capture and privacy notice,Android/iOS,High,TBD by clinical SME - intentionally incomplete.,In Review,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,56,FRS-056-03,Display current BPM with timestamp,Cloud Sync,Not ranked,Audit/event record shall be generated where applicable.,Need SME,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,56,FRS_56.4,Capture heart rate from paired device,iOS,TBD,Result must be visible in mobile UI within expected time.,Draft,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,56,FRS_56.5,Support caregiver view,Backend API,Not ranked,System shall complete the action without data loss.,In Review,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,57,FRS-057-01,Handle offline mode,Android/iOS,TBD,System shall complete the action without data loss.,Approved?,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,57,FRS-057-02,Support caregiver view,Local DB,Low,TBD by clinical SME - intentionally incomplete.,Rejected once,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,57,FRS-057-03,Show trend chart for 7/30/90 days,Cloud Sync,Not ranked,TBD by clinical SME - intentionally incomplete.,Draft,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,57,FRS-057-04,Biometric login option,Android,Not ranked,User shall receive clear error message on failure.,Approved?,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,57,FRS-057-05,Support caregiver view,Android/iOS,Low,Data shall be encrypted in transit and at rest.,Draft,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,58,FRS-058-01,Capture heart rate from paired device,Bluetooth Sensor,High,Data shall be encrypted in transit and at rest.,Pending QA,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,58,FRS-058-02,Sync readings to cloud API,Notification Service,Medium,System shall complete the action without data loss.,Need SME,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,58,FRS-058-03,Capture heart rate from paired device,Local DB,High,TBD by clinical SME - intentionally incomplete.,In Review,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,58,FRS-058-04,Export readings as PDF/CSV,Notification Service,Low,System shall complete the action without data loss.,Rejected once,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,58,FRS-058-05,Display current BPM with timestamp,iOS,Medium,TBD by clinical SME - intentionally incomplete.,In Review,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,59,FRS-059-01,Consent capture and privacy notice,Local DB,Low,User shall receive clear error message on failure.,Draft,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,59,FRS-059-02,Audit user actions,Notification Service,High,Result must be visible in mobile UI within expected time.,Rejected once,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,59,FRS-059-03,Show trend chart for 7/30/90 days,Notification Service,Low,TBD by clinical SME - intentionally incomplete.,Approved?,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,59,FRS-059-04,Export readings as PDF/CSV,iOS,Low,TBD by clinical SME - intentionally incomplete.,Draft,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,59,FRS-059-05,Store readings securely on device,Local DB,Low,User shall receive clear error message on failure.,Draft,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,60,FRS-060-01,Biometric login option,Local DB,Not ranked,User shall receive clear error message on failure.,Approved?,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,60,FRS-060-02,Notification retry and suppression,Android/iOS,Low,Data shall be encrypted in transit and at rest.,In Review,RAG TEST CHUNK
+Document 2 - FRS - Heart Rate Monitor Application,FRS,60,FRS-060-03,Audit user actions,Backend API,Medium,Result must be visible in mobile UI within expected time.,In Review,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,60,FRS-060-04,Display current BPM with timestamp,iOS,Not ranked,Data shall be encrypted in transit and at rest.,Approved?,RAG TEST CHUNK
+Document 2 - FRS - Heart Rate Monitor Application,FRS,60,FRS-060-05,Capture heart rate from paired device,Notification Service,Medium,TBD by clinical SME - intentionally incomplete.,Need SME,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,61,FRS-061-01,Store readings securely on device,Cloud Sync,Medium,User shall receive clear error message on failure.,Pending QA,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,61,FRS-061-02,Validate sensor data range,Notification Service,Medium,Result must be visible in mobile UI within expected time.,In Review,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,61,FRS-061-03,Battery and Bluetooth warning,Cloud Sync,High,Result must be visible in mobile UI within expected time.,In Review,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,61,FRS-061-04,Sync readings to cloud API,Backend API,High,Result must be visible in mobile UI within expected time.,In Review,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,61,FRS_61.5,Manual heart rate entry when device unavailable,Android,Medium,Result must be visible in mobile UI within expected time.,Draft,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,62,FRS-062-01,Show trend chart for 7/30/90 days,Backend API,TBD,User shall receive clear error message on failure.,Pending QA,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,62,FRS-062-02,Handle offline mode,Android,Not ranked,Data shall be encrypted in transit and at rest.,Draft,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,62,FRS-062-03,Battery and Bluetooth warning,Cloud Sync,TBD,TBD by clinical SME - intentionally incomplete.,Rejected once,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,62,FRS_62.4,Manual heart rate entry when device unavailable,Android/iOS,Low,Result must be visible in mobile UI within expected time.,Rejected once,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,62,FRS-062-05,Capture heart rate from paired device,Bluetooth Sensor,TBD,System shall complete the action without data loss.,Approved?,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,63,FRS-063-01,Biometric login option,Android/iOS,Medium,Data shall be encrypted in transit and at rest.,Pending QA,RAG TEST CHUNK
+Document 2 - FRS - Heart Rate Monitor Application,FRS,63,FRS-063-02,Sync readings to cloud API,Local DB,Medium,Data shall be encrypted in transit and at rest.,Need SME,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,63,FRS-063-03,Biometric login option,Android,Low,User shall receive clear error message on failure.,Rejected once,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,63,FRS-063-04,Biometric login option,Notification Service,High,Result must be visible in mobile UI within expected time.,Need SME,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,63,FRS_63.5,Audit user actions,Cloud Sync,Not ranked,Audit/event record shall be generated where applicable.,Pending QA,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,64,FRS-064-01,Handle offline mode,Android,Low,Data shall be encrypted in transit and at rest.,Need SME,RAG TEST CHUNK
+Document 2 - FRS - Heart Rate Monitor Application,FRS,64,FRS_64.2,Battery and Bluetooth warning,Local DB,High,Data shall be encrypted in transit and at rest.,Approved?,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,64,FRS-064-03,Validate sensor data range,Bluetooth Sensor,Medium,Result must be visible in mobile UI within expected time.,Draft,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,64,FRS-064-04,Audit user actions,Bluetooth Sensor,TBD,User shall receive clear error message on failure.,Need SME,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,64,FRS-064-05,Notification retry and suppression,iOS,TBD,System shall complete the action without data loss.,Approved?,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,65,FRS-065-01,Manual heart rate entry when device unavailable,Local DB,Medium,System shall complete the action without data loss.,In Review,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,65,FRS-065-02,Capture heart rate from paired device,Local DB,Medium,Data shall be encrypted in transit and at rest.,In Review,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,65,FRS-065-03,Sync readings to cloud API,Notification Service,Medium,Result must be visible in mobile UI within expected time.,Pending QA,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,65,FRS-065-04,Consent capture and privacy notice,Cloud Sync,High,User shall receive clear error message on failure.,Need SME,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,65,FRS-065-05,Capture heart rate from paired device,Local DB,Low,User shall receive clear error message on failure.,In Review,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,66,FRS-066-01,Export readings as PDF/CSV,iOS,TBD,Data shall be encrypted in transit and at rest.,Draft,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,66,FRS-066-02,Support caregiver view,iOS,Low,User shall receive clear error message on failure.,Draft,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,66,FRS-066-03,Handle offline mode,Notification Service,TBD,Result must be visible in mobile UI within expected time.,Rejected once,RAG TEST CHUNK
+Document 2 - FRS - Heart Rate Monitor Application,FRS,66,FRS-066-04,Audit user actions,Backend API,Low,User shall receive clear error message on failure.,Pending QA,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,66,FRS-066-05,Show trend chart for 7/30/90 days,Android/iOS,Low,TBD by clinical SME - intentionally incomplete.,Need SME,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,67,FRS-067-01,Manual heart rate entry when device unavailable,Backend API,High,System shall complete the action without data loss.,Rejected once,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,67,FRS_67.2,Sync readings to cloud API,Backend API,Not ranked,TBD by clinical SME - intentionally incomplete.,Pending QA,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,67,FRS-067-03,Handle offline mode,iOS,Low,System shall complete the action without data loss.,In Review,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,67,FRS-067-04,Consent capture and privacy notice,Android/iOS,High,TBD by clinical SME - intentionally incomplete.,Pending QA,RAG TEST CHUNK
+Document 2 - FRS - Heart Rate Monitor Application,FRS,67,FRS-067-05,Validate sensor data range,Android/iOS,Not ranked,Data shall be encrypted in transit and at rest.,Draft,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,68,FRS-068-01,Store readings securely on device,Notification Service,TBD,User shall receive clear error message on failure.,Draft,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,68,FRS-068-02,Manual heart rate entry when device unavailable,Notification Service,Not ranked,System shall complete the action without data loss.,Draft,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,68,FRS-068-03,Audit user actions,Android/iOS,Medium,System shall complete the action without data loss.,Rejected once,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,68,FRS-068-04,Biometric login option,iOS,Medium,Data shall be encrypted in transit and at rest.,In Review,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,68,FRS-068-05,Consent capture and privacy notice,Cloud Sync,Low,System shall complete the action without data loss.,Approved?,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,69,FRS_69.1,Notification retry and suppression,Bluetooth Sensor,Low,Audit/event record shall be generated where applicable.,Approved?,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,69,FRS-069-02,Consent capture and privacy notice,Android,Low,TBD by clinical SME - intentionally incomplete.,In Review,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,69,FRS-069-03,Support caregiver view,Cloud Sync,Medium,TBD by clinical SME - intentionally incomplete.,Approved?,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,69,FRS-069-04,Export readings as PDF/CSV,Android,Medium,User shall receive clear error message on failure.,Pending QA,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,69,FRS-069-05,Handle offline mode,iOS,TBD,Audit/event record shall be generated where applicable.,Pending QA,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,70,FRS-070-01,Biometric login option,Bluetooth Sensor,Not ranked,TBD by clinical SME - intentionally incomplete.,Pending QA,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,70,FRS-070-02,Show trend chart for 7/30/90 days,iOS,High,Audit/event record shall be generated where applicable.,Draft,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,70,FRS-070-03,Audit user actions,Backend API,Low,Result must be visible in mobile UI within expected time.,Need SME,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,70,FRS-070-04,Consent capture and privacy notice,iOS,Low,User shall receive clear error message on failure.,Need SME,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,70,FRS-070-05,Generate high/low heart-rate alert,Local DB,Low,User shall receive clear error message on failure.,Approved?,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,71,FRS-071-01,Display current BPM with timestamp,Android/iOS,TBD,System shall complete the action without data loss.,Rejected once,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,71,FRS-071-02,Store readings securely on device,Bluetooth Sensor,TBD,TBD by clinical SME - intentionally incomplete.,Approved?,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,71,FRS-071-03,Manual heart rate entry when device unavailable,Bluetooth Sensor,High,TBD by clinical SME - intentionally incomplete.,Rejected once,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,71,FRS_71.4,Show trend chart for 7/30/90 days,Backend API,Medium,TBD by clinical SME - intentionally incomplete.,Rejected once,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,71,FRS-071-05,Show trend chart for 7/30/90 days,Notification Service,Medium,Audit/event record shall be generated where applicable.,In Review,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,72,FRS-072-01,Support caregiver view,Backend API,Not ranked,System shall complete the action without data loss.,Pending QA,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,72,FRS-072-02,Consent capture and privacy notice,Android,Low,Audit/event record shall be generated where applicable.,Need SME,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,72,FRS-072-03,Display current BPM with timestamp,Bluetooth Sensor,Not ranked,TBD by clinical SME - intentionally incomplete.,In Review,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,72,FRS_72.4,Consent capture and privacy notice,Android,Not ranked,Audit/event record shall be generated where applicable.,Approved?,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,72,FRS_72.5,Manual heart rate entry when device unavailable,Notification Service,Medium,System shall complete the action without data loss.,Rejected once,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,73,FRS-073-01,Sync readings to cloud API,Backend API,Medium,Result must be visible in mobile UI within expected time.,Rejected once,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,73,FRS-073-02,Capture heart rate from paired device,Local DB,Low,Result must be visible in mobile UI within expected time.,In Review,RAG TEST CHUNK
+Document 2 - FRS - Heart Rate Monitor Application,FRS,73,FRS-073-03,Biometric login option,Local DB,Not ranked,Audit/event record shall be generated where applicable.,Pending QA,RAG TEST CHUNK
+Document 2 - FRS - Heart Rate Monitor Application,FRS,73,FRS-073-04,Biometric login option,Android/iOS,TBD,User shall receive clear error message on failure.,Approved?,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,73,FRS_73.5,Manual heart rate entry when device unavailable,Backend API,Not ranked,Result must be visible in mobile UI within expected time.,In Review,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,74,FRS-074-01,Notification retry and suppression,Bluetooth Sensor,Not ranked,TBD by clinical SME - intentionally incomplete.,Draft,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,74,FRS-074-02,Generate high/low heart-rate alert,Local DB,Not ranked,TBD by clinical SME - intentionally incomplete.,Draft,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,74,FRS-074-03,Support caregiver view,Cloud Sync,TBD,Result must be visible in mobile UI within expected time.,Draft,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,74,FRS-074-04,Store readings securely on device,Local DB,Medium,Data shall be encrypted in transit and at rest.,Rejected once,RAG TEST CHUNK
+Document 2 - FRS - Heart Rate Monitor Application,FRS,74,FRS-074-05,Support caregiver view,Android,High,Audit/event record shall be generated where applicable.,Approved?,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,75,FRS_75.1,Capture heart rate from paired device,Cloud Sync,Not ranked,Data shall be encrypted in transit and at rest.,Rejected once,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,75,FRS_75.2,Support caregiver view,iOS,Medium,Audit/event record shall be generated where applicable.,Rejected once,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,75,FRS-075-03,Support caregiver view,Local DB,TBD,System shall complete the action without data loss.,Draft,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,75,FRS_75.4,Consent capture and privacy notice,Cloud Sync,Medium,Result must be visible in mobile UI within expected time.,Need SME,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,75,FRS-075-05,Notification retry and suppression,Notification Service,Medium,Audit/event record shall be generated where applicable.,Need SME,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,76,FRS-076-01,Audit user actions,Cloud Sync,High,System shall complete the action without data loss.,Draft,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,76,FRS-076-02,Show trend chart for 7/30/90 days,Android,TBD,Data shall be encrypted in transit and at rest.,Need SME,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,76,FRS_76.3,Export readings as PDF/CSV,iOS,Low,System shall complete the action without data loss.,Pending QA,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,76,FRS-076-04,Capture heart rate from paired device,Backend API,Low,User shall receive clear error message on failure.,Approved?,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,76,FRS-076-05,Show trend chart for 7/30/90 days,Cloud Sync,TBD,Audit/event record shall be generated where applicable.,Pending QA,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,77,FRS-077-01,Generate high/low heart-rate alert,iOS,Low,Result must be visible in mobile UI within expected time.,In Review,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,77,FRS-077-02,Show trend chart for 7/30/90 days,Android/iOS,Not ranked,TBD by clinical SME - intentionally incomplete.,Pending QA,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,77,FRS_77.3,Audit user actions,iOS,Not ranked,User shall receive clear error message on failure.,Pending QA,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,77,FRS-077-04,Notification retry and suppression,Backend API,Medium,Audit/event record shall be generated where applicable.,Draft,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,77,FRS-077-05,Capture heart rate from paired device,Local DB,Low,Result must be visible in mobile UI within expected time.,Rejected once,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,78,FRS-078-01,Sync readings to cloud API,Cloud Sync,Low,User shall receive clear error message on failure.,Draft,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,78,FRS-078-02,Manual heart rate entry when device unavailable,Cloud Sync,Low,Result must be visible in mobile UI within expected time.,Pending QA,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,78,FRS_78.3,Support caregiver view,Local DB,High,Audit/event record shall be generated where applicable.,In Review,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,78,FRS-078-04,Generate high/low heart-rate alert,Android,Low,TBD by clinical SME - intentionally incomplete.,Pending QA,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,78,FRS-078-05,Battery and Bluetooth warning,Bluetooth Sensor,TBD,Audit/event record shall be generated where applicable.,In Review,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,79,FRS-079-01,Battery and Bluetooth warning,Notification Service,Low,Result must be visible in mobile UI within expected time.,In Review,RAG TEST CHUNK
+Document 2 - FRS - Heart Rate Monitor Application,FRS,79,FRS-079-02,Consent capture and privacy notice,Android,Not ranked,Audit/event record shall be generated where applicable.,Approved?,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,79,FRS-079-03,Support caregiver view,Cloud Sync,TBD,System shall complete the action without data loss.,Rejected once,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,79,FRS-079-04,Consent capture and privacy notice,Android,High,System shall complete the action without data loss.,Approved?,RAG TEST CHUNK
+Document 2 - FRS - Heart Rate Monitor Application,FRS,79,FRS-079-05,Battery and Bluetooth warning,iOS,Low,Result must be visible in mobile UI within expected time.,Approved?,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,80,FRS-080-01,Handle offline mode,Notification Service,Medium,User shall receive clear error message on failure.,Pending QA,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,80,FRS-080-02,Export readings as PDF/CSV,Cloud Sync,Medium,Audit/event record shall be generated where applicable.,Draft,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,80,FRS-080-03,Capture heart rate from paired device,Bluetooth Sensor,Medium,User shall receive clear error message on failure.,In Review,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,80,FRS-080-04,Consent capture and privacy notice,Android/iOS,High,TBD by clinical SME - intentionally incomplete.,In Review,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,80,FRS-080-05,Validate sensor data range,iOS,Not ranked,Audit/event record shall be generated where applicable.,Draft,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,81,FRS-081-01,Display current BPM with timestamp,Bluetooth Sensor,TBD,Result must be visible in mobile UI within expected time.,Need SME,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,81,FRS-081-02,Show trend chart for 7/30/90 days,Android,Low,Result must be visible in mobile UI within expected time.,Approved?,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,81,FRS_81.3,Store readings securely on device,Backend API,Medium,User shall receive clear error message on failure.,Approved?,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,81,FRS-081-04,Manual heart rate entry when device unavailable,Android,TBD,Audit/event record shall be generated where applicable.,Approved?,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,81,FRS_81.5,Handle offline mode,Bluetooth Sensor,High,Audit/event record shall be generated where applicable.,Pending QA,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,82,FRS-082-01,Biometric login option,Android,Not ranked,User shall receive clear error message on failure.,Draft,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,82,FRS_82.2,Validate sensor data range,Bluetooth Sensor,TBD,Data shall be encrypted in transit and at rest.,Pending QA,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,82,FRS-082-03,Notification retry and suppression,iOS,Not ranked,System shall complete the action without data loss.,Pending QA,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,82,FRS-082-04,Display current BPM with timestamp,Cloud Sync,Not ranked,System shall complete the action without data loss.,Rejected once,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,82,FRS_82.5,Battery and Bluetooth warning,Android,High,Result must be visible in mobile UI within expected time.,Rejected once,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,83,FRS-083-01,Export readings as PDF/CSV,Android,Not ranked,Result must be visible in mobile UI within expected time.,Rejected once,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,83,FRS-083-02,Store readings securely on device,Local DB,Not ranked,TBD by clinical SME - intentionally incomplete.,Need SME,RAG TEST CHUNK
+Document 2 - FRS - Heart Rate Monitor Application,FRS,83,FRS-083-03,Show trend chart for 7/30/90 days,Android,Not ranked,TBD by clinical SME - intentionally incomplete.,Need SME,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,83,FRS-083-04,Capture heart rate from paired device,Android,Not ranked,Result must be visible in mobile UI within expected time.,Rejected once,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,83,FRS-083-05,Display current BPM with timestamp,Android/iOS,Low,User shall receive clear error message on failure.,Rejected once,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,84,FRS-084-01,Biometric login option,Android,TBD,Audit/event record shall be generated where applicable.,Pending QA,RAG TEST CHUNK
+Document 2 - FRS - Heart Rate Monitor Application,FRS,84,FRS-084-02,Show trend chart for 7/30/90 days,Android,Medium,Audit/event record shall be generated where applicable.,Need SME,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,84,FRS-084-03,Support caregiver view,Bluetooth Sensor,Not ranked,TBD by clinical SME - intentionally incomplete.,Need SME,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,84,FRS-084-04,Audit user actions,Backend API,High,System shall complete the action without data loss.,Pending QA,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,84,FRS-084-05,Sync readings to cloud API,iOS,Low,Audit/event record shall be generated where applicable.,Need SME,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,85,FRS_85.1,Store readings securely on device,Android,Medium,User shall receive clear error message on failure.,Approved?,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,85,FRS-085-02,Store readings securely on device,Cloud Sync,Low,User shall receive clear error message on failure.,Draft,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,85,FRS-085-03,Audit user actions,Notification Service,High,Audit/event record shall be generated where applicable.,Draft,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,85,FRS-085-04,Store readings securely on device,Backend API,Medium,System shall complete the action without data loss.,Draft,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,85,FRS-085-05,Audit user actions,iOS,Medium,TBD by clinical SME - intentionally incomplete.,Approved?,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,86,FRS-086-01,Audit user actions,Android,High,TBD by clinical SME - intentionally incomplete.,Pending QA,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,86,FRS_86.2,Store readings securely on device,Local DB,TBD,Data shall be encrypted in transit and at rest.,Approved?,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,86,FRS-086-03,Capture heart rate from paired device,Local DB,Low,System shall complete the action without data loss.,Rejected once,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,86,FRS_86.4,Validate sensor data range,Cloud Sync,TBD,Data shall be encrypted in transit and at rest.,Approved?,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,86,FRS-086-05,Generate high/low heart-rate alert,Bluetooth Sensor,Medium,User shall receive clear error message on failure.,Rejected once,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,87,FRS-087-01,Audit user actions,iOS,Not ranked,Audit/event record shall be generated where applicable.,Pending QA,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,87,FRS-087-02,Validate sensor data range,Bluetooth Sensor,Not ranked,Audit/event record shall be generated where applicable.,Pending QA,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,87,FRS-087-03,Manual heart rate entry when device unavailable,Android/iOS,High,Audit/event record shall be generated where applicable.,Need SME,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,87,FRS_87.4,Capture heart rate from paired device,Cloud Sync,TBD,System shall complete the action without data loss.,In Review,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,87,FRS-087-05,Sync readings to cloud API,Backend API,Not ranked,Audit/event record shall be generated where applicable.,In Review,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,88,FRS-088-01,Display current BPM with timestamp,Android/iOS,Medium,Data shall be encrypted in transit and at rest.,Approved?,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,88,FRS-088-02,Support caregiver view,iOS,Low,TBD by clinical SME - intentionally incomplete.,Draft,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,88,FRS-088-03,Manual heart rate entry when device unavailable,Backend API,Medium,Data shall be encrypted in transit and at rest.,In Review,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,88,FRS-088-04,Manual heart rate entry when device unavailable,Bluetooth Sensor,TBD,System shall complete the action without data loss.,Need SME,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,88,FRS-088-05,Show trend chart for 7/30/90 days,Backend API,Not ranked,TBD by clinical SME - intentionally incomplete.,Approved?,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,89,FRS-089-01,Display current BPM with timestamp,Notification Service,Not ranked,Data shall be encrypted in transit and at rest.,Rejected once,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,89,FRS-089-02,Handle offline mode,Android/iOS,Not ranked,Data shall be encrypted in transit and at rest.,Pending QA,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,89,FRS-089-03,Handle offline mode,Backend API,Not ranked,User shall receive clear error message on failure.,Approved?,RAG TEST CHUNK
+Document 2 - FRS - Heart Rate Monitor Application,FRS,89,FRS_89.4,Display current BPM with timestamp,Android/iOS,Medium,Data shall be encrypted in transit and at rest.,Rejected once,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,89,FRS-089-05,Manual heart rate entry when device unavailable,Android/iOS,Medium,System shall complete the action without data loss.,In Review,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,90,FRS-090-01,Audit user actions,Bluetooth Sensor,Low,User shall receive clear error message on failure.,Approved?,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,90,FRS-090-02,Capture heart rate from paired device,Cloud Sync,Not ranked,TBD by clinical SME - intentionally incomplete.,Rejected once,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,90,FRS-090-03,Handle offline mode,Local DB,Medium,User shall receive clear error message on failure.,Approved?,RAG TEST CHUNK
+Document 2 - FRS - Heart Rate Monitor Application,FRS,90,FRS-090-04,Validate sensor data range,Cloud Sync,High,User shall receive clear error message on failure.,Pending QA,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,90,FRS_90.5,Support caregiver view,Notification Service,High,Result must be visible in mobile UI within expected time.,Need SME,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,91,FRS-091-01,Support caregiver view,Notification Service,Not ranked,Audit/event record shall be generated where applicable.,Approved?,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,91,FRS-091-02,Notification retry and suppression,Android/iOS,Not ranked,TBD by clinical SME - intentionally incomplete.,Draft,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,91,FRS-091-03,Consent capture and privacy notice,Android,Low,Result must be visible in mobile UI within expected time.,Approved?,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,91,FRS-091-04,Generate high/low heart-rate alert,iOS,Medium,User shall receive clear error message on failure.,Rejected once,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,91,FRS-091-05,Notification retry and suppression,Bluetooth Sensor,High,TBD by clinical SME - intentionally incomplete.,Rejected once,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,92,FRS_92.1,Capture heart rate from paired device,Android,Not ranked,Result must be visible in mobile UI within expected time.,Rejected once,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,92,FRS-092-02,Battery and Bluetooth warning,Local DB,TBD,System shall complete the action without data loss.,Need SME,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,92,FRS-092-03,Display current BPM with timestamp,Android,Medium,System shall complete the action without data loss.,Rejected once,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,92,FRS-092-04,Show trend chart for 7/30/90 days,iOS,Low,System shall complete the action without data loss.,In Review,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,92,FRS-092-05,Battery and Bluetooth warning,Backend API,High,Audit/event record shall be generated where applicable.,Need SME,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,93,FRS-093-01,Validate sensor data range,Bluetooth Sensor,TBD,TBD by clinical SME - intentionally incomplete.,Draft,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,93,FRS_93.2,Show trend chart for 7/30/90 days,Android/iOS,Not ranked,User shall receive clear error message on failure.,Approved?,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,93,FRS-093-03,Handle offline mode,Notification Service,Not ranked,User shall receive clear error message on failure.,Pending QA,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,93,FRS-093-04,Manual heart rate entry when device unavailable,Local DB,Medium,Result must be visible in mobile UI within expected time.,Need SME,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,93,FRS-093-05,Handle offline mode,Local DB,Low,Audit/event record shall be generated where applicable.,Draft,RAG TEST CHUNK
+Document 2 - FRS - Heart Rate Monitor Application,FRS,94,FRS-094-01,Consent capture and privacy notice,Android/iOS,TBD,System shall complete the action without data loss.,Rejected once,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,94,FRS-094-02,Sync readings to cloud API,Notification Service,TBD,System shall complete the action without data loss.,Pending QA,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,94,FRS-094-03,Validate sensor data range,Android,TBD,Audit/event record shall be generated where applicable.,Draft,OCR noisy line
+Document 2 - FRS - Heart Rate Monitor Application,FRS,94,FRS-094-04,Manual heart rate entry when device unavailable,Android/iOS,Low,Data shall be encrypted in transit and at rest.,Rejected once,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,94,FRS_94.5,Consent capture and privacy notice,Local DB,Low,Audit/event record shall be generated where applicable.,Need SME,RAG TEST CHUNK
+Document 2 - FRS - Heart Rate Monitor Application,FRS,95,FRS-095-01,Generate high/low heart-rate alert,Local DB,Medium,TBD by clinical SME - intentionally incomplete.,Pending QA,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,95,FRS-095-02,Support caregiver view,Backend API,High,TBD by clinical SME - intentionally incomplete.,Need SME,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,95,FRS-095-03,Battery and Bluetooth warning,Android,Medium,Audit/event record shall be generated where applicable.,Need SME,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,95,FRS-095-04,Manual heart rate entry when device unavailable,iOS,Low,Result must be visible in mobile UI within expected time.,Need SME,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,95,FRS-095-05,Validate sensor data range,Bluetooth Sensor,Low,Data shall be encrypted in transit and at rest.,Approved?,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,96,FRS-096-01,Display current BPM with timestamp,Android,High,Result must be visible in mobile UI within expected time.,Pending QA,old text retained
+Document 2 - FRS - Heart Rate Monitor Application,FRS,96,FRS-096-02,Audit user actions,iOS,Low,Result must be visible in mobile UI within expected time.,Approved?,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,96,FRS-096-03,Sync readings to cloud API,Notification Service,Not ranked,Audit/event record shall be generated where applicable.,Draft,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,96,FRS-096-04,Consent capture and privacy notice,Cloud Sync,Not ranked,TBD by clinical SME - intentionally incomplete.,Approved?,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,96,FRS-096-05,Display current BPM with timestamp,Bluetooth Sensor,High,Audit/event record shall be generated where applicable.,In Review,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,97,FRS-097-01,Store readings securely on device,iOS,TBD,Audit/event record shall be generated where applicable.,Approved?,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,97,FRS-097-02,Audit user actions,Cloud Sync,High,System shall complete the action without data loss.,In Review,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,97,FRS-097-03,Generate high/low heart-rate alert,Local DB,Medium,Audit/event record shall be generated where applicable.,Need SME,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,97,FRS-097-04,Show trend chart for 7/30/90 days,iOS,High,TBD by clinical SME - intentionally incomplete.,Need SME,RAG TEST CHUNK
+Document 2 - FRS - Heart Rate Monitor Application,FRS,97,FRS-097-05,Biometric login option,Android/iOS,Low,Result must be visible in mobile UI within expected time.,In Review,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,98,FRS-098-01,Biometric login option,iOS,TBD,User shall receive clear error message on failure.,Approved?,RAG TEST CHUNK
+Document 2 - FRS - Heart Rate Monitor Application,FRS,98,FRS-098-02,Battery and Bluetooth warning,Android/iOS,High,TBD by clinical SME - intentionally incomplete.,Rejected once,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,98,FRS_98.3,Show trend chart for 7/30/90 days,Bluetooth Sensor,TBD,Data shall be encrypted in transit and at rest.,Need SME,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,98,FRS_98.4,Battery and Bluetooth warning,Backend API,Low,Result must be visible in mobile UI within expected time.,Need SME,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,98,FRS-098-05,Handle offline mode,iOS,TBD,System shall complete the action without data loss.,Approved?,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,99,FRS-099-01,Notification retry and suppression,Local DB,High,TBD by clinical SME - intentionally incomplete.,Draft,TBD
+Document 2 - FRS - Heart Rate Monitor Application,FRS,99,FRS-099-02,Battery and Bluetooth warning,iOS,Low,TBD by clinical SME - intentionally incomplete.,In Review,RAG TEST CHUNK
+Document 2 - FRS - Heart Rate Monitor Application,FRS,99,FRS-099-03,Consent capture and privacy notice,Android,Medium,Audit/event record shall be generated where applicable.,Draft,manual note
+Document 2 - FRS - Heart Rate Monitor Application,FRS,99,FRS-099-04,Store readings securely on device,Android,Not ranked,Data shall be encrypted in transit and at rest.,Pending QA,duplicate section
+Document 2 - FRS - Heart Rate Monitor Application,FRS,99,FRS-099-05,Store readings securely on device,Android/iOS,TBD,Audit/event record shall be generated where applicable.,In Review,??
+Document 2 - FRS - Heart Rate Monitor Application,FRS,100,FRS-100-01,Validate sensor data range,Notification Service,High,Audit/event record shall be generated where applicable.,Draft,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,100,FRS-100-02,Biometric login option,Cloud Sync,TBD,TBD by clinical SME - intentionally incomplete.,Rejected once,v0.1/v1.0 mixed
+Document 2 - FRS - Heart Rate Monitor Application,FRS,100,FRS_100.3,Consent capture and privacy notice,iOS,Not ranked,Result must be visible in mobile UI within expected time.,Pending QA,REVIEW-LATER
+Document 2 - FRS - Heart Rate Monitor Application,FRS,100,FRS-100-04,Validate sensor data range,Local DB,High,User shall receive clear error message on failure.,Need SME,missing owner
+Document 2 - FRS - Heart Rate Monitor Application,FRS,100,FRS-100-05,Capture heart rate from paired device,Local DB,Medium,System shall complete the action without data loss.,Approved?,duplicate section

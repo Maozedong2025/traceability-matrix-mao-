@@ -1,0 +1,1 @@
+Verify audit trail is created when user approves document expected result audit trail should show user action date and time verify QA approver can approve document expected result document status changes to approved verify viewer cannot approve document expected result access denied message is shown

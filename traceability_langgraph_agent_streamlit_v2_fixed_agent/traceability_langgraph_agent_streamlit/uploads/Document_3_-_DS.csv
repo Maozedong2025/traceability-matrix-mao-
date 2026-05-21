@@ -1,0 +1,501 @@
+document_name,doc_type,page,item_id,item_text,platform,risk,acceptance_expected,status,messy_flag
+Document 3 - DS - Heart Rate Monitor Application,DS,1,DS-001-01,Store readings securely on device,Local DB,Medium,System shall complete the action without data loss.,Pending QA,??
+Document 3 - DS - Heart Rate Monitor Application,DS,1,DS-001-02,Audit user actions,Bluetooth Sensor,TBD,Data shall be encrypted in transit and at rest.,Rejected once,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,1,DS-001-03,Battery and Bluetooth warning,Android/iOS,Low,Data shall be encrypted in transit and at rest.,Need SME,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,1,DS_1.4,Consent capture and privacy notice,Local DB,TBD,User shall receive clear error message on failure.,Pending QA,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,1,DS-001-05,Display current BPM with timestamp,Notification Service,TBD,Data shall be encrypted in transit and at rest.,Rejected once,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,2,DS-002-01,Audit user actions,Android,Low,TBD by clinical SME - intentionally incomplete.,Draft,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,2,DS-002-02,Store readings securely on device,Bluetooth Sensor,TBD,User shall receive clear error message on failure.,Draft,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,2,DS-002-03,Biometric login option,Backend API,Medium,Result must be visible in mobile UI within expected time.,Rejected once,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,2,DS_2.4,Audit user actions,Notification Service,Medium,TBD by clinical SME - intentionally incomplete.,Need SME,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,2,DS-002-05,Sync readings to cloud API,Backend API,Medium,System shall complete the action without data loss.,Rejected once,OCR noisy line
+Document 3 - DS - Heart Rate Monitor Application,DS,3,DS_3.1,Manual heart rate entry when device unavailable,Android/iOS,High,Result must be visible in mobile UI within expected time.,Draft,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,3,DS-003-02,Battery and Bluetooth warning,Android/iOS,TBD,Data shall be encrypted in transit and at rest.,In Review,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,3,DS-003-03,Validate sensor data range,Backend API,Low,Data shall be encrypted in transit and at rest.,Pending QA,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,3,DS-003-04,Display current BPM with timestamp,Notification Service,Medium,TBD by clinical SME - intentionally incomplete.,Rejected once,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,3,DS-003-05,Generate high/low heart-rate alert,Notification Service,Low,TBD by clinical SME - intentionally incomplete.,Pending QA,OCR noisy line
+Document 3 - DS - Heart Rate Monitor Application,DS,4,DS-004-01,Capture heart rate from paired device,Bluetooth Sensor,Medium,System shall complete the action without data loss.,Rejected once,??
+Document 3 - DS - Heart Rate Monitor Application,DS,4,DS-004-02,Support caregiver view,Android/iOS,TBD,Data shall be encrypted in transit and at rest.,Pending QA,OCR noisy line
+Document 3 - DS - Heart Rate Monitor Application,DS,4,DS-004-03,Battery and Bluetooth warning,Bluetooth Sensor,Low,User shall receive clear error message on failure.,Rejected once,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,4,DS_4.4,Display current BPM with timestamp,iOS,High,System shall complete the action without data loss.,Pending QA,??
+Document 3 - DS - Heart Rate Monitor Application,DS,4,DS-004-05,Store readings securely on device,Android/iOS,High,Audit/event record shall be generated where applicable.,Pending QA,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,5,DS_5.1,Manual heart rate entry when device unavailable,Cloud Sync,TBD,User shall receive clear error message on failure.,Draft,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,5,DS-005-02,Battery and Bluetooth warning,Cloud Sync,Low,System shall complete the action without data loss.,Approved?,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,5,DS-005-03,Consent capture and privacy notice,Cloud Sync,High,TBD by clinical SME - intentionally incomplete.,Draft,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,5,DS-005-04,Audit user actions,Local DB,TBD,Result must be visible in mobile UI within expected time.,Approved?,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,5,DS-005-05,Notification retry and suppression,Notification Service,High,User shall receive clear error message on failure.,Need SME,??
+Document 3 - DS - Heart Rate Monitor Application,DS,6,DS-006-01,Generate high/low heart-rate alert,iOS,High,System shall complete the action without data loss.,Pending QA,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,6,DS_6.2,Handle offline mode,Backend API,High,Result must be visible in mobile UI within expected time.,Pending QA,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,6,DS-006-03,Display current BPM with timestamp,Backend API,Not ranked,TBD by clinical SME - intentionally incomplete.,Need SME,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,6,DS-006-04,Display current BPM with timestamp,Notification Service,Low,Data shall be encrypted in transit and at rest.,In Review,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,6,DS-006-05,Manual heart rate entry when device unavailable,iOS,Not ranked,Result must be visible in mobile UI within expected time.,Rejected once,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,7,DS-007-01,Manual heart rate entry when device unavailable,iOS,Medium,TBD by clinical SME - intentionally incomplete.,In Review,OCR noisy line
+Document 3 - DS - Heart Rate Monitor Application,DS,7,DS-007-02,Generate high/low heart-rate alert,Bluetooth Sensor,TBD,System shall complete the action without data loss.,Rejected once,OCR noisy line
+Document 3 - DS - Heart Rate Monitor Application,DS,7,DS-007-03,Capture heart rate from paired device,Android/iOS,Not ranked,System shall complete the action without data loss.,In Review,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,7,DS-007-04,Handle offline mode,Android/iOS,TBD,Data shall be encrypted in transit and at rest.,Pending QA,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,7,DS_7.5,Validate sensor data range,iOS,Medium,System shall complete the action without data loss.,Rejected once,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,8,DS-008-01,Biometric login option,Backend API,Not ranked,User shall receive clear error message on failure.,In Review,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,8,DS-008-02,Notification retry and suppression,Android,Medium,System shall complete the action without data loss.,Need SME,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,8,DS-008-03,Display current BPM with timestamp,Cloud Sync,Medium,TBD by clinical SME - intentionally incomplete.,Approved?,OCR noisy line
+Document 3 - DS - Heart Rate Monitor Application,DS,8,DS-008-04,Display current BPM with timestamp,Android/iOS,High,TBD by clinical SME - intentionally incomplete.,Draft,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,8,DS_8.5,Sync readings to cloud API,Android,Not ranked,Audit/event record shall be generated where applicable.,Approved?,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,9,DS-009-01,Battery and Bluetooth warning,Cloud Sync,TBD,TBD by clinical SME - intentionally incomplete.,Rejected once,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,9,DS-009-02,Sync readings to cloud API,Notification Service,TBD,TBD by clinical SME - intentionally incomplete.,Need SME,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,9,DS-009-03,Battery and Bluetooth warning,Cloud Sync,Not ranked,User shall receive clear error message on failure.,Pending QA,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,9,DS-009-04,Validate sensor data range,Backend API,Medium,Data shall be encrypted in transit and at rest.,In Review,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,9,DS-009-05,Notification retry and suppression,Android,Medium,Result must be visible in mobile UI within expected time.,Rejected once,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,10,DS-010-01,Capture heart rate from paired device,Cloud Sync,High,Audit/event record shall be generated where applicable.,Draft,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,10,DS-010-02,Support caregiver view,Backend API,High,Data shall be encrypted in transit and at rest.,In Review,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,10,DS-010-03,Audit user actions,Android,Not ranked,Result must be visible in mobile UI within expected time.,Need SME,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,10,DS-010-04,Display current BPM with timestamp,Notification Service,Medium,Audit/event record shall be generated where applicable.,Pending QA,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,10,DS_10.5,Manual heart rate entry when device unavailable,Bluetooth Sensor,Low,Data shall be encrypted in transit and at rest.,Approved?,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,11,DS-011-01,Audit user actions,Android/iOS,Low,Audit/event record shall be generated where applicable.,Approved?,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,11,DS-011-02,Generate high/low heart-rate alert,iOS,TBD,Audit/event record shall be generated where applicable.,Pending QA,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,11,DS-011-03,Generate high/low heart-rate alert,Notification Service,Not ranked,Audit/event record shall be generated where applicable.,In Review,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,11,DS_11.4,Store readings securely on device,Local DB,High,Result must be visible in mobile UI within expected time.,Pending QA,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,11,DS-011-05,Display current BPM with timestamp,Bluetooth Sensor,TBD,System shall complete the action without data loss.,Approved?,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,12,DS-012-01,Support caregiver view,Local DB,High,System shall complete the action without data loss.,Draft,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,12,DS-012-02,Display current BPM with timestamp,iOS,High,Data shall be encrypted in transit and at rest.,In Review,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,12,DS-012-03,Manual heart rate entry when device unavailable,Backend API,Not ranked,System shall complete the action without data loss.,Rejected once,OCR noisy line
+Document 3 - DS - Heart Rate Monitor Application,DS,12,DS-012-04,Support caregiver view,Local DB,High,TBD by clinical SME - intentionally incomplete.,In Review,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,12,DS-012-05,Generate high/low heart-rate alert,iOS,Medium,TBD by clinical SME - intentionally incomplete.,Need SME,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,13,DS-013-01,Capture heart rate from paired device,Local DB,High,Audit/event record shall be generated where applicable.,Pending QA,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,13,DS-013-02,Consent capture and privacy notice,Bluetooth Sensor,High,User shall receive clear error message on failure.,Rejected once,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,13,DS-013-03,Sync readings to cloud API,Notification Service,TBD,System shall complete the action without data loss.,In Review,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,13,DS-013-04,Biometric login option,Local DB,Not ranked,System shall complete the action without data loss.,In Review,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,13,DS_13.5,Handle offline mode,Local DB,High,Result must be visible in mobile UI within expected time.,In Review,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,14,DS-014-01,Validate sensor data range,Backend API,High,Result must be visible in mobile UI within expected time.,Approved?,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,14,DS-014-02,Notification retry and suppression,Local DB,High,Data shall be encrypted in transit and at rest.,Draft,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,14,DS-014-03,Biometric login option,Android/iOS,Medium,TBD by clinical SME - intentionally incomplete.,Approved?,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,14,DS-014-04,Audit user actions,Android,High,TBD by clinical SME - intentionally incomplete.,Draft,??
+Document 3 - DS - Heart Rate Monitor Application,DS,14,DS-014-05,Show trend chart for 7/30/90 days,Cloud Sync,TBD,Result must be visible in mobile UI within expected time.,Draft,OCR noisy line
+Document 3 - DS - Heart Rate Monitor Application,DS,15,DS_15.1,Support caregiver view,Bluetooth Sensor,Low,System shall complete the action without data loss.,In Review,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,15,DS-015-02,Sync readings to cloud API,Android/iOS,TBD,Audit/event record shall be generated where applicable.,Need SME,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,15,DS-015-03,Generate high/low heart-rate alert,Notification Service,Low,Result must be visible in mobile UI within expected time.,Draft,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,15,DS-015-04,Show trend chart for 7/30/90 days,Bluetooth Sensor,TBD,Audit/event record shall be generated where applicable.,Draft,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,15,DS-015-05,Handle offline mode,iOS,Medium,TBD by clinical SME - intentionally incomplete.,Need SME,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,16,DS-016-01,Handle offline mode,Android/iOS,TBD,System shall complete the action without data loss.,Approved?,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,16,DS_16.2,Capture heart rate from paired device,Backend API,High,Data shall be encrypted in transit and at rest.,Approved?,??
+Document 3 - DS - Heart Rate Monitor Application,DS,16,DS-016-03,Generate high/low heart-rate alert,Android,Low,Result must be visible in mobile UI within expected time.,Rejected once,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,16,DS-016-04,Notification retry and suppression,Android/iOS,Not ranked,Audit/event record shall be generated where applicable.,Need SME,OCR noisy line
+Document 3 - DS - Heart Rate Monitor Application,DS,16,DS-016-05,Show trend chart for 7/30/90 days,Bluetooth Sensor,Low,Audit/event record shall be generated where applicable.,Approved?,??
+Document 3 - DS - Heart Rate Monitor Application,DS,17,DS_17.1,Notification retry and suppression,Backend API,Medium,User shall receive clear error message on failure.,Approved?,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,17,DS-017-02,Consent capture and privacy notice,Android,Medium,Result must be visible in mobile UI within expected time.,Need SME,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,17,DS-017-03,Notification retry and suppression,Backend API,Medium,Audit/event record shall be generated where applicable.,Need SME,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,17,DS-017-04,Show trend chart for 7/30/90 days,Android,Low,TBD by clinical SME - intentionally incomplete.,Pending QA,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,17,DS-017-05,Notification retry and suppression,Backend API,TBD,Data shall be encrypted in transit and at rest.,Need SME,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,18,DS_18.1,Notification retry and suppression,Cloud Sync,Medium,Data shall be encrypted in transit and at rest.,Approved?,??
+Document 3 - DS - Heart Rate Monitor Application,DS,18,DS-018-02,Generate high/low heart-rate alert,iOS,TBD,Data shall be encrypted in transit and at rest.,Need SME,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,18,DS_18.3,Export readings as PDF/CSV,Android,Not ranked,Audit/event record shall be generated where applicable.,Pending QA,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,18,DS-018-04,Audit user actions,Local DB,Not ranked,System shall complete the action without data loss.,In Review,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,18,DS-018-05,Generate high/low heart-rate alert,Android,TBD,Result must be visible in mobile UI within expected time.,In Review,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,19,DS-019-01,Consent capture and privacy notice,Local DB,Low,Data shall be encrypted in transit and at rest.,Pending QA,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,19,DS-019-02,Support caregiver view,Local DB,TBD,TBD by clinical SME - intentionally incomplete.,Approved?,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,19,DS_19.3,Notification retry and suppression,Bluetooth Sensor,Low,Audit/event record shall be generated where applicable.,Need SME,??
+Document 3 - DS - Heart Rate Monitor Application,DS,19,DS-019-04,Capture heart rate from paired device,Notification Service,High,Data shall be encrypted in transit and at rest.,Approved?,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,19,DS_19.5,Support caregiver view,Android/iOS,Not ranked,User shall receive clear error message on failure.,Draft,OCR noisy line
+Document 3 - DS - Heart Rate Monitor Application,DS,20,DS-020-01,Manual heart rate entry when device unavailable,Bluetooth Sensor,Low,Data shall be encrypted in transit and at rest.,Draft,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,20,DS-020-02,Biometric login option,Bluetooth Sensor,Not ranked,System shall complete the action without data loss.,Need SME,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,20,DS-020-03,Biometric login option,Android/iOS,TBD,TBD by clinical SME - intentionally incomplete.,Need SME,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,20,DS_20.4,Support caregiver view,iOS,Medium,TBD by clinical SME - intentionally incomplete.,Draft,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,20,DS_20.5,Manual heart rate entry when device unavailable,Notification Service,High,User shall receive clear error message on failure.,Draft,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,21,DS-021-01,Audit user actions,Android,Not ranked,Result must be visible in mobile UI within expected time.,Draft,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,21,DS-021-02,Audit user actions,Backend API,High,Result must be visible in mobile UI within expected time.,Rejected once,??
+Document 3 - DS - Heart Rate Monitor Application,DS,21,DS_21.3,Manual heart rate entry when device unavailable,Cloud Sync,Not ranked,Data shall be encrypted in transit and at rest.,Pending QA,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,21,DS_21.4,Biometric login option,Bluetooth Sensor,Not ranked,TBD by clinical SME - intentionally incomplete.,Need SME,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,21,DS-021-05,Display current BPM with timestamp,Cloud Sync,Medium,Data shall be encrypted in transit and at rest.,Draft,??
+Document 3 - DS - Heart Rate Monitor Application,DS,22,DS-022-01,Export readings as PDF/CSV,iOS,Low,System shall complete the action without data loss.,Draft,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,22,DS-022-02,Manual heart rate entry when device unavailable,Android/iOS,Medium,TBD by clinical SME - intentionally incomplete.,Rejected once,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,22,DS-022-03,Validate sensor data range,Android/iOS,Low,System shall complete the action without data loss.,Pending QA,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,22,DS_22.4,Validate sensor data range,Android,Not ranked,User shall receive clear error message on failure.,Approved?,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,22,DS-022-05,Biometric login option,Cloud Sync,Not ranked,Data shall be encrypted in transit and at rest.,In Review,??
+Document 3 - DS - Heart Rate Monitor Application,DS,23,DS-023-01,Handle offline mode,Cloud Sync,Not ranked,User shall receive clear error message on failure.,Need SME,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,23,DS-023-02,Display current BPM with timestamp,iOS,Low,Data shall be encrypted in transit and at rest.,Draft,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,23,DS-023-03,Manual heart rate entry when device unavailable,Backend API,High,Result must be visible in mobile UI within expected time.,In Review,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,23,DS-023-04,Show trend chart for 7/30/90 days,Local DB,Not ranked,Audit/event record shall be generated where applicable.,Need SME,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,23,DS-023-05,Capture heart rate from paired device,iOS,Medium,Audit/event record shall be generated where applicable.,Draft,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,24,DS_24.1,Battery and Bluetooth warning,Local DB,High,Result must be visible in mobile UI within expected time.,Rejected once,??
+Document 3 - DS - Heart Rate Monitor Application,DS,24,DS-024-02,Validate sensor data range,Android/iOS,Low,Result must be visible in mobile UI within expected time.,Need SME,OCR noisy line
+Document 3 - DS - Heart Rate Monitor Application,DS,24,DS-024-03,Store readings securely on device,Cloud Sync,Medium,Audit/event record shall be generated where applicable.,In Review,??
+Document 3 - DS - Heart Rate Monitor Application,DS,24,DS-024-04,Biometric login option,Notification Service,Low,Result must be visible in mobile UI within expected time.,In Review,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,24,DS_24.5,Battery and Bluetooth warning,Android/iOS,High,Result must be visible in mobile UI within expected time.,Need SME,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,25,DS-025-01,Consent capture and privacy notice,Local DB,Medium,TBD by clinical SME - intentionally incomplete.,Approved?,??
+Document 3 - DS - Heart Rate Monitor Application,DS,25,DS-025-02,Support caregiver view,Cloud Sync,Medium,Data shall be encrypted in transit and at rest.,Draft,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,25,DS-025-03,Battery and Bluetooth warning,Notification Service,Low,TBD by clinical SME - intentionally incomplete.,Pending QA,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,25,DS_25.4,Handle offline mode,Android,Medium,Result must be visible in mobile UI within expected time.,Approved?,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,25,DS_25.5,Notification retry and suppression,Android/iOS,TBD,User shall receive clear error message on failure.,Draft,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,26,DS-026-01,Biometric login option,Bluetooth Sensor,High,TBD by clinical SME - intentionally incomplete.,Draft,OCR noisy line
+Document 3 - DS - Heart Rate Monitor Application,DS,26,DS-026-02,Show trend chart for 7/30/90 days,Bluetooth Sensor,Not ranked,User shall receive clear error message on failure.,Draft,OCR noisy line
+Document 3 - DS - Heart Rate Monitor Application,DS,26,DS-026-03,Biometric login option,Android,Low,Audit/event record shall be generated where applicable.,Need SME,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,26,DS-026-04,Notification retry and suppression,iOS,Medium,Result must be visible in mobile UI within expected time.,Rejected once,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,26,DS-026-05,Support caregiver view,Notification Service,TBD,Data shall be encrypted in transit and at rest.,Draft,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,27,DS-027-01,Audit user actions,Android/iOS,High,System shall complete the action without data loss.,Pending QA,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,27,DS-027-02,Generate high/low heart-rate alert,Bluetooth Sensor,TBD,Audit/event record shall be generated where applicable.,Approved?,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,27,DS-027-03,Biometric login option,Cloud Sync,High,TBD by clinical SME - intentionally incomplete.,Draft,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,27,DS_27.4,Display current BPM with timestamp,Backend API,Not ranked,Data shall be encrypted in transit and at rest.,Rejected once,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,27,DS-027-05,Consent capture and privacy notice,Local DB,High,Audit/event record shall be generated where applicable.,Approved?,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,28,DS-028-01,Audit user actions,Local DB,Low,Audit/event record shall be generated where applicable.,Pending QA,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,28,DS-028-02,Sync readings to cloud API,Bluetooth Sensor,Medium,System shall complete the action without data loss.,Approved?,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,28,DS_28.3,Battery and Bluetooth warning,Backend API,TBD,Data shall be encrypted in transit and at rest.,Need SME,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,28,DS-028-04,Export readings as PDF/CSV,Local DB,Low,Data shall be encrypted in transit and at rest.,Need SME,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,28,DS-028-05,Display current BPM with timestamp,iOS,Not ranked,User shall receive clear error message on failure.,Pending QA,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,29,DS_29.1,Consent capture and privacy notice,Cloud Sync,Low,Result must be visible in mobile UI within expected time.,Need SME,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,29,DS-029-02,Display current BPM with timestamp,Android/iOS,Low,TBD by clinical SME - intentionally incomplete.,Approved?,??
+Document 3 - DS - Heart Rate Monitor Application,DS,29,DS-029-03,Battery and Bluetooth warning,iOS,Low,TBD by clinical SME - intentionally incomplete.,Need SME,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,29,DS-029-04,Capture heart rate from paired device,Backend API,Not ranked,Result must be visible in mobile UI within expected time.,Draft,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,29,DS-029-05,Biometric login option,iOS,Medium,Data shall be encrypted in transit and at rest.,Rejected once,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,30,DS_30.1,Generate high/low heart-rate alert,Backend API,Medium,TBD by clinical SME - intentionally incomplete.,Approved?,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,30,DS-030-02,Consent capture and privacy notice,Local DB,Not ranked,TBD by clinical SME - intentionally incomplete.,Pending QA,OCR noisy line
+Document 3 - DS - Heart Rate Monitor Application,DS,30,DS-030-03,Handle offline mode,Android,TBD,System shall complete the action without data loss.,Rejected once,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,30,DS-030-04,Capture heart rate from paired device,Bluetooth Sensor,TBD,User shall receive clear error message on failure.,Rejected once,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,30,DS-030-05,Capture heart rate from paired device,Backend API,Not ranked,User shall receive clear error message on failure.,Need SME,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,31,DS-031-01,Support caregiver view,Backend API,TBD,Data shall be encrypted in transit and at rest.,Rejected once,??
+Document 3 - DS - Heart Rate Monitor Application,DS,31,DS-031-02,Biometric login option,iOS,Medium,User shall receive clear error message on failure.,Rejected once,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,31,DS-031-03,Validate sensor data range,Local DB,High,User shall receive clear error message on failure.,Rejected once,??
+Document 3 - DS - Heart Rate Monitor Application,DS,31,DS-031-04,Battery and Bluetooth warning,Local DB,Not ranked,TBD by clinical SME - intentionally incomplete.,Need SME,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,31,DS-031-05,Consent capture and privacy notice,Bluetooth Sensor,Low,Data shall be encrypted in transit and at rest.,Need SME,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,32,DS-032-01,Validate sensor data range,Cloud Sync,Medium,User shall receive clear error message on failure.,In Review,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,32,DS-032-02,Manual heart rate entry when device unavailable,Local DB,Not ranked,User shall receive clear error message on failure.,Pending QA,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,32,DS-032-03,Audit user actions,Cloud Sync,Not ranked,TBD by clinical SME - intentionally incomplete.,Pending QA,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,32,DS_32.4,Audit user actions,Notification Service,Low,System shall complete the action without data loss.,Rejected once,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,32,DS-032-05,Display current BPM with timestamp,Cloud Sync,High,Audit/event record shall be generated where applicable.,Draft,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,33,DS-033-01,Battery and Bluetooth warning,Backend API,Low,System shall complete the action without data loss.,Draft,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,33,DS-033-02,Capture heart rate from paired device,Notification Service,Medium,TBD by clinical SME - intentionally incomplete.,Need SME,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,33,DS-033-03,Manual heart rate entry when device unavailable,Android,Not ranked,User shall receive clear error message on failure.,In Review,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,33,DS-033-04,Support caregiver view,Backend API,TBD,System shall complete the action without data loss.,Need SME,OCR noisy line
+Document 3 - DS - Heart Rate Monitor Application,DS,33,DS-033-05,Support caregiver view,Local DB,High,Data shall be encrypted in transit and at rest.,Approved?,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,34,DS-034-01,Consent capture and privacy notice,Android/iOS,TBD,System shall complete the action without data loss.,Pending QA,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,34,DS_34.2,Handle offline mode,Notification Service,Medium,Audit/event record shall be generated where applicable.,Pending QA,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,34,DS-034-03,Battery and Bluetooth warning,Notification Service,TBD,Audit/event record shall be generated where applicable.,In Review,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,34,DS-034-04,Consent capture and privacy notice,Android/iOS,TBD,System shall complete the action without data loss.,Draft,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,34,DS-034-05,Battery and Bluetooth warning,Backend API,Low,TBD by clinical SME - intentionally incomplete.,Need SME,??
+Document 3 - DS - Heart Rate Monitor Application,DS,35,DS-035-01,Display current BPM with timestamp,Android,High,System shall complete the action without data loss.,Rejected once,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,35,DS-035-02,Store readings securely on device,Cloud Sync,TBD,Result must be visible in mobile UI within expected time.,Rejected once,??
+Document 3 - DS - Heart Rate Monitor Application,DS,35,DS_35.3,Support caregiver view,Android/iOS,Not ranked,Data shall be encrypted in transit and at rest.,Need SME,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,35,DS-035-04,Support caregiver view,Local DB,Not ranked,System shall complete the action without data loss.,Draft,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,35,DS-035-05,Notification retry and suppression,Local DB,Low,Audit/event record shall be generated where applicable.,Need SME,OCR noisy line
+Document 3 - DS - Heart Rate Monitor Application,DS,36,DS-036-01,Biometric login option,Android,High,Data shall be encrypted in transit and at rest.,Rejected once,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,36,DS-036-02,Export readings as PDF/CSV,Cloud Sync,Not ranked,TBD by clinical SME - intentionally incomplete.,Pending QA,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,36,DS_36.3,Validate sensor data range,Notification Service,TBD,Data shall be encrypted in transit and at rest.,Rejected once,??
+Document 3 - DS - Heart Rate Monitor Application,DS,36,DS-036-04,Notification retry and suppression,Android/iOS,High,Data shall be encrypted in transit and at rest.,Approved?,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,36,DS-036-05,Sync readings to cloud API,Android,TBD,Result must be visible in mobile UI within expected time.,In Review,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,37,DS-037-01,Handle offline mode,Cloud Sync,Medium,Data shall be encrypted in transit and at rest.,Need SME,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,37,DS-037-02,Support caregiver view,Bluetooth Sensor,Not ranked,User shall receive clear error message on failure.,Rejected once,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,37,DS-037-03,Consent capture and privacy notice,Backend API,TBD,Result must be visible in mobile UI within expected time.,Rejected once,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,37,DS_37.4,Battery and Bluetooth warning,Backend API,High,Data shall be encrypted in transit and at rest.,Pending QA,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,37,DS-037-05,Consent capture and privacy notice,Cloud Sync,Medium,System shall complete the action without data loss.,In Review,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,38,DS-038-01,Battery and Bluetooth warning,Local DB,Low,System shall complete the action without data loss.,Draft,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,38,DS-038-02,Show trend chart for 7/30/90 days,Cloud Sync,TBD,System shall complete the action without data loss.,Need SME,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,38,DS-038-03,Notification retry and suppression,Bluetooth Sensor,Low,Audit/event record shall be generated where applicable.,Rejected once,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,38,DS-038-04,Show trend chart for 7/30/90 days,Backend API,Medium,Data shall be encrypted in transit and at rest.,In Review,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,38,DS-038-05,Consent capture and privacy notice,Cloud Sync,Not ranked,System shall complete the action without data loss.,Approved?,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,39,DS-039-01,Store readings securely on device,Bluetooth Sensor,TBD,User shall receive clear error message on failure.,Rejected once,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,39,DS-039-02,Battery and Bluetooth warning,Local DB,Not ranked,TBD by clinical SME - intentionally incomplete.,Approved?,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,39,DS-039-03,Manual heart rate entry when device unavailable,Backend API,High,User shall receive clear error message on failure.,In Review,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,39,DS-039-04,Notification retry and suppression,Cloud Sync,Medium,User shall receive clear error message on failure.,Rejected once,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,39,DS-039-05,Export readings as PDF/CSV,Android/iOS,Not ranked,User shall receive clear error message on failure.,Pending QA,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,40,DS-040-01,Capture heart rate from paired device,Local DB,TBD,System shall complete the action without data loss.,Pending QA,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,40,DS_40.2,Biometric login option,Android/iOS,Low,Audit/event record shall be generated where applicable.,Draft,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,40,DS-040-03,Notification retry and suppression,Local DB,TBD,Data shall be encrypted in transit and at rest.,Need SME,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,40,DS-040-04,Show trend chart for 7/30/90 days,iOS,High,Data shall be encrypted in transit and at rest.,Need SME,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,40,DS-040-05,Support caregiver view,Notification Service,Not ranked,Audit/event record shall be generated where applicable.,Approved?,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,41,DS-041-01,Manual heart rate entry when device unavailable,Cloud Sync,TBD,Data shall be encrypted in transit and at rest.,Need SME,OCR noisy line
+Document 3 - DS - Heart Rate Monitor Application,DS,41,DS-041-02,Generate high/low heart-rate alert,Android/iOS,High,Audit/event record shall be generated where applicable.,Draft,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,41,DS-041-03,Battery and Bluetooth warning,Android/iOS,Medium,User shall receive clear error message on failure.,Draft,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,41,DS_41.4,Display current BPM with timestamp,Android,Medium,Data shall be encrypted in transit and at rest.,Need SME,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,41,DS-041-05,Sync readings to cloud API,Cloud Sync,TBD,TBD by clinical SME - intentionally incomplete.,Pending QA,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,42,DS-042-01,Manual heart rate entry when device unavailable,Notification Service,High,System shall complete the action without data loss.,Approved?,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,42,DS-042-02,Capture heart rate from paired device,Local DB,Medium,TBD by clinical SME - intentionally incomplete.,Pending QA,??
+Document 3 - DS - Heart Rate Monitor Application,DS,42,DS-042-03,Battery and Bluetooth warning,Cloud Sync,Not ranked,Data shall be encrypted in transit and at rest.,Draft,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,42,DS-042-04,Display current BPM with timestamp,Cloud Sync,Low,Result must be visible in mobile UI within expected time.,Rejected once,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,42,DS-042-05,Generate high/low heart-rate alert,Backend API,Low,Data shall be encrypted in transit and at rest.,Approved?,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,43,DS-043-01,Display current BPM with timestamp,Notification Service,Medium,Result must be visible in mobile UI within expected time.,In Review,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,43,DS-043-02,Export readings as PDF/CSV,Android/iOS,High,Audit/event record shall be generated where applicable.,In Review,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,43,DS-043-03,Support caregiver view,Android/iOS,Medium,System shall complete the action without data loss.,Rejected once,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,43,DS-043-04,Export readings as PDF/CSV,Android,Low,User shall receive clear error message on failure.,Rejected once,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,43,DS-043-05,Manual heart rate entry when device unavailable,Backend API,TBD,Data shall be encrypted in transit and at rest.,Draft,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,44,DS-044-01,Generate high/low heart-rate alert,iOS,High,User shall receive clear error message on failure.,In Review,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,44,DS-044-02,Audit user actions,Notification Service,High,Result must be visible in mobile UI within expected time.,Approved?,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,44,DS-044-03,Battery and Bluetooth warning,Android/iOS,Low,System shall complete the action without data loss.,In Review,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,44,DS-044-04,Capture heart rate from paired device,Android,Low,Result must be visible in mobile UI within expected time.,Rejected once,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,44,DS-044-05,Manual heart rate entry when device unavailable,Android,Medium,Result must be visible in mobile UI within expected time.,Pending QA,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,45,DS-045-01,Capture heart rate from paired device,Notification Service,Low,Result must be visible in mobile UI within expected time.,In Review,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,45,DS_45.2,Handle offline mode,Backend API,Medium,User shall receive clear error message on failure.,Rejected once,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,45,DS-045-03,Validate sensor data range,Bluetooth Sensor,Medium,Result must be visible in mobile UI within expected time.,Draft,??
+Document 3 - DS - Heart Rate Monitor Application,DS,45,DS-045-04,Capture heart rate from paired device,Android,Low,System shall complete the action without data loss.,Approved?,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,45,DS-045-05,Notification retry and suppression,Android/iOS,Low,System shall complete the action without data loss.,Pending QA,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,46,DS-046-01,Export readings as PDF/CSV,Notification Service,Not ranked,System shall complete the action without data loss.,Approved?,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,46,DS_46.2,Export readings as PDF/CSV,iOS,TBD,Result must be visible in mobile UI within expected time.,Pending QA,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,46,DS_46.3,Export readings as PDF/CSV,Backend API,Low,Audit/event record shall be generated where applicable.,Draft,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,46,DS-046-04,Store readings securely on device,Backend API,High,Audit/event record shall be generated where applicable.,Draft,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,46,DS-046-05,Audit user actions,Local DB,High,Result must be visible in mobile UI within expected time.,In Review,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,47,DS-047-01,Generate high/low heart-rate alert,Bluetooth Sensor,Not ranked,TBD by clinical SME - intentionally incomplete.,Pending QA,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,47,DS-047-02,Sync readings to cloud API,Cloud Sync,Not ranked,Audit/event record shall be generated where applicable.,Need SME,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,47,DS-047-03,Consent capture and privacy notice,Notification Service,High,Result must be visible in mobile UI within expected time.,In Review,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,47,DS-047-04,Show trend chart for 7/30/90 days,Local DB,TBD,Data shall be encrypted in transit and at rest.,Approved?,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,47,DS-047-05,Display current BPM with timestamp,Backend API,High,User shall receive clear error message on failure.,Need SME,??
+Document 3 - DS - Heart Rate Monitor Application,DS,48,DS_48.1,Consent capture and privacy notice,iOS,Medium,TBD by clinical SME - intentionally incomplete.,Rejected once,??
+Document 3 - DS - Heart Rate Monitor Application,DS,48,DS-048-02,Audit user actions,Android,TBD,Data shall be encrypted in transit and at rest.,In Review,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,48,DS_48.3,Biometric login option,Cloud Sync,TBD,TBD by clinical SME - intentionally incomplete.,In Review,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,48,DS-048-04,Handle offline mode,Local DB,TBD,User shall receive clear error message on failure.,Draft,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,48,DS-048-05,Validate sensor data range,Local DB,Not ranked,System shall complete the action without data loss.,Draft,OCR noisy line
+Document 3 - DS - Heart Rate Monitor Application,DS,49,DS-049-01,Store readings securely on device,Notification Service,High,User shall receive clear error message on failure.,Rejected once,??
+Document 3 - DS - Heart Rate Monitor Application,DS,49,DS_49.2,Display current BPM with timestamp,iOS,High,Audit/event record shall be generated where applicable.,Draft,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,49,DS_49.3,Display current BPM with timestamp,Backend API,High,Data shall be encrypted in transit and at rest.,Draft,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,49,DS-049-04,Consent capture and privacy notice,Cloud Sync,TBD,Data shall be encrypted in transit and at rest.,Pending QA,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,49,DS_49.5,Display current BPM with timestamp,Cloud Sync,TBD,Audit/event record shall be generated where applicable.,Draft,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,50,DS-050-01,Support caregiver view,Local DB,TBD,Data shall be encrypted in transit and at rest.,In Review,??
+Document 3 - DS - Heart Rate Monitor Application,DS,50,DS-050-02,Support caregiver view,Bluetooth Sensor,TBD,Result must be visible in mobile UI within expected time.,Need SME,??
+Document 3 - DS - Heart Rate Monitor Application,DS,50,DS-050-03,Sync readings to cloud API,Android,Low,Result must be visible in mobile UI within expected time.,Pending QA,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,50,DS-050-04,Sync readings to cloud API,Local DB,Medium,Audit/event record shall be generated where applicable.,Pending QA,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,50,DS-050-05,Consent capture and privacy notice,Cloud Sync,Not ranked,Audit/event record shall be generated where applicable.,Draft,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,51,DS-051-01,Store readings securely on device,iOS,High,TBD by clinical SME - intentionally incomplete.,In Review,??
+Document 3 - DS - Heart Rate Monitor Application,DS,51,DS-051-02,Store readings securely on device,Android/iOS,High,Audit/event record shall be generated where applicable.,Pending QA,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,51,DS-051-03,Support caregiver view,iOS,High,Result must be visible in mobile UI within expected time.,Need SME,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,51,DS-051-04,Battery and Bluetooth warning,iOS,TBD,TBD by clinical SME - intentionally incomplete.,Pending QA,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,51,DS-051-05,Consent capture and privacy notice,Cloud Sync,Medium,Result must be visible in mobile UI within expected time.,Pending QA,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,52,DS-052-01,Handle offline mode,Notification Service,High,Result must be visible in mobile UI within expected time.,Rejected once,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,52,DS-052-02,Manual heart rate entry when device unavailable,Android/iOS,Not ranked,Data shall be encrypted in transit and at rest.,Draft,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,52,DS-052-03,Export readings as PDF/CSV,Bluetooth Sensor,Not ranked,Data shall be encrypted in transit and at rest.,In Review,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,52,DS-052-04,Manual heart rate entry when device unavailable,iOS,High,TBD by clinical SME - intentionally incomplete.,Draft,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,52,DS-052-05,Display current BPM with timestamp,Bluetooth Sensor,Low,Data shall be encrypted in transit and at rest.,Draft,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,53,DS-053-01,Store readings securely on device,Backend API,Not ranked,Result must be visible in mobile UI within expected time.,In Review,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,53,DS-053-02,Display current BPM with timestamp,Android,High,Data shall be encrypted in transit and at rest.,In Review,??
+Document 3 - DS - Heart Rate Monitor Application,DS,53,DS_53.3,Audit user actions,Android/iOS,High,System shall complete the action without data loss.,Approved?,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,53,DS_53.4,Consent capture and privacy notice,Android,Medium,Data shall be encrypted in transit and at rest.,Need SME,OCR noisy line
+Document 3 - DS - Heart Rate Monitor Application,DS,53,DS-053-05,Capture heart rate from paired device,Backend API,High,Result must be visible in mobile UI within expected time.,In Review,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,54,DS-054-01,Export readings as PDF/CSV,Notification Service,Not ranked,Data shall be encrypted in transit and at rest.,Rejected once,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,54,DS-054-02,Battery and Bluetooth warning,Android/iOS,TBD,User shall receive clear error message on failure.,Pending QA,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,54,DS-054-03,Export readings as PDF/CSV,Bluetooth Sensor,Not ranked,TBD by clinical SME - intentionally incomplete.,Pending QA,??
+Document 3 - DS - Heart Rate Monitor Application,DS,54,DS_54.4,Generate high/low heart-rate alert,iOS,Medium,User shall receive clear error message on failure.,Need SME,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,54,DS_54.5,Validate sensor data range,Backend API,Low,Result must be visible in mobile UI within expected time.,Need SME,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,55,DS-055-01,Capture heart rate from paired device,Cloud Sync,High,TBD by clinical SME - intentionally incomplete.,Pending QA,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,55,DS_55.2,Handle offline mode,Android/iOS,High,User shall receive clear error message on failure.,Need SME,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,55,DS_55.3,Show trend chart for 7/30/90 days,Local DB,TBD,Result must be visible in mobile UI within expected time.,Need SME,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,55,DS-055-04,Export readings as PDF/CSV,Local DB,Low,System shall complete the action without data loss.,Draft,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,55,DS-055-05,Show trend chart for 7/30/90 days,Android/iOS,Not ranked,Audit/event record shall be generated where applicable.,In Review,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,56,DS_56.1,Store readings securely on device,Cloud Sync,Not ranked,User shall receive clear error message on failure.,Need SME,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,56,DS_56.2,Generate high/low heart-rate alert,Android/iOS,High,Result must be visible in mobile UI within expected time.,Need SME,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,56,DS-056-03,Handle offline mode,Android,High,Result must be visible in mobile UI within expected time.,In Review,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,56,DS-056-04,Sync readings to cloud API,Notification Service,TBD,User shall receive clear error message on failure.,Pending QA,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,56,DS-056-05,Support caregiver view,Android,TBD,TBD by clinical SME - intentionally incomplete.,Rejected once,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,57,DS-057-01,Audit user actions,Local DB,Not ranked,TBD by clinical SME - intentionally incomplete.,In Review,OCR noisy line
+Document 3 - DS - Heart Rate Monitor Application,DS,57,DS-057-02,Export readings as PDF/CSV,Bluetooth Sensor,High,Data shall be encrypted in transit and at rest.,In Review,??
+Document 3 - DS - Heart Rate Monitor Application,DS,57,DS-057-03,Show trend chart for 7/30/90 days,Android/iOS,High,Audit/event record shall be generated where applicable.,Need SME,??
+Document 3 - DS - Heart Rate Monitor Application,DS,57,DS-057-04,Display current BPM with timestamp,Android/iOS,TBD,System shall complete the action without data loss.,Draft,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,57,DS-057-05,Notification retry and suppression,Local DB,Not ranked,System shall complete the action without data loss.,Draft,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,58,DS-058-01,Handle offline mode,Bluetooth Sensor,Low,System shall complete the action without data loss.,Need SME,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,58,DS_58.2,Validate sensor data range,iOS,Low,Audit/event record shall be generated where applicable.,In Review,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,58,DS-058-03,Capture heart rate from paired device,Bluetooth Sensor,Medium,Result must be visible in mobile UI within expected time.,Need SME,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,58,DS-058-04,Biometric login option,Bluetooth Sensor,Not ranked,Data shall be encrypted in transit and at rest.,Pending QA,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,58,DS-058-05,Display current BPM with timestamp,Android/iOS,Low,Audit/event record shall be generated where applicable.,In Review,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,59,DS-059-01,Battery and Bluetooth warning,Android,Medium,Result must be visible in mobile UI within expected time.,In Review,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,59,DS-059-02,Support caregiver view,Android,Medium,Audit/event record shall be generated where applicable.,Approved?,??
+Document 3 - DS - Heart Rate Monitor Application,DS,59,DS-059-03,Biometric login option,Cloud Sync,TBD,User shall receive clear error message on failure.,Approved?,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,59,DS-059-04,Export readings as PDF/CSV,Bluetooth Sensor,High,Data shall be encrypted in transit and at rest.,Draft,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,59,DS-059-05,Biometric login option,Backend API,High,Result must be visible in mobile UI within expected time.,Rejected once,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,60,DS-060-01,Notification retry and suppression,Notification Service,Low,Data shall be encrypted in transit and at rest.,Pending QA,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,60,DS-060-02,Audit user actions,Local DB,Medium,Result must be visible in mobile UI within expected time.,Approved?,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,60,DS_60.3,Support caregiver view,Bluetooth Sensor,Medium,TBD by clinical SME - intentionally incomplete.,Need SME,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,60,DS-060-04,Handle offline mode,Android/iOS,Low,System shall complete the action without data loss.,Draft,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,60,DS-060-05,Biometric login option,iOS,TBD,TBD by clinical SME - intentionally incomplete.,Pending QA,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,61,DS-061-01,Display current BPM with timestamp,Android,Medium,Result must be visible in mobile UI within expected time.,Pending QA,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,61,DS_61.2,Battery and Bluetooth warning,Notification Service,Medium,Result must be visible in mobile UI within expected time.,Draft,OCR noisy line
+Document 3 - DS - Heart Rate Monitor Application,DS,61,DS-061-03,Sync readings to cloud API,Bluetooth Sensor,Not ranked,System shall complete the action without data loss.,Rejected once,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,61,DS-061-04,Generate high/low heart-rate alert,Local DB,High,System shall complete the action without data loss.,Approved?,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,61,DS-061-05,Store readings securely on device,Backend API,High,Audit/event record shall be generated where applicable.,In Review,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,62,DS-062-01,Generate high/low heart-rate alert,Bluetooth Sensor,High,Data shall be encrypted in transit and at rest.,Pending QA,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,62,DS-062-02,Show trend chart for 7/30/90 days,Notification Service,TBD,User shall receive clear error message on failure.,In Review,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,62,DS-062-03,Manual heart rate entry when device unavailable,Android,High,System shall complete the action without data loss.,Approved?,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,62,DS-062-04,Consent capture and privacy notice,Local DB,Not ranked,TBD by clinical SME - intentionally incomplete.,In Review,??
+Document 3 - DS - Heart Rate Monitor Application,DS,62,DS-062-05,Export readings as PDF/CSV,Backend API,Low,User shall receive clear error message on failure.,Rejected once,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,63,DS_63.1,Export readings as PDF/CSV,Bluetooth Sensor,TBD,User shall receive clear error message on failure.,In Review,OCR noisy line
+Document 3 - DS - Heart Rate Monitor Application,DS,63,DS-063-02,Show trend chart for 7/30/90 days,Bluetooth Sensor,Low,TBD by clinical SME - intentionally incomplete.,Pending QA,OCR noisy line
+Document 3 - DS - Heart Rate Monitor Application,DS,63,DS-063-03,Consent capture and privacy notice,Local DB,Medium,Audit/event record shall be generated where applicable.,Pending QA,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,63,DS_63.4,Generate high/low heart-rate alert,Android/iOS,TBD,User shall receive clear error message on failure.,Approved?,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,63,DS-063-05,Show trend chart for 7/30/90 days,Notification Service,Low,Audit/event record shall be generated where applicable.,Need SME,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,64,DS_64.1,Consent capture and privacy notice,Local DB,High,Audit/event record shall be generated where applicable.,Pending QA,OCR noisy line
+Document 3 - DS - Heart Rate Monitor Application,DS,64,DS-064-02,Consent capture and privacy notice,Notification Service,TBD,Data shall be encrypted in transit and at rest.,Draft,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,64,DS-064-03,Battery and Bluetooth warning,Local DB,High,Data shall be encrypted in transit and at rest.,Approved?,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,64,DS-064-04,Consent capture and privacy notice,Local DB,High,Data shall be encrypted in transit and at rest.,Pending QA,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,64,DS-064-05,Capture heart rate from paired device,Android,Not ranked,Data shall be encrypted in transit and at rest.,Draft,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,65,DS-065-01,Handle offline mode,iOS,High,System shall complete the action without data loss.,Rejected once,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,65,DS-065-02,Validate sensor data range,Android/iOS,Medium,Result must be visible in mobile UI within expected time.,Need SME,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,65,DS_65.3,Notification retry and suppression,Android,High,User shall receive clear error message on failure.,Pending QA,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,65,DS-065-04,Capture heart rate from paired device,Local DB,Not ranked,Result must be visible in mobile UI within expected time.,Rejected once,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,65,DS-065-05,Consent capture and privacy notice,Cloud Sync,Not ranked,Audit/event record shall be generated where applicable.,Rejected once,??
+Document 3 - DS - Heart Rate Monitor Application,DS,66,DS-066-01,Handle offline mode,Android/iOS,High,TBD by clinical SME - intentionally incomplete.,Draft,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,66,DS-066-02,Show trend chart for 7/30/90 days,Notification Service,TBD,Result must be visible in mobile UI within expected time.,Draft,OCR noisy line
+Document 3 - DS - Heart Rate Monitor Application,DS,66,DS_66.3,Validate sensor data range,Cloud Sync,Low,TBD by clinical SME - intentionally incomplete.,Draft,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,66,DS-066-04,Handle offline mode,Backend API,TBD,TBD by clinical SME - intentionally incomplete.,In Review,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,66,DS-066-05,Consent capture and privacy notice,Android,Low,TBD by clinical SME - intentionally incomplete.,Approved?,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,67,DS-067-01,Export readings as PDF/CSV,Backend API,TBD,Data shall be encrypted in transit and at rest.,Pending QA,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,67,DS_67.2,Support caregiver view,Android/iOS,High,TBD by clinical SME - intentionally incomplete.,Need SME,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,67,DS-067-03,Sync readings to cloud API,Cloud Sync,Medium,TBD by clinical SME - intentionally incomplete.,Draft,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,67,DS-067-04,Sync readings to cloud API,iOS,Low,Audit/event record shall be generated where applicable.,In Review,OCR noisy line
+Document 3 - DS - Heart Rate Monitor Application,DS,67,DS-067-05,Validate sensor data range,iOS,Low,Data shall be encrypted in transit and at rest.,In Review,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,68,DS-068-01,Audit user actions,Backend API,TBD,System shall complete the action without data loss.,Need SME,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,68,DS-068-02,Display current BPM with timestamp,Cloud Sync,Medium,System shall complete the action without data loss.,Pending QA,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,68,DS-068-03,Support caregiver view,Cloud Sync,Medium,Data shall be encrypted in transit and at rest.,Rejected once,??
+Document 3 - DS - Heart Rate Monitor Application,DS,68,DS-068-04,Handle offline mode,iOS,High,System shall complete the action without data loss.,Need SME,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,68,DS-068-05,Store readings securely on device,Cloud Sync,Medium,Audit/event record shall be generated where applicable.,Pending QA,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,69,DS-069-01,Consent capture and privacy notice,Bluetooth Sensor,Low,Data shall be encrypted in transit and at rest.,In Review,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,69,DS-069-02,Show trend chart for 7/30/90 days,Android/iOS,High,Result must be visible in mobile UI within expected time.,Rejected once,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,69,DS_69.3,Store readings securely on device,Android,Medium,System shall complete the action without data loss.,Pending QA,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,69,DS-069-04,Export readings as PDF/CSV,Local DB,Low,User shall receive clear error message on failure.,In Review,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,69,DS-069-05,Notification retry and suppression,Cloud Sync,Low,TBD by clinical SME - intentionally incomplete.,In Review,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,70,DS-070-01,Handle offline mode,Local DB,Medium,TBD by clinical SME - intentionally incomplete.,Approved?,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,70,DS-070-02,Manual heart rate entry when device unavailable,iOS,Medium,TBD by clinical SME - intentionally incomplete.,Draft,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,70,DS_70.3,Export readings as PDF/CSV,Bluetooth Sensor,High,TBD by clinical SME - intentionally incomplete.,In Review,OCR noisy line
+Document 3 - DS - Heart Rate Monitor Application,DS,70,DS_70.4,Audit user actions,iOS,High,System shall complete the action without data loss.,Need SME,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,70,DS-070-05,Support caregiver view,Notification Service,TBD,Audit/event record shall be generated where applicable.,Draft,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,71,DS-071-01,Export readings as PDF/CSV,Android,Low,Audit/event record shall be generated where applicable.,Pending QA,??
+Document 3 - DS - Heart Rate Monitor Application,DS,71,DS-071-02,Consent capture and privacy notice,Bluetooth Sensor,Not ranked,Result must be visible in mobile UI within expected time.,In Review,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,71,DS-071-03,Audit user actions,Cloud Sync,High,TBD by clinical SME - intentionally incomplete.,In Review,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,71,DS-071-04,Export readings as PDF/CSV,Android,High,Data shall be encrypted in transit and at rest.,Rejected once,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,71,DS-071-05,Handle offline mode,Android,TBD,User shall receive clear error message on failure.,Approved?,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,72,DS_72.1,Notification retry and suppression,Notification Service,TBD,User shall receive clear error message on failure.,Pending QA,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,72,DS-072-02,Notification retry and suppression,Android,Not ranked,User shall receive clear error message on failure.,In Review,OCR noisy line
+Document 3 - DS - Heart Rate Monitor Application,DS,72,DS_72.3,Biometric login option,Android,Medium,TBD by clinical SME - intentionally incomplete.,Pending QA,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,72,DS-072-04,Battery and Bluetooth warning,Local DB,TBD,Result must be visible in mobile UI within expected time.,Need SME,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,72,DS-072-05,Capture heart rate from paired device,Android/iOS,High,Data shall be encrypted in transit and at rest.,In Review,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,73,DS_73.1,Biometric login option,Bluetooth Sensor,Medium,User shall receive clear error message on failure.,Draft,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,73,DS-073-02,Store readings securely on device,Notification Service,TBD,Result must be visible in mobile UI within expected time.,Pending QA,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,73,DS-073-03,Handle offline mode,Backend API,Not ranked,TBD by clinical SME - intentionally incomplete.,In Review,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,73,DS-073-04,Biometric login option,Local DB,TBD,Data shall be encrypted in transit and at rest.,Approved?,OCR noisy line
+Document 3 - DS - Heart Rate Monitor Application,DS,73,DS-073-05,Sync readings to cloud API,Local DB,TBD,User shall receive clear error message on failure.,Rejected once,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,74,DS-074-01,Display current BPM with timestamp,iOS,Low,Audit/event record shall be generated where applicable.,Rejected once,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,74,DS-074-02,Validate sensor data range,Notification Service,High,TBD by clinical SME - intentionally incomplete.,In Review,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,74,DS-074-03,Sync readings to cloud API,Bluetooth Sensor,High,Audit/event record shall be generated where applicable.,Need SME,??
+Document 3 - DS - Heart Rate Monitor Application,DS,74,DS-074-04,Export readings as PDF/CSV,Backend API,High,Audit/event record shall be generated where applicable.,In Review,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,74,DS-074-05,Notification retry and suppression,iOS,Not ranked,TBD by clinical SME - intentionally incomplete.,Approved?,??
+Document 3 - DS - Heart Rate Monitor Application,DS,75,DS-075-01,Notification retry and suppression,iOS,TBD,Result must be visible in mobile UI within expected time.,Approved?,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,75,DS-075-02,Validate sensor data range,Local DB,TBD,User shall receive clear error message on failure.,Need SME,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,75,DS-075-03,Notification retry and suppression,Cloud Sync,TBD,TBD by clinical SME - intentionally incomplete.,In Review,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,75,DS-075-04,Capture heart rate from paired device,Bluetooth Sensor,TBD,Result must be visible in mobile UI within expected time.,Rejected once,OCR noisy line
+Document 3 - DS - Heart Rate Monitor Application,DS,75,DS-075-05,Biometric login option,Android,High,Data shall be encrypted in transit and at rest.,Approved?,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,76,DS_76.1,Manual heart rate entry when device unavailable,Android,High,TBD by clinical SME - intentionally incomplete.,Draft,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,76,DS-076-02,Store readings securely on device,Bluetooth Sensor,TBD,System shall complete the action without data loss.,Draft,OCR noisy line
+Document 3 - DS - Heart Rate Monitor Application,DS,76,DS-076-03,Show trend chart for 7/30/90 days,Android,Low,User shall receive clear error message on failure.,Draft,??
+Document 3 - DS - Heart Rate Monitor Application,DS,76,DS-076-04,Sync readings to cloud API,Cloud Sync,High,Data shall be encrypted in transit and at rest.,Rejected once,OCR noisy line
+Document 3 - DS - Heart Rate Monitor Application,DS,76,DS-076-05,Display current BPM with timestamp,iOS,Low,TBD by clinical SME - intentionally incomplete.,Draft,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,77,DS-077-01,Handle offline mode,Notification Service,TBD,Audit/event record shall be generated where applicable.,Need SME,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,77,DS_77.2,Sync readings to cloud API,Android,Not ranked,User shall receive clear error message on failure.,Approved?,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,77,DS_77.3,Battery and Bluetooth warning,Cloud Sync,Not ranked,TBD by clinical SME - intentionally incomplete.,Approved?,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,77,DS-077-04,Export readings as PDF/CSV,Bluetooth Sensor,High,System shall complete the action without data loss.,Draft,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,77,DS-077-05,Generate high/low heart-rate alert,Bluetooth Sensor,Not ranked,System shall complete the action without data loss.,Draft,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,78,DS-078-01,Battery and Bluetooth warning,Backend API,Not ranked,System shall complete the action without data loss.,Pending QA,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,78,DS-078-02,Biometric login option,Cloud Sync,High,Data shall be encrypted in transit and at rest.,Draft,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,78,DS-078-03,Manual heart rate entry when device unavailable,iOS,Not ranked,System shall complete the action without data loss.,Pending QA,??
+Document 3 - DS - Heart Rate Monitor Application,DS,78,DS_78.4,Manual heart rate entry when device unavailable,Local DB,High,Result must be visible in mobile UI within expected time.,Rejected once,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,78,DS_78.5,Export readings as PDF/CSV,Notification Service,High,Result must be visible in mobile UI within expected time.,Need SME,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,79,DS-079-01,Battery and Bluetooth warning,Bluetooth Sensor,TBD,Result must be visible in mobile UI within expected time.,Need SME,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,79,DS-079-02,Manual heart rate entry when device unavailable,Bluetooth Sensor,Medium,TBD by clinical SME - intentionally incomplete.,Draft,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,79,DS-079-03,Biometric login option,iOS,Not ranked,TBD by clinical SME - intentionally incomplete.,Draft,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,79,DS-079-04,Export readings as PDF/CSV,Local DB,Medium,System shall complete the action without data loss.,In Review,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,79,DS_79.5,Battery and Bluetooth warning,Android,Not ranked,Audit/event record shall be generated where applicable.,Draft,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,80,DS-080-01,Biometric login option,Bluetooth Sensor,High,Data shall be encrypted in transit and at rest.,Pending QA,??
+Document 3 - DS - Heart Rate Monitor Application,DS,80,DS-080-02,Generate high/low heart-rate alert,Cloud Sync,TBD,TBD by clinical SME - intentionally incomplete.,In Review,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,80,DS-080-03,Notification retry and suppression,Android/iOS,Low,TBD by clinical SME - intentionally incomplete.,Approved?,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,80,DS_80.4,Manual heart rate entry when device unavailable,Android/iOS,Low,Audit/event record shall be generated where applicable.,Approved?,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,80,DS-080-05,Audit user actions,Bluetooth Sensor,Medium,Data shall be encrypted in transit and at rest.,Need SME,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,81,DS-081-01,Battery and Bluetooth warning,Notification Service,TBD,System shall complete the action without data loss.,Pending QA,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,81,DS-081-02,Support caregiver view,Android,Not ranked,User shall receive clear error message on failure.,Need SME,OCR noisy line
+Document 3 - DS - Heart Rate Monitor Application,DS,81,DS-081-03,Sync readings to cloud API,Cloud Sync,High,Audit/event record shall be generated where applicable.,Need SME,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,81,DS-081-04,Support caregiver view,iOS,TBD,User shall receive clear error message on failure.,Approved?,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,81,DS-081-05,Audit user actions,Android,Medium,Result must be visible in mobile UI within expected time.,In Review,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,82,DS-082-01,Biometric login option,Notification Service,TBD,TBD by clinical SME - intentionally incomplete.,Approved?,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,82,DS-082-02,Store readings securely on device,Notification Service,TBD,TBD by clinical SME - intentionally incomplete.,In Review,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,82,DS-082-03,Validate sensor data range,iOS,Not ranked,User shall receive clear error message on failure.,Approved?,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,82,DS-082-04,Support caregiver view,Cloud Sync,Medium,Data shall be encrypted in transit and at rest.,Need SME,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,82,DS-082-05,Validate sensor data range,Bluetooth Sensor,Not ranked,System shall complete the action without data loss.,In Review,OCR noisy line
+Document 3 - DS - Heart Rate Monitor Application,DS,83,DS-083-01,Generate high/low heart-rate alert,Notification Service,Low,System shall complete the action without data loss.,Pending QA,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,83,DS-083-02,Manual heart rate entry when device unavailable,Cloud Sync,TBD,System shall complete the action without data loss.,Draft,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,83,DS-083-03,Export readings as PDF/CSV,Cloud Sync,TBD,User shall receive clear error message on failure.,Need SME,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,83,DS-083-04,Battery and Bluetooth warning,Android/iOS,Low,Data shall be encrypted in transit and at rest.,Need SME,OCR noisy line
+Document 3 - DS - Heart Rate Monitor Application,DS,83,DS-083-05,Validate sensor data range,Backend API,Not ranked,System shall complete the action without data loss.,Approved?,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,84,DS-084-01,Audit user actions,Bluetooth Sensor,Low,User shall receive clear error message on failure.,Rejected once,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,84,DS-084-02,Show trend chart for 7/30/90 days,Bluetooth Sensor,High,User shall receive clear error message on failure.,Pending QA,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,84,DS-084-03,Biometric login option,Notification Service,Not ranked,User shall receive clear error message on failure.,Approved?,??
+Document 3 - DS - Heart Rate Monitor Application,DS,84,DS-084-04,Show trend chart for 7/30/90 days,Android/iOS,Medium,Result must be visible in mobile UI within expected time.,Pending QA,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,84,DS-084-05,Validate sensor data range,iOS,TBD,Audit/event record shall be generated where applicable.,In Review,OCR noisy line
+Document 3 - DS - Heart Rate Monitor Application,DS,85,DS-085-01,Biometric login option,Local DB,Not ranked,TBD by clinical SME - intentionally incomplete.,Need SME,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,85,DS-085-02,Handle offline mode,Bluetooth Sensor,Not ranked,Result must be visible in mobile UI within expected time.,Approved?,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,85,DS-085-03,Display current BPM with timestamp,Backend API,TBD,Audit/event record shall be generated where applicable.,In Review,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,85,DS-085-04,Manual heart rate entry when device unavailable,iOS,TBD,Data shall be encrypted in transit and at rest.,Rejected once,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,85,DS-085-05,Export readings as PDF/CSV,Cloud Sync,Not ranked,Result must be visible in mobile UI within expected time.,In Review,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,86,DS-086-01,Biometric login option,Backend API,Low,Data shall be encrypted in transit and at rest.,Approved?,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,86,DS-086-02,Manual heart rate entry when device unavailable,Local DB,Medium,TBD by clinical SME - intentionally incomplete.,Need SME,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,86,DS_86.3,Consent capture and privacy notice,iOS,Not ranked,User shall receive clear error message on failure.,Pending QA,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,86,DS_86.4,Biometric login option,Backend API,Low,User shall receive clear error message on failure.,Rejected once,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,86,DS-086-05,Biometric login option,Local DB,Medium,Audit/event record shall be generated where applicable.,Approved?,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,87,DS-087-01,Generate high/low heart-rate alert,Bluetooth Sensor,TBD,Data shall be encrypted in transit and at rest.,In Review,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,87,DS-087-02,Notification retry and suppression,Android,Low,User shall receive clear error message on failure.,Pending QA,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,87,DS-087-03,Capture heart rate from paired device,iOS,High,TBD by clinical SME - intentionally incomplete.,Rejected once,OCR noisy line
+Document 3 - DS - Heart Rate Monitor Application,DS,87,DS-087-04,Consent capture and privacy notice,Local DB,Low,Result must be visible in mobile UI within expected time.,Draft,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,87,DS_87.5,Notification retry and suppression,Cloud Sync,Not ranked,Result must be visible in mobile UI within expected time.,Rejected once,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,88,DS_88.1,Battery and Bluetooth warning,Backend API,TBD,System shall complete the action without data loss.,Approved?,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,88,DS-088-02,Biometric login option,iOS,High,Result must be visible in mobile UI within expected time.,Rejected once,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,88,DS-088-03,Biometric login option,Local DB,Medium,User shall receive clear error message on failure.,Rejected once,??
+Document 3 - DS - Heart Rate Monitor Application,DS,88,DS_88.4,Validate sensor data range,Backend API,TBD,Data shall be encrypted in transit and at rest.,Need SME,??
+Document 3 - DS - Heart Rate Monitor Application,DS,88,DS_88.5,Show trend chart for 7/30/90 days,Android,TBD,User shall receive clear error message on failure.,Approved?,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,89,DS-089-01,Export readings as PDF/CSV,Android,Low,Data shall be encrypted in transit and at rest.,Draft,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,89,DS-089-02,Show trend chart for 7/30/90 days,Bluetooth Sensor,Low,Data shall be encrypted in transit and at rest.,Rejected once,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,89,DS-089-03,Validate sensor data range,Local DB,Low,Result must be visible in mobile UI within expected time.,Draft,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,89,DS-089-04,Export readings as PDF/CSV,Cloud Sync,Medium,System shall complete the action without data loss.,Draft,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,89,DS-089-05,Support caregiver view,Android/iOS,Low,System shall complete the action without data loss.,Draft,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,90,DS-090-01,Manual heart rate entry when device unavailable,Local DB,Medium,Result must be visible in mobile UI within expected time.,Approved?,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,90,DS-090-02,Sync readings to cloud API,Notification Service,TBD,TBD by clinical SME - intentionally incomplete.,In Review,??
+Document 3 - DS - Heart Rate Monitor Application,DS,90,DS-090-03,Consent capture and privacy notice,Backend API,TBD,TBD by clinical SME - intentionally incomplete.,Approved?,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,90,DS_90.4,Show trend chart for 7/30/90 days,Android/iOS,TBD,Audit/event record shall be generated where applicable.,In Review,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,90,DS-090-05,Show trend chart for 7/30/90 days,Backend API,Not ranked,System shall complete the action without data loss.,Rejected once,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,91,DS-091-01,Show trend chart for 7/30/90 days,Bluetooth Sensor,Low,Result must be visible in mobile UI within expected time.,In Review,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,91,DS-091-02,Consent capture and privacy notice,Local DB,Medium,Result must be visible in mobile UI within expected time.,Pending QA,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,91,DS-091-03,Display current BPM with timestamp,Android,Not ranked,User shall receive clear error message on failure.,Draft,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,91,DS-091-04,Audit user actions,Cloud Sync,High,Result must be visible in mobile UI within expected time.,Pending QA,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,91,DS-091-05,Display current BPM with timestamp,Local DB,Low,System shall complete the action without data loss.,Approved?,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,92,DS-092-01,Consent capture and privacy notice,Bluetooth Sensor,TBD,TBD by clinical SME - intentionally incomplete.,Approved?,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,92,DS-092-02,Capture heart rate from paired device,Android,High,Result must be visible in mobile UI within expected time.,Need SME,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,92,DS-092-03,Display current BPM with timestamp,Bluetooth Sensor,TBD,TBD by clinical SME - intentionally incomplete.,Pending QA,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,92,DS-092-04,Validate sensor data range,iOS,TBD,Data shall be encrypted in transit and at rest.,Pending QA,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,92,DS_92.5,Generate high/low heart-rate alert,Cloud Sync,TBD,Audit/event record shall be generated where applicable.,In Review,??
+Document 3 - DS - Heart Rate Monitor Application,DS,93,DS-093-01,Store readings securely on device,Android,Low,User shall receive clear error message on failure.,Need SME,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,93,DS-093-02,Sync readings to cloud API,Bluetooth Sensor,High,TBD by clinical SME - intentionally incomplete.,Need SME,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,93,DS_93.3,Store readings securely on device,Bluetooth Sensor,High,Result must be visible in mobile UI within expected time.,Approved?,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,93,DS-093-04,Show trend chart for 7/30/90 days,Backend API,Not ranked,TBD by clinical SME - intentionally incomplete.,Draft,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,93,DS-093-05,Biometric login option,Android/iOS,Low,Result must be visible in mobile UI within expected time.,Rejected once,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,94,DS-094-01,Notification retry and suppression,Local DB,Medium,TBD by clinical SME - intentionally incomplete.,Approved?,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,94,DS-094-02,Notification retry and suppression,iOS,TBD,Data shall be encrypted in transit and at rest.,In Review,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,94,DS-094-03,Notification retry and suppression,iOS,Low,Data shall be encrypted in transit and at rest.,Rejected once,OCR noisy line
+Document 3 - DS - Heart Rate Monitor Application,DS,94,DS-094-04,Handle offline mode,Cloud Sync,Not ranked,Result must be visible in mobile UI within expected time.,Draft,OCR noisy line
+Document 3 - DS - Heart Rate Monitor Application,DS,94,DS-094-05,Audit user actions,iOS,TBD,Data shall be encrypted in transit and at rest.,Pending QA,OCR noisy line
+Document 3 - DS - Heart Rate Monitor Application,DS,95,DS-095-01,Consent capture and privacy notice,iOS,High,Data shall be encrypted in transit and at rest.,Rejected once,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,95,DS_95.2,Battery and Bluetooth warning,Local DB,High,System shall complete the action without data loss.,Pending QA,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,95,DS-095-03,Sync readings to cloud API,Backend API,Low,Audit/event record shall be generated where applicable.,Need SME,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,95,DS-095-04,Handle offline mode,Android/iOS,Low,User shall receive clear error message on failure.,Pending QA,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,95,DS-095-05,Audit user actions,Backend API,Medium,Audit/event record shall be generated where applicable.,Need SME,??
+Document 3 - DS - Heart Rate Monitor Application,DS,96,DS-096-01,Generate high/low heart-rate alert,iOS,Medium,TBD by clinical SME - intentionally incomplete.,Draft,OCR noisy line
+Document 3 - DS - Heart Rate Monitor Application,DS,96,DS_96.2,Biometric login option,Cloud Sync,TBD,TBD by clinical SME - intentionally incomplete.,Approved?,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,96,DS-096-03,Support caregiver view,Android/iOS,Low,Data shall be encrypted in transit and at rest.,Approved?,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,96,DS-096-04,Store readings securely on device,Android,Low,User shall receive clear error message on failure.,Draft,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,96,DS-096-05,Consent capture and privacy notice,Local DB,TBD,System shall complete the action without data loss.,Rejected once,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,97,DS-097-01,Consent capture and privacy notice,Android,Medium,Data shall be encrypted in transit and at rest.,In Review,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,97,DS-097-02,Store readings securely on device,Cloud Sync,Not ranked,User shall receive clear error message on failure.,Pending QA,??
+Document 3 - DS - Heart Rate Monitor Application,DS,97,DS_97.3,Validate sensor data range,iOS,Not ranked,Data shall be encrypted in transit and at rest.,Approved?,v0.1/v1.0 mixed
+Document 3 - DS - Heart Rate Monitor Application,DS,97,DS_97.4,Biometric login option,Android,Medium,Data shall be encrypted in transit and at rest.,Rejected once,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,97,DS-097-05,Consent capture and privacy notice,Local DB,Low,Data shall be encrypted in transit and at rest.,Need SME,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,98,DS-098-01,Sync readings to cloud API,Local DB,Medium,TBD by clinical SME - intentionally incomplete.,Draft,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,98,DS-098-02,Show trend chart for 7/30/90 days,Bluetooth Sensor,Medium,System shall complete the action without data loss.,Rejected once,old text retained
+Document 3 - DS - Heart Rate Monitor Application,DS,98,DS-098-03,Show trend chart for 7/30/90 days,Notification Service,Medium,Audit/event record shall be generated where applicable.,Approved?,duplicate section
+Document 3 - DS - Heart Rate Monitor Application,DS,98,DS-098-04,Support caregiver view,Local DB,High,User shall receive clear error message on failure.,Approved?,manual note
+Document 3 - DS - Heart Rate Monitor Application,DS,98,DS-098-05,Validate sensor data range,Android,TBD,Result must be visible in mobile UI within expected time.,In Review,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,99,DS-099-01,Capture heart rate from paired device,Bluetooth Sensor,High,TBD by clinical SME - intentionally incomplete.,Pending QA,RAG TEST CHUNK
+Document 3 - DS - Heart Rate Monitor Application,DS,99,DS-099-02,Notification retry and suppression,Bluetooth Sensor,High,Result must be visible in mobile UI within expected time.,Draft,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,99,DS-099-03,Audit user actions,Android/iOS,Low,Data shall be encrypted in transit and at rest.,Approved?,missing owner
+Document 3 - DS - Heart Rate Monitor Application,DS,99,DS-099-04,Display current BPM with timestamp,Bluetooth Sensor,TBD,Data shall be encrypted in transit and at rest.,Draft,??
+Document 3 - DS - Heart Rate Monitor Application,DS,99,DS-099-05,Battery and Bluetooth warning,Local DB,Low,Result must be visible in mobile UI within expected time.,In Review,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,100,DS-100-01,Handle offline mode,Android/iOS,High,Result must be visible in mobile UI within expected time.,Pending QA,REVIEW-LATER
+Document 3 - DS - Heart Rate Monitor Application,DS,100,DS-100-02,Generate high/low heart-rate alert,Bluetooth Sensor,Not ranked,Result must be visible in mobile UI within expected time.,Pending QA,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,100,DS-100-03,Handle offline mode,Android/iOS,Medium,Result must be visible in mobile UI within expected time.,Approved?,??
+Document 3 - DS - Heart Rate Monitor Application,DS,100,DS-100-04,Validate sensor data range,iOS,Low,Result must be visible in mobile UI within expected time.,Draft,TBD
+Document 3 - DS - Heart Rate Monitor Application,DS,100,DS-100-05,Audit user actions,iOS,TBD,User shall receive clear error message on failure.,Rejected once,REVIEW-LATER

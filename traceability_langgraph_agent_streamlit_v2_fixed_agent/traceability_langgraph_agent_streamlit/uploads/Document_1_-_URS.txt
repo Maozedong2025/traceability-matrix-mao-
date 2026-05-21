@@ -1,0 +1,1003 @@
+Document 1 - URS - Heart Rate Monitor Application
+Synthetic messy validation test document. Not for real medical or regulatory use.
+
+--- PAGE 001 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-001-01 | Manual heart rate entry when device unavailable | Backend API | Low | Result must be visible in mobile UI within expected time. | Approved?
+URS_1.2 | Export readings as PDF/CSV | Bluetooth Sensor | Not ranked | Audit/event record shall be generated where applicable. | Approved?
+URS_1.3 | Export readings as PDF/CSV | Bluetooth Sensor | Not ranked | User shall receive clear error message on failure. | Rejected once
+URS-001-04 | Manual heart rate entry when device unavailable | iOS | Low | User shall receive clear error message on failure. | Draft
+URS-001-05 | Manual heart rate entry when device unavailable | Android | TBD | Data shall be encrypted in transit and at rest. | In Review
+URS_1.6 | Manual heart rate entry when device unavailable | iOS | TBD | Data shall be encrypted in transit and at rest. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 002 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-002-01 | Capture heart rate from paired device | Android/iOS | Medium | Audit/event record shall be generated where applicable. | Pending QA
+URS-002-02 | Manual heart rate entry when device unavailable | Bluetooth Sensor | Not ranked | Result must be visible in mobile UI within expected time. | Draft
+URS-002-03 | Display current BPM with timestamp | Backend API | Medium | Audit/event record shall be generated where applicable. | Rejected once
+URS-002-04 | Support caregiver view | Android/iOS | High | User shall receive clear error message on failure. | Approved?
+URS-002-05 | Generate high/low heart-rate alert | Cloud Sync | Medium | System shall complete the action without data loss. | Pending QA
+URS-002-06 | Biometric login option | Cloud Sync | Not ranked | TBD by clinical SME - intentionally incomplete. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 003 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-003-01 | Capture heart rate from paired device | Android | Low | TBD by clinical SME - intentionally incomplete. | Rejected once
+URS_3.2 | Store readings securely on device | iOS | TBD | User shall receive clear error message on failure. | Draft
+URS-003-03 | Notification retry and suppression | Bluetooth Sensor | High | TBD by clinical SME - intentionally incomplete. | Pending QA
+URS-003-04 | Support caregiver view | Notification Service | TBD | Data shall be encrypted in transit and at rest. | Pending QA
+URS-003-05 | Validate sensor data range | Bluetooth Sensor | Not ranked | Data shall be encrypted in transit and at rest. | Approved?
+URS-003-06 | Consent capture and privacy notice | iOS | Low | User shall receive clear error message on failure. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 004 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-004-01 | Consent capture and privacy notice | Bluetooth Sensor | Medium | Audit/event record shall be generated where applicable. | In Review
+URS-004-02 | Display current BPM with timestamp | Android | TBD | Audit/event record shall be generated where applicable. | Draft
+URS-004-03 | Consent capture and privacy notice | Backend API | TBD | System shall complete the action without data loss. | Approved?
+URS-004-04 | Consent capture and privacy notice | Cloud Sync | Low | User shall receive clear error message on failure. | In Review
+URS_4.5 | Manual heart rate entry when device unavailable | Bluetooth Sensor | Not ranked | TBD by clinical SME - intentionally incomplete. | Draft
+URS-004-06 | Capture heart rate from paired device | Backend API | High | Audit/event record shall be generated where applicable. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 005 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS_5.1 | Display current BPM with timestamp | Bluetooth Sensor | Low | Audit/event record shall be generated where applicable. | Approved?
+URS_5.2 | Display current BPM with timestamp | Cloud Sync | Medium | User shall receive clear error message on failure. | Pending QA
+URS-005-03 | Support caregiver view | Backend API | High | TBD by clinical SME - intentionally incomplete. | In Review
+URS-005-04 | Notification retry and suppression | Android/iOS | Low | User shall receive clear error message on failure. | Rejected once
+URS-005-05 | Export readings as PDF/CSV | Notification Service | Not ranked | Data shall be encrypted in transit and at rest. | Approved?
+URS-005-06 | Consent capture and privacy notice | Android/iOS | TBD | TBD by clinical SME - intentionally incomplete. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 006 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-006-01 | Capture heart rate from paired device | Bluetooth Sensor | TBD | System shall complete the action without data loss. | Pending QA
+URS_6.2 | Audit user actions | Android/iOS | Not ranked | Data shall be encrypted in transit and at rest. | Need SME
+URS-006-03 | Handle offline mode | Android/iOS | Not ranked | User shall receive clear error message on failure. | Rejected once
+URS-006-04 | Capture heart rate from paired device | Backend API | High | User shall receive clear error message on failure. | In Review
+URS-006-05 | Store readings securely on device | iOS | TBD | Data shall be encrypted in transit and at rest. | Need SME
+URS_6.6 | Capture heart rate from paired device | Notification Service | Not ranked | Data shall be encrypted in transit and at rest. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 007 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-007-01 | Audit user actions | Android | Not ranked | Audit/event record shall be generated where applicable. | In Review
+URS_7.2 | Sync readings to cloud API | Bluetooth Sensor | Medium | User shall receive clear error message on failure. | Draft
+URS-007-03 | Export readings as PDF/CSV | Android | Not ranked | User shall receive clear error message on failure. | Draft
+URS-007-04 | Export readings as PDF/CSV | Bluetooth Sensor | Not ranked | Audit/event record shall be generated where applicable. | Need SME
+URS-007-05 | Support caregiver view | Backend API | High | TBD by clinical SME - intentionally incomplete. | In Review
+URS-007-06 | Manual heart rate entry when device unavailable | Android | High | TBD by clinical SME - intentionally incomplete. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 008 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-008-01 | Store readings securely on device | Backend API | Low | User shall receive clear error message on failure. | Pending QA
+URS-008-02 | Support caregiver view | Android | TBD | User shall receive clear error message on failure. | Approved?
+URS-008-03 | Handle offline mode | Android | Low | Audit/event record shall be generated where applicable. | Need SME
+URS-008-04 | Capture heart rate from paired device | iOS | High | User shall receive clear error message on failure. | Rejected once
+URS-008-05 | Consent capture and privacy notice | Android/iOS | High | Result must be visible in mobile UI within expected time. | Pending QA
+URS-008-06 | Store readings securely on device | Android | Not ranked | User shall receive clear error message on failure. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 009 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-009-01 | Manual heart rate entry when device unavailable | Local DB | Not ranked | System shall complete the action without data loss. | Rejected once
+URS-009-02 | Show trend chart for 7/30/90 days | Cloud Sync | TBD | System shall complete the action without data loss. | Approved?
+URS-009-03 | Export readings as PDF/CSV | Backend API | TBD | User shall receive clear error message on failure. | Rejected once
+URS-009-04 | Capture heart rate from paired device | Android/iOS | Low | System shall complete the action without data loss. | Rejected once
+URS-009-05 | Generate high/low heart-rate alert | iOS | Medium | Audit/event record shall be generated where applicable. | In Review
+URS-009-06 | Biometric login option | Android | TBD | TBD by clinical SME - intentionally incomplete. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 010 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-010-01 | Capture heart rate from paired device | Cloud Sync | High | Result must be visible in mobile UI within expected time. | Rejected once
+URS-010-02 | Display current BPM with timestamp | Bluetooth Sensor | Not ranked | Audit/event record shall be generated where applicable. | Approved?
+URS-010-03 | Battery and Bluetooth warning | Backend API | High | Data shall be encrypted in transit and at rest. | Approved?
+URS-010-04 | Validate sensor data range | Bluetooth Sensor | Medium | Result must be visible in mobile UI within expected time. | In Review
+URS-010-05 | Support caregiver view | Local DB | TBD | TBD by clinical SME - intentionally incomplete. | Rejected once
+URS-010-06 | Manual heart rate entry when device unavailable | Backend API | TBD | Data shall be encrypted in transit and at rest. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 011 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-011-01 | Show trend chart for 7/30/90 days | Local DB | Medium | TBD by clinical SME - intentionally incomplete. | Draft
+URS-011-02 | Audit user actions | Android | Medium | Data shall be encrypted in transit and at rest. | In Review
+URS-011-03 | Display current BPM with timestamp | Notification Service | Low | System shall complete the action without data loss. | In Review
+URS-011-04 | Capture heart rate from paired device | Backend API | Not ranked | TBD by clinical SME - intentionally incomplete. | Need SME
+URS-011-05 | Audit user actions | Local DB | Not ranked | Audit/event record shall be generated where applicable. | Approved?
+URS_11.6 | Show trend chart for 7/30/90 days | Notification Service | Low | Audit/event record shall be generated where applicable. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 012 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-012-01 | Manual heart rate entry when device unavailable | iOS | Medium | Data shall be encrypted in transit and at rest. | Rejected once
+URS-012-02 | Manual heart rate entry when device unavailable | Android | High | Audit/event record shall be generated where applicable. | Pending QA
+URS-012-03 | Store readings securely on device | Android/iOS | TBD | User shall receive clear error message on failure. | Approved?
+URS_12.4 | Battery and Bluetooth warning | Notification Service | TBD | System shall complete the action without data loss. | Draft
+URS-012-05 | Export readings as PDF/CSV | Android/iOS | TBD | User shall receive clear error message on failure. | Draft
+URS-012-06 | Show trend chart for 7/30/90 days | Android | Medium | Data shall be encrypted in transit and at rest. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 013 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-013-01 | Consent capture and privacy notice | Android/iOS | Medium | System shall complete the action without data loss. | Draft
+URS-013-02 | Export readings as PDF/CSV | Android/iOS | Medium | System shall complete the action without data loss. | Pending QA
+URS-013-03 | Biometric login option | Bluetooth Sensor | TBD | Data shall be encrypted in transit and at rest. | Pending QA
+URS-013-04 | Consent capture and privacy notice | iOS | Low | Result must be visible in mobile UI within expected time. | Draft
+URS-013-05 | Display current BPM with timestamp | Bluetooth Sensor | Not ranked | System shall complete the action without data loss. | Pending QA
+URS-013-06 | Audit user actions | Cloud Sync | TBD | Result must be visible in mobile UI within expected time. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 014 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-014-01 | Display current BPM with timestamp | Bluetooth Sensor | Not ranked | Result must be visible in mobile UI within expected time. | Draft
+URS-014-02 | Store readings securely on device | Backend API | High | Result must be visible in mobile UI within expected time. | Pending QA
+URS-014-03 | Audit user actions | Notification Service | Medium | User shall receive clear error message on failure. | Rejected once
+URS-014-04 | Support caregiver view | Bluetooth Sensor | High | Audit/event record shall be generated where applicable. | Pending QA
+URS-014-05 | Store readings securely on device | Notification Service | TBD | User shall receive clear error message on failure. | Draft
+URS-014-06 | Battery and Bluetooth warning | Android | High | TBD by clinical SME - intentionally incomplete. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 015 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-015-01 | Manual heart rate entry when device unavailable | iOS | High | Result must be visible in mobile UI within expected time. | Approved?
+URS-015-02 | Store readings securely on device | iOS | Low | TBD by clinical SME - intentionally incomplete. | In Review
+URS-015-03 | Export readings as PDF/CSV | Bluetooth Sensor | Not ranked | Audit/event record shall be generated where applicable. | Need SME
+URS-015-04 | Audit user actions | Bluetooth Sensor | TBD | User shall receive clear error message on failure. | Need SME
+URS_15.5 | Consent capture and privacy notice | Bluetooth Sensor | High | TBD by clinical SME - intentionally incomplete. | Rejected once
+URS-015-06 | Manual heart rate entry when device unavailable | iOS | TBD | Result must be visible in mobile UI within expected time. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 016 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-016-01 | Battery and Bluetooth warning | iOS | TBD | User shall receive clear error message on failure. | In Review
+URS-016-02 | Handle offline mode | Android | Medium | User shall receive clear error message on failure. | Need SME
+URS-016-03 | Validate sensor data range | Backend API | Low | Data shall be encrypted in transit and at rest. | Approved?
+URS-016-04 | Biometric login option | Android | High | Data shall be encrypted in transit and at rest. | In Review
+URS-016-05 | Biometric login option | Cloud Sync | Low | TBD by clinical SME - intentionally incomplete. | Draft
+URS-016-06 | Validate sensor data range | iOS | Medium | Result must be visible in mobile UI within expected time. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 017 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS_17.1 | Show trend chart for 7/30/90 days | iOS | TBD | System shall complete the action without data loss. | Approved?
+URS-017-02 | Manual heart rate entry when device unavailable | Android | TBD | User shall receive clear error message on failure. | In Review
+URS-017-03 | Biometric login option | Android | High | System shall complete the action without data loss. | Draft
+URS-017-04 | Biometric login option | iOS | Low | Result must be visible in mobile UI within expected time. | In Review
+URS_17.5 | Display current BPM with timestamp | Backend API | Not ranked | User shall receive clear error message on failure. | Draft
+URS-017-06 | Audit user actions | Backend API | High | TBD by clinical SME - intentionally incomplete. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 018 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-018-01 | Handle offline mode | Android | Medium | System shall complete the action without data loss. | Approved?
+URS_18.2 | Validate sensor data range | Android | Not ranked | User shall receive clear error message on failure. | Pending QA
+URS-018-03 | Battery and Bluetooth warning | Bluetooth Sensor | Not ranked | Result must be visible in mobile UI within expected time. | Approved?
+URS-018-04 | Battery and Bluetooth warning | Android | High | System shall complete the action without data loss. | Pending QA
+URS-018-05 | Export readings as PDF/CSV | Android/iOS | Not ranked | User shall receive clear error message on failure. | Need SME
+URS-018-06 | Generate high/low heart-rate alert | Notification Service | TBD | Result must be visible in mobile UI within expected time. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 019 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-019-01 | Notification retry and suppression | Android/iOS | TBD | System shall complete the action without data loss. | In Review
+URS-019-02 | Validate sensor data range | Cloud Sync | High | Result must be visible in mobile UI within expected time. | In Review
+URS-019-03 | Support caregiver view | iOS | Not ranked | User shall receive clear error message on failure. | Approved?
+URS-019-04 | Consent capture and privacy notice | Backend API | Low | TBD by clinical SME - intentionally incomplete. | Pending QA
+URS-019-05 | Handle offline mode | Backend API | High | Audit/event record shall be generated where applicable. | Approved?
+URS-019-06 | Handle offline mode | Android/iOS | Medium | Result must be visible in mobile UI within expected time. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 020 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS_20.1 | Manual heart rate entry when device unavailable | Cloud Sync | Low | System shall complete the action without data loss. | Rejected once
+URS-020-02 | Handle offline mode | Android | TBD | System shall complete the action without data loss. | Draft
+URS-020-03 | Notification retry and suppression | Notification Service | Medium | TBD by clinical SME - intentionally incomplete. | Approved?
+URS-020-04 | Generate high/low heart-rate alert | Notification Service | Not ranked | TBD by clinical SME - intentionally incomplete. | Rejected once
+URS-020-05 | Audit user actions | iOS | Low | Result must be visible in mobile UI within expected time. | Draft
+URS_20.6 | Validate sensor data range | Local DB | TBD | Audit/event record shall be generated where applicable. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 021 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS_21.1 | Capture heart rate from paired device | Backend API | Low | System shall complete the action without data loss. | Rejected once
+URS_21.2 | Handle offline mode | iOS | Not ranked | System shall complete the action without data loss. | In Review
+URS_21.3 | Support caregiver view | Local DB | Not ranked | Audit/event record shall be generated where applicable. | Draft
+URS_21.4 | Store readings securely on device | Backend API | TBD | Data shall be encrypted in transit and at rest. | In Review
+URS_21.5 | Manual heart rate entry when device unavailable | Backend API | TBD | Audit/event record shall be generated where applicable. | Pending QA
+URS-021-06 | Handle offline mode | iOS | Medium | User shall receive clear error message on failure. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 022 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-022-01 | Sync readings to cloud API | Backend API | Medium | Audit/event record shall be generated where applicable. | Approved?
+URS-022-02 | Store readings securely on device | Android/iOS | Low | Data shall be encrypted in transit and at rest. | Need SME
+URS-022-03 | Capture heart rate from paired device | Cloud Sync | High | Data shall be encrypted in transit and at rest. | Draft
+URS-022-04 | Audit user actions | Android/iOS | Low | User shall receive clear error message on failure. | In Review
+URS-022-05 | Battery and Bluetooth warning | Cloud Sync | Not ranked | TBD by clinical SME - intentionally incomplete. | Pending QA
+URS-022-06 | Generate high/low heart-rate alert | Android/iOS | Not ranked | Result must be visible in mobile UI within expected time. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 023 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-023-01 | Notification retry and suppression | Android/iOS | Not ranked | TBD by clinical SME - intentionally incomplete. | Rejected once
+URS-023-02 | Display current BPM with timestamp | Cloud Sync | TBD | User shall receive clear error message on failure. | Draft
+URS-023-03 | Support caregiver view | Android/iOS | Medium | Data shall be encrypted in transit and at rest. | Draft
+URS-023-04 | Sync readings to cloud API | Local DB | Medium | User shall receive clear error message on failure. | In Review
+URS-023-05 | Handle offline mode | Local DB | High | TBD by clinical SME - intentionally incomplete. | Pending QA
+URS_23.6 | Biometric login option | Notification Service | Medium | User shall receive clear error message on failure. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 024 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-024-01 | Export readings as PDF/CSV | Notification Service | Not ranked | Audit/event record shall be generated where applicable. | Pending QA
+URS-024-02 | Generate high/low heart-rate alert | Cloud Sync | Low | User shall receive clear error message on failure. | In Review
+URS-024-03 | Capture heart rate from paired device | Android/iOS | Low | Result must be visible in mobile UI within expected time. | In Review
+URS_24.4 | Export readings as PDF/CSV | iOS | TBD | Result must be visible in mobile UI within expected time. | In Review
+URS-024-05 | Notification retry and suppression | Android | Low | System shall complete the action without data loss. | Need SME
+URS-024-06 | Biometric login option | Cloud Sync | TBD | Result must be visible in mobile UI within expected time. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 025 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-025-01 | Sync readings to cloud API | Android/iOS | Not ranked | Data shall be encrypted in transit and at rest. | Need SME
+URS-025-02 | Export readings as PDF/CSV | iOS | Medium | Audit/event record shall be generated where applicable. | Draft
+URS-025-03 | Handle offline mode | Android/iOS | Medium | Data shall be encrypted in transit and at rest. | Rejected once
+URS_25.4 | Support caregiver view | Android/iOS | TBD | Audit/event record shall be generated where applicable. | Draft
+URS-025-05 | Consent capture and privacy notice | Local DB | TBD | Audit/event record shall be generated where applicable. | Need SME
+URS-025-06 | Manual heart rate entry when device unavailable | Cloud Sync | Low | Data shall be encrypted in transit and at rest. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 026 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-026-01 | Capture heart rate from paired device | Cloud Sync | Low | Result must be visible in mobile UI within expected time. | Pending QA
+URS-026-02 | Battery and Bluetooth warning | Local DB | Low | User shall receive clear error message on failure. | Rejected once
+URS-026-03 | Export readings as PDF/CSV | Notification Service | Low | User shall receive clear error message on failure. | In Review
+URS-026-04 | Battery and Bluetooth warning | Local DB | High | Audit/event record shall be generated where applicable. | Pending QA
+URS-026-05 | Generate high/low heart-rate alert | Bluetooth Sensor | TBD | Result must be visible in mobile UI within expected time. | Rejected once
+URS-026-06 | Biometric login option | Local DB | High | Result must be visible in mobile UI within expected time. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 027 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-027-01 | Battery and Bluetooth warning | Bluetooth Sensor | High | TBD by clinical SME - intentionally incomplete. | Draft
+URS-027-02 | Battery and Bluetooth warning | Android/iOS | High | Result must be visible in mobile UI within expected time. | Approved?
+URS-027-03 | Handle offline mode | Notification Service | High | Audit/event record shall be generated where applicable. | In Review
+URS-027-04 | Display current BPM with timestamp | Bluetooth Sensor | TBD | TBD by clinical SME - intentionally incomplete. | Draft
+URS-027-05 | Support caregiver view | iOS | TBD | Data shall be encrypted in transit and at rest. | Need SME
+URS-027-06 | Generate high/low heart-rate alert | Cloud Sync | Low | System shall complete the action without data loss. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 028 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-028-01 | Capture heart rate from paired device | Notification Service | High | System shall complete the action without data loss. | In Review
+URS-028-02 | Manual heart rate entry when device unavailable | Android/iOS | High | Data shall be encrypted in transit and at rest. | Approved?
+URS-028-03 | Support caregiver view | iOS | Medium | Audit/event record shall be generated where applicable. | In Review
+URS_28.4 | Support caregiver view | Cloud Sync | Medium | Audit/event record shall be generated where applicable. | In Review
+URS-028-05 | Support caregiver view | Cloud Sync | Not ranked | Data shall be encrypted in transit and at rest. | In Review
+URS-028-06 | Show trend chart for 7/30/90 days | Backend API | Medium | Data shall be encrypted in transit and at rest. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 029 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-029-01 | Battery and Bluetooth warning | Android/iOS | TBD | User shall receive clear error message on failure. | Draft
+URS-029-02 | Biometric login option | Local DB | TBD | Result must be visible in mobile UI within expected time. | Rejected once
+URS-029-03 | Generate high/low heart-rate alert | iOS | Low | System shall complete the action without data loss. | Draft
+URS-029-04 | Display current BPM with timestamp | Cloud Sync | TBD | Data shall be encrypted in transit and at rest. | Pending QA
+URS-029-05 | Manual heart rate entry when device unavailable | Backend API | TBD | TBD by clinical SME - intentionally incomplete. | In Review
+URS-029-06 | Notification retry and suppression | Bluetooth Sensor | Low | Data shall be encrypted in transit and at rest. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 030 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-030-01 | Manual heart rate entry when device unavailable | Android | Not ranked | System shall complete the action without data loss. | Draft
+URS-030-02 | Validate sensor data range | Android | Low | Result must be visible in mobile UI within expected time. | Rejected once
+URS_30.3 | Manual heart rate entry when device unavailable | Cloud Sync | TBD | Result must be visible in mobile UI within expected time. | Approved?
+URS-030-04 | Show trend chart for 7/30/90 days | Android | Low | TBD by clinical SME - intentionally incomplete. | Approved?
+URS-030-05 | Audit user actions | Android | Medium | User shall receive clear error message on failure. | Approved?
+URS_30.6 | Consent capture and privacy notice | Cloud Sync | Not ranked | Data shall be encrypted in transit and at rest. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 031 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-031-01 | Battery and Bluetooth warning | iOS | Not ranked | Result must be visible in mobile UI within expected time. | Draft
+URS-031-02 | Export readings as PDF/CSV | Bluetooth Sensor | Not ranked | TBD by clinical SME - intentionally incomplete. | Need SME
+URS-031-03 | Support caregiver view | iOS | TBD | Result must be visible in mobile UI within expected time. | Approved?
+URS-031-04 | Consent capture and privacy notice | Cloud Sync | High | Data shall be encrypted in transit and at rest. | Rejected once
+URS-031-05 | Notification retry and suppression | Backend API | Medium | System shall complete the action without data loss. | Need SME
+URS-031-06 | Handle offline mode | Notification Service | Medium | Audit/event record shall be generated where applicable. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 032 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-032-01 | Biometric login option | Notification Service | Low | Data shall be encrypted in transit and at rest. | In Review
+URS-032-02 | Display current BPM with timestamp | Bluetooth Sensor | TBD | Audit/event record shall be generated where applicable. | Rejected once
+URS-032-03 | Battery and Bluetooth warning | Local DB | TBD | Data shall be encrypted in transit and at rest. | Draft
+URS-032-04 | Display current BPM with timestamp | iOS | TBD | User shall receive clear error message on failure. | Approved?
+URS-032-05 | Display current BPM with timestamp | Local DB | Not ranked | Audit/event record shall be generated where applicable. | Pending QA
+URS-032-06 | Generate high/low heart-rate alert | Android | Low | Audit/event record shall be generated where applicable. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 033 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-033-01 | Sync readings to cloud API | Notification Service | High | Data shall be encrypted in transit and at rest. | Rejected once
+URS-033-02 | Export readings as PDF/CSV | Notification Service | TBD | TBD by clinical SME - intentionally incomplete. | Draft
+URS-033-03 | Support caregiver view | Bluetooth Sensor | TBD | Audit/event record shall be generated where applicable. | Need SME
+URS-033-04 | Battery and Bluetooth warning | Backend API | Low | Result must be visible in mobile UI within expected time. | In Review
+URS-033-05 | Manual heart rate entry when device unavailable | Android | Not ranked | TBD by clinical SME - intentionally incomplete. | Pending QA
+URS-033-06 | Consent capture and privacy notice | Bluetooth Sensor | Not ranked | System shall complete the action without data loss. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 034 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-034-01 | Notification retry and suppression | Local DB | High | Data shall be encrypted in transit and at rest. | Approved?
+URS_34.2 | Battery and Bluetooth warning | Android | Not ranked | TBD by clinical SME - intentionally incomplete. | In Review
+URS-034-03 | Generate high/low heart-rate alert | Backend API | Medium | TBD by clinical SME - intentionally incomplete. | In Review
+URS-034-04 | Handle offline mode | Backend API | Medium | User shall receive clear error message on failure. | Approved?
+URS_34.5 | Capture heart rate from paired device | Android | Low | User shall receive clear error message on failure. | Pending QA
+URS-034-06 | Display current BPM with timestamp | Android/iOS | TBD | System shall complete the action without data loss. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 035 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-035-01 | Biometric login option | Android/iOS | Medium | Result must be visible in mobile UI within expected time. | Rejected once
+URS-035-02 | Manual heart rate entry when device unavailable | iOS | Not ranked | System shall complete the action without data loss. | In Review
+URS-035-03 | Sync readings to cloud API | iOS | TBD | Result must be visible in mobile UI within expected time. | Draft
+URS-035-04 | Handle offline mode | Bluetooth Sensor | Medium | TBD by clinical SME - intentionally incomplete. | Draft
+URS_35.5 | Generate high/low heart-rate alert | Android/iOS | TBD | User shall receive clear error message on failure. | Approved?
+URS_35.6 | Export readings as PDF/CSV | Android | TBD | User shall receive clear error message on failure. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 036 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-036-01 | Sync readings to cloud API | Android/iOS | High | TBD by clinical SME - intentionally incomplete. | Need SME
+URS-036-02 | Notification retry and suppression | Android | TBD | Audit/event record shall be generated where applicable. | Approved?
+URS-036-03 | Handle offline mode | Cloud Sync | TBD | TBD by clinical SME - intentionally incomplete. | Rejected once
+URS_36.4 | Validate sensor data range | Local DB | Medium | TBD by clinical SME - intentionally incomplete. | Approved?
+URS-036-05 | Capture heart rate from paired device | Android/iOS | Low | System shall complete the action without data loss. | Draft
+URS-036-06 | Validate sensor data range | Backend API | Medium | System shall complete the action without data loss. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 037 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS_37.1 | Store readings securely on device | Notification Service | High | System shall complete the action without data loss. | Rejected once
+URS-037-02 | Consent capture and privacy notice | Backend API | Not ranked | Result must be visible in mobile UI within expected time. | Need SME
+URS-037-03 | Consent capture and privacy notice | Backend API | Not ranked | Audit/event record shall be generated where applicable. | Draft
+URS_37.4 | Display current BPM with timestamp | Bluetooth Sensor | Low | Data shall be encrypted in transit and at rest. | In Review
+URS-037-05 | Support caregiver view | Backend API | Not ranked | System shall complete the action without data loss. | Approved?
+URS-037-06 | Show trend chart for 7/30/90 days | Backend API | TBD | Data shall be encrypted in transit and at rest. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 038 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-038-01 | Export readings as PDF/CSV | Bluetooth Sensor | Low | TBD by clinical SME - intentionally incomplete. | Need SME
+URS-038-02 | Notification retry and suppression | Notification Service | Not ranked | Result must be visible in mobile UI within expected time. | Need SME
+URS-038-03 | Battery and Bluetooth warning | Android | TBD | TBD by clinical SME - intentionally incomplete. | Pending QA
+URS-038-04 | Generate high/low heart-rate alert | Cloud Sync | Medium | User shall receive clear error message on failure. | In Review
+URS-038-05 | Support caregiver view | Android/iOS | Not ranked | Audit/event record shall be generated where applicable. | Need SME
+URS_38.6 | Audit user actions | iOS | Medium | Audit/event record shall be generated where applicable. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 039 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-039-01 | Biometric login option | Local DB | TBD | Data shall be encrypted in transit and at rest. | Rejected once
+URS-039-02 | Sync readings to cloud API | Local DB | Medium | Data shall be encrypted in transit and at rest. | Approved?
+URS-039-03 | Export readings as PDF/CSV | Android | Low | Audit/event record shall be generated where applicable. | In Review
+URS-039-04 | Store readings securely on device | Bluetooth Sensor | Medium | TBD by clinical SME - intentionally incomplete. | Need SME
+URS-039-05 | Show trend chart for 7/30/90 days | Android | Not ranked | Data shall be encrypted in transit and at rest. | Draft
+URS-039-06 | Capture heart rate from paired device | Cloud Sync | Low | Result must be visible in mobile UI within expected time. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 040 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-040-01 | Sync readings to cloud API | Bluetooth Sensor | High | User shall receive clear error message on failure. | Draft
+URS-040-02 | Manual heart rate entry when device unavailable | Backend API | Medium | TBD by clinical SME - intentionally incomplete. | Rejected once
+URS_40.3 | Display current BPM with timestamp | Local DB | High | Audit/event record shall be generated where applicable. | Rejected once
+URS_40.4 | Store readings securely on device | Android/iOS | TBD | Data shall be encrypted in transit and at rest. | Approved?
+URS-040-05 | Biometric login option | Android | Medium | Result must be visible in mobile UI within expected time. | Need SME
+URS-040-06 | Store readings securely on device | Android | Not ranked | Audit/event record shall be generated where applicable. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 041 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-041-01 | Biometric login option | Android/iOS | Medium | TBD by clinical SME - intentionally incomplete. | In Review
+URS-041-02 | Consent capture and privacy notice | iOS | Not ranked | Data shall be encrypted in transit and at rest. | Pending QA
+URS_41.3 | Support caregiver view | Local DB | TBD | Result must be visible in mobile UI within expected time. | Approved?
+URS-041-04 | Sync readings to cloud API | Local DB | Medium | Result must be visible in mobile UI within expected time. | Rejected once
+URS-041-05 | Store readings securely on device | iOS | High | Result must be visible in mobile UI within expected time. | In Review
+URS-041-06 | Biometric login option | Android/iOS | Not ranked | TBD by clinical SME - intentionally incomplete. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 042 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-042-01 | Export readings as PDF/CSV | Local DB | TBD | Result must be visible in mobile UI within expected time. | In Review
+URS-042-02 | Sync readings to cloud API | Cloud Sync | Medium | Audit/event record shall be generated where applicable. | Need SME
+URS-042-03 | Biometric login option | iOS | Low | User shall receive clear error message on failure. | Need SME
+URS-042-04 | Generate high/low heart-rate alert | iOS | Not ranked | Result must be visible in mobile UI within expected time. | In Review
+URS-042-05 | Manual heart rate entry when device unavailable | Bluetooth Sensor | Not ranked | User shall receive clear error message on failure. | In Review
+URS-042-06 | Handle offline mode | Bluetooth Sensor | Not ranked | User shall receive clear error message on failure. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 043 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-043-01 | Display current BPM with timestamp | Local DB | High | Audit/event record shall be generated where applicable. | Pending QA
+URS-043-02 | Sync readings to cloud API | Android/iOS | Medium | TBD by clinical SME - intentionally incomplete. | Need SME
+URS-043-03 | Capture heart rate from paired device | Local DB | Low | System shall complete the action without data loss. | Need SME
+URS-043-04 | Handle offline mode | Local DB | Not ranked | Result must be visible in mobile UI within expected time. | Pending QA
+URS-043-05 | Battery and Bluetooth warning | Local DB | TBD | User shall receive clear error message on failure. | Approved?
+URS-043-06 | Show trend chart for 7/30/90 days | Cloud Sync | Medium | Audit/event record shall be generated where applicable. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 044 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS_44.1 | Biometric login option | Bluetooth Sensor | TBD | Data shall be encrypted in transit and at rest. | Approved?
+URS-044-02 | Capture heart rate from paired device | Cloud Sync | TBD | Result must be visible in mobile UI within expected time. | Need SME
+URS-044-03 | Manual heart rate entry when device unavailable | iOS | Medium | Data shall be encrypted in transit and at rest. | Pending QA
+URS-044-04 | Sync readings to cloud API | Android | Not ranked | User shall receive clear error message on failure. | Pending QA
+URS-044-05 | Notification retry and suppression | Backend API | Not ranked | Audit/event record shall be generated where applicable. | Pending QA
+URS-044-06 | Capture heart rate from paired device | Android/iOS | High | Audit/event record shall be generated where applicable. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 045 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-045-01 | Battery and Bluetooth warning | iOS | TBD | User shall receive clear error message on failure. | Approved?
+URS-045-02 | Support caregiver view | Bluetooth Sensor | TBD | System shall complete the action without data loss. | Draft
+URS-045-03 | Validate sensor data range | Android/iOS | TBD | User shall receive clear error message on failure. | Need SME
+URS-045-04 | Capture heart rate from paired device | Android/iOS | Low | User shall receive clear error message on failure. | In Review
+URS-045-05 | Support caregiver view | Cloud Sync | High | Result must be visible in mobile UI within expected time. | Need SME
+URS-045-06 | Notification retry and suppression | iOS | Not ranked | System shall complete the action without data loss. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 046 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-046-01 | Support caregiver view | Notification Service | TBD | Data shall be encrypted in transit and at rest. | Pending QA
+URS-046-02 | Validate sensor data range | Local DB | Low | TBD by clinical SME - intentionally incomplete. | Rejected once
+URS-046-03 | Handle offline mode | Bluetooth Sensor | High | System shall complete the action without data loss. | Approved?
+URS_46.4 | Consent capture and privacy notice | Notification Service | Low | TBD by clinical SME - intentionally incomplete. | Pending QA
+URS-046-05 | Store readings securely on device | Android | Not ranked | TBD by clinical SME - intentionally incomplete. | Approved?
+URS_46.6 | Capture heart rate from paired device | Backend API | Low | Audit/event record shall be generated where applicable. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 047 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-047-01 | Consent capture and privacy notice | iOS | Medium | Audit/event record shall be generated where applicable. | Pending QA
+URS-047-02 | Validate sensor data range | Android | Not ranked | Result must be visible in mobile UI within expected time. | Need SME
+URS_47.3 | Show trend chart for 7/30/90 days | Android | Medium | Data shall be encrypted in transit and at rest. | Rejected once
+URS-047-04 | Battery and Bluetooth warning | Backend API | Low | Audit/event record shall be generated where applicable. | Approved?
+URS-047-05 | Notification retry and suppression | Notification Service | High | TBD by clinical SME - intentionally incomplete. | Rejected once
+URS-047-06 | Audit user actions | Notification Service | TBD | System shall complete the action without data loss. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 048 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-048-01 | Biometric login option | Notification Service | TBD | Audit/event record shall be generated where applicable. | Need SME
+URS-048-02 | Consent capture and privacy notice | Notification Service | High | Result must be visible in mobile UI within expected time. | Approved?
+URS-048-03 | Export readings as PDF/CSV | Android | TBD | User shall receive clear error message on failure. | Pending QA
+URS-048-04 | Support caregiver view | iOS | Not ranked | User shall receive clear error message on failure. | Pending QA
+URS-048-05 | Store readings securely on device | Notification Service | High | User shall receive clear error message on failure. | Rejected once
+URS-048-06 | Handle offline mode | iOS | Medium | TBD by clinical SME - intentionally incomplete. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 049 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-049-01 | Generate high/low heart-rate alert | Android/iOS | TBD | Result must be visible in mobile UI within expected time. | Draft
+URS-049-02 | Support caregiver view | Cloud Sync | Medium | Audit/event record shall be generated where applicable. | In Review
+URS-049-03 | Biometric login option | Backend API | Not ranked | Data shall be encrypted in transit and at rest. | Pending QA
+URS-049-04 | Notification retry and suppression | Cloud Sync | Not ranked | Result must be visible in mobile UI within expected time. | In Review
+URS-049-05 | Notification retry and suppression | Android | Low | TBD by clinical SME - intentionally incomplete. | Rejected once
+URS-049-06 | Capture heart rate from paired device | Android/iOS | Low | Result must be visible in mobile UI within expected time. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 050 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-050-01 | Consent capture and privacy notice | Cloud Sync | Medium | Audit/event record shall be generated where applicable. | In Review
+URS_50.2 | Handle offline mode | Android | High | Data shall be encrypted in transit and at rest. | Draft
+URS_50.3 | Sync readings to cloud API | Cloud Sync | Not ranked | TBD by clinical SME - intentionally incomplete. | Draft
+URS-050-04 | Manual heart rate entry when device unavailable | Local DB | High | User shall receive clear error message on failure. | Approved?
+URS-050-05 | Handle offline mode | Cloud Sync | Low | Result must be visible in mobile UI within expected time. | In Review
+URS-050-06 | Display current BPM with timestamp | Cloud Sync | TBD | Audit/event record shall be generated where applicable. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 051 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-051-01 | Manual heart rate entry when device unavailable | Notification Service | Medium | Data shall be encrypted in transit and at rest. | Approved?
+URS-051-02 | Generate high/low heart-rate alert | Android/iOS | Medium | Audit/event record shall be generated where applicable. | Approved?
+URS-051-03 | Capture heart rate from paired device | iOS | TBD | System shall complete the action without data loss. | Draft
+URS-051-04 | Manual heart rate entry when device unavailable | Backend API | Not ranked | Data shall be encrypted in transit and at rest. | Pending QA
+URS_51.5 | Export readings as PDF/CSV | Android | Not ranked | System shall complete the action without data loss. | Rejected once
+URS-051-06 | Generate high/low heart-rate alert | Bluetooth Sensor | Not ranked | Audit/event record shall be generated where applicable. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 052 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-052-01 | Validate sensor data range | Android | Not ranked | TBD by clinical SME - intentionally incomplete. | Approved?
+URS-052-02 | Biometric login option | Cloud Sync | Low | TBD by clinical SME - intentionally incomplete. | Draft
+URS-052-03 | Export readings as PDF/CSV | Bluetooth Sensor | Low | TBD by clinical SME - intentionally incomplete. | Need SME
+URS-052-04 | Validate sensor data range | iOS | Medium | Result must be visible in mobile UI within expected time. | Draft
+URS-052-05 | Consent capture and privacy notice | Local DB | Not ranked | TBD by clinical SME - intentionally incomplete. | In Review
+URS-052-06 | Store readings securely on device | Notification Service | Low | System shall complete the action without data loss. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 053 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-053-01 | Notification retry and suppression | Android | Medium | Audit/event record shall be generated where applicable. | Rejected once
+URS-053-02 | Manual heart rate entry when device unavailable | Local DB | TBD | User shall receive clear error message on failure. | Need SME
+URS-053-03 | Capture heart rate from paired device | Cloud Sync | Medium | TBD by clinical SME - intentionally incomplete. | Draft
+URS-053-04 | Battery and Bluetooth warning | Android/iOS | Not ranked | Data shall be encrypted in transit and at rest. | Need SME
+URS_53.5 | Consent capture and privacy notice | Cloud Sync | Medium | TBD by clinical SME - intentionally incomplete. | Pending QA
+URS-053-06 | Show trend chart for 7/30/90 days | Bluetooth Sensor | Medium | Data shall be encrypted in transit and at rest. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 054 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-054-01 | Battery and Bluetooth warning | Android/iOS | Medium | Result must be visible in mobile UI within expected time. | Rejected once
+URS-054-02 | Capture heart rate from paired device | Cloud Sync | Not ranked | TBD by clinical SME - intentionally incomplete. | Draft
+URS_54.3 | Display current BPM with timestamp | iOS | High | Data shall be encrypted in transit and at rest. | Pending QA
+URS_54.4 | Generate high/low heart-rate alert | iOS | TBD | Result must be visible in mobile UI within expected time. | Draft
+URS_54.5 | Manual heart rate entry when device unavailable | Android/iOS | Not ranked | Data shall be encrypted in transit and at rest. | In Review
+URS-054-06 | Audit user actions | Local DB | High | TBD by clinical SME - intentionally incomplete. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 055 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-055-01 | Support caregiver view | Notification Service | Low | User shall receive clear error message on failure. | In Review
+URS-055-02 | Sync readings to cloud API | Android/iOS | Low | User shall receive clear error message on failure. | Need SME
+URS-055-03 | Generate high/low heart-rate alert | Local DB | Medium | User shall receive clear error message on failure. | Rejected once
+URS-055-04 | Capture heart rate from paired device | Notification Service | Medium | User shall receive clear error message on failure. | Pending QA
+URS-055-05 | Validate sensor data range | Android/iOS | Not ranked | Result must be visible in mobile UI within expected time. | In Review
+URS-055-06 | Support caregiver view | Bluetooth Sensor | High | TBD by clinical SME - intentionally incomplete. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 056 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-056-01 | Manual heart rate entry when device unavailable | Android/iOS | High | System shall complete the action without data loss. | Pending QA
+URS-056-02 | Manual heart rate entry when device unavailable | Cloud Sync | Medium | User shall receive clear error message on failure. | Approved?
+URS-056-03 | Battery and Bluetooth warning | Backend API | High | User shall receive clear error message on failure. | Approved?
+URS-056-04 | Validate sensor data range | Backend API | High | System shall complete the action without data loss. | Draft
+URS-056-05 | Manual heart rate entry when device unavailable | Bluetooth Sensor | Medium | System shall complete the action without data loss. | Draft
+URS-056-06 | Battery and Bluetooth warning | Cloud Sync | TBD | TBD by clinical SME - intentionally incomplete. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 057 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-057-01 | Audit user actions | Cloud Sync | High | System shall complete the action without data loss. | Rejected once
+URS_57.2 | Support caregiver view | Cloud Sync | Not ranked | Data shall be encrypted in transit and at rest. | Draft
+URS-057-03 | Consent capture and privacy notice | Cloud Sync | Low | Result must be visible in mobile UI within expected time. | Draft
+URS-057-04 | Generate high/low heart-rate alert | iOS | Low | Data shall be encrypted in transit and at rest. | Rejected once
+URS-057-05 | Audit user actions | Android/iOS | TBD | Data shall be encrypted in transit and at rest. | Rejected once
+URS-057-06 | Battery and Bluetooth warning | iOS | TBD | System shall complete the action without data loss. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 058 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-058-01 | Sync readings to cloud API | Local DB | Low | Result must be visible in mobile UI within expected time. | Approved?
+URS_58.2 | Validate sensor data range | Local DB | Low | TBD by clinical SME - intentionally incomplete. | Pending QA
+URS-058-03 | Battery and Bluetooth warning | Notification Service | Not ranked | Data shall be encrypted in transit and at rest. | In Review
+URS-058-04 | Battery and Bluetooth warning | Android | High | System shall complete the action without data loss. | Pending QA
+URS-058-05 | Sync readings to cloud API | iOS | High | Result must be visible in mobile UI within expected time. | Pending QA
+URS-058-06 | Validate sensor data range | Local DB | Low | User shall receive clear error message on failure. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 059 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-059-01 | Support caregiver view | Backend API | Medium | System shall complete the action without data loss. | In Review
+URS-059-02 | Biometric login option | Notification Service | High | System shall complete the action without data loss. | Approved?
+URS-059-03 | Handle offline mode | Android/iOS | Not ranked | Data shall be encrypted in transit and at rest. | Need SME
+URS_59.4 | Handle offline mode | Android/iOS | Not ranked | Data shall be encrypted in transit and at rest. | In Review
+URS-059-05 | Support caregiver view | iOS | Low | Result must be visible in mobile UI within expected time. | Need SME
+URS-059-06 | Store readings securely on device | Android/iOS | High | TBD by clinical SME - intentionally incomplete. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 060 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-060-01 | Show trend chart for 7/30/90 days | Notification Service | Medium | System shall complete the action without data loss. | In Review
+URS-060-02 | Consent capture and privacy notice | Cloud Sync | High | Data shall be encrypted in transit and at rest. | In Review
+URS_60.3 | Support caregiver view | Android/iOS | High | Result must be visible in mobile UI within expected time. | Approved?
+URS-060-04 | Generate high/low heart-rate alert | iOS | TBD | Audit/event record shall be generated where applicable. | In Review
+URS-060-05 | Biometric login option | Bluetooth Sensor | Medium | TBD by clinical SME - intentionally incomplete. | Draft
+URS_60.6 | Manual heart rate entry when device unavailable | Cloud Sync | Not ranked | Result must be visible in mobile UI within expected time. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 061 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-061-01 | Manual heart rate entry when device unavailable | iOS | Medium | System shall complete the action without data loss. | Rejected once
+URS-061-02 | Biometric login option | Notification Service | Medium | TBD by clinical SME - intentionally incomplete. | In Review
+URS-061-03 | Consent capture and privacy notice | Android/iOS | Medium | Data shall be encrypted in transit and at rest. | Rejected once
+URS-061-04 | Consent capture and privacy notice | Local DB | TBD | User shall receive clear error message on failure. | Approved?
+URS-061-05 | Validate sensor data range | Bluetooth Sensor | Medium | Data shall be encrypted in transit and at rest. | Rejected once
+URS_61.6 | Store readings securely on device | Cloud Sync | TBD | System shall complete the action without data loss. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 062 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-062-01 | Support caregiver view | iOS | Low | Result must be visible in mobile UI within expected time. | Pending QA
+URS-062-02 | Capture heart rate from paired device | Notification Service | Low | Result must be visible in mobile UI within expected time. | Approved?
+URS-062-03 | Support caregiver view | Cloud Sync | Low | Result must be visible in mobile UI within expected time. | Need SME
+URS-062-04 | Battery and Bluetooth warning | Android/iOS | High | Data shall be encrypted in transit and at rest. | Approved?
+URS-062-05 | Audit user actions | Cloud Sync | High | System shall complete the action without data loss. | Draft
+URS-062-06 | Export readings as PDF/CSV | Notification Service | High | Data shall be encrypted in transit and at rest. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 063 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-063-01 | Display current BPM with timestamp | Android/iOS | Low | Audit/event record shall be generated where applicable. | Approved?
+URS-063-02 | Biometric login option | Notification Service | Medium | Audit/event record shall be generated where applicable. | Need SME
+URS-063-03 | Consent capture and privacy notice | Android/iOS | Low | System shall complete the action without data loss. | Need SME
+URS-063-04 | Validate sensor data range | Android | High | Result must be visible in mobile UI within expected time. | Rejected once
+URS-063-05 | Support caregiver view | Local DB | Medium | Data shall be encrypted in transit and at rest. | Rejected once
+URS-063-06 | Support caregiver view | iOS | Not ranked | Audit/event record shall be generated where applicable. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 064 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-064-01 | Battery and Bluetooth warning | Notification Service | Not ranked | Data shall be encrypted in transit and at rest. | In Review
+URS-064-02 | Display current BPM with timestamp | Local DB | High | Data shall be encrypted in transit and at rest. | Draft
+URS-064-03 | Biometric login option | Local DB | Medium | System shall complete the action without data loss. | Rejected once
+URS-064-04 | Sync readings to cloud API | Local DB | Low | TBD by clinical SME - intentionally incomplete. | Rejected once
+URS_64.5 | Notification retry and suppression | iOS | High | Result must be visible in mobile UI within expected time. | Draft
+URS_64.6 | Display current BPM with timestamp | Cloud Sync | Medium | User shall receive clear error message on failure. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 065 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-065-01 | Export readings as PDF/CSV | Android/iOS | Low | System shall complete the action without data loss. | Need SME
+URS-065-02 | Notification retry and suppression | Cloud Sync | Not ranked | TBD by clinical SME - intentionally incomplete. | Approved?
+URS-065-03 | Handle offline mode | Android/iOS | High | User shall receive clear error message on failure. | Pending QA
+URS-065-04 | Export readings as PDF/CSV | Cloud Sync | Not ranked | Result must be visible in mobile UI within expected time. | In Review
+URS-065-05 | Manual heart rate entry when device unavailable | Backend API | High | System shall complete the action without data loss. | Approved?
+URS-065-06 | Biometric login option | Android/iOS | TBD | Audit/event record shall be generated where applicable. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 066 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS_66.1 | Notification retry and suppression | Android | TBD | Data shall be encrypted in transit and at rest. | Approved?
+URS-066-02 | Manual heart rate entry when device unavailable | Android | TBD | System shall complete the action without data loss. | Draft
+URS-066-03 | Store readings securely on device | iOS | High | Data shall be encrypted in transit and at rest. | Rejected once
+URS-066-04 | Support caregiver view | Android/iOS | Medium | Data shall be encrypted in transit and at rest. | Draft
+URS-066-05 | Support caregiver view | Cloud Sync | Medium | System shall complete the action without data loss. | Pending QA
+URS-066-06 | Biometric login option | Notification Service | Low | Result must be visible in mobile UI within expected time. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 067 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-067-01 | Handle offline mode | Bluetooth Sensor | High | TBD by clinical SME - intentionally incomplete. | Approved?
+URS-067-02 | Generate high/low heart-rate alert | Cloud Sync | Low | System shall complete the action without data loss. | Need SME
+URS_67.3 | Support caregiver view | Cloud Sync | Not ranked | Data shall be encrypted in transit and at rest. | Approved?
+URS-067-04 | Battery and Bluetooth warning | iOS | Low | TBD by clinical SME - intentionally incomplete. | Draft
+URS-067-05 | Sync readings to cloud API | Cloud Sync | Medium | System shall complete the action without data loss. | Approved?
+URS-067-06 | Validate sensor data range | Local DB | Not ranked | User shall receive clear error message on failure. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 068 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS_68.1 | Biometric login option | Cloud Sync | TBD | TBD by clinical SME - intentionally incomplete. | In Review
+URS_68.2 | Store readings securely on device | Backend API | High | User shall receive clear error message on failure. | Pending QA
+URS-068-03 | Store readings securely on device | iOS | Low | Data shall be encrypted in transit and at rest. | Need SME
+URS-068-04 | Consent capture and privacy notice | Android/iOS | TBD | TBD by clinical SME - intentionally incomplete. | Approved?
+URS-068-05 | Consent capture and privacy notice | Local DB | Not ranked | Data shall be encrypted in transit and at rest. | Need SME
+URS-068-06 | Sync readings to cloud API | Android | High | Result must be visible in mobile UI within expected time. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 069 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-069-01 | Notification retry and suppression | Android/iOS | TBD | Result must be visible in mobile UI within expected time. | Rejected once
+URS-069-02 | Audit user actions | iOS | High | Audit/event record shall be generated where applicable. | Need SME
+URS-069-03 | Display current BPM with timestamp | Bluetooth Sensor | Medium | TBD by clinical SME - intentionally incomplete. | Pending QA
+URS-069-04 | Validate sensor data range | Cloud Sync | Not ranked | Data shall be encrypted in transit and at rest. | Approved?
+URS-069-05 | Generate high/low heart-rate alert | Backend API | High | Data shall be encrypted in transit and at rest. | Rejected once
+URS_69.6 | Consent capture and privacy notice | Bluetooth Sensor | Medium | System shall complete the action without data loss. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 070 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS_70.1 | Battery and Bluetooth warning | Backend API | Not ranked | Audit/event record shall be generated where applicable. | Need SME
+URS-070-02 | Audit user actions | Cloud Sync | High | User shall receive clear error message on failure. | In Review
+URS-070-03 | Export readings as PDF/CSV | Notification Service | Not ranked | System shall complete the action without data loss. | Draft
+URS-070-04 | Sync readings to cloud API | Notification Service | High | Data shall be encrypted in transit and at rest. | Pending QA
+URS-070-05 | Validate sensor data range | iOS | Low | TBD by clinical SME - intentionally incomplete. | Need SME
+URS-070-06 | Handle offline mode | Notification Service | Not ranked | Result must be visible in mobile UI within expected time. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 071 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS_71.1 | Support caregiver view | Notification Service | Low | User shall receive clear error message on failure. | Pending QA
+URS-071-02 | Notification retry and suppression | Cloud Sync | High | TBD by clinical SME - intentionally incomplete. | Approved?
+URS-071-03 | Notification retry and suppression | Android/iOS | TBD | System shall complete the action without data loss. | Draft
+URS-071-04 | Support caregiver view | Android/iOS | Not ranked | Data shall be encrypted in transit and at rest. | Rejected once
+URS_71.5 | Handle offline mode | Notification Service | High | TBD by clinical SME - intentionally incomplete. | Pending QA
+URS-071-06 | Battery and Bluetooth warning | iOS | Medium | TBD by clinical SME - intentionally incomplete. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 072 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-072-01 | Sync readings to cloud API | Backend API | Low | TBD by clinical SME - intentionally incomplete. | Draft
+URS_72.2 | Handle offline mode | Local DB | Not ranked | User shall receive clear error message on failure. | Draft
+URS-072-03 | Battery and Bluetooth warning | Bluetooth Sensor | High | User shall receive clear error message on failure. | Need SME
+URS-072-04 | Show trend chart for 7/30/90 days | Android | Not ranked | Data shall be encrypted in transit and at rest. | Approved?
+URS-072-05 | Support caregiver view | Android | Medium | Audit/event record shall be generated where applicable. | In Review
+URS-072-06 | Generate high/low heart-rate alert | Android/iOS | High | Result must be visible in mobile UI within expected time. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 073 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-073-01 | Generate high/low heart-rate alert | Android | Low | System shall complete the action without data loss. | Pending QA
+URS-073-02 | Handle offline mode | iOS | High | System shall complete the action without data loss. | Draft
+URS-073-03 | Capture heart rate from paired device | iOS | Not ranked | Data shall be encrypted in transit and at rest. | In Review
+URS-073-04 | Consent capture and privacy notice | Local DB | TBD | User shall receive clear error message on failure. | Approved?
+URS-073-05 | Sync readings to cloud API | Bluetooth Sensor | Low | User shall receive clear error message on failure. | Draft
+URS-073-06 | Notification retry and suppression | Backend API | Not ranked | System shall complete the action without data loss. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 074 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-074-01 | Manual heart rate entry when device unavailable | Android/iOS | Low | Result must be visible in mobile UI within expected time. | Need SME
+URS-074-02 | Handle offline mode | Bluetooth Sensor | High | User shall receive clear error message on failure. | Approved?
+URS-074-03 | Store readings securely on device | Backend API | Medium | User shall receive clear error message on failure. | Rejected once
+URS-074-04 | Display current BPM with timestamp | Android/iOS | Not ranked | Result must be visible in mobile UI within expected time. | Draft
+URS-074-05 | Handle offline mode | Android | Low | TBD by clinical SME - intentionally incomplete. | Need SME
+URS-074-06 | Audit user actions | Android | Low | User shall receive clear error message on failure. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 075 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-075-01 | Store readings securely on device | Android/iOS | High | User shall receive clear error message on failure. | Need SME
+URS-075-02 | Show trend chart for 7/30/90 days | Android/iOS | High | System shall complete the action without data loss. | Draft
+URS-075-03 | Generate high/low heart-rate alert | Cloud Sync | Low | Data shall be encrypted in transit and at rest. | Approved?
+URS_75.4 | Store readings securely on device | Backend API | Low | Data shall be encrypted in transit and at rest. | Pending QA
+URS-075-05 | Notification retry and suppression | Local DB | Medium | System shall complete the action without data loss. | Pending QA
+URS-075-06 | Sync readings to cloud API | Android/iOS | TBD | TBD by clinical SME - intentionally incomplete. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 076 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-076-01 | Battery and Bluetooth warning | Android | TBD | TBD by clinical SME - intentionally incomplete. | Pending QA
+URS-076-02 | Handle offline mode | Bluetooth Sensor | Not ranked | User shall receive clear error message on failure. | Pending QA
+URS-076-03 | Support caregiver view | iOS | Not ranked | System shall complete the action without data loss. | Approved?
+URS-076-04 | Generate high/low heart-rate alert | Bluetooth Sensor | Not ranked | User shall receive clear error message on failure. | Draft
+URS-076-05 | Generate high/low heart-rate alert | Local DB | TBD | TBD by clinical SME - intentionally incomplete. | Approved?
+URS-076-06 | Biometric login option | Android/iOS | Medium | Data shall be encrypted in transit and at rest. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 077 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS_77.1 | Biometric login option | Backend API | TBD | TBD by clinical SME - intentionally incomplete. | Pending QA
+URS-077-02 | Show trend chart for 7/30/90 days | Bluetooth Sensor | Medium | TBD by clinical SME - intentionally incomplete. | Approved?
+URS-077-03 | Battery and Bluetooth warning | Android/iOS | TBD | User shall receive clear error message on failure. | Approved?
+URS-077-04 | Sync readings to cloud API | Android/iOS | Not ranked | Result must be visible in mobile UI within expected time. | Rejected once
+URS_77.5 | Capture heart rate from paired device | Bluetooth Sensor | High | Data shall be encrypted in transit and at rest. | Rejected once
+URS-077-06 | Export readings as PDF/CSV | Cloud Sync | Not ranked | TBD by clinical SME - intentionally incomplete. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 078 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-078-01 | Handle offline mode | Local DB | High | TBD by clinical SME - intentionally incomplete. | Approved?
+URS-078-02 | Consent capture and privacy notice | Bluetooth Sensor | TBD | User shall receive clear error message on failure. | Need SME
+URS_78.3 | Support caregiver view | Notification Service | Low | System shall complete the action without data loss. | Need SME
+URS-078-04 | Store readings securely on device | Backend API | Not ranked | TBD by clinical SME - intentionally incomplete. | Rejected once
+URS-078-05 | Generate high/low heart-rate alert | Bluetooth Sensor | Not ranked | Data shall be encrypted in transit and at rest. | Draft
+URS_78.6 | Capture heart rate from paired device | Notification Service | Medium | TBD by clinical SME - intentionally incomplete. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 079 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-079-01 | Store readings securely on device | Backend API | TBD | System shall complete the action without data loss. | In Review
+URS-079-02 | Store readings securely on device | Cloud Sync | Medium | Data shall be encrypted in transit and at rest. | Pending QA
+URS_79.3 | Manual heart rate entry when device unavailable | Cloud Sync | Medium | User shall receive clear error message on failure. | In Review
+URS-079-04 | Support caregiver view | Notification Service | Not ranked | Audit/event record shall be generated where applicable. | In Review
+URS-079-05 | Sync readings to cloud API | Cloud Sync | High | Result must be visible in mobile UI within expected time. | Pending QA
+URS-079-06 | Consent capture and privacy notice | Android/iOS | TBD | System shall complete the action without data loss. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 080 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-080-01 | Biometric login option | Local DB | High | Audit/event record shall be generated where applicable. | Approved?
+URS-080-02 | Generate high/low heart-rate alert | Android/iOS | High | Result must be visible in mobile UI within expected time. | Approved?
+URS-080-03 | Support caregiver view | Bluetooth Sensor | TBD | Result must be visible in mobile UI within expected time. | Need SME
+URS-080-04 | Handle offline mode | Notification Service | Low | Audit/event record shall be generated where applicable. | Pending QA
+URS-080-05 | Export readings as PDF/CSV | iOS | Low | Audit/event record shall be generated where applicable. | Need SME
+URS-080-06 | Support caregiver view | iOS | TBD | System shall complete the action without data loss. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 081 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-081-01 | Battery and Bluetooth warning | Backend API | TBD | User shall receive clear error message on failure. | Approved?
+URS-081-02 | Export readings as PDF/CSV | Android/iOS | Low | TBD by clinical SME - intentionally incomplete. | Need SME
+URS-081-03 | Capture heart rate from paired device | Android | Medium | Result must be visible in mobile UI within expected time. | Approved?
+URS-081-04 | Validate sensor data range | Android | Not ranked | TBD by clinical SME - intentionally incomplete. | In Review
+URS-081-05 | Export readings as PDF/CSV | Cloud Sync | Not ranked | TBD by clinical SME - intentionally incomplete. | Draft
+URS-081-06 | Store readings securely on device | Notification Service | Low | Result must be visible in mobile UI within expected time. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 082 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-082-01 | Battery and Bluetooth warning | Notification Service | High | System shall complete the action without data loss. | Pending QA
+URS-082-02 | Manual heart rate entry when device unavailable | iOS | TBD | Result must be visible in mobile UI within expected time. | In Review
+URS_82.3 | Sync readings to cloud API | Notification Service | TBD | Result must be visible in mobile UI within expected time. | Draft
+URS-082-04 | Biometric login option | Cloud Sync | Not ranked | User shall receive clear error message on failure. | Draft
+URS-082-05 | Validate sensor data range | Bluetooth Sensor | TBD | Data shall be encrypted in transit and at rest. | Rejected once
+URS-082-06 | Export readings as PDF/CSV | Cloud Sync | Low | TBD by clinical SME - intentionally incomplete. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 083 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS_83.1 | Generate high/low heart-rate alert | Backend API | TBD | Result must be visible in mobile UI within expected time. | In Review
+URS-083-02 | Store readings securely on device | Local DB | TBD | Audit/event record shall be generated where applicable. | Approved?
+URS_83.3 | Display current BPM with timestamp | Backend API | Not ranked | User shall receive clear error message on failure. | Need SME
+URS-083-04 | Biometric login option | Cloud Sync | High | Data shall be encrypted in transit and at rest. | Need SME
+URS-083-05 | Support caregiver view | Cloud Sync | TBD | Data shall be encrypted in transit and at rest. | Approved?
+URS-083-06 | Export readings as PDF/CSV | Backend API | Medium | Result must be visible in mobile UI within expected time. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 084 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-084-01 | Validate sensor data range | Bluetooth Sensor | Not ranked | TBD by clinical SME - intentionally incomplete. | Pending QA
+URS-084-02 | Export readings as PDF/CSV | Bluetooth Sensor | Not ranked | Result must be visible in mobile UI within expected time. | In Review
+URS-084-03 | Capture heart rate from paired device | Android | Low | User shall receive clear error message on failure. | Approved?
+URS-084-04 | Notification retry and suppression | Cloud Sync | TBD | Data shall be encrypted in transit and at rest. | Pending QA
+URS-084-05 | Handle offline mode | Notification Service | High | System shall complete the action without data loss. | Approved?
+URS-084-06 | Battery and Bluetooth warning | Backend API | TBD | User shall receive clear error message on failure. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 085 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-085-01 | Manual heart rate entry when device unavailable | Local DB | High | Audit/event record shall be generated where applicable. | Rejected once
+URS-085-02 | Biometric login option | Backend API | Medium | User shall receive clear error message on failure. | Rejected once
+URS-085-03 | Store readings securely on device | Notification Service | High | Data shall be encrypted in transit and at rest. | Approved?
+URS_85.4 | Audit user actions | Notification Service | Not ranked | TBD by clinical SME - intentionally incomplete. | Need SME
+URS-085-05 | Battery and Bluetooth warning | Backend API | High | Audit/event record shall be generated where applicable. | Draft
+URS-085-06 | Export readings as PDF/CSV | Android | Not ranked | System shall complete the action without data loss. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 086 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-086-01 | Show trend chart for 7/30/90 days | iOS | High | User shall receive clear error message on failure. | Need SME
+URS-086-02 | Handle offline mode | Cloud Sync | Not ranked | Data shall be encrypted in transit and at rest. | Pending QA
+URS_86.3 | Handle offline mode | Bluetooth Sensor | High | Data shall be encrypted in transit and at rest. | In Review
+URS-086-04 | Support caregiver view | iOS | Medium | User shall receive clear error message on failure. | Pending QA
+URS-086-05 | Consent capture and privacy notice | iOS | Low | Audit/event record shall be generated where applicable. | Pending QA
+URS-086-06 | Validate sensor data range | Cloud Sync | Medium | TBD by clinical SME - intentionally incomplete. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 087 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-087-01 | Audit user actions | Backend API | High | Data shall be encrypted in transit and at rest. | In Review
+URS-087-02 | Battery and Bluetooth warning | Android/iOS | TBD | System shall complete the action without data loss. | Draft
+URS-087-03 | Capture heart rate from paired device | Backend API | Not ranked | System shall complete the action without data loss. | Need SME
+URS-087-04 | Handle offline mode | iOS | Not ranked | Data shall be encrypted in transit and at rest. | Pending QA
+URS-087-05 | Generate high/low heart-rate alert | Notification Service | TBD | Data shall be encrypted in transit and at rest. | Pending QA
+URS-087-06 | Consent capture and privacy notice | Notification Service | Not ranked | TBD by clinical SME - intentionally incomplete. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 088 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-088-01 | Validate sensor data range | Bluetooth Sensor | Low | Audit/event record shall be generated where applicable. | Rejected once
+URS_88.2 | Export readings as PDF/CSV | Notification Service | TBD | User shall receive clear error message on failure. | Pending QA
+URS-088-03 | Store readings securely on device | iOS | Not ranked | Result must be visible in mobile UI within expected time. | Approved?
+URS-088-04 | Generate high/low heart-rate alert | Bluetooth Sensor | Not ranked | TBD by clinical SME - intentionally incomplete. | Rejected once
+URS-088-05 | Display current BPM with timestamp | Android | Not ranked | User shall receive clear error message on failure. | Approved?
+URS-088-06 | Consent capture and privacy notice | Local DB | TBD | Data shall be encrypted in transit and at rest. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 089 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-089-01 | Display current BPM with timestamp | Android | Not ranked | User shall receive clear error message on failure. | In Review
+URS_89.2 | Consent capture and privacy notice | Android/iOS | Low | User shall receive clear error message on failure. | In Review
+URS_89.3 | Notification retry and suppression | Backend API | Low | Data shall be encrypted in transit and at rest. | Approved?
+URS-089-04 | Support caregiver view | Cloud Sync | Low | TBD by clinical SME - intentionally incomplete. | Need SME
+URS_89.5 | Battery and Bluetooth warning | Notification Service | High | Result must be visible in mobile UI within expected time. | Approved?
+URS-089-06 | Biometric login option | Notification Service | Low | User shall receive clear error message on failure. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 090 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS_90.1 | Battery and Bluetooth warning | Local DB | TBD | Data shall be encrypted in transit and at rest. | Rejected once
+URS-090-02 | Consent capture and privacy notice | Android/iOS | Not ranked | User shall receive clear error message on failure. | Pending QA
+URS-090-03 | Handle offline mode | Bluetooth Sensor | TBD | User shall receive clear error message on failure. | Draft
+URS_90.4 | Show trend chart for 7/30/90 days | Notification Service | TBD | Result must be visible in mobile UI within expected time. | Need SME
+URS-090-05 | Consent capture and privacy notice | Cloud Sync | Medium | Data shall be encrypted in transit and at rest. | Approved?
+URS-090-06 | Store readings securely on device | Local DB | TBD | TBD by clinical SME - intentionally incomplete. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 091 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-091-01 | Notification retry and suppression | Notification Service | Not ranked | Result must be visible in mobile UI within expected time. | Approved?
+URS_91.2 | Show trend chart for 7/30/90 days | Local DB | Not ranked | TBD by clinical SME - intentionally incomplete. | Pending QA
+URS-091-03 | Handle offline mode | Android | Low | System shall complete the action without data loss. | Need SME
+URS-091-04 | Show trend chart for 7/30/90 days | Android | Medium | Result must be visible in mobile UI within expected time. | Approved?
+URS-091-05 | Consent capture and privacy notice | Android/iOS | Not ranked | TBD by clinical SME - intentionally incomplete. | Draft
+URS-091-06 | Export readings as PDF/CSV | Local DB | TBD | TBD by clinical SME - intentionally incomplete. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 092 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS_92.1 | Notification retry and suppression | Backend API | High | Result must be visible in mobile UI within expected time. | Draft
+URS_92.2 | Handle offline mode | Notification Service | Medium | TBD by clinical SME - intentionally incomplete. | Draft
+URS_92.3 | Display current BPM with timestamp | Backend API | Low | Data shall be encrypted in transit and at rest. | Pending QA
+URS-092-04 | Support caregiver view | Android/iOS | Medium | TBD by clinical SME - intentionally incomplete. | Need SME
+URS-092-05 | Capture heart rate from paired device | Android | TBD | Result must be visible in mobile UI within expected time. | Draft
+URS_92.6 | Sync readings to cloud API | Local DB | TBD | Data shall be encrypted in transit and at rest. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 093 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-093-01 | Support caregiver view | Android | High | Result must be visible in mobile UI within expected time. | Approved?
+URS-093-02 | Manual heart rate entry when device unavailable | Android/iOS | TBD | TBD by clinical SME - intentionally incomplete. | Rejected once
+URS-093-03 | Show trend chart for 7/30/90 days | Bluetooth Sensor | TBD | System shall complete the action without data loss. | Approved?
+URS-093-04 | Store readings securely on device | Cloud Sync | High | Audit/event record shall be generated where applicable. | Pending QA
+URS-093-05 | Consent capture and privacy notice | Notification Service | High | Data shall be encrypted in transit and at rest. | Rejected once
+URS_93.6 | Capture heart rate from paired device | Backend API | Medium | Data shall be encrypted in transit and at rest. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 094 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS_94.1 | Manual heart rate entry when device unavailable | Notification Service | Medium | System shall complete the action without data loss. | Need SME
+URS-094-02 | Notification retry and suppression | Backend API | Not ranked | Result must be visible in mobile UI within expected time. | Draft
+URS-094-03 | Capture heart rate from paired device | Bluetooth Sensor | Medium | Result must be visible in mobile UI within expected time. | Draft
+URS-094-04 | Validate sensor data range | Bluetooth Sensor | Not ranked | Result must be visible in mobile UI within expected time. | In Review
+URS-094-05 | Validate sensor data range | iOS | High | Result must be visible in mobile UI within expected time. | In Review
+URS-094-06 | Validate sensor data range | Notification Service | Not ranked | Result must be visible in mobile UI within expected time. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 095 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-095-01 | Manual heart rate entry when device unavailable | Bluetooth Sensor | TBD | Audit/event record shall be generated where applicable. | Need SME
+URS-095-02 | Show trend chart for 7/30/90 days | Notification Service | Low | Data shall be encrypted in transit and at rest. | Rejected once
+URS_95.3 | Audit user actions | Android/iOS | High | Data shall be encrypted in transit and at rest. | Rejected once
+URS-095-04 | Store readings securely on device | Local DB | High | User shall receive clear error message on failure. | In Review
+URS-095-05 | Capture heart rate from paired device | iOS | Low | Data shall be encrypted in transit and at rest. | Pending QA
+URS-095-06 | Store readings securely on device | iOS | High | Audit/event record shall be generated where applicable. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 096 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-096-01 | Biometric login option | Android | Medium | Result must be visible in mobile UI within expected time. | Draft
+URS-096-02 | Generate high/low heart-rate alert | Backend API | TBD | TBD by clinical SME - intentionally incomplete. | In Review
+URS_96.3 | Notification retry and suppression | Backend API | High | Result must be visible in mobile UI within expected time. | In Review
+URS-096-04 | Store readings securely on device | Android | Medium | Audit/event record shall be generated where applicable. | Rejected once
+URS_96.5 | Validate sensor data range | iOS | Medium | User shall receive clear error message on failure. | Need SME
+URS-096-06 | Biometric login option | Android | Not ranked | System shall complete the action without data loss. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 097 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS_97.1 | Audit user actions | Android | High | Data shall be encrypted in transit and at rest. | Rejected once
+URS-097-02 | Capture heart rate from paired device | Android/iOS | High | Result must be visible in mobile UI within expected time. | Pending QA
+URS-097-03 | Capture heart rate from paired device | Bluetooth Sensor | Medium | User shall receive clear error message on failure. | Draft
+URS-097-04 | Notification retry and suppression | Cloud Sync | TBD | Data shall be encrypted in transit and at rest. | Draft
+URS-097-05 | Audit user actions | Local DB | Low | Audit/event record shall be generated where applicable. | Draft
+URS-097-06 | Battery and Bluetooth warning | Local DB | TBD | Result must be visible in mobile UI within expected time. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 098 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-098-01 | Handle offline mode | Cloud Sync | Low | Audit/event record shall be generated where applicable. | Need SME
+URS-098-02 | Validate sensor data range | Android/iOS | Low | User shall receive clear error message on failure. | Approved?
+URS-098-03 | Store readings securely on device | Local DB | Not ranked | Result must be visible in mobile UI within expected time. | Pending QA
+URS-098-04 | Support caregiver view | Android | Medium | User shall receive clear error message on failure. | Pending QA
+URS-098-05 | Display current BPM with timestamp | iOS | High | Audit/event record shall be generated where applicable. | Approved?
+URS-098-06 | Notification retry and suppression | Backend API | Low | Result must be visible in mobile UI within expected time. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 099 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-099-01 | Consent capture and privacy notice | Notification Service | Low | Result must be visible in mobile UI within expected time. | Approved?
+URS-099-02 | Validate sensor data range | Bluetooth Sensor | Medium | System shall complete the action without data loss. | Draft
+URS-099-03 | Support caregiver view | iOS | Not ranked | User shall receive clear error message on failure. | Draft
+URS_99.4 | Audit user actions | iOS | Medium | TBD by clinical SME - intentionally incomplete. | In Review
+URS-099-05 | Store readings securely on device | iOS | Not ranked | Audit/event record shall be generated where applicable. | Rejected once
+URS-099-06 | Store readings securely on device | Android/iOS | TBD | Result must be visible in mobile UI within expected time. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 100 / URS ---
+This URS captures expected business and user needs for the Heart Rate Monitor mobile application used by patients, caregivers, and clinical support staff. The structure is intentionally messy for AI/RAG and traceability testing.
+URS-100-01 | Display current BPM with timestamp | Android | TBD | Result must be visible in mobile UI within expected time. | In Review
+URS-100-02 | Consent capture and privacy notice | iOS | Low | User shall receive clear error message on failure. | Approved?
+URS_100.3 | Battery and Bluetooth warning | Android | Low | Result must be visible in mobile UI within expected time. | Pending QA
+URS_100.4 | Show trend chart for 7/30/90 days | Android/iOS | TBD | System shall complete the action without data loss. | In Review
+URS_100.5 | Battery and Bluetooth warning | Backend API | High | User shall receive clear error message on failure. | Approved?
+URS_100.6 | Export readings as PDF/CSV | Backend API | High | TBD by clinical SME - intentionally incomplete. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+

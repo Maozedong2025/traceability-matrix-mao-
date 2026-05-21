@@ -1,0 +1,501 @@
+document_name,doc_type,page,item_id,item_text,platform,risk,acceptance_expected,status,messy_flag
+Document 6 - PQ - Heart Rate Monitor Application,PQ,1,PQ-001-01,Capture heart rate from paired device,Local DB,Low,Data shall be encrypted in transit and at rest.,Rejected once,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,1,PQ-001-02,Handle offline mode,Notification Service,High,System shall complete the action without data loss.,In Review,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,1,PQ-001-03,Audit user actions,Local DB,Medium,TBD by clinical SME - intentionally incomplete.,Need SME,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,1,PQ-001-04,Capture heart rate from paired device,Notification Service,High,Data shall be encrypted in transit and at rest.,Pending QA,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,1,PQ-001-05,Handle offline mode,Android/iOS,High,User shall receive clear error message on failure.,Rejected once,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,2,PQ-002-01,Notification retry and suppression,Notification Service,Not ranked,User shall receive clear error message on failure.,Rejected once,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,2,PQ-002-02,Manual heart rate entry when device unavailable,Android/iOS,Medium,TBD by clinical SME - intentionally incomplete.,Approved?,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,2,PQ_2.3,Sync readings to cloud API,Local DB,Medium,TBD by clinical SME - intentionally incomplete.,Pending QA,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,2,PQ-002-04,Sync readings to cloud API,Android/iOS,Medium,Result must be visible in mobile UI within expected time.,Approved?,??
+Document 6 - PQ - Heart Rate Monitor Application,PQ,2,PQ-002-05,Display current BPM with timestamp,Cloud Sync,Low,Audit/event record shall be generated where applicable.,Approved?,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,3,PQ-003-01,Audit user actions,iOS,TBD,Result must be visible in mobile UI within expected time.,Approved?,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,3,PQ-003-02,Consent capture and privacy notice,Notification Service,Not ranked,Data shall be encrypted in transit and at rest.,In Review,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,3,PQ-003-03,Display current BPM with timestamp,Notification Service,Medium,User shall receive clear error message on failure.,Rejected once,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,3,PQ-003-04,Audit user actions,iOS,TBD,Data shall be encrypted in transit and at rest.,Rejected once,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,3,PQ-003-05,Show trend chart for 7/30/90 days,Android/iOS,High,User shall receive clear error message on failure.,Pending QA,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,4,PQ-004-01,Export readings as PDF/CSV,Notification Service,TBD,Audit/event record shall be generated where applicable.,Draft,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,4,PQ_4.2,Show trend chart for 7/30/90 days,Notification Service,Medium,Audit/event record shall be generated where applicable.,Need SME,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,4,PQ-004-03,Support caregiver view,Android,Not ranked,User shall receive clear error message on failure.,Draft,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,4,PQ-004-04,Consent capture and privacy notice,Notification Service,TBD,Result must be visible in mobile UI within expected time.,Approved?,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,4,PQ_4.5,Capture heart rate from paired device,iOS,Not ranked,Audit/event record shall be generated where applicable.,Pending QA,??
+Document 6 - PQ - Heart Rate Monitor Application,PQ,5,PQ_5.1,Support caregiver view,Local DB,Not ranked,Result must be visible in mobile UI within expected time.,Rejected once,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,5,PQ-005-02,Support caregiver view,Cloud Sync,Low,User shall receive clear error message on failure.,Rejected once,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,5,PQ_5.3,Store readings securely on device,Bluetooth Sensor,TBD,TBD by clinical SME - intentionally incomplete.,In Review,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,5,PQ-005-04,Export readings as PDF/CSV,Backend API,TBD,Data shall be encrypted in transit and at rest.,Draft,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,5,PQ-005-05,Support caregiver view,Android/iOS,Medium,Audit/event record shall be generated where applicable.,Need SME,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,6,PQ-006-01,Capture heart rate from paired device,Local DB,High,System shall complete the action without data loss.,Need SME,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,6,PQ-006-02,Consent capture and privacy notice,Android,Low,Result must be visible in mobile UI within expected time.,Draft,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,6,PQ-006-03,Audit user actions,iOS,Not ranked,Audit/event record shall be generated where applicable.,Draft,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,6,PQ-006-04,Generate high/low heart-rate alert,Android/iOS,TBD,Audit/event record shall be generated where applicable.,Need SME,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,6,PQ-006-05,Support caregiver view,iOS,Medium,Audit/event record shall be generated where applicable.,In Review,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,7,PQ-007-01,Capture heart rate from paired device,Local DB,Not ranked,TBD by clinical SME - intentionally incomplete.,Need SME,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,7,PQ-007-02,Show trend chart for 7/30/90 days,Local DB,TBD,TBD by clinical SME - intentionally incomplete.,In Review,??
+Document 6 - PQ - Heart Rate Monitor Application,PQ,7,PQ-007-03,Handle offline mode,Local DB,TBD,User shall receive clear error message on failure.,Draft,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,7,PQ-007-04,Export readings as PDF/CSV,Bluetooth Sensor,Medium,Audit/event record shall be generated where applicable.,Approved?,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,7,PQ-007-05,Show trend chart for 7/30/90 days,Android,TBD,Audit/event record shall be generated where applicable.,Need SME,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,8,PQ-008-01,Handle offline mode,iOS,TBD,User shall receive clear error message on failure.,Approved?,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,8,PQ-008-02,Biometric login option,Android,TBD,Result must be visible in mobile UI within expected time.,In Review,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,8,PQ_8.3,Store readings securely on device,Local DB,Low,System shall complete the action without data loss.,Rejected once,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,8,PQ-008-04,Sync readings to cloud API,Backend API,Not ranked,User shall receive clear error message on failure.,Need SME,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,8,PQ_8.5,Generate high/low heart-rate alert,iOS,TBD,TBD by clinical SME - intentionally incomplete.,Approved?,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,9,PQ-009-01,Store readings securely on device,iOS,Low,System shall complete the action without data loss.,Pending QA,??
+Document 6 - PQ - Heart Rate Monitor Application,PQ,9,PQ-009-02,Manual heart rate entry when device unavailable,Bluetooth Sensor,TBD,System shall complete the action without data loss.,Draft,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,9,PQ_9.3,Audit user actions,Notification Service,TBD,TBD by clinical SME - intentionally incomplete.,Draft,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,9,PQ-009-04,Sync readings to cloud API,Notification Service,Not ranked,Data shall be encrypted in transit and at rest.,Draft,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,9,PQ-009-05,Support caregiver view,Android/iOS,Low,TBD by clinical SME - intentionally incomplete.,Approved?,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,10,PQ-010-01,Manual heart rate entry when device unavailable,Bluetooth Sensor,Medium,Result must be visible in mobile UI within expected time.,Rejected once,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,10,PQ_10.2,Generate high/low heart-rate alert,Bluetooth Sensor,Not ranked,Data shall be encrypted in transit and at rest.,Need SME,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,10,PQ-010-03,Generate high/low heart-rate alert,Android,Not ranked,Audit/event record shall be generated where applicable.,Need SME,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,10,PQ-010-04,Export readings as PDF/CSV,Backend API,Low,Result must be visible in mobile UI within expected time.,In Review,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,10,PQ_10.5,Sync readings to cloud API,iOS,Medium,TBD by clinical SME - intentionally incomplete.,Draft,??
+Document 6 - PQ - Heart Rate Monitor Application,PQ,11,PQ-011-01,Biometric login option,Bluetooth Sensor,Medium,Audit/event record shall be generated where applicable.,In Review,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,11,PQ-011-02,Sync readings to cloud API,Local DB,Not ranked,Data shall be encrypted in transit and at rest.,Rejected once,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,11,PQ-011-03,Support caregiver view,Local DB,Not ranked,Result must be visible in mobile UI within expected time.,Draft,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,11,PQ-011-04,Biometric login option,Notification Service,TBD,Audit/event record shall be generated where applicable.,In Review,??
+Document 6 - PQ - Heart Rate Monitor Application,PQ,11,PQ_11.5,Battery and Bluetooth warning,Bluetooth Sensor,Not ranked,User shall receive clear error message on failure.,Rejected once,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,12,PQ-012-01,Generate high/low heart-rate alert,Android/iOS,High,System shall complete the action without data loss.,Draft,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,12,PQ-012-02,Audit user actions,Cloud Sync,Medium,Audit/event record shall be generated where applicable.,Pending QA,??
+Document 6 - PQ - Heart Rate Monitor Application,PQ,12,PQ-012-03,Audit user actions,iOS,Low,Audit/event record shall be generated where applicable.,In Review,??
+Document 6 - PQ - Heart Rate Monitor Application,PQ,12,PQ-012-04,Export readings as PDF/CSV,Notification Service,Not ranked,User shall receive clear error message on failure.,Pending QA,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,12,PQ-012-05,Consent capture and privacy notice,Android/iOS,High,Audit/event record shall be generated where applicable.,In Review,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,13,PQ-013-01,Battery and Bluetooth warning,iOS,High,System shall complete the action without data loss.,Rejected once,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,13,PQ-013-02,Biometric login option,Android/iOS,Not ranked,Audit/event record shall be generated where applicable.,Need SME,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,13,PQ-013-03,Battery and Bluetooth warning,Bluetooth Sensor,High,Audit/event record shall be generated where applicable.,Approved?,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,13,PQ-013-04,Validate sensor data range,Bluetooth Sensor,Medium,TBD by clinical SME - intentionally incomplete.,Pending QA,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,13,PQ-013-05,Handle offline mode,Local DB,TBD,TBD by clinical SME - intentionally incomplete.,Rejected once,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,14,PQ-014-01,Handle offline mode,Android/iOS,Not ranked,Data shall be encrypted in transit and at rest.,Draft,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,14,PQ-014-02,Handle offline mode,Local DB,TBD,Audit/event record shall be generated where applicable.,Pending QA,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,14,PQ-014-03,Capture heart rate from paired device,Notification Service,High,Data shall be encrypted in transit and at rest.,Draft,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,14,PQ-014-04,Handle offline mode,Android/iOS,Medium,User shall receive clear error message on failure.,Draft,??
+Document 6 - PQ - Heart Rate Monitor Application,PQ,14,PQ_14.5,Capture heart rate from paired device,Notification Service,High,Result must be visible in mobile UI within expected time.,Draft,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,15,PQ-015-01,Capture heart rate from paired device,iOS,Medium,Audit/event record shall be generated where applicable.,Pending QA,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,15,PQ-015-02,Handle offline mode,iOS,High,Audit/event record shall be generated where applicable.,Pending QA,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,15,PQ-015-03,Sync readings to cloud API,Notification Service,Medium,User shall receive clear error message on failure.,Need SME,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,15,PQ-015-04,Support caregiver view,Android/iOS,Low,System shall complete the action without data loss.,Rejected once,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,15,PQ-015-05,Validate sensor data range,Backend API,TBD,TBD by clinical SME - intentionally incomplete.,Draft,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,16,PQ-016-01,Battery and Bluetooth warning,Cloud Sync,High,User shall receive clear error message on failure.,Draft,??
+Document 6 - PQ - Heart Rate Monitor Application,PQ,16,PQ-016-02,Battery and Bluetooth warning,Local DB,Not ranked,User shall receive clear error message on failure.,Need SME,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,16,PQ-016-03,Audit user actions,Backend API,Not ranked,System shall complete the action without data loss.,Need SME,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,16,PQ-016-04,Consent capture and privacy notice,Local DB,Medium,Data shall be encrypted in transit and at rest.,Pending QA,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,16,PQ-016-05,Validate sensor data range,Android/iOS,Medium,TBD by clinical SME - intentionally incomplete.,Pending QA,??
+Document 6 - PQ - Heart Rate Monitor Application,PQ,17,PQ-017-01,Battery and Bluetooth warning,Backend API,Low,Data shall be encrypted in transit and at rest.,Need SME,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,17,PQ-017-02,Validate sensor data range,Backend API,Medium,Data shall be encrypted in transit and at rest.,Approved?,??
+Document 6 - PQ - Heart Rate Monitor Application,PQ,17,PQ-017-03,Notification retry and suppression,Notification Service,Low,System shall complete the action without data loss.,Pending QA,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,17,PQ_17.4,Export readings as PDF/CSV,iOS,TBD,Result must be visible in mobile UI within expected time.,Pending QA,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,17,PQ-017-05,Manual heart rate entry when device unavailable,Backend API,High,System shall complete the action without data loss.,Need SME,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,18,PQ-018-01,Sync readings to cloud API,Android/iOS,Low,User shall receive clear error message on failure.,Approved?,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,18,PQ-018-02,Show trend chart for 7/30/90 days,Android,Medium,Data shall be encrypted in transit and at rest.,Draft,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,18,PQ-018-03,Export readings as PDF/CSV,Local DB,Medium,TBD by clinical SME - intentionally incomplete.,In Review,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,18,PQ-018-04,Sync readings to cloud API,Local DB,TBD,Data shall be encrypted in transit and at rest.,Approved?,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,18,PQ-018-05,Manual heart rate entry when device unavailable,Android/iOS,Low,System shall complete the action without data loss.,Draft,??
+Document 6 - PQ - Heart Rate Monitor Application,PQ,19,PQ-019-01,Manual heart rate entry when device unavailable,Android,Medium,TBD by clinical SME - intentionally incomplete.,Rejected once,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,19,PQ_19.2,Battery and Bluetooth warning,iOS,Medium,Data shall be encrypted in transit and at rest.,In Review,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,19,PQ-019-03,Display current BPM with timestamp,Android/iOS,Not ranked,Audit/event record shall be generated where applicable.,Draft,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,19,PQ_19.4,Sync readings to cloud API,Android,Low,Result must be visible in mobile UI within expected time.,Pending QA,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,19,PQ-019-05,Capture heart rate from paired device,Backend API,Low,System shall complete the action without data loss.,Rejected once,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,20,PQ-020-01,Audit user actions,Android,TBD,TBD by clinical SME - intentionally incomplete.,Need SME,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,20,PQ-020-02,Display current BPM with timestamp,Local DB,Medium,Data shall be encrypted in transit and at rest.,In Review,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,20,PQ-020-03,Generate high/low heart-rate alert,iOS,Low,User shall receive clear error message on failure.,Approved?,??
+Document 6 - PQ - Heart Rate Monitor Application,PQ,20,PQ_20.4,Biometric login option,Notification Service,TBD,System shall complete the action without data loss.,Need SME,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,20,PQ-020-05,Handle offline mode,Local DB,High,Data shall be encrypted in transit and at rest.,Need SME,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,21,PQ_21.1,Validate sensor data range,iOS,High,Audit/event record shall be generated where applicable.,Need SME,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,21,PQ-021-02,Manual heart rate entry when device unavailable,Android/iOS,Not ranked,Data shall be encrypted in transit and at rest.,Approved?,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,21,PQ-021-03,Validate sensor data range,Backend API,Medium,User shall receive clear error message on failure.,Approved?,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,21,PQ_21.4,Capture heart rate from paired device,Bluetooth Sensor,Not ranked,User shall receive clear error message on failure.,Rejected once,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,21,PQ_21.5,Sync readings to cloud API,Local DB,Medium,Audit/event record shall be generated where applicable.,In Review,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,22,PQ-022-01,Audit user actions,Cloud Sync,TBD,System shall complete the action without data loss.,Draft,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,22,PQ-022-02,Support caregiver view,Android/iOS,Medium,Audit/event record shall be generated where applicable.,Need SME,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,22,PQ-022-03,Capture heart rate from paired device,Backend API,TBD,User shall receive clear error message on failure.,Pending QA,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,22,PQ-022-04,Show trend chart for 7/30/90 days,Local DB,Low,Result must be visible in mobile UI within expected time.,Pending QA,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,22,PQ-022-05,Store readings securely on device,Backend API,TBD,Data shall be encrypted in transit and at rest.,In Review,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,23,PQ_23.1,Support caregiver view,Backend API,TBD,System shall complete the action without data loss.,In Review,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,23,PQ_23.2,Handle offline mode,iOS,TBD,Audit/event record shall be generated where applicable.,Need SME,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,23,PQ-023-03,Generate high/low heart-rate alert,Android/iOS,High,User shall receive clear error message on failure.,Pending QA,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,23,PQ-023-04,Show trend chart for 7/30/90 days,Notification Service,Not ranked,Data shall be encrypted in transit and at rest.,Pending QA,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,23,PQ-023-05,Display current BPM with timestamp,Android,Low,TBD by clinical SME - intentionally incomplete.,Approved?,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,24,PQ-024-01,Capture heart rate from paired device,Android/iOS,Not ranked,User shall receive clear error message on failure.,Rejected once,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,24,PQ-024-02,Export readings as PDF/CSV,iOS,Not ranked,Data shall be encrypted in transit and at rest.,Draft,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,24,PQ-024-03,Sync readings to cloud API,Local DB,Not ranked,Data shall be encrypted in transit and at rest.,Approved?,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,24,PQ-024-04,Manual heart rate entry when device unavailable,Notification Service,Medium,TBD by clinical SME - intentionally incomplete.,Draft,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,24,PQ-024-05,Manual heart rate entry when device unavailable,Backend API,Low,User shall receive clear error message on failure.,Need SME,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,25,PQ-025-01,Export readings as PDF/CSV,Notification Service,High,TBD by clinical SME - intentionally incomplete.,In Review,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,25,PQ-025-02,Capture heart rate from paired device,Android,Medium,Result must be visible in mobile UI within expected time.,Need SME,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,25,PQ-025-03,Consent capture and privacy notice,Backend API,TBD,Audit/event record shall be generated where applicable.,Approved?,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,25,PQ-025-04,Battery and Bluetooth warning,Backend API,Low,System shall complete the action without data loss.,Approved?,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,25,PQ-025-05,Generate high/low heart-rate alert,Notification Service,Medium,User shall receive clear error message on failure.,Rejected once,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,26,PQ_26.1,Audit user actions,Local DB,Low,Audit/event record shall be generated where applicable.,Pending QA,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,26,PQ-026-02,Export readings as PDF/CSV,Backend API,Low,User shall receive clear error message on failure.,In Review,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,26,PQ-026-03,Handle offline mode,iOS,Medium,TBD by clinical SME - intentionally incomplete.,Pending QA,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,26,PQ-026-04,Handle offline mode,Android/iOS,Medium,System shall complete the action without data loss.,Draft,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,26,PQ-026-05,Generate high/low heart-rate alert,Android/iOS,Low,Data shall be encrypted in transit and at rest.,Draft,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,27,PQ-027-01,Store readings securely on device,Bluetooth Sensor,Not ranked,Audit/event record shall be generated where applicable.,Rejected once,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,27,PQ-027-02,Biometric login option,iOS,Medium,Data shall be encrypted in transit and at rest.,Draft,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,27,PQ-027-03,Support caregiver view,iOS,Low,TBD by clinical SME - intentionally incomplete.,Need SME,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,27,PQ-027-04,Sync readings to cloud API,Android,Low,TBD by clinical SME - intentionally incomplete.,Rejected once,??
+Document 6 - PQ - Heart Rate Monitor Application,PQ,27,PQ-027-05,Biometric login option,Local DB,Low,Data shall be encrypted in transit and at rest.,Need SME,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,28,PQ-028-01,Export readings as PDF/CSV,Notification Service,TBD,Audit/event record shall be generated where applicable.,In Review,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,28,PQ_28.2,Notification retry and suppression,Bluetooth Sensor,TBD,Result must be visible in mobile UI within expected time.,Need SME,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,28,PQ-028-03,Display current BPM with timestamp,Bluetooth Sensor,Not ranked,Result must be visible in mobile UI within expected time.,Approved?,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,28,PQ-028-04,Support caregiver view,Bluetooth Sensor,Not ranked,TBD by clinical SME - intentionally incomplete.,Pending QA,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,28,PQ_28.5,Manual heart rate entry when device unavailable,iOS,Medium,User shall receive clear error message on failure.,Need SME,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,29,PQ-029-01,Show trend chart for 7/30/90 days,iOS,Low,System shall complete the action without data loss.,Pending QA,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,29,PQ-029-02,Sync readings to cloud API,iOS,Medium,TBD by clinical SME - intentionally incomplete.,Need SME,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,29,PQ-029-03,Sync readings to cloud API,Cloud Sync,High,System shall complete the action without data loss.,Pending QA,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,29,PQ-029-04,Show trend chart for 7/30/90 days,Bluetooth Sensor,Medium,System shall complete the action without data loss.,Need SME,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,29,PQ-029-05,Capture heart rate from paired device,Notification Service,Medium,User shall receive clear error message on failure.,Draft,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,30,PQ-030-01,Battery and Bluetooth warning,Local DB,Medium,User shall receive clear error message on failure.,Rejected once,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,30,PQ-030-02,Audit user actions,iOS,Medium,Audit/event record shall be generated where applicable.,Approved?,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,30,PQ-030-03,Display current BPM with timestamp,Android/iOS,Low,TBD by clinical SME - intentionally incomplete.,Pending QA,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,30,PQ-030-04,Validate sensor data range,Cloud Sync,High,Data shall be encrypted in transit and at rest.,Pending QA,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,30,PQ-030-05,Audit user actions,Local DB,Medium,Audit/event record shall be generated where applicable.,Pending QA,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,31,PQ-031-01,Show trend chart for 7/30/90 days,Local DB,Low,User shall receive clear error message on failure.,Need SME,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,31,PQ-031-02,Audit user actions,Notification Service,Low,TBD by clinical SME - intentionally incomplete.,Need SME,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,31,PQ-031-03,Capture heart rate from paired device,Backend API,Not ranked,System shall complete the action without data loss.,Need SME,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,31,PQ-031-04,Biometric login option,Android/iOS,Not ranked,Result must be visible in mobile UI within expected time.,Rejected once,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,31,PQ-031-05,Biometric login option,Android/iOS,Not ranked,TBD by clinical SME - intentionally incomplete.,Pending QA,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,32,PQ_32.1,Validate sensor data range,Backend API,Medium,Result must be visible in mobile UI within expected time.,Pending QA,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,32,PQ-032-02,Battery and Bluetooth warning,Bluetooth Sensor,Low,User shall receive clear error message on failure.,Approved?,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,32,PQ_32.3,Sync readings to cloud API,Cloud Sync,TBD,Result must be visible in mobile UI within expected time.,Need SME,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,32,PQ-032-04,Sync readings to cloud API,Bluetooth Sensor,TBD,TBD by clinical SME - intentionally incomplete.,Need SME,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,32,PQ-032-05,Biometric login option,Cloud Sync,Low,User shall receive clear error message on failure.,Pending QA,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,33,PQ-033-01,Show trend chart for 7/30/90 days,Backend API,High,TBD by clinical SME - intentionally incomplete.,Need SME,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,33,PQ-033-02,Support caregiver view,Cloud Sync,TBD,Data shall be encrypted in transit and at rest.,Approved?,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,33,PQ-033-03,Display current BPM with timestamp,Cloud Sync,Low,TBD by clinical SME - intentionally incomplete.,Approved?,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,33,PQ-033-04,Capture heart rate from paired device,Notification Service,Not ranked,Audit/event record shall be generated where applicable.,Rejected once,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,33,PQ-033-05,Audit user actions,Notification Service,Medium,Data shall be encrypted in transit and at rest.,Need SME,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,34,PQ-034-01,Display current BPM with timestamp,Backend API,Medium,User shall receive clear error message on failure.,Rejected once,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,34,PQ_34.2,Battery and Bluetooth warning,Android,TBD,User shall receive clear error message on failure.,Need SME,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,34,PQ-034-03,Battery and Bluetooth warning,Cloud Sync,Low,User shall receive clear error message on failure.,Rejected once,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,34,PQ-034-04,Show trend chart for 7/30/90 days,Cloud Sync,High,Result must be visible in mobile UI within expected time.,Rejected once,??
+Document 6 - PQ - Heart Rate Monitor Application,PQ,34,PQ_34.5,Handle offline mode,Notification Service,High,Audit/event record shall be generated where applicable.,Approved?,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,35,PQ-035-01,Consent capture and privacy notice,Android/iOS,Medium,Audit/event record shall be generated where applicable.,Need SME,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,35,PQ-035-02,Battery and Bluetooth warning,Android/iOS,High,TBD by clinical SME - intentionally incomplete.,Approved?,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,35,PQ-035-03,Notification retry and suppression,Bluetooth Sensor,Not ranked,TBD by clinical SME - intentionally incomplete.,Pending QA,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,35,PQ_35.4,Validate sensor data range,Bluetooth Sensor,Low,Result must be visible in mobile UI within expected time.,Need SME,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,35,PQ_35.5,Biometric login option,Cloud Sync,Low,System shall complete the action without data loss.,Rejected once,??
+Document 6 - PQ - Heart Rate Monitor Application,PQ,36,PQ-036-01,Show trend chart for 7/30/90 days,iOS,High,Result must be visible in mobile UI within expected time.,Draft,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,36,PQ-036-02,Consent capture and privacy notice,Backend API,Not ranked,Result must be visible in mobile UI within expected time.,In Review,??
+Document 6 - PQ - Heart Rate Monitor Application,PQ,36,PQ-036-03,Notification retry and suppression,Android,Not ranked,Data shall be encrypted in transit and at rest.,Need SME,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,36,PQ-036-04,Notification retry and suppression,iOS,TBD,Result must be visible in mobile UI within expected time.,In Review,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,36,PQ-036-05,Biometric login option,Bluetooth Sensor,Medium,Audit/event record shall be generated where applicable.,In Review,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,37,PQ_37.1,Generate high/low heart-rate alert,Notification Service,Medium,User shall receive clear error message on failure.,In Review,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,37,PQ-037-02,Validate sensor data range,Android,Medium,System shall complete the action without data loss.,Pending QA,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,37,PQ-037-03,Capture heart rate from paired device,Bluetooth Sensor,High,User shall receive clear error message on failure.,In Review,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,37,PQ-037-04,Sync readings to cloud API,Cloud Sync,Not ranked,TBD by clinical SME - intentionally incomplete.,Draft,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,37,PQ-037-05,Validate sensor data range,Android,Medium,TBD by clinical SME - intentionally incomplete.,In Review,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,38,PQ_38.1,Support caregiver view,Local DB,Not ranked,Data shall be encrypted in transit and at rest.,In Review,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,38,PQ-038-02,Export readings as PDF/CSV,Cloud Sync,Medium,System shall complete the action without data loss.,Rejected once,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,38,PQ-038-03,Battery and Bluetooth warning,Cloud Sync,TBD,Result must be visible in mobile UI within expected time.,Need SME,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,38,PQ-038-04,Handle offline mode,iOS,Not ranked,Audit/event record shall be generated where applicable.,Rejected once,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,38,PQ-038-05,Display current BPM with timestamp,Local DB,Medium,System shall complete the action without data loss.,In Review,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,39,PQ-039-01,Battery and Bluetooth warning,Android,Low,User shall receive clear error message on failure.,Approved?,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,39,PQ-039-02,Audit user actions,iOS,High,User shall receive clear error message on failure.,Rejected once,??
+Document 6 - PQ - Heart Rate Monitor Application,PQ,39,PQ-039-03,Consent capture and privacy notice,Android/iOS,Low,TBD by clinical SME - intentionally incomplete.,Need SME,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,39,PQ_39.4,Notification retry and suppression,Local DB,TBD,User shall receive clear error message on failure.,Draft,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,39,PQ-039-05,Biometric login option,Notification Service,Low,Audit/event record shall be generated where applicable.,In Review,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,40,PQ-040-01,Generate high/low heart-rate alert,Notification Service,TBD,TBD by clinical SME - intentionally incomplete.,Approved?,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,40,PQ-040-02,Store readings securely on device,Bluetooth Sensor,Medium,Result must be visible in mobile UI within expected time.,Need SME,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,40,PQ_40.3,Export readings as PDF/CSV,iOS,Not ranked,Result must be visible in mobile UI within expected time.,Pending QA,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,40,PQ-040-04,Sync readings to cloud API,Local DB,TBD,System shall complete the action without data loss.,Approved?,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,40,PQ-040-05,Battery and Bluetooth warning,Android/iOS,Low,TBD by clinical SME - intentionally incomplete.,In Review,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,41,PQ-041-01,Handle offline mode,Backend API,Low,Audit/event record shall be generated where applicable.,Pending QA,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,41,PQ-041-02,Notification retry and suppression,Notification Service,Medium,System shall complete the action without data loss.,Approved?,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,41,PQ_41.3,Show trend chart for 7/30/90 days,iOS,Not ranked,TBD by clinical SME - intentionally incomplete.,In Review,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,41,PQ-041-04,Show trend chart for 7/30/90 days,Android,High,Audit/event record shall be generated where applicable.,Pending QA,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,41,PQ_41.5,Store readings securely on device,Notification Service,Not ranked,Audit/event record shall be generated where applicable.,Draft,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,42,PQ-042-01,Capture heart rate from paired device,Notification Service,High,User shall receive clear error message on failure.,Approved?,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,42,PQ-042-02,Biometric login option,Local DB,Medium,Result must be visible in mobile UI within expected time.,Need SME,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,42,PQ-042-03,Manual heart rate entry when device unavailable,Cloud Sync,High,Audit/event record shall be generated where applicable.,In Review,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,42,PQ-042-04,Support caregiver view,Android/iOS,Not ranked,Audit/event record shall be generated where applicable.,Approved?,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,42,PQ-042-05,Biometric login option,Local DB,Low,Result must be visible in mobile UI within expected time.,In Review,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,43,PQ-043-01,Audit user actions,Android,TBD,Data shall be encrypted in transit and at rest.,Need SME,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,43,PQ_43.2,Notification retry and suppression,Backend API,High,Audit/event record shall be generated where applicable.,Need SME,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,43,PQ_43.3,Capture heart rate from paired device,iOS,TBD,Result must be visible in mobile UI within expected time.,Need SME,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,43,PQ-043-04,Validate sensor data range,Bluetooth Sensor,TBD,Result must be visible in mobile UI within expected time.,Draft,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,43,PQ-043-05,Support caregiver view,Backend API,Not ranked,Audit/event record shall be generated where applicable.,Pending QA,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,44,PQ-044-01,Consent capture and privacy notice,Backend API,TBD,User shall receive clear error message on failure.,Rejected once,??
+Document 6 - PQ - Heart Rate Monitor Application,PQ,44,PQ-044-02,Generate high/low heart-rate alert,Android,High,Result must be visible in mobile UI within expected time.,Need SME,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,44,PQ-044-03,Export readings as PDF/CSV,Android/iOS,Medium,TBD by clinical SME - intentionally incomplete.,Pending QA,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,44,PQ-044-04,Show trend chart for 7/30/90 days,Notification Service,High,TBD by clinical SME - intentionally incomplete.,Need SME,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,44,PQ-044-05,Biometric login option,Backend API,Low,Data shall be encrypted in transit and at rest.,Pending QA,??
+Document 6 - PQ - Heart Rate Monitor Application,PQ,45,PQ-045-01,Capture heart rate from paired device,Notification Service,Not ranked,Result must be visible in mobile UI within expected time.,In Review,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,45,PQ-045-02,Generate high/low heart-rate alert,Backend API,Medium,Result must be visible in mobile UI within expected time.,Draft,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,45,PQ-045-03,Validate sensor data range,Android/iOS,High,Audit/event record shall be generated where applicable.,Need SME,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,45,PQ-045-04,Battery and Bluetooth warning,iOS,Medium,System shall complete the action without data loss.,Need SME,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,45,PQ_45.5,Consent capture and privacy notice,Cloud Sync,TBD,User shall receive clear error message on failure.,Rejected once,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,46,PQ-046-01,Consent capture and privacy notice,Notification Service,TBD,Data shall be encrypted in transit and at rest.,Pending QA,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,46,PQ-046-02,Consent capture and privacy notice,Android/iOS,Medium,System shall complete the action without data loss.,In Review,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,46,PQ-046-03,Battery and Bluetooth warning,Android/iOS,Medium,System shall complete the action without data loss.,Draft,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,46,PQ_46.4,Capture heart rate from paired device,Android,High,Audit/event record shall be generated where applicable.,In Review,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,46,PQ-046-05,Consent capture and privacy notice,Android/iOS,High,System shall complete the action without data loss.,Need SME,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,47,PQ-047-01,Sync readings to cloud API,Android/iOS,High,System shall complete the action without data loss.,Approved?,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,47,PQ-047-02,Sync readings to cloud API,Local DB,TBD,Audit/event record shall be generated where applicable.,Need SME,??
+Document 6 - PQ - Heart Rate Monitor Application,PQ,47,PQ-047-03,Support caregiver view,Android,TBD,TBD by clinical SME - intentionally incomplete.,Pending QA,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,47,PQ-047-04,Validate sensor data range,Android,Medium,Audit/event record shall be generated where applicable.,Need SME,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,47,PQ-047-05,Support caregiver view,Android/iOS,TBD,TBD by clinical SME - intentionally incomplete.,Need SME,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,48,PQ-048-01,Manual heart rate entry when device unavailable,Bluetooth Sensor,High,Result must be visible in mobile UI within expected time.,Pending QA,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,48,PQ-048-02,Notification retry and suppression,Android,Low,Result must be visible in mobile UI within expected time.,Pending QA,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,48,PQ-048-03,Handle offline mode,Android,TBD,Audit/event record shall be generated where applicable.,Need SME,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,48,PQ-048-04,Consent capture and privacy notice,Android/iOS,TBD,TBD by clinical SME - intentionally incomplete.,Pending QA,??
+Document 6 - PQ - Heart Rate Monitor Application,PQ,48,PQ-048-05,Audit user actions,Local DB,Low,User shall receive clear error message on failure.,In Review,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,49,PQ-049-01,Consent capture and privacy notice,iOS,TBD,TBD by clinical SME - intentionally incomplete.,In Review,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,49,PQ-049-02,Biometric login option,iOS,Medium,User shall receive clear error message on failure.,Draft,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,49,PQ_49.3,Validate sensor data range,Android/iOS,TBD,Data shall be encrypted in transit and at rest.,Approved?,??
+Document 6 - PQ - Heart Rate Monitor Application,PQ,49,PQ-049-04,Biometric login option,Backend API,Not ranked,User shall receive clear error message on failure.,Approved?,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,49,PQ-049-05,Store readings securely on device,Cloud Sync,Low,TBD by clinical SME - intentionally incomplete.,Draft,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,50,PQ-050-01,Sync readings to cloud API,Android,Not ranked,User shall receive clear error message on failure.,Rejected once,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,50,PQ-050-02,Notification retry and suppression,iOS,High,Data shall be encrypted in transit and at rest.,Pending QA,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,50,PQ_50.3,Display current BPM with timestamp,Bluetooth Sensor,Low,Data shall be encrypted in transit and at rest.,Need SME,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,50,PQ-050-04,Support caregiver view,iOS,Low,TBD by clinical SME - intentionally incomplete.,Need SME,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,50,PQ-050-05,Manual heart rate entry when device unavailable,iOS,High,Result must be visible in mobile UI within expected time.,Pending QA,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,51,PQ-051-01,Store readings securely on device,Local DB,Not ranked,User shall receive clear error message on failure.,Rejected once,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,51,PQ-051-02,Capture heart rate from paired device,Backend API,Low,Audit/event record shall be generated where applicable.,Draft,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,51,PQ-051-03,Show trend chart for 7/30/90 days,Bluetooth Sensor,Not ranked,User shall receive clear error message on failure.,Draft,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,51,PQ-051-04,Sync readings to cloud API,Cloud Sync,High,Result must be visible in mobile UI within expected time.,Draft,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,51,PQ-051-05,Support caregiver view,Bluetooth Sensor,Medium,User shall receive clear error message on failure.,Approved?,??
+Document 6 - PQ - Heart Rate Monitor Application,PQ,52,PQ-052-01,Consent capture and privacy notice,Android/iOS,High,System shall complete the action without data loss.,Need SME,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,52,PQ-052-02,Audit user actions,iOS,TBD,Result must be visible in mobile UI within expected time.,Pending QA,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,52,PQ-052-03,Store readings securely on device,Notification Service,Medium,User shall receive clear error message on failure.,Need SME,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,52,PQ-052-04,Show trend chart for 7/30/90 days,Backend API,Medium,Audit/event record shall be generated where applicable.,In Review,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,52,PQ-052-05,Capture heart rate from paired device,Cloud Sync,Not ranked,System shall complete the action without data loss.,Draft,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,53,PQ-053-01,Consent capture and privacy notice,Cloud Sync,Not ranked,Result must be visible in mobile UI within expected time.,Draft,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,53,PQ-053-02,Manual heart rate entry when device unavailable,Backend API,High,System shall complete the action without data loss.,In Review,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,53,PQ-053-03,Capture heart rate from paired device,Local DB,Low,User shall receive clear error message on failure.,Need SME,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,53,PQ-053-04,Generate high/low heart-rate alert,Bluetooth Sensor,High,System shall complete the action without data loss.,Approved?,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,53,PQ-053-05,Store readings securely on device,Cloud Sync,Not ranked,Audit/event record shall be generated where applicable.,In Review,??
+Document 6 - PQ - Heart Rate Monitor Application,PQ,54,PQ-054-01,Manual heart rate entry when device unavailable,Backend API,Medium,User shall receive clear error message on failure.,Rejected once,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,54,PQ-054-02,Capture heart rate from paired device,Backend API,TBD,Data shall be encrypted in transit and at rest.,Draft,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,54,PQ-054-03,Sync readings to cloud API,Bluetooth Sensor,TBD,Audit/event record shall be generated where applicable.,Approved?,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,54,PQ-054-04,Notification retry and suppression,Android,High,Result must be visible in mobile UI within expected time.,Approved?,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,54,PQ-054-05,Handle offline mode,iOS,Medium,Result must be visible in mobile UI within expected time.,Rejected once,??
+Document 6 - PQ - Heart Rate Monitor Application,PQ,55,PQ-055-01,Display current BPM with timestamp,Android,Medium,Result must be visible in mobile UI within expected time.,Need SME,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,55,PQ-055-02,Capture heart rate from paired device,Bluetooth Sensor,Low,TBD by clinical SME - intentionally incomplete.,Need SME,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,55,PQ-055-03,Export readings as PDF/CSV,Android/iOS,Not ranked,System shall complete the action without data loss.,Pending QA,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,55,PQ-055-04,Show trend chart for 7/30/90 days,Bluetooth Sensor,High,Result must be visible in mobile UI within expected time.,Approved?,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,55,PQ-055-05,Audit user actions,Android,Medium,User shall receive clear error message on failure.,Pending QA,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,56,PQ-056-01,Sync readings to cloud API,Cloud Sync,Low,Data shall be encrypted in transit and at rest.,Need SME,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,56,PQ-056-02,Show trend chart for 7/30/90 days,Android,TBD,Result must be visible in mobile UI within expected time.,In Review,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,56,PQ-056-03,Validate sensor data range,Notification Service,Low,TBD by clinical SME - intentionally incomplete.,Draft,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,56,PQ-056-04,Notification retry and suppression,Android/iOS,High,TBD by clinical SME - intentionally incomplete.,Rejected once,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,56,PQ-056-05,Generate high/low heart-rate alert,Cloud Sync,TBD,Audit/event record shall be generated where applicable.,Draft,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,57,PQ-057-01,Validate sensor data range,Cloud Sync,Not ranked,Audit/event record shall be generated where applicable.,In Review,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,57,PQ-057-02,Notification retry and suppression,Local DB,Not ranked,Audit/event record shall be generated where applicable.,Need SME,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,57,PQ-057-03,Consent capture and privacy notice,Notification Service,TBD,Data shall be encrypted in transit and at rest.,Draft,??
+Document 6 - PQ - Heart Rate Monitor Application,PQ,57,PQ-057-04,Battery and Bluetooth warning,Notification Service,Not ranked,User shall receive clear error message on failure.,Draft,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,57,PQ-057-05,Manual heart rate entry when device unavailable,Backend API,High,TBD by clinical SME - intentionally incomplete.,Need SME,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,58,PQ-058-01,Audit user actions,Local DB,Not ranked,TBD by clinical SME - intentionally incomplete.,Approved?,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,58,PQ_58.2,Store readings securely on device,Backend API,High,Result must be visible in mobile UI within expected time.,Approved?,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,58,PQ-058-03,Consent capture and privacy notice,Android,High,User shall receive clear error message on failure.,Pending QA,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,58,PQ-058-04,Display current BPM with timestamp,Android/iOS,TBD,Audit/event record shall be generated where applicable.,In Review,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,58,PQ-058-05,Audit user actions,Backend API,TBD,User shall receive clear error message on failure.,In Review,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,59,PQ-059-01,Generate high/low heart-rate alert,Bluetooth Sensor,Low,System shall complete the action without data loss.,Rejected once,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,59,PQ-059-02,Generate high/low heart-rate alert,iOS,Medium,TBD by clinical SME - intentionally incomplete.,In Review,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,59,PQ_59.3,Export readings as PDF/CSV,Backend API,Medium,TBD by clinical SME - intentionally incomplete.,Approved?,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,59,PQ-059-04,Show trend chart for 7/30/90 days,Backend API,Not ranked,User shall receive clear error message on failure.,Need SME,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,59,PQ-059-05,Consent capture and privacy notice,Backend API,High,Result must be visible in mobile UI within expected time.,Pending QA,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,60,PQ-060-01,Display current BPM with timestamp,Android,High,Audit/event record shall be generated where applicable.,In Review,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,60,PQ-060-02,Capture heart rate from paired device,Notification Service,Low,TBD by clinical SME - intentionally incomplete.,Rejected once,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,60,PQ-060-03,Notification retry and suppression,Bluetooth Sensor,Medium,Data shall be encrypted in transit and at rest.,Pending QA,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,60,PQ-060-04,Notification retry and suppression,Android/iOS,Medium,Audit/event record shall be generated where applicable.,Draft,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,60,PQ-060-05,Support caregiver view,Android,Low,Data shall be encrypted in transit and at rest.,Rejected once,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,61,PQ-061-01,Battery and Bluetooth warning,Notification Service,TBD,Audit/event record shall be generated where applicable.,Draft,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,61,PQ-061-02,Battery and Bluetooth warning,Android,Not ranked,Audit/event record shall be generated where applicable.,In Review,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,61,PQ-061-03,Export readings as PDF/CSV,Notification Service,High,User shall receive clear error message on failure.,In Review,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,61,PQ-061-04,Support caregiver view,Bluetooth Sensor,Medium,Audit/event record shall be generated where applicable.,Rejected once,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,61,PQ-061-05,Export readings as PDF/CSV,Android/iOS,TBD,Data shall be encrypted in transit and at rest.,Need SME,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,62,PQ-062-01,Manual heart rate entry when device unavailable,Notification Service,Low,User shall receive clear error message on failure.,Rejected once,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,62,PQ_62.2,Battery and Bluetooth warning,iOS,Medium,Result must be visible in mobile UI within expected time.,Need SME,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,62,PQ-062-03,Handle offline mode,Cloud Sync,Not ranked,TBD by clinical SME - intentionally incomplete.,Approved?,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,62,PQ-062-04,Sync readings to cloud API,Cloud Sync,Low,System shall complete the action without data loss.,Pending QA,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,62,PQ-062-05,Manual heart rate entry when device unavailable,Android,TBD,User shall receive clear error message on failure.,Draft,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,63,PQ_63.1,Sync readings to cloud API,Android,TBD,User shall receive clear error message on failure.,Rejected once,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,63,PQ-063-02,Export readings as PDF/CSV,Android/iOS,Medium,Result must be visible in mobile UI within expected time.,Need SME,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,63,PQ-063-03,Battery and Bluetooth warning,Android,Not ranked,Data shall be encrypted in transit and at rest.,Need SME,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,63,PQ-063-04,Notification retry and suppression,Android,High,Audit/event record shall be generated where applicable.,Pending QA,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,63,PQ-063-05,Handle offline mode,Notification Service,Medium,Data shall be encrypted in transit and at rest.,Need SME,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,64,PQ-064-01,Battery and Bluetooth warning,Android,Low,Data shall be encrypted in transit and at rest.,Approved?,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,64,PQ-064-02,Sync readings to cloud API,Backend API,Medium,Data shall be encrypted in transit and at rest.,In Review,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,64,PQ-064-03,Biometric login option,Android/iOS,Low,Audit/event record shall be generated where applicable.,Pending QA,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,64,PQ-064-04,Sync readings to cloud API,Cloud Sync,Low,System shall complete the action without data loss.,Pending QA,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,64,PQ-064-05,Validate sensor data range,Android/iOS,Low,System shall complete the action without data loss.,In Review,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,65,PQ-065-01,Capture heart rate from paired device,Backend API,Not ranked,Data shall be encrypted in transit and at rest.,Draft,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,65,PQ-065-02,Battery and Bluetooth warning,Local DB,Not ranked,User shall receive clear error message on failure.,Rejected once,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,65,PQ-065-03,Battery and Bluetooth warning,Backend API,Low,System shall complete the action without data loss.,Draft,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,65,PQ-065-04,Battery and Bluetooth warning,Notification Service,Not ranked,System shall complete the action without data loss.,Draft,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,65,PQ-065-05,Handle offline mode,Android/iOS,TBD,Result must be visible in mobile UI within expected time.,In Review,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,66,PQ-066-01,Store readings securely on device,Local DB,Medium,Result must be visible in mobile UI within expected time.,Rejected once,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,66,PQ_66.2,Notification retry and suppression,Android,TBD,User shall receive clear error message on failure.,Approved?,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,66,PQ-066-03,Audit user actions,Bluetooth Sensor,TBD,Result must be visible in mobile UI within expected time.,Approved?,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,66,PQ_66.4,Manual heart rate entry when device unavailable,Bluetooth Sensor,TBD,TBD by clinical SME - intentionally incomplete.,Need SME,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,66,PQ-066-05,Audit user actions,Android/iOS,Medium,Result must be visible in mobile UI within expected time.,In Review,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,67,PQ-067-01,Notification retry and suppression,Android/iOS,High,Audit/event record shall be generated where applicable.,In Review,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,67,PQ-067-02,Handle offline mode,Bluetooth Sensor,Not ranked,TBD by clinical SME - intentionally incomplete.,Pending QA,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,67,PQ-067-03,Sync readings to cloud API,iOS,TBD,Audit/event record shall be generated where applicable.,Draft,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,67,PQ-067-04,Capture heart rate from paired device,Backend API,TBD,Data shall be encrypted in transit and at rest.,Draft,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,67,PQ-067-05,Handle offline mode,Android,TBD,Data shall be encrypted in transit and at rest.,Approved?,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,68,PQ_68.1,Show trend chart for 7/30/90 days,Backend API,Medium,System shall complete the action without data loss.,Approved?,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,68,PQ-068-02,Handle offline mode,Notification Service,High,Data shall be encrypted in transit and at rest.,Approved?,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,68,PQ_68.3,Capture heart rate from paired device,iOS,Medium,System shall complete the action without data loss.,Pending QA,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,68,PQ-068-04,Store readings securely on device,Backend API,TBD,Data shall be encrypted in transit and at rest.,Draft,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,68,PQ-068-05,Generate high/low heart-rate alert,Backend API,Low,TBD by clinical SME - intentionally incomplete.,Draft,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,69,PQ-069-01,Biometric login option,Android/iOS,Low,Result must be visible in mobile UI within expected time.,Draft,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,69,PQ-069-02,Generate high/low heart-rate alert,Notification Service,Not ranked,User shall receive clear error message on failure.,Rejected once,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,69,PQ-069-03,Audit user actions,Android,Medium,System shall complete the action without data loss.,Draft,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,69,PQ-069-04,Consent capture and privacy notice,Android/iOS,High,Data shall be encrypted in transit and at rest.,Rejected once,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,69,PQ_69.5,Battery and Bluetooth warning,Notification Service,High,User shall receive clear error message on failure.,Approved?,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,70,PQ_70.1,Manual heart rate entry when device unavailable,Android,Low,User shall receive clear error message on failure.,Rejected once,??
+Document 6 - PQ - Heart Rate Monitor Application,PQ,70,PQ-070-02,Manual heart rate entry when device unavailable,Android/iOS,High,User shall receive clear error message on failure.,Rejected once,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,70,PQ-070-03,Manual heart rate entry when device unavailable,iOS,High,Data shall be encrypted in transit and at rest.,Rejected once,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,70,PQ-070-04,Display current BPM with timestamp,Notification Service,High,Audit/event record shall be generated where applicable.,Need SME,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,70,PQ-070-05,Store readings securely on device,Android,Not ranked,Result must be visible in mobile UI within expected time.,Rejected once,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,71,PQ-071-01,Display current BPM with timestamp,Android/iOS,Not ranked,TBD by clinical SME - intentionally incomplete.,Need SME,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,71,PQ_71.2,Show trend chart for 7/30/90 days,Android,Not ranked,Data shall be encrypted in transit and at rest.,Draft,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,71,PQ-071-03,Consent capture and privacy notice,Notification Service,Not ranked,Data shall be encrypted in transit and at rest.,In Review,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,71,PQ-071-04,Store readings securely on device,Android/iOS,TBD,Result must be visible in mobile UI within expected time.,Approved?,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,71,PQ-071-05,Sync readings to cloud API,iOS,High,Audit/event record shall be generated where applicable.,Approved?,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,72,PQ-072-01,Consent capture and privacy notice,Android/iOS,Medium,Data shall be encrypted in transit and at rest.,Approved?,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,72,PQ_72.2,Export readings as PDF/CSV,Bluetooth Sensor,High,TBD by clinical SME - intentionally incomplete.,In Review,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,72,PQ-072-03,Consent capture and privacy notice,Android/iOS,Not ranked,Audit/event record shall be generated where applicable.,Approved?,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,72,PQ_72.4,Store readings securely on device,iOS,Low,System shall complete the action without data loss.,Approved?,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,72,PQ_72.5,Display current BPM with timestamp,Local DB,TBD,Result must be visible in mobile UI within expected time.,Pending QA,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,73,PQ-073-01,Audit user actions,iOS,TBD,Result must be visible in mobile UI within expected time.,Rejected once,??
+Document 6 - PQ - Heart Rate Monitor Application,PQ,73,PQ_73.2,Generate high/low heart-rate alert,Backend API,High,Data shall be encrypted in transit and at rest.,Pending QA,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,73,PQ-073-03,Support caregiver view,Bluetooth Sensor,High,Data shall be encrypted in transit and at rest.,Rejected once,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,73,PQ-073-04,Show trend chart for 7/30/90 days,Android,Not ranked,System shall complete the action without data loss.,Need SME,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,73,PQ-073-05,Sync readings to cloud API,Android,High,TBD by clinical SME - intentionally incomplete.,In Review,??
+Document 6 - PQ - Heart Rate Monitor Application,PQ,74,PQ-074-01,Manual heart rate entry when device unavailable,Android/iOS,Medium,TBD by clinical SME - intentionally incomplete.,Rejected once,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,74,PQ-074-02,Handle offline mode,Bluetooth Sensor,Medium,Data shall be encrypted in transit and at rest.,Need SME,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,74,PQ-074-03,Store readings securely on device,Bluetooth Sensor,Medium,System shall complete the action without data loss.,In Review,??
+Document 6 - PQ - Heart Rate Monitor Application,PQ,74,PQ-074-04,Display current BPM with timestamp,Cloud Sync,Not ranked,Result must be visible in mobile UI within expected time.,Rejected once,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,74,PQ_74.5,Generate high/low heart-rate alert,Local DB,High,System shall complete the action without data loss.,Approved?,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,75,PQ-075-01,Store readings securely on device,Android,TBD,Data shall be encrypted in transit and at rest.,Rejected once,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,75,PQ_75.2,Biometric login option,Cloud Sync,Low,TBD by clinical SME - intentionally incomplete.,Need SME,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,75,PQ-075-03,Support caregiver view,Notification Service,High,User shall receive clear error message on failure.,Rejected once,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,75,PQ-075-04,Sync readings to cloud API,Backend API,Medium,TBD by clinical SME - intentionally incomplete.,In Review,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,75,PQ-075-05,Generate high/low heart-rate alert,Notification Service,Not ranked,User shall receive clear error message on failure.,Pending QA,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,76,PQ_76.1,Handle offline mode,iOS,Medium,System shall complete the action without data loss.,Rejected once,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,76,PQ-076-02,Manual heart rate entry when device unavailable,Local DB,TBD,TBD by clinical SME - intentionally incomplete.,Need SME,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,76,PQ-076-03,Battery and Bluetooth warning,Android/iOS,Low,Data shall be encrypted in transit and at rest.,In Review,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,76,PQ-076-04,Generate high/low heart-rate alert,Android,High,Data shall be encrypted in transit and at rest.,Draft,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,76,PQ-076-05,Support caregiver view,Bluetooth Sensor,TBD,Data shall be encrypted in transit and at rest.,Pending QA,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,77,PQ-077-01,Consent capture and privacy notice,Cloud Sync,High,System shall complete the action without data loss.,Rejected once,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,77,PQ-077-02,Display current BPM with timestamp,Local DB,TBD,Audit/event record shall be generated where applicable.,Need SME,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,77,PQ-077-03,Show trend chart for 7/30/90 days,Backend API,TBD,User shall receive clear error message on failure.,Approved?,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,77,PQ-077-04,Display current BPM with timestamp,Android,Not ranked,System shall complete the action without data loss.,Rejected once,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,77,PQ-077-05,Handle offline mode,Android,High,User shall receive clear error message on failure.,Pending QA,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,78,PQ-078-01,Display current BPM with timestamp,iOS,Not ranked,TBD by clinical SME - intentionally incomplete.,Rejected once,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,78,PQ-078-02,Show trend chart for 7/30/90 days,Local DB,Medium,Data shall be encrypted in transit and at rest.,Approved?,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,78,PQ_78.3,Sync readings to cloud API,Notification Service,TBD,Result must be visible in mobile UI within expected time.,Approved?,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,78,PQ-078-04,Support caregiver view,Backend API,Not ranked,Result must be visible in mobile UI within expected time.,Pending QA,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,78,PQ-078-05,Support caregiver view,Backend API,TBD,User shall receive clear error message on failure.,Need SME,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,79,PQ-079-01,Generate high/low heart-rate alert,Notification Service,Medium,Result must be visible in mobile UI within expected time.,Pending QA,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,79,PQ-079-02,Validate sensor data range,Local DB,High,User shall receive clear error message on failure.,Need SME,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,79,PQ-079-03,Biometric login option,Cloud Sync,TBD,Result must be visible in mobile UI within expected time.,Need SME,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,79,PQ-079-04,Sync readings to cloud API,iOS,Medium,User shall receive clear error message on failure.,Draft,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,79,PQ-079-05,Export readings as PDF/CSV,Cloud Sync,TBD,User shall receive clear error message on failure.,Draft,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,80,PQ_80.1,Generate high/low heart-rate alert,Android,Low,Data shall be encrypted in transit and at rest.,Need SME,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,80,PQ-080-02,Generate high/low heart-rate alert,Local DB,High,User shall receive clear error message on failure.,Need SME,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,80,PQ_80.3,Manual heart rate entry when device unavailable,Bluetooth Sensor,Medium,Data shall be encrypted in transit and at rest.,Draft,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,80,PQ-080-04,Generate high/low heart-rate alert,Notification Service,Low,User shall receive clear error message on failure.,Draft,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,80,PQ-080-05,Manual heart rate entry when device unavailable,Notification Service,Low,Result must be visible in mobile UI within expected time.,Rejected once,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,81,PQ-081-01,Manual heart rate entry when device unavailable,iOS,High,User shall receive clear error message on failure.,Draft,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,81,PQ-081-02,Capture heart rate from paired device,Local DB,Medium,User shall receive clear error message on failure.,In Review,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,81,PQ-081-03,Battery and Bluetooth warning,Notification Service,Medium,TBD by clinical SME - intentionally incomplete.,Rejected once,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,81,PQ-081-04,Manual heart rate entry when device unavailable,Bluetooth Sensor,Low,TBD by clinical SME - intentionally incomplete.,Draft,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,81,PQ_81.5,Consent capture and privacy notice,Cloud Sync,Medium,User shall receive clear error message on failure.,Approved?,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,82,PQ-082-01,Show trend chart for 7/30/90 days,Cloud Sync,Not ranked,System shall complete the action without data loss.,Rejected once,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,82,PQ-082-02,Battery and Bluetooth warning,Backend API,Low,User shall receive clear error message on failure.,In Review,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,82,PQ-082-03,Consent capture and privacy notice,Android,Not ranked,System shall complete the action without data loss.,In Review,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,82,PQ-082-04,Support caregiver view,Local DB,High,User shall receive clear error message on failure.,Pending QA,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,82,PQ-082-05,Biometric login option,iOS,Low,TBD by clinical SME - intentionally incomplete.,Pending QA,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,83,PQ-083-01,Audit user actions,iOS,Medium,Audit/event record shall be generated where applicable.,In Review,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,83,PQ-083-02,Generate high/low heart-rate alert,Local DB,High,System shall complete the action without data loss.,Pending QA,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,83,PQ-083-03,Export readings as PDF/CSV,Cloud Sync,Low,Result must be visible in mobile UI within expected time.,Draft,??
+Document 6 - PQ - Heart Rate Monitor Application,PQ,83,PQ-083-04,Sync readings to cloud API,Local DB,Not ranked,Data shall be encrypted in transit and at rest.,Need SME,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,83,PQ-083-05,Handle offline mode,Cloud Sync,High,User shall receive clear error message on failure.,Approved?,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,84,PQ-084-01,Capture heart rate from paired device,Android,Low,System shall complete the action without data loss.,Need SME,??
+Document 6 - PQ - Heart Rate Monitor Application,PQ,84,PQ-084-02,Store readings securely on device,Android/iOS,Low,User shall receive clear error message on failure.,Draft,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,84,PQ-084-03,Display current BPM with timestamp,Backend API,Medium,Data shall be encrypted in transit and at rest.,Need SME,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,84,PQ-084-04,Support caregiver view,Backend API,Not ranked,TBD by clinical SME - intentionally incomplete.,Draft,??
+Document 6 - PQ - Heart Rate Monitor Application,PQ,84,PQ-084-05,Show trend chart for 7/30/90 days,Cloud Sync,Low,Result must be visible in mobile UI within expected time.,Draft,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,85,PQ-085-01,Store readings securely on device,Android,Medium,Data shall be encrypted in transit and at rest.,Need SME,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,85,PQ-085-02,Display current BPM with timestamp,Android/iOS,High,Data shall be encrypted in transit and at rest.,In Review,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,85,PQ_85.3,Store readings securely on device,Local DB,TBD,Audit/event record shall be generated where applicable.,Approved?,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,85,PQ_85.4,Store readings securely on device,Local DB,Medium,User shall receive clear error message on failure.,Approved?,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,85,PQ_85.5,Battery and Bluetooth warning,Cloud Sync,Not ranked,System shall complete the action without data loss.,Draft,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,86,PQ-086-01,Validate sensor data range,Bluetooth Sensor,Medium,TBD by clinical SME - intentionally incomplete.,In Review,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,86,PQ-086-02,Biometric login option,Cloud Sync,Not ranked,Audit/event record shall be generated where applicable.,Rejected once,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,86,PQ-086-03,Sync readings to cloud API,Notification Service,Not ranked,User shall receive clear error message on failure.,Draft,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,86,PQ-086-04,Capture heart rate from paired device,Android,TBD,Result must be visible in mobile UI within expected time.,Approved?,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,86,PQ-086-05,Store readings securely on device,Android,Low,Data shall be encrypted in transit and at rest.,In Review,??
+Document 6 - PQ - Heart Rate Monitor Application,PQ,87,PQ_87.1,Battery and Bluetooth warning,Cloud Sync,Not ranked,TBD by clinical SME - intentionally incomplete.,Approved?,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,87,PQ-087-02,Generate high/low heart-rate alert,Backend API,Medium,Data shall be encrypted in transit and at rest.,Need SME,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,87,PQ-087-03,Biometric login option,Local DB,Not ranked,System shall complete the action without data loss.,Approved?,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,87,PQ-087-04,Audit user actions,Cloud Sync,Medium,Data shall be encrypted in transit and at rest.,Need SME,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,87,PQ-087-05,Audit user actions,Android,High,Data shall be encrypted in transit and at rest.,Approved?,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,88,PQ_88.1,Consent capture and privacy notice,Notification Service,Medium,TBD by clinical SME - intentionally incomplete.,Need SME,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,88,PQ_88.2,Consent capture and privacy notice,Cloud Sync,Medium,Audit/event record shall be generated where applicable.,Approved?,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,88,PQ_88.3,Validate sensor data range,Cloud Sync,Not ranked,TBD by clinical SME - intentionally incomplete.,Rejected once,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,88,PQ_88.4,Store readings securely on device,Backend API,TBD,Audit/event record shall be generated where applicable.,Need SME,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,88,PQ-088-05,Show trend chart for 7/30/90 days,Notification Service,Low,Result must be visible in mobile UI within expected time.,Approved?,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,89,PQ-089-01,Battery and Bluetooth warning,Android/iOS,Not ranked,Data shall be encrypted in transit and at rest.,Pending QA,??
+Document 6 - PQ - Heart Rate Monitor Application,PQ,89,PQ-089-02,Validate sensor data range,iOS,High,System shall complete the action without data loss.,Rejected once,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,89,PQ_89.3,Notification retry and suppression,iOS,Not ranked,TBD by clinical SME - intentionally incomplete.,Draft,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,89,PQ-089-04,Display current BPM with timestamp,Android/iOS,Low,User shall receive clear error message on failure.,Need SME,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,89,PQ_89.5,Manual heart rate entry when device unavailable,Bluetooth Sensor,High,TBD by clinical SME - intentionally incomplete.,In Review,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,90,PQ_90.1,Store readings securely on device,Bluetooth Sensor,TBD,Audit/event record shall be generated where applicable.,In Review,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,90,PQ-090-02,Store readings securely on device,Cloud Sync,TBD,System shall complete the action without data loss.,Draft,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,90,PQ-090-03,Capture heart rate from paired device,Notification Service,Medium,TBD by clinical SME - intentionally incomplete.,Draft,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,90,PQ-090-04,Validate sensor data range,Backend API,Low,System shall complete the action without data loss.,Pending QA,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,90,PQ-090-05,Display current BPM with timestamp,Notification Service,High,Audit/event record shall be generated where applicable.,Need SME,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,91,PQ-091-01,Store readings securely on device,Backend API,TBD,System shall complete the action without data loss.,In Review,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,91,PQ_91.2,Biometric login option,Local DB,Low,Result must be visible in mobile UI within expected time.,In Review,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,91,PQ-091-03,Support caregiver view,Bluetooth Sensor,TBD,TBD by clinical SME - intentionally incomplete.,Approved?,??
+Document 6 - PQ - Heart Rate Monitor Application,PQ,91,PQ-091-04,Battery and Bluetooth warning,Notification Service,Not ranked,Data shall be encrypted in transit and at rest.,Need SME,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,91,PQ-091-05,Notification retry and suppression,Bluetooth Sensor,Medium,System shall complete the action without data loss.,Pending QA,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,92,PQ-092-01,Generate high/low heart-rate alert,Cloud Sync,Low,TBD by clinical SME - intentionally incomplete.,Rejected once,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,92,PQ-092-02,Validate sensor data range,Backend API,TBD,System shall complete the action without data loss.,Rejected once,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,92,PQ_92.3,Display current BPM with timestamp,Local DB,High,Audit/event record shall be generated where applicable.,Approved?,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,92,PQ-092-04,Biometric login option,Backend API,Low,TBD by clinical SME - intentionally incomplete.,Draft,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,92,PQ_92.5,Support caregiver view,iOS,Medium,Result must be visible in mobile UI within expected time.,Pending QA,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,93,PQ-093-01,Battery and Bluetooth warning,Bluetooth Sensor,High,Data shall be encrypted in transit and at rest.,In Review,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,93,PQ-093-02,Validate sensor data range,Bluetooth Sensor,Low,TBD by clinical SME - intentionally incomplete.,Need SME,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,93,PQ-093-03,Export readings as PDF/CSV,iOS,High,TBD by clinical SME - intentionally incomplete.,Need SME,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,93,PQ-093-04,Generate high/low heart-rate alert,Local DB,TBD,Data shall be encrypted in transit and at rest.,Pending QA,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,93,PQ-093-05,Audit user actions,Backend API,Medium,Audit/event record shall be generated where applicable.,Draft,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,94,PQ-094-01,Manual heart rate entry when device unavailable,Android,Medium,TBD by clinical SME - intentionally incomplete.,Approved?,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,94,PQ_94.2,Store readings securely on device,Bluetooth Sensor,Low,TBD by clinical SME - intentionally incomplete.,Rejected once,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,94,PQ-094-03,Export readings as PDF/CSV,Local DB,TBD,Audit/event record shall be generated where applicable.,Rejected once,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,94,PQ-094-04,Notification retry and suppression,Cloud Sync,High,Result must be visible in mobile UI within expected time.,Need SME,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,94,PQ-094-05,Generate high/low heart-rate alert,iOS,TBD,User shall receive clear error message on failure.,Approved?,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,95,PQ-095-01,Notification retry and suppression,Backend API,Not ranked,TBD by clinical SME - intentionally incomplete.,In Review,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,95,PQ-095-02,Export readings as PDF/CSV,Android/iOS,Not ranked,System shall complete the action without data loss.,Approved?,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,95,PQ_95.3,Manual heart rate entry when device unavailable,Local DB,TBD,Audit/event record shall be generated where applicable.,Rejected once,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,95,PQ-095-04,Consent capture and privacy notice,iOS,Not ranked,TBD by clinical SME - intentionally incomplete.,Draft,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,95,PQ-095-05,Consent capture and privacy notice,Bluetooth Sensor,Medium,Audit/event record shall be generated where applicable.,Pending QA,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,96,PQ_96.1,Show trend chart for 7/30/90 days,iOS,Not ranked,User shall receive clear error message on failure.,Approved?,??
+Document 6 - PQ - Heart Rate Monitor Application,PQ,96,PQ-096-02,Generate high/low heart-rate alert,Local DB,Medium,User shall receive clear error message on failure.,Rejected once,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,96,PQ-096-03,Manual heart rate entry when device unavailable,Cloud Sync,High,Result must be visible in mobile UI within expected time.,Approved?,??
+Document 6 - PQ - Heart Rate Monitor Application,PQ,96,PQ-096-04,Store readings securely on device,Backend API,Medium,TBD by clinical SME - intentionally incomplete.,Need SME,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,96,PQ_96.5,Handle offline mode,Android/iOS,Low,Audit/event record shall be generated where applicable.,Rejected once,??
+Document 6 - PQ - Heart Rate Monitor Application,PQ,97,PQ-097-01,Battery and Bluetooth warning,Android/iOS,High,User shall receive clear error message on failure.,Approved?,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,97,PQ_97.2,Biometric login option,iOS,Medium,System shall complete the action without data loss.,Rejected once,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,97,PQ_97.3,Sync readings to cloud API,Backend API,TBD,User shall receive clear error message on failure.,In Review,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,97,PQ-097-04,Store readings securely on device,Local DB,High,Audit/event record shall be generated where applicable.,Approved?,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,97,PQ-097-05,Generate high/low heart-rate alert,Android/iOS,High,Audit/event record shall be generated where applicable.,Draft,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,98,PQ-098-01,Consent capture and privacy notice,Backend API,Not ranked,Audit/event record shall be generated where applicable.,In Review,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,98,PQ-098-02,Generate high/low heart-rate alert,Cloud Sync,Medium,Audit/event record shall be generated where applicable.,Rejected once,duplicate section
+Document 6 - PQ - Heart Rate Monitor Application,PQ,98,PQ-098-03,Generate high/low heart-rate alert,Local DB,Low,System shall complete the action without data loss.,Rejected once,TBD
+Document 6 - PQ - Heart Rate Monitor Application,PQ,98,PQ-098-04,Notification retry and suppression,Android/iOS,Low,User shall receive clear error message on failure.,Approved?,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,98,PQ-098-05,Capture heart rate from paired device,Android/iOS,High,Data shall be encrypted in transit and at rest.,Approved?,RAG TEST CHUNK
+Document 6 - PQ - Heart Rate Monitor Application,PQ,99,PQ-099-01,Export readings as PDF/CSV,Android/iOS,High,TBD by clinical SME - intentionally incomplete.,Draft,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,99,PQ-099-02,Show trend chart for 7/30/90 days,Android,High,System shall complete the action without data loss.,Pending QA,manual note
+Document 6 - PQ - Heart Rate Monitor Application,PQ,99,PQ-099-03,Support caregiver view,Bluetooth Sensor,High,User shall receive clear error message on failure.,Need SME,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,99,PQ_99.4,Handle offline mode,Android/iOS,High,User shall receive clear error message on failure.,Rejected once,REVIEW-LATER
+Document 6 - PQ - Heart Rate Monitor Application,PQ,99,PQ-099-05,Biometric login option,Android,High,Data shall be encrypted in transit and at rest.,Approved?,OCR noisy line
+Document 6 - PQ - Heart Rate Monitor Application,PQ,100,PQ-100-01,Manual heart rate entry when device unavailable,Cloud Sync,Low,TBD by clinical SME - intentionally incomplete.,Rejected once,v0.1/v1.0 mixed
+Document 6 - PQ - Heart Rate Monitor Application,PQ,100,PQ-100-02,Audit user actions,iOS,TBD,System shall complete the action without data loss.,Need SME,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,100,PQ-100-03,Consent capture and privacy notice,Android/iOS,TBD,System shall complete the action without data loss.,In Review,old text retained
+Document 6 - PQ - Heart Rate Monitor Application,PQ,100,PQ_100.4,Validate sensor data range,Backend API,Medium,User shall receive clear error message on failure.,Rejected once,missing owner
+Document 6 - PQ - Heart Rate Monitor Application,PQ,100,PQ-100-05,Generate high/low heart-rate alert,Android,Medium,User shall receive clear error message on failure.,Need SME,manual note

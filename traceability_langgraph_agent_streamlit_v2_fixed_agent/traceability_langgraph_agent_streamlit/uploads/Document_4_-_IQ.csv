@@ -1,0 +1,501 @@
+document_name,doc_type,page,item_id,item_text,platform,risk,acceptance_expected,status,messy_flag
+Document 4 - IQ - Heart Rate Monitor Application,IQ,1,IQ-001-01,Export readings as PDF/CSV,iOS,TBD,Audit/event record shall be generated where applicable.,Pending QA,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,1,IQ-001-02,Show trend chart for 7/30/90 days,Bluetooth Sensor,Low,TBD by clinical SME - intentionally incomplete.,Need SME,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,1,IQ-001-03,Show trend chart for 7/30/90 days,Bluetooth Sensor,Medium,Data shall be encrypted in transit and at rest.,Rejected once,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,1,IQ-001-04,Handle offline mode,Bluetooth Sensor,Not ranked,Audit/event record shall be generated where applicable.,Need SME,REVIEW-LATER
+Document 4 - IQ - Heart Rate Monitor Application,IQ,1,IQ-001-05,Show trend chart for 7/30/90 days,Bluetooth Sensor,TBD,Data shall be encrypted in transit and at rest.,Draft,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,2,IQ_2.1,Notification retry and suppression,Local DB,Medium,Data shall be encrypted in transit and at rest.,Pending QA,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,2,IQ-002-02,Handle offline mode,Android/iOS,TBD,Result must be visible in mobile UI within expected time.,Approved?,REVIEW-LATER
+Document 4 - IQ - Heart Rate Monitor Application,IQ,2,IQ_2.3,Display current BPM with timestamp,iOS,TBD,Data shall be encrypted in transit and at rest.,Need SME,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,2,IQ_2.4,Show trend chart for 7/30/90 days,Cloud Sync,Not ranked,TBD by clinical SME - intentionally incomplete.,In Review,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,2,IQ_2.5,Capture heart rate from paired device,Android/iOS,High,Result must be visible in mobile UI within expected time.,Approved?,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,3,IQ-003-01,Consent capture and privacy notice,Backend API,Medium,Audit/event record shall be generated where applicable.,In Review,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,3,IQ-003-02,Support caregiver view,Cloud Sync,Not ranked,Audit/event record shall be generated where applicable.,Rejected once,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,3,IQ-003-03,Battery and Bluetooth warning,Android,High,TBD by clinical SME - intentionally incomplete.,Draft,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,3,IQ-003-04,Store readings securely on device,iOS,Low,TBD by clinical SME - intentionally incomplete.,Draft,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,3,IQ-003-05,Store readings securely on device,Cloud Sync,Not ranked,User shall receive clear error message on failure.,In Review,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,4,IQ-004-01,Battery and Bluetooth warning,Notification Service,TBD,TBD by clinical SME - intentionally incomplete.,Draft,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,4,IQ-004-02,Generate high/low heart-rate alert,Bluetooth Sensor,High,User shall receive clear error message on failure.,Approved?,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,4,IQ-004-03,Notification retry and suppression,Local DB,Low,Result must be visible in mobile UI within expected time.,Need SME,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,4,IQ-004-04,Export readings as PDF/CSV,Backend API,Medium,Data shall be encrypted in transit and at rest.,Pending QA,REVIEW-LATER
+Document 4 - IQ - Heart Rate Monitor Application,IQ,4,IQ-004-05,Battery and Bluetooth warning,Android,Low,TBD by clinical SME - intentionally incomplete.,In Review,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,5,IQ-005-01,Biometric login option,Local DB,Low,Audit/event record shall be generated where applicable.,Draft,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,5,IQ-005-02,Sync readings to cloud API,Cloud Sync,Medium,TBD by clinical SME - intentionally incomplete.,Pending QA,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,5,IQ-005-03,Validate sensor data range,Notification Service,Medium,Result must be visible in mobile UI within expected time.,Approved?,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,5,IQ-005-04,Validate sensor data range,Android,High,Data shall be encrypted in transit and at rest.,Draft,REVIEW-LATER
+Document 4 - IQ - Heart Rate Monitor Application,IQ,5,IQ-005-05,Store readings securely on device,Android/iOS,Medium,Audit/event record shall be generated where applicable.,Approved?,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,6,IQ-006-01,Generate high/low heart-rate alert,Cloud Sync,TBD,Result must be visible in mobile UI within expected time.,In Review,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,6,IQ_6.2,Manual heart rate entry when device unavailable,Android,High,System shall complete the action without data loss.,Rejected once,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,6,IQ_6.3,Manual heart rate entry when device unavailable,Android/iOS,High,Result must be visible in mobile UI within expected time.,Rejected once,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,6,IQ-006-04,Store readings securely on device,Bluetooth Sensor,Low,TBD by clinical SME - intentionally incomplete.,Rejected once,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,6,IQ-006-05,Capture heart rate from paired device,Android,Low,Audit/event record shall be generated where applicable.,Need SME,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,7,IQ-007-01,Display current BPM with timestamp,Android/iOS,Not ranked,System shall complete the action without data loss.,In Review,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,7,IQ-007-02,Export readings as PDF/CSV,Android/iOS,Not ranked,Result must be visible in mobile UI within expected time.,Rejected once,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,7,IQ_7.3,Audit user actions,Bluetooth Sensor,Medium,Audit/event record shall be generated where applicable.,Rejected once,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,7,IQ-007-04,Battery and Bluetooth warning,Android,Not ranked,Data shall be encrypted in transit and at rest.,Draft,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,7,IQ-007-05,Store readings securely on device,Cloud Sync,Low,Audit/event record shall be generated where applicable.,Need SME,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,8,IQ-008-01,Export readings as PDF/CSV,Cloud Sync,Low,Data shall be encrypted in transit and at rest.,Rejected once,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,8,IQ-008-02,Audit user actions,Backend API,Not ranked,Result must be visible in mobile UI within expected time.,Approved?,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,8,IQ-008-03,Export readings as PDF/CSV,Cloud Sync,Not ranked,TBD by clinical SME - intentionally incomplete.,Pending QA,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,8,IQ-008-04,Store readings securely on device,Local DB,High,Data shall be encrypted in transit and at rest.,Draft,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,8,IQ-008-05,Generate high/low heart-rate alert,Local DB,TBD,Audit/event record shall be generated where applicable.,Draft,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,9,IQ-009-01,Support caregiver view,Notification Service,Not ranked,System shall complete the action without data loss.,Rejected once,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,9,IQ-009-02,Handle offline mode,Android/iOS,Medium,Result must be visible in mobile UI within expected time.,In Review,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,9,IQ-009-03,Store readings securely on device,Cloud Sync,Low,Audit/event record shall be generated where applicable.,Draft,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,9,IQ-009-04,Validate sensor data range,Local DB,Medium,Data shall be encrypted in transit and at rest.,Approved?,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,9,IQ_9.5,Notification retry and suppression,Local DB,High,System shall complete the action without data loss.,Pending QA,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,10,IQ_10.1,Notification retry and suppression,Local DB,Low,Result must be visible in mobile UI within expected time.,In Review,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,10,IQ-010-02,Battery and Bluetooth warning,Bluetooth Sensor,Not ranked,System shall complete the action without data loss.,Rejected once,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,10,IQ-010-03,Consent capture and privacy notice,iOS,Low,Data shall be encrypted in transit and at rest.,Approved?,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,10,IQ-010-04,Manual heart rate entry when device unavailable,Cloud Sync,Medium,System shall complete the action without data loss.,Pending QA,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,10,IQ-010-05,Manual heart rate entry when device unavailable,Bluetooth Sensor,Medium,User shall receive clear error message on failure.,Rejected once,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,11,IQ-011-01,Consent capture and privacy notice,Android,TBD,System shall complete the action without data loss.,Pending QA,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,11,IQ-011-02,Generate high/low heart-rate alert,Bluetooth Sensor,Low,System shall complete the action without data loss.,Approved?,REVIEW-LATER
+Document 4 - IQ - Heart Rate Monitor Application,IQ,11,IQ-011-03,Handle offline mode,Android/iOS,TBD,System shall complete the action without data loss.,Draft,REVIEW-LATER
+Document 4 - IQ - Heart Rate Monitor Application,IQ,11,IQ_11.4,Support caregiver view,Notification Service,High,Result must be visible in mobile UI within expected time.,Draft,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,11,IQ-011-05,Handle offline mode,Android/iOS,Low,User shall receive clear error message on failure.,Pending QA,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,12,IQ-012-01,Sync readings to cloud API,Backend API,Low,Audit/event record shall be generated where applicable.,Pending QA,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,12,IQ-012-02,Consent capture and privacy notice,Bluetooth Sensor,TBD,TBD by clinical SME - intentionally incomplete.,Need SME,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,12,IQ-012-03,Support caregiver view,Local DB,High,Data shall be encrypted in transit and at rest.,In Review,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,12,IQ_12.4,Display current BPM with timestamp,Local DB,Low,Data shall be encrypted in transit and at rest.,Draft,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,12,IQ-012-05,Store readings securely on device,Bluetooth Sensor,Low,TBD by clinical SME - intentionally incomplete.,Rejected once,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,13,IQ_13.1,Notification retry and suppression,Bluetooth Sensor,Low,Audit/event record shall be generated where applicable.,Rejected once,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,13,IQ-013-02,Biometric login option,Local DB,High,System shall complete the action without data loss.,Approved?,REVIEW-LATER
+Document 4 - IQ - Heart Rate Monitor Application,IQ,13,IQ-013-03,Consent capture and privacy notice,Android/iOS,Medium,User shall receive clear error message on failure.,Rejected once,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,13,IQ-013-04,Battery and Bluetooth warning,Cloud Sync,Not ranked,Audit/event record shall be generated where applicable.,Need SME,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,13,IQ-013-05,Show trend chart for 7/30/90 days,Cloud Sync,Not ranked,System shall complete the action without data loss.,Pending QA,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,14,IQ-014-01,Battery and Bluetooth warning,iOS,Not ranked,Result must be visible in mobile UI within expected time.,Pending QA,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,14,IQ-014-02,Biometric login option,Backend API,Low,TBD by clinical SME - intentionally incomplete.,Approved?,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,14,IQ_14.3,Validate sensor data range,Backend API,TBD,TBD by clinical SME - intentionally incomplete.,Pending QA,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,14,IQ-014-04,Notification retry and suppression,Bluetooth Sensor,TBD,Result must be visible in mobile UI within expected time.,Approved?,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,14,IQ-014-05,Support caregiver view,Android,Medium,TBD by clinical SME - intentionally incomplete.,In Review,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,15,IQ-015-01,Generate high/low heart-rate alert,Android,Medium,Data shall be encrypted in transit and at rest.,Approved?,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,15,IQ-015-02,Battery and Bluetooth warning,Backend API,Not ranked,Audit/event record shall be generated where applicable.,Approved?,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,15,IQ-015-03,Sync readings to cloud API,iOS,High,TBD by clinical SME - intentionally incomplete.,In Review,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,15,IQ-015-04,Store readings securely on device,Android/iOS,Not ranked,Audit/event record shall be generated where applicable.,Approved?,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,15,IQ-015-05,Capture heart rate from paired device,Android,Medium,Data shall be encrypted in transit and at rest.,Rejected once,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,16,IQ_16.1,Handle offline mode,Android,High,User shall receive clear error message on failure.,Draft,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,16,IQ_16.2,Export readings as PDF/CSV,Local DB,Medium,Audit/event record shall be generated where applicable.,Approved?,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,16,IQ-016-03,Show trend chart for 7/30/90 days,Android/iOS,High,TBD by clinical SME - intentionally incomplete.,Need SME,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,16,IQ-016-04,Generate high/low heart-rate alert,Android/iOS,TBD,System shall complete the action without data loss.,Rejected once,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,16,IQ-016-05,Capture heart rate from paired device,Local DB,Not ranked,Audit/event record shall be generated where applicable.,In Review,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,17,IQ-017-01,Show trend chart for 7/30/90 days,Cloud Sync,High,Audit/event record shall be generated where applicable.,In Review,REVIEW-LATER
+Document 4 - IQ - Heart Rate Monitor Application,IQ,17,IQ-017-02,Consent capture and privacy notice,iOS,TBD,User shall receive clear error message on failure.,Draft,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,17,IQ-017-03,Show trend chart for 7/30/90 days,Bluetooth Sensor,Not ranked,System shall complete the action without data loss.,Pending QA,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,17,IQ_17.4,Audit user actions,Local DB,Low,Data shall be encrypted in transit and at rest.,Draft,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,17,IQ_17.5,Show trend chart for 7/30/90 days,Bluetooth Sensor,Not ranked,System shall complete the action without data loss.,Approved?,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,18,IQ-018-01,Consent capture and privacy notice,Cloud Sync,Medium,System shall complete the action without data loss.,In Review,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,18,IQ-018-02,Display current BPM with timestamp,Android/iOS,Not ranked,Result must be visible in mobile UI within expected time.,Approved?,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,18,IQ-018-03,Generate high/low heart-rate alert,Backend API,High,Audit/event record shall be generated where applicable.,In Review,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,18,IQ_18.4,Store readings securely on device,Backend API,High,Audit/event record shall be generated where applicable.,Rejected once,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,18,IQ-018-05,Sync readings to cloud API,Android/iOS,High,System shall complete the action without data loss.,Rejected once,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,19,IQ-019-01,Export readings as PDF/CSV,iOS,Low,Result must be visible in mobile UI within expected time.,In Review,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,19,IQ-019-02,Show trend chart for 7/30/90 days,Android/iOS,Medium,Data shall be encrypted in transit and at rest.,Need SME,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,19,IQ-019-03,Store readings securely on device,Notification Service,Low,Audit/event record shall be generated where applicable.,In Review,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,19,IQ-019-04,Consent capture and privacy notice,Local DB,High,TBD by clinical SME - intentionally incomplete.,Need SME,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,19,IQ-019-05,Capture heart rate from paired device,Android/iOS,Not ranked,Result must be visible in mobile UI within expected time.,Pending QA,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,20,IQ-020-01,Show trend chart for 7/30/90 days,iOS,Low,Result must be visible in mobile UI within expected time.,Approved?,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,20,IQ-020-02,Biometric login option,Local DB,TBD,System shall complete the action without data loss.,Need SME,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,20,IQ-020-03,Show trend chart for 7/30/90 days,Backend API,Not ranked,Audit/event record shall be generated where applicable.,Approved?,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,20,IQ_20.4,Manual heart rate entry when device unavailable,Backend API,Not ranked,TBD by clinical SME - intentionally incomplete.,Draft,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,20,IQ-020-05,Validate sensor data range,Bluetooth Sensor,Low,Result must be visible in mobile UI within expected time.,Pending QA,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,21,IQ-021-01,Display current BPM with timestamp,Bluetooth Sensor,Not ranked,Data shall be encrypted in transit and at rest.,Pending QA,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,21,IQ-021-02,Biometric login option,Backend API,Not ranked,Audit/event record shall be generated where applicable.,Approved?,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,21,IQ-021-03,Handle offline mode,Android/iOS,TBD,Audit/event record shall be generated where applicable.,Rejected once,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,21,IQ-021-04,Capture heart rate from paired device,iOS,Medium,Result must be visible in mobile UI within expected time.,Need SME,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,21,IQ-021-05,Notification retry and suppression,Notification Service,Medium,Data shall be encrypted in transit and at rest.,In Review,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,22,IQ_22.1,Battery and Bluetooth warning,Bluetooth Sensor,TBD,System shall complete the action without data loss.,Pending QA,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,22,IQ_22.2,Store readings securely on device,Android,TBD,Data shall be encrypted in transit and at rest.,Pending QA,REVIEW-LATER
+Document 4 - IQ - Heart Rate Monitor Application,IQ,22,IQ-022-03,Manual heart rate entry when device unavailable,Local DB,Low,Result must be visible in mobile UI within expected time.,Need SME,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,22,IQ-022-04,Biometric login option,Notification Service,TBD,User shall receive clear error message on failure.,Need SME,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,22,IQ-022-05,Show trend chart for 7/30/90 days,Local DB,TBD,Audit/event record shall be generated where applicable.,In Review,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,23,IQ_23.1,Capture heart rate from paired device,Cloud Sync,Low,System shall complete the action without data loss.,Rejected once,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,23,IQ_23.2,Handle offline mode,Android,TBD,Result must be visible in mobile UI within expected time.,In Review,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,23,IQ-023-03,Display current BPM with timestamp,Local DB,Not ranked,User shall receive clear error message on failure.,In Review,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,23,IQ_23.4,Battery and Bluetooth warning,Android/iOS,Low,User shall receive clear error message on failure.,In Review,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,23,IQ-023-05,Export readings as PDF/CSV,Cloud Sync,Medium,Data shall be encrypted in transit and at rest.,Rejected once,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,24,IQ-024-01,Display current BPM with timestamp,Local DB,TBD,Audit/event record shall be generated where applicable.,Need SME,REVIEW-LATER
+Document 4 - IQ - Heart Rate Monitor Application,IQ,24,IQ-024-02,Generate high/low heart-rate alert,Notification Service,Low,User shall receive clear error message on failure.,In Review,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,24,IQ_24.3,Display current BPM with timestamp,Local DB,Not ranked,Result must be visible in mobile UI within expected time.,Approved?,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,24,IQ-024-04,Manual heart rate entry when device unavailable,Android,Not ranked,TBD by clinical SME - intentionally incomplete.,Pending QA,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,24,IQ-024-05,Support caregiver view,Bluetooth Sensor,Not ranked,Data shall be encrypted in transit and at rest.,Rejected once,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,25,IQ_25.1,Export readings as PDF/CSV,Bluetooth Sensor,Low,System shall complete the action without data loss.,Rejected once,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,25,IQ_25.2,Audit user actions,Android,TBD,Audit/event record shall be generated where applicable.,Pending QA,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,25,IQ-025-03,Consent capture and privacy notice,Local DB,Medium,System shall complete the action without data loss.,Draft,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,25,IQ-025-04,Display current BPM with timestamp,Android/iOS,Not ranked,User shall receive clear error message on failure.,Draft,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,25,IQ-025-05,Validate sensor data range,Local DB,TBD,Data shall be encrypted in transit and at rest.,Pending QA,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,26,IQ-026-01,Battery and Bluetooth warning,Android/iOS,High,Data shall be encrypted in transit and at rest.,Approved?,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,26,IQ-026-02,Store readings securely on device,Android,Not ranked,TBD by clinical SME - intentionally incomplete.,Rejected once,REVIEW-LATER
+Document 4 - IQ - Heart Rate Monitor Application,IQ,26,IQ-026-03,Notification retry and suppression,Backend API,High,Result must be visible in mobile UI within expected time.,Pending QA,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,26,IQ_26.4,Sync readings to cloud API,Notification Service,Not ranked,TBD by clinical SME - intentionally incomplete.,Pending QA,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,26,IQ-026-05,Support caregiver view,Android/iOS,Low,Data shall be encrypted in transit and at rest.,Pending QA,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,27,IQ_27.1,Support caregiver view,Cloud Sync,Low,System shall complete the action without data loss.,Pending QA,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,27,IQ_27.2,Audit user actions,Local DB,TBD,System shall complete the action without data loss.,Approved?,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,27,IQ-027-03,Store readings securely on device,Android,Not ranked,User shall receive clear error message on failure.,Need SME,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,27,IQ-027-04,Notification retry and suppression,Android,Not ranked,Data shall be encrypted in transit and at rest.,Approved?,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,27,IQ_27.5,Handle offline mode,Backend API,Not ranked,Result must be visible in mobile UI within expected time.,Approved?,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,28,IQ-028-01,Audit user actions,Notification Service,High,TBD by clinical SME - intentionally incomplete.,Approved?,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,28,IQ-028-02,Handle offline mode,Cloud Sync,High,Data shall be encrypted in transit and at rest.,Rejected once,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,28,IQ-028-03,Show trend chart for 7/30/90 days,Backend API,Low,System shall complete the action without data loss.,Rejected once,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,28,IQ-028-04,Capture heart rate from paired device,Notification Service,High,User shall receive clear error message on failure.,Need SME,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,28,IQ-028-05,Store readings securely on device,Backend API,Medium,Audit/event record shall be generated where applicable.,Pending QA,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,29,IQ-029-01,Generate high/low heart-rate alert,Android/iOS,High,Result must be visible in mobile UI within expected time.,Rejected once,REVIEW-LATER
+Document 4 - IQ - Heart Rate Monitor Application,IQ,29,IQ_29.2,Show trend chart for 7/30/90 days,Notification Service,High,TBD by clinical SME - intentionally incomplete.,Need SME,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,29,IQ-029-03,Capture heart rate from paired device,iOS,Not ranked,TBD by clinical SME - intentionally incomplete.,Approved?,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,29,IQ-029-04,Audit user actions,Notification Service,TBD,System shall complete the action without data loss.,Approved?,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,29,IQ-029-05,Audit user actions,Notification Service,Not ranked,Audit/event record shall be generated where applicable.,Rejected once,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,30,IQ-030-01,Biometric login option,Notification Service,High,Data shall be encrypted in transit and at rest.,Need SME,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,30,IQ-030-02,Audit user actions,Backend API,Medium,User shall receive clear error message on failure.,Need SME,REVIEW-LATER
+Document 4 - IQ - Heart Rate Monitor Application,IQ,30,IQ-030-03,Display current BPM with timestamp,Cloud Sync,TBD,Result must be visible in mobile UI within expected time.,Need SME,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,30,IQ-030-04,Consent capture and privacy notice,iOS,High,User shall receive clear error message on failure.,Draft,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,30,IQ_30.5,Sync readings to cloud API,Android,TBD,TBD by clinical SME - intentionally incomplete.,In Review,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,31,IQ-031-01,Audit user actions,Local DB,Medium,Audit/event record shall be generated where applicable.,Draft,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,31,IQ-031-02,Audit user actions,Android,TBD,System shall complete the action without data loss.,In Review,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,31,IQ_31.3,Show trend chart for 7/30/90 days,Cloud Sync,High,Audit/event record shall be generated where applicable.,Rejected once,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,31,IQ-031-04,Display current BPM with timestamp,Bluetooth Sensor,Low,Audit/event record shall be generated where applicable.,Draft,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,31,IQ-031-05,Sync readings to cloud API,Bluetooth Sensor,Medium,Audit/event record shall be generated where applicable.,Rejected once,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,32,IQ_32.1,Generate high/low heart-rate alert,Android/iOS,Not ranked,User shall receive clear error message on failure.,Rejected once,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,32,IQ-032-02,Sync readings to cloud API,Android/iOS,Not ranked,Audit/event record shall be generated where applicable.,Need SME,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,32,IQ-032-03,Store readings securely on device,Cloud Sync,Not ranked,Audit/event record shall be generated where applicable.,Approved?,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,32,IQ-032-04,Notification retry and suppression,iOS,TBD,User shall receive clear error message on failure.,Need SME,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,32,IQ_32.5,Audit user actions,Bluetooth Sensor,High,User shall receive clear error message on failure.,Draft,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,33,IQ-033-01,Manual heart rate entry when device unavailable,Backend API,TBD,TBD by clinical SME - intentionally incomplete.,In Review,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,33,IQ-033-02,Capture heart rate from paired device,Notification Service,High,TBD by clinical SME - intentionally incomplete.,Pending QA,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,33,IQ-033-03,Notification retry and suppression,Notification Service,Low,Audit/event record shall be generated where applicable.,Rejected once,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,33,IQ-033-04,Battery and Bluetooth warning,Backend API,Not ranked,System shall complete the action without data loss.,Need SME,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,33,IQ-033-05,Validate sensor data range,Android/iOS,TBD,Result must be visible in mobile UI within expected time.,Rejected once,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,34,IQ-034-01,Notification retry and suppression,Backend API,Not ranked,User shall receive clear error message on failure.,Pending QA,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,34,IQ-034-02,Support caregiver view,Local DB,Low,TBD by clinical SME - intentionally incomplete.,Draft,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,34,IQ-034-03,Validate sensor data range,iOS,Low,Result must be visible in mobile UI within expected time.,Rejected once,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,34,IQ-034-04,Consent capture and privacy notice,Notification Service,Not ranked,User shall receive clear error message on failure.,Need SME,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,34,IQ-034-05,Export readings as PDF/CSV,Local DB,Not ranked,TBD by clinical SME - intentionally incomplete.,Draft,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,35,IQ_35.1,Biometric login option,iOS,Low,Audit/event record shall be generated where applicable.,Need SME,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,35,IQ-035-02,Capture heart rate from paired device,Android/iOS,Not ranked,Data shall be encrypted in transit and at rest.,Approved?,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,35,IQ-035-03,Export readings as PDF/CSV,Bluetooth Sensor,Low,Audit/event record shall be generated where applicable.,In Review,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,35,IQ_35.4,Audit user actions,Notification Service,Not ranked,Audit/event record shall be generated where applicable.,Rejected once,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,35,IQ-035-05,Store readings securely on device,Notification Service,Not ranked,Audit/event record shall be generated where applicable.,Need SME,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,36,IQ-036-01,Capture heart rate from paired device,Android/iOS,Not ranked,Data shall be encrypted in transit and at rest.,In Review,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,36,IQ-036-02,Battery and Bluetooth warning,Local DB,TBD,Result must be visible in mobile UI within expected time.,In Review,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,36,IQ-036-03,Manual heart rate entry when device unavailable,Notification Service,Not ranked,System shall complete the action without data loss.,Draft,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,36,IQ-036-04,Notification retry and suppression,Android,High,TBD by clinical SME - intentionally incomplete.,Need SME,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,36,IQ-036-05,Audit user actions,Android,Not ranked,Result must be visible in mobile UI within expected time.,Need SME,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,37,IQ-037-01,Support caregiver view,Android/iOS,TBD,Audit/event record shall be generated where applicable.,Need SME,REVIEW-LATER
+Document 4 - IQ - Heart Rate Monitor Application,IQ,37,IQ-037-02,Generate high/low heart-rate alert,iOS,Medium,TBD by clinical SME - intentionally incomplete.,Approved?,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,37,IQ-037-03,Display current BPM with timestamp,iOS,Medium,System shall complete the action without data loss.,Rejected once,REVIEW-LATER
+Document 4 - IQ - Heart Rate Monitor Application,IQ,37,IQ-037-04,Capture heart rate from paired device,Backend API,High,System shall complete the action without data loss.,Pending QA,REVIEW-LATER
+Document 4 - IQ - Heart Rate Monitor Application,IQ,37,IQ-037-05,Support caregiver view,Android/iOS,Low,Result must be visible in mobile UI within expected time.,Pending QA,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,38,IQ-038-01,Display current BPM with timestamp,Android,High,TBD by clinical SME - intentionally incomplete.,Rejected once,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,38,IQ-038-02,Biometric login option,Backend API,Low,Data shall be encrypted in transit and at rest.,Draft,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,38,IQ-038-03,Support caregiver view,Notification Service,Low,System shall complete the action without data loss.,Approved?,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,38,IQ-038-04,Show trend chart for 7/30/90 days,iOS,Not ranked,Data shall be encrypted in transit and at rest.,In Review,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,38,IQ-038-05,Battery and Bluetooth warning,Local DB,TBD,Data shall be encrypted in transit and at rest.,In Review,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,39,IQ-039-01,Validate sensor data range,iOS,Not ranked,TBD by clinical SME - intentionally incomplete.,Rejected once,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,39,IQ-039-02,Battery and Bluetooth warning,Notification Service,Not ranked,User shall receive clear error message on failure.,In Review,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,39,IQ-039-03,Export readings as PDF/CSV,Cloud Sync,Medium,TBD by clinical SME - intentionally incomplete.,Draft,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,39,IQ-039-04,Sync readings to cloud API,Notification Service,High,Data shall be encrypted in transit and at rest.,Pending QA,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,39,IQ-039-05,Sync readings to cloud API,Android,High,Data shall be encrypted in transit and at rest.,Need SME,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,40,IQ-040-01,Store readings securely on device,iOS,Not ranked,User shall receive clear error message on failure.,Rejected once,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,40,IQ-040-02,Biometric login option,iOS,Medium,Data shall be encrypted in transit and at rest.,In Review,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,40,IQ-040-03,Audit user actions,Local DB,Not ranked,Result must be visible in mobile UI within expected time.,Approved?,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,40,IQ-040-04,Battery and Bluetooth warning,Android/iOS,Medium,Result must be visible in mobile UI within expected time.,Rejected once,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,40,IQ-040-05,Battery and Bluetooth warning,Local DB,TBD,TBD by clinical SME - intentionally incomplete.,In Review,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,41,IQ-041-01,Biometric login option,Cloud Sync,High,User shall receive clear error message on failure.,Draft,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,41,IQ-041-02,Show trend chart for 7/30/90 days,iOS,Medium,System shall complete the action without data loss.,Need SME,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,41,IQ-041-03,Show trend chart for 7/30/90 days,Local DB,Low,TBD by clinical SME - intentionally incomplete.,Need SME,REVIEW-LATER
+Document 4 - IQ - Heart Rate Monitor Application,IQ,41,IQ-041-04,Biometric login option,Notification Service,Low,Data shall be encrypted in transit and at rest.,In Review,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,41,IQ-041-05,Show trend chart for 7/30/90 days,Cloud Sync,Low,User shall receive clear error message on failure.,Rejected once,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,42,IQ-042-01,Support caregiver view,Notification Service,Low,Result must be visible in mobile UI within expected time.,In Review,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,42,IQ-042-02,Notification retry and suppression,Android/iOS,High,TBD by clinical SME - intentionally incomplete.,Draft,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,42,IQ-042-03,Consent capture and privacy notice,iOS,Not ranked,Audit/event record shall be generated where applicable.,Pending QA,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,42,IQ-042-04,Sync readings to cloud API,Android/iOS,Low,System shall complete the action without data loss.,Need SME,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,42,IQ_42.5,Sync readings to cloud API,Bluetooth Sensor,TBD,System shall complete the action without data loss.,Draft,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,43,IQ-043-01,Audit user actions,Local DB,High,TBD by clinical SME - intentionally incomplete.,Pending QA,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,43,IQ-043-02,Consent capture and privacy notice,iOS,High,System shall complete the action without data loss.,In Review,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,43,IQ-043-03,Export readings as PDF/CSV,Bluetooth Sensor,Not ranked,Audit/event record shall be generated where applicable.,Rejected once,REVIEW-LATER
+Document 4 - IQ - Heart Rate Monitor Application,IQ,43,IQ-043-04,Export readings as PDF/CSV,Android,Medium,Audit/event record shall be generated where applicable.,In Review,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,43,IQ-043-05,Show trend chart for 7/30/90 days,Cloud Sync,Not ranked,Audit/event record shall be generated where applicable.,Draft,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,44,IQ-044-01,Support caregiver view,Local DB,Not ranked,Data shall be encrypted in transit and at rest.,Rejected once,REVIEW-LATER
+Document 4 - IQ - Heart Rate Monitor Application,IQ,44,IQ-044-02,Display current BPM with timestamp,Backend API,High,Audit/event record shall be generated where applicable.,Rejected once,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,44,IQ-044-03,Capture heart rate from paired device,Android/iOS,High,System shall complete the action without data loss.,Pending QA,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,44,IQ-044-04,Capture heart rate from paired device,Android,Low,User shall receive clear error message on failure.,Draft,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,44,IQ_44.5,Manual heart rate entry when device unavailable,Android,Not ranked,User shall receive clear error message on failure.,Draft,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,45,IQ-045-01,Sync readings to cloud API,Notification Service,High,Audit/event record shall be generated where applicable.,Rejected once,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,45,IQ-045-02,Export readings as PDF/CSV,Backend API,Low,TBD by clinical SME - intentionally incomplete.,Need SME,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,45,IQ_45.3,Handle offline mode,Bluetooth Sensor,Medium,Data shall be encrypted in transit and at rest.,In Review,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,45,IQ_45.4,Show trend chart for 7/30/90 days,iOS,Low,User shall receive clear error message on failure.,Pending QA,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,45,IQ-045-05,Handle offline mode,iOS,Not ranked,Result must be visible in mobile UI within expected time.,Approved?,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,46,IQ-046-01,Show trend chart for 7/30/90 days,Notification Service,TBD,Audit/event record shall be generated where applicable.,Need SME,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,46,IQ-046-02,Sync readings to cloud API,Local DB,Low,Result must be visible in mobile UI within expected time.,Approved?,REVIEW-LATER
+Document 4 - IQ - Heart Rate Monitor Application,IQ,46,IQ-046-03,Notification retry and suppression,Local DB,Not ranked,User shall receive clear error message on failure.,Draft,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,46,IQ-046-04,Display current BPM with timestamp,Android,Low,Data shall be encrypted in transit and at rest.,Draft,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,46,IQ_46.5,Manual heart rate entry when device unavailable,iOS,Not ranked,Result must be visible in mobile UI within expected time.,In Review,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,47,IQ-047-01,Biometric login option,Bluetooth Sensor,Low,Audit/event record shall be generated where applicable.,Rejected once,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,47,IQ-047-02,Capture heart rate from paired device,Local DB,Low,TBD by clinical SME - intentionally incomplete.,Need SME,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,47,IQ-047-03,Consent capture and privacy notice,Notification Service,Medium,Data shall be encrypted in transit and at rest.,Rejected once,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,47,IQ-047-04,Generate high/low heart-rate alert,Cloud Sync,Not ranked,System shall complete the action without data loss.,Need SME,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,47,IQ-047-05,Handle offline mode,iOS,Not ranked,Data shall be encrypted in transit and at rest.,Need SME,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,48,IQ-048-01,Handle offline mode,Bluetooth Sensor,TBD,System shall complete the action without data loss.,Draft,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,48,IQ-048-02,Show trend chart for 7/30/90 days,iOS,TBD,Data shall be encrypted in transit and at rest.,Rejected once,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,48,IQ_48.3,Capture heart rate from paired device,Backend API,High,TBD by clinical SME - intentionally incomplete.,Need SME,REVIEW-LATER
+Document 4 - IQ - Heart Rate Monitor Application,IQ,48,IQ_48.4,Validate sensor data range,iOS,Not ranked,Data shall be encrypted in transit and at rest.,Rejected once,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,48,IQ-048-05,Store readings securely on device,Cloud Sync,Medium,Audit/event record shall be generated where applicable.,Approved?,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,49,IQ-049-01,Display current BPM with timestamp,Cloud Sync,Not ranked,Result must be visible in mobile UI within expected time.,Pending QA,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,49,IQ-049-02,Generate high/low heart-rate alert,Android,High,System shall complete the action without data loss.,Approved?,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,49,IQ_49.3,Support caregiver view,Cloud Sync,High,User shall receive clear error message on failure.,Draft,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,49,IQ-049-04,Audit user actions,Android,Medium,TBD by clinical SME - intentionally incomplete.,In Review,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,49,IQ-049-05,Notification retry and suppression,Android,TBD,System shall complete the action without data loss.,Pending QA,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,50,IQ-050-01,Support caregiver view,Android,High,Data shall be encrypted in transit and at rest.,Approved?,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,50,IQ-050-02,Generate high/low heart-rate alert,Cloud Sync,High,Data shall be encrypted in transit and at rest.,Need SME,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,50,IQ-050-03,Capture heart rate from paired device,Notification Service,TBD,User shall receive clear error message on failure.,Pending QA,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,50,IQ-050-04,Sync readings to cloud API,Cloud Sync,Not ranked,Result must be visible in mobile UI within expected time.,Draft,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,50,IQ_50.5,Display current BPM with timestamp,Cloud Sync,Low,Result must be visible in mobile UI within expected time.,Need SME,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,51,IQ-051-01,Support caregiver view,Bluetooth Sensor,Not ranked,Result must be visible in mobile UI within expected time.,In Review,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,51,IQ-051-02,Battery and Bluetooth warning,Bluetooth Sensor,Not ranked,System shall complete the action without data loss.,In Review,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,51,IQ-051-03,Export readings as PDF/CSV,Cloud Sync,Not ranked,Data shall be encrypted in transit and at rest.,In Review,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,51,IQ-051-04,Store readings securely on device,Android,TBD,Result must be visible in mobile UI within expected time.,Rejected once,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,51,IQ-051-05,Support caregiver view,Bluetooth Sensor,High,Audit/event record shall be generated where applicable.,Draft,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,52,IQ-052-01,Export readings as PDF/CSV,iOS,TBD,Result must be visible in mobile UI within expected time.,Need SME,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,52,IQ-052-02,Export readings as PDF/CSV,Notification Service,Not ranked,System shall complete the action without data loss.,Approved?,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,52,IQ-052-03,Handle offline mode,iOS,High,TBD by clinical SME - intentionally incomplete.,Pending QA,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,52,IQ-052-04,Audit user actions,iOS,Low,System shall complete the action without data loss.,Pending QA,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,52,IQ-052-05,Audit user actions,Notification Service,Low,Result must be visible in mobile UI within expected time.,Draft,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,53,IQ-053-01,Capture heart rate from paired device,Notification Service,High,Data shall be encrypted in transit and at rest.,Draft,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,53,IQ_53.2,Audit user actions,Bluetooth Sensor,Medium,System shall complete the action without data loss.,Pending QA,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,53,IQ-053-03,Display current BPM with timestamp,Bluetooth Sensor,Low,User shall receive clear error message on failure.,Need SME,REVIEW-LATER
+Document 4 - IQ - Heart Rate Monitor Application,IQ,53,IQ-053-04,Store readings securely on device,Backend API,High,Data shall be encrypted in transit and at rest.,Approved?,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,53,IQ-053-05,Generate high/low heart-rate alert,Cloud Sync,Low,Result must be visible in mobile UI within expected time.,Approved?,REVIEW-LATER
+Document 4 - IQ - Heart Rate Monitor Application,IQ,54,IQ-054-01,Audit user actions,Local DB,Low,Result must be visible in mobile UI within expected time.,In Review,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,54,IQ-054-02,Manual heart rate entry when device unavailable,iOS,High,Audit/event record shall be generated where applicable.,Draft,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,54,IQ_54.3,Handle offline mode,Android/iOS,Low,TBD by clinical SME - intentionally incomplete.,Pending QA,REVIEW-LATER
+Document 4 - IQ - Heart Rate Monitor Application,IQ,54,IQ-054-04,Audit user actions,Backend API,Medium,User shall receive clear error message on failure.,Pending QA,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,54,IQ-054-05,Manual heart rate entry when device unavailable,Android,Not ranked,System shall complete the action without data loss.,Rejected once,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,55,IQ-055-01,Manual heart rate entry when device unavailable,Notification Service,Low,TBD by clinical SME - intentionally incomplete.,Approved?,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,55,IQ-055-02,Biometric login option,Bluetooth Sensor,High,User shall receive clear error message on failure.,Rejected once,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,55,IQ-055-03,Display current BPM with timestamp,Android,Not ranked,TBD by clinical SME - intentionally incomplete.,Approved?,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,55,IQ-055-04,Capture heart rate from paired device,Bluetooth Sensor,High,Result must be visible in mobile UI within expected time.,Approved?,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,55,IQ-055-05,Validate sensor data range,Backend API,Low,Data shall be encrypted in transit and at rest.,In Review,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,56,IQ-056-01,Biometric login option,Local DB,High,Result must be visible in mobile UI within expected time.,Pending QA,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,56,IQ-056-02,Audit user actions,Local DB,Not ranked,User shall receive clear error message on failure.,Rejected once,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,56,IQ-056-03,Sync readings to cloud API,Notification Service,Medium,Data shall be encrypted in transit and at rest.,Need SME,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,56,IQ-056-04,Consent capture and privacy notice,Cloud Sync,Not ranked,Result must be visible in mobile UI within expected time.,Pending QA,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,56,IQ-056-05,Store readings securely on device,Android/iOS,High,Audit/event record shall be generated where applicable.,Need SME,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,57,IQ-057-01,Display current BPM with timestamp,iOS,Low,Audit/event record shall be generated where applicable.,Rejected once,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,57,IQ-057-02,Notification retry and suppression,Android,TBD,Audit/event record shall be generated where applicable.,Need SME,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,57,IQ-057-03,Manual heart rate entry when device unavailable,Backend API,Low,TBD by clinical SME - intentionally incomplete.,Draft,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,57,IQ-057-04,Show trend chart for 7/30/90 days,Android/iOS,Not ranked,Data shall be encrypted in transit and at rest.,Approved?,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,57,IQ-057-05,Capture heart rate from paired device,Android/iOS,Low,Audit/event record shall be generated where applicable.,Pending QA,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,58,IQ-058-01,Notification retry and suppression,Bluetooth Sensor,Medium,User shall receive clear error message on failure.,Approved?,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,58,IQ-058-02,Manual heart rate entry when device unavailable,Cloud Sync,Low,User shall receive clear error message on failure.,Approved?,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,58,IQ-058-03,Show trend chart for 7/30/90 days,Cloud Sync,High,Result must be visible in mobile UI within expected time.,Approved?,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,58,IQ-058-04,Capture heart rate from paired device,Android/iOS,Not ranked,User shall receive clear error message on failure.,Approved?,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,58,IQ-058-05,Consent capture and privacy notice,Android,Not ranked,System shall complete the action without data loss.,Rejected once,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,59,IQ-059-01,Generate high/low heart-rate alert,Backend API,High,User shall receive clear error message on failure.,In Review,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,59,IQ-059-02,Biometric login option,Android,High,Data shall be encrypted in transit and at rest.,In Review,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,59,IQ-059-03,Export readings as PDF/CSV,Notification Service,Medium,System shall complete the action without data loss.,Approved?,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,59,IQ_59.4,Handle offline mode,Android/iOS,Low,TBD by clinical SME - intentionally incomplete.,Pending QA,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,59,IQ_59.5,Capture heart rate from paired device,Backend API,Medium,System shall complete the action without data loss.,Rejected once,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,60,IQ-060-01,Biometric login option,Backend API,Low,Data shall be encrypted in transit and at rest.,In Review,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,60,IQ-060-02,Manual heart rate entry when device unavailable,iOS,Not ranked,Data shall be encrypted in transit and at rest.,Approved?,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,60,IQ_60.3,Biometric login option,Android,Low,TBD by clinical SME - intentionally incomplete.,Pending QA,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,60,IQ-060-04,Display current BPM with timestamp,Notification Service,Low,Result must be visible in mobile UI within expected time.,In Review,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,60,IQ_60.5,Validate sensor data range,Bluetooth Sensor,TBD,Audit/event record shall be generated where applicable.,Pending QA,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,61,IQ-061-01,Show trend chart for 7/30/90 days,Notification Service,Not ranked,User shall receive clear error message on failure.,Need SME,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,61,IQ-061-02,Biometric login option,Android,TBD,Result must be visible in mobile UI within expected time.,Pending QA,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,61,IQ-061-03,Validate sensor data range,Bluetooth Sensor,Not ranked,Result must be visible in mobile UI within expected time.,Pending QA,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,61,IQ-061-04,Validate sensor data range,Backend API,Medium,TBD by clinical SME - intentionally incomplete.,In Review,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,61,IQ-061-05,Support caregiver view,Android/iOS,High,Data shall be encrypted in transit and at rest.,Pending QA,REVIEW-LATER
+Document 4 - IQ - Heart Rate Monitor Application,IQ,62,IQ-062-01,Show trend chart for 7/30/90 days,Android/iOS,TBD,System shall complete the action without data loss.,In Review,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,62,IQ_62.2,Export readings as PDF/CSV,Notification Service,TBD,TBD by clinical SME - intentionally incomplete.,Need SME,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,62,IQ-062-03,Store readings securely on device,Cloud Sync,High,Audit/event record shall be generated where applicable.,Draft,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,62,IQ_62.4,Handle offline mode,Cloud Sync,High,TBD by clinical SME - intentionally incomplete.,Rejected once,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,62,IQ-062-05,Audit user actions,Notification Service,Medium,Data shall be encrypted in transit and at rest.,Pending QA,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,63,IQ-063-01,Audit user actions,Backend API,TBD,Data shall be encrypted in transit and at rest.,Need SME,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,63,IQ-063-02,Handle offline mode,Notification Service,Not ranked,Data shall be encrypted in transit and at rest.,Approved?,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,63,IQ-063-03,Store readings securely on device,Android,Not ranked,TBD by clinical SME - intentionally incomplete.,Draft,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,63,IQ-063-04,Export readings as PDF/CSV,Cloud Sync,Low,User shall receive clear error message on failure.,Rejected once,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,63,IQ-063-05,Validate sensor data range,Android,TBD,TBD by clinical SME - intentionally incomplete.,In Review,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,64,IQ-064-01,Export readings as PDF/CSV,Backend API,High,System shall complete the action without data loss.,In Review,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,64,IQ_64.2,Notification retry and suppression,Android,High,System shall complete the action without data loss.,In Review,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,64,IQ-064-03,Export readings as PDF/CSV,Android/iOS,Medium,TBD by clinical SME - intentionally incomplete.,Need SME,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,64,IQ-064-04,Biometric login option,Notification Service,High,System shall complete the action without data loss.,Approved?,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,64,IQ-064-05,Generate high/low heart-rate alert,Local DB,Not ranked,Audit/event record shall be generated where applicable.,Need SME,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,65,IQ-065-01,Notification retry and suppression,Cloud Sync,TBD,Audit/event record shall be generated where applicable.,Draft,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,65,IQ-065-02,Display current BPM with timestamp,Bluetooth Sensor,High,Result must be visible in mobile UI within expected time.,In Review,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,65,IQ-065-03,Generate high/low heart-rate alert,Backend API,Medium,TBD by clinical SME - intentionally incomplete.,Pending QA,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,65,IQ_65.4,Audit user actions,Cloud Sync,TBD,User shall receive clear error message on failure.,Rejected once,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,65,IQ-065-05,Biometric login option,Android,TBD,User shall receive clear error message on failure.,Pending QA,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,66,IQ-066-01,Handle offline mode,Android,TBD,Data shall be encrypted in transit and at rest.,Approved?,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,66,IQ-066-02,Export readings as PDF/CSV,Local DB,Low,Audit/event record shall be generated where applicable.,Approved?,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,66,IQ-066-03,Support caregiver view,iOS,Low,User shall receive clear error message on failure.,Need SME,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,66,IQ-066-04,Store readings securely on device,Cloud Sync,Not ranked,Audit/event record shall be generated where applicable.,Need SME,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,66,IQ-066-05,Capture heart rate from paired device,Android/iOS,Low,System shall complete the action without data loss.,In Review,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,67,IQ-067-01,Notification retry and suppression,Backend API,TBD,System shall complete the action without data loss.,Draft,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,67,IQ-067-02,Manual heart rate entry when device unavailable,Notification Service,High,TBD by clinical SME - intentionally incomplete.,In Review,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,67,IQ_67.3,Manual heart rate entry when device unavailable,Notification Service,Medium,System shall complete the action without data loss.,Pending QA,REVIEW-LATER
+Document 4 - IQ - Heart Rate Monitor Application,IQ,67,IQ-067-04,Handle offline mode,Bluetooth Sensor,Low,TBD by clinical SME - intentionally incomplete.,Approved?,REVIEW-LATER
+Document 4 - IQ - Heart Rate Monitor Application,IQ,67,IQ-067-05,Handle offline mode,Cloud Sync,Medium,Result must be visible in mobile UI within expected time.,Approved?,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,68,IQ_68.1,Store readings securely on device,Bluetooth Sensor,Low,System shall complete the action without data loss.,Draft,REVIEW-LATER
+Document 4 - IQ - Heart Rate Monitor Application,IQ,68,IQ-068-02,Support caregiver view,Android,Medium,Result must be visible in mobile UI within expected time.,Need SME,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,68,IQ_68.3,Manual heart rate entry when device unavailable,iOS,Low,TBD by clinical SME - intentionally incomplete.,Rejected once,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,68,IQ-068-04,Manual heart rate entry when device unavailable,iOS,High,Audit/event record shall be generated where applicable.,Approved?,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,68,IQ-068-05,Support caregiver view,Android,TBD,User shall receive clear error message on failure.,Need SME,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,69,IQ-069-01,Capture heart rate from paired device,Cloud Sync,High,User shall receive clear error message on failure.,In Review,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,69,IQ-069-02,Show trend chart for 7/30/90 days,Local DB,Medium,Audit/event record shall be generated where applicable.,Need SME,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,69,IQ-069-03,Store readings securely on device,Cloud Sync,Low,User shall receive clear error message on failure.,Approved?,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,69,IQ-069-04,Generate high/low heart-rate alert,Notification Service,TBD,User shall receive clear error message on failure.,Approved?,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,69,IQ-069-05,Handle offline mode,Android/iOS,Low,Data shall be encrypted in transit and at rest.,Rejected once,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,70,IQ-070-01,Support caregiver view,Android/iOS,TBD,Audit/event record shall be generated where applicable.,Approved?,REVIEW-LATER
+Document 4 - IQ - Heart Rate Monitor Application,IQ,70,IQ_70.2,Sync readings to cloud API,Local DB,Low,User shall receive clear error message on failure.,Pending QA,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,70,IQ-070-03,Export readings as PDF/CSV,Bluetooth Sensor,Low,Audit/event record shall be generated where applicable.,Approved?,REVIEW-LATER
+Document 4 - IQ - Heart Rate Monitor Application,IQ,70,IQ-070-04,Export readings as PDF/CSV,Backend API,Not ranked,User shall receive clear error message on failure.,Need SME,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,70,IQ_70.5,Support caregiver view,Android/iOS,Low,Audit/event record shall be generated where applicable.,Need SME,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,71,IQ-071-01,Generate high/low heart-rate alert,Bluetooth Sensor,High,System shall complete the action without data loss.,In Review,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,71,IQ-071-02,Biometric login option,iOS,Low,System shall complete the action without data loss.,Pending QA,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,71,IQ-071-03,Support caregiver view,Android/iOS,Not ranked,System shall complete the action without data loss.,Approved?,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,71,IQ-071-04,Sync readings to cloud API,Cloud Sync,Medium,User shall receive clear error message on failure.,In Review,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,71,IQ-071-05,Consent capture and privacy notice,Notification Service,High,User shall receive clear error message on failure.,In Review,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,72,IQ-072-01,Store readings securely on device,Local DB,Low,Data shall be encrypted in transit and at rest.,Approved?,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,72,IQ-072-02,Display current BPM with timestamp,Notification Service,High,Audit/event record shall be generated where applicable.,Rejected once,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,72,IQ-072-03,Display current BPM with timestamp,Bluetooth Sensor,TBD,Audit/event record shall be generated where applicable.,Pending QA,REVIEW-LATER
+Document 4 - IQ - Heart Rate Monitor Application,IQ,72,IQ-072-04,Capture heart rate from paired device,Backend API,Low,Audit/event record shall be generated where applicable.,Rejected once,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,72,IQ-072-05,Battery and Bluetooth warning,iOS,Not ranked,User shall receive clear error message on failure.,Approved?,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,73,IQ-073-01,Manual heart rate entry when device unavailable,Android/iOS,Not ranked,Data shall be encrypted in transit and at rest.,Pending QA,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,73,IQ-073-02,Store readings securely on device,Android,Not ranked,Audit/event record shall be generated where applicable.,Need SME,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,73,IQ-073-03,Validate sensor data range,Cloud Sync,Not ranked,System shall complete the action without data loss.,Approved?,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,73,IQ_73.4,Manual heart rate entry when device unavailable,Backend API,TBD,Result must be visible in mobile UI within expected time.,Rejected once,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,73,IQ-073-05,Notification retry and suppression,Cloud Sync,Medium,System shall complete the action without data loss.,Approved?,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,74,IQ-074-01,Manual heart rate entry when device unavailable,Cloud Sync,Not ranked,TBD by clinical SME - intentionally incomplete.,Rejected once,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,74,IQ_74.2,Capture heart rate from paired device,Bluetooth Sensor,Low,User shall receive clear error message on failure.,In Review,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,74,IQ-074-03,Show trend chart for 7/30/90 days,iOS,TBD,TBD by clinical SME - intentionally incomplete.,Need SME,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,74,IQ-074-04,Handle offline mode,Android/iOS,TBD,Result must be visible in mobile UI within expected time.,Draft,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,74,IQ_74.5,Store readings securely on device,Local DB,Not ranked,Audit/event record shall be generated where applicable.,Rejected once,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,75,IQ-075-01,Support caregiver view,Cloud Sync,Medium,Data shall be encrypted in transit and at rest.,Need SME,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,75,IQ_75.2,Biometric login option,Notification Service,TBD,User shall receive clear error message on failure.,Pending QA,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,75,IQ-075-03,Support caregiver view,Cloud Sync,Medium,System shall complete the action without data loss.,In Review,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,75,IQ-075-04,Support caregiver view,Android/iOS,Low,TBD by clinical SME - intentionally incomplete.,Need SME,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,75,IQ-075-05,Handle offline mode,iOS,Medium,System shall complete the action without data loss.,Approved?,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,76,IQ-076-01,Display current BPM with timestamp,iOS,Not ranked,User shall receive clear error message on failure.,Draft,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,76,IQ-076-02,Validate sensor data range,Local DB,High,System shall complete the action without data loss.,Pending QA,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,76,IQ-076-03,Display current BPM with timestamp,iOS,Medium,Data shall be encrypted in transit and at rest.,Pending QA,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,76,IQ-076-04,Capture heart rate from paired device,iOS,Medium,Data shall be encrypted in transit and at rest.,In Review,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,76,IQ-076-05,Store readings securely on device,Local DB,Low,Data shall be encrypted in transit and at rest.,In Review,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,77,IQ-077-01,Notification retry and suppression,Cloud Sync,High,Audit/event record shall be generated where applicable.,Rejected once,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,77,IQ-077-02,Notification retry and suppression,Notification Service,Medium,User shall receive clear error message on failure.,Need SME,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,77,IQ-077-03,Support caregiver view,iOS,Not ranked,System shall complete the action without data loss.,Pending QA,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,77,IQ-077-04,Store readings securely on device,iOS,Not ranked,Data shall be encrypted in transit and at rest.,Draft,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,77,IQ-077-05,Battery and Bluetooth warning,iOS,TBD,Result must be visible in mobile UI within expected time.,Approved?,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,78,IQ-078-01,Store readings securely on device,Local DB,High,Audit/event record shall be generated where applicable.,In Review,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,78,IQ_78.2,Store readings securely on device,Cloud Sync,Low,Audit/event record shall be generated where applicable.,Draft,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,78,IQ-078-03,Audit user actions,Android/iOS,High,Audit/event record shall be generated where applicable.,In Review,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,78,IQ-078-04,Display current BPM with timestamp,Bluetooth Sensor,TBD,Result must be visible in mobile UI within expected time.,Rejected once,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,78,IQ-078-05,Validate sensor data range,Android/iOS,Medium,User shall receive clear error message on failure.,Pending QA,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,79,IQ_79.1,Validate sensor data range,Cloud Sync,Not ranked,Data shall be encrypted in transit and at rest.,Need SME,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,79,IQ-079-02,Export readings as PDF/CSV,iOS,Medium,User shall receive clear error message on failure.,Draft,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,79,IQ-079-03,Consent capture and privacy notice,Backend API,Not ranked,User shall receive clear error message on failure.,Draft,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,79,IQ-079-04,Audit user actions,Backend API,TBD,System shall complete the action without data loss.,Rejected once,REVIEW-LATER
+Document 4 - IQ - Heart Rate Monitor Application,IQ,79,IQ-079-05,Manual heart rate entry when device unavailable,Bluetooth Sensor,Low,TBD by clinical SME - intentionally incomplete.,Draft,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,80,IQ-080-01,Audit user actions,Backend API,Not ranked,User shall receive clear error message on failure.,Pending QA,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,80,IQ_80.2,Notification retry and suppression,Android/iOS,Low,Audit/event record shall be generated where applicable.,Pending QA,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,80,IQ-080-03,Display current BPM with timestamp,Bluetooth Sensor,Not ranked,Audit/event record shall be generated where applicable.,Draft,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,80,IQ-080-04,Support caregiver view,iOS,Medium,Result must be visible in mobile UI within expected time.,Draft,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,80,IQ-080-05,Battery and Bluetooth warning,Android/iOS,Not ranked,Data shall be encrypted in transit and at rest.,Draft,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,81,IQ-081-01,Manual heart rate entry when device unavailable,Notification Service,TBD,TBD by clinical SME - intentionally incomplete.,In Review,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,81,IQ_81.2,Show trend chart for 7/30/90 days,Android,Not ranked,System shall complete the action without data loss.,Rejected once,REVIEW-LATER
+Document 4 - IQ - Heart Rate Monitor Application,IQ,81,IQ_81.3,Handle offline mode,Android/iOS,TBD,Result must be visible in mobile UI within expected time.,Rejected once,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,81,IQ_81.4,Sync readings to cloud API,Notification Service,Medium,System shall complete the action without data loss.,Need SME,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,81,IQ-081-05,Display current BPM with timestamp,Android/iOS,Medium,TBD by clinical SME - intentionally incomplete.,Draft,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,82,IQ-082-01,Show trend chart for 7/30/90 days,Cloud Sync,Low,Data shall be encrypted in transit and at rest.,Pending QA,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,82,IQ_82.2,Display current BPM with timestamp,Cloud Sync,High,User shall receive clear error message on failure.,Approved?,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,82,IQ_82.3,Consent capture and privacy notice,Cloud Sync,Not ranked,User shall receive clear error message on failure.,Need SME,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,82,IQ-082-04,Handle offline mode,Backend API,TBD,TBD by clinical SME - intentionally incomplete.,Approved?,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,82,IQ-082-05,Battery and Bluetooth warning,Bluetooth Sensor,TBD,System shall complete the action without data loss.,Approved?,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,83,IQ-083-01,Audit user actions,Cloud Sync,Not ranked,Result must be visible in mobile UI within expected time.,Approved?,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,83,IQ-083-02,Store readings securely on device,Android,Not ranked,TBD by clinical SME - intentionally incomplete.,Approved?,REVIEW-LATER
+Document 4 - IQ - Heart Rate Monitor Application,IQ,83,IQ_83.3,Validate sensor data range,Local DB,TBD,Audit/event record shall be generated where applicable.,Draft,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,83,IQ-083-04,Validate sensor data range,Backend API,High,TBD by clinical SME - intentionally incomplete.,Draft,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,83,IQ-083-05,Generate high/low heart-rate alert,Android,Not ranked,Data shall be encrypted in transit and at rest.,Approved?,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,84,IQ-084-01,Handle offline mode,iOS,Low,User shall receive clear error message on failure.,Draft,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,84,IQ-084-02,Notification retry and suppression,Bluetooth Sensor,Not ranked,TBD by clinical SME - intentionally incomplete.,Need SME,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,84,IQ-084-03,Battery and Bluetooth warning,Android,Medium,Audit/event record shall be generated where applicable.,Approved?,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,84,IQ-084-04,Generate high/low heart-rate alert,Android/iOS,Low,User shall receive clear error message on failure.,Need SME,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,84,IQ-084-05,Biometric login option,Notification Service,Medium,Result must be visible in mobile UI within expected time.,Rejected once,REVIEW-LATER
+Document 4 - IQ - Heart Rate Monitor Application,IQ,85,IQ-085-01,Manual heart rate entry when device unavailable,Backend API,Low,Audit/event record shall be generated where applicable.,Rejected once,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,85,IQ-085-02,Show trend chart for 7/30/90 days,Notification Service,Not ranked,Result must be visible in mobile UI within expected time.,Pending QA,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,85,IQ_85.3,Handle offline mode,Cloud Sync,Not ranked,User shall receive clear error message on failure.,Rejected once,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,85,IQ-085-04,Battery and Bluetooth warning,Android/iOS,High,Data shall be encrypted in transit and at rest.,Rejected once,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,85,IQ-085-05,Store readings securely on device,Bluetooth Sensor,High,TBD by clinical SME - intentionally incomplete.,Pending QA,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,86,IQ_86.1,Handle offline mode,iOS,High,Audit/event record shall be generated where applicable.,Approved?,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,86,IQ-086-02,Store readings securely on device,Backend API,Low,Result must be visible in mobile UI within expected time.,Draft,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,86,IQ-086-03,Audit user actions,Android,Low,TBD by clinical SME - intentionally incomplete.,Pending QA,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,86,IQ-086-04,Audit user actions,Bluetooth Sensor,Not ranked,Audit/event record shall be generated where applicable.,Draft,REVIEW-LATER
+Document 4 - IQ - Heart Rate Monitor Application,IQ,86,IQ_86.5,Capture heart rate from paired device,Android,Low,Data shall be encrypted in transit and at rest.,Need SME,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,87,IQ-087-01,Generate high/low heart-rate alert,Android/iOS,Not ranked,Audit/event record shall be generated where applicable.,In Review,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,87,IQ-087-02,Biometric login option,Local DB,Not ranked,Result must be visible in mobile UI within expected time.,Rejected once,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,87,IQ-087-03,Battery and Bluetooth warning,Cloud Sync,Low,System shall complete the action without data loss.,Approved?,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,87,IQ-087-04,Handle offline mode,iOS,High,Result must be visible in mobile UI within expected time.,In Review,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,87,IQ-087-05,Sync readings to cloud API,Bluetooth Sensor,Medium,Audit/event record shall be generated where applicable.,Need SME,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,88,IQ_88.1,Display current BPM with timestamp,Android,Not ranked,Result must be visible in mobile UI within expected time.,Need SME,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,88,IQ-088-02,Support caregiver view,Notification Service,Not ranked,Result must be visible in mobile UI within expected time.,Pending QA,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,88,IQ_88.3,Notification retry and suppression,iOS,Low,System shall complete the action without data loss.,Pending QA,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,88,IQ-088-04,Display current BPM with timestamp,iOS,Medium,System shall complete the action without data loss.,Need SME,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,88,IQ-088-05,Audit user actions,Bluetooth Sensor,Medium,Result must be visible in mobile UI within expected time.,Pending QA,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,89,IQ-089-01,Consent capture and privacy notice,iOS,Medium,System shall complete the action without data loss.,Pending QA,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,89,IQ-089-02,Generate high/low heart-rate alert,Backend API,Medium,User shall receive clear error message on failure.,Approved?,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,89,IQ-089-03,Handle offline mode,Bluetooth Sensor,Not ranked,System shall complete the action without data loss.,In Review,REVIEW-LATER
+Document 4 - IQ - Heart Rate Monitor Application,IQ,89,IQ-089-04,Sync readings to cloud API,Notification Service,Not ranked,TBD by clinical SME - intentionally incomplete.,Need SME,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,89,IQ_89.5,Audit user actions,Cloud Sync,High,TBD by clinical SME - intentionally incomplete.,Draft,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,90,IQ-090-01,Display current BPM with timestamp,Cloud Sync,TBD,TBD by clinical SME - intentionally incomplete.,Need SME,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,90,IQ-090-02,Show trend chart for 7/30/90 days,Cloud Sync,High,User shall receive clear error message on failure.,Rejected once,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,90,IQ_90.3,Notification retry and suppression,Android/iOS,TBD,Result must be visible in mobile UI within expected time.,Pending QA,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,90,IQ-090-04,Handle offline mode,Cloud Sync,TBD,Data shall be encrypted in transit and at rest.,In Review,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,90,IQ-090-05,Battery and Bluetooth warning,iOS,High,Result must be visible in mobile UI within expected time.,Approved?,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,91,IQ-091-01,Manual heart rate entry when device unavailable,Backend API,High,System shall complete the action without data loss.,Pending QA,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,91,IQ_91.2,Notification retry and suppression,Notification Service,Medium,TBD by clinical SME - intentionally incomplete.,Approved?,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,91,IQ-091-03,Generate high/low heart-rate alert,Android,Medium,User shall receive clear error message on failure.,Rejected once,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,91,IQ-091-04,Show trend chart for 7/30/90 days,Notification Service,Low,User shall receive clear error message on failure.,Need SME,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,91,IQ-091-05,Support caregiver view,iOS,Low,System shall complete the action without data loss.,Approved?,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,92,IQ_92.1,Audit user actions,Local DB,Medium,TBD by clinical SME - intentionally incomplete.,In Review,REVIEW-LATER
+Document 4 - IQ - Heart Rate Monitor Application,IQ,92,IQ-092-02,Support caregiver view,Android,Low,TBD by clinical SME - intentionally incomplete.,Pending QA,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,92,IQ_92.3,Display current BPM with timestamp,Bluetooth Sensor,Low,Audit/event record shall be generated where applicable.,Draft,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,92,IQ-092-04,Handle offline mode,Android/iOS,TBD,User shall receive clear error message on failure.,Draft,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,92,IQ-092-05,Audit user actions,Bluetooth Sensor,Not ranked,User shall receive clear error message on failure.,Pending QA,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,93,IQ-093-01,Generate high/low heart-rate alert,Backend API,TBD,System shall complete the action without data loss.,Need SME,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,93,IQ-093-02,Validate sensor data range,Bluetooth Sensor,High,System shall complete the action without data loss.,In Review,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,93,IQ_93.3,Battery and Bluetooth warning,Android/iOS,TBD,System shall complete the action without data loss.,Pending QA,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,93,IQ-093-04,Consent capture and privacy notice,Cloud Sync,Low,User shall receive clear error message on failure.,Rejected once,REVIEW-LATER
+Document 4 - IQ - Heart Rate Monitor Application,IQ,93,IQ-093-05,Biometric login option,Cloud Sync,High,Data shall be encrypted in transit and at rest.,Approved?,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,94,IQ-094-01,Store readings securely on device,Backend API,Low,Audit/event record shall be generated where applicable.,Rejected once,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,94,IQ-094-02,Consent capture and privacy notice,Android/iOS,Not ranked,Result must be visible in mobile UI within expected time.,Approved?,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,94,IQ_94.3,Sync readings to cloud API,Bluetooth Sensor,Medium,User shall receive clear error message on failure.,Draft,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,94,IQ-094-04,Consent capture and privacy notice,iOS,Medium,Data shall be encrypted in transit and at rest.,Rejected once,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,94,IQ_94.5,Manual heart rate entry when device unavailable,Local DB,High,TBD by clinical SME - intentionally incomplete.,Approved?,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,95,IQ-095-01,Consent capture and privacy notice,Android,Low,User shall receive clear error message on failure.,Pending QA,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,95,IQ-095-02,Display current BPM with timestamp,Android,Low,Result must be visible in mobile UI within expected time.,In Review,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,95,IQ-095-03,Audit user actions,Bluetooth Sensor,TBD,User shall receive clear error message on failure.,Draft,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,95,IQ-095-04,Biometric login option,Bluetooth Sensor,Low,Result must be visible in mobile UI within expected time.,Approved?,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,95,IQ-095-05,Validate sensor data range,Cloud Sync,Not ranked,Result must be visible in mobile UI within expected time.,In Review,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,96,IQ_96.1,Generate high/low heart-rate alert,Android/iOS,Medium,User shall receive clear error message on failure.,Pending QA,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,96,IQ-096-02,Display current BPM with timestamp,iOS,High,Result must be visible in mobile UI within expected time.,Pending QA,v0.1/v1.0 mixed
+Document 4 - IQ - Heart Rate Monitor Application,IQ,96,IQ-096-03,Sync readings to cloud API,Android,Not ranked,Data shall be encrypted in transit and at rest.,Approved?,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,96,IQ-096-04,Battery and Bluetooth warning,Backend API,Low,User shall receive clear error message on failure.,Pending QA,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,96,IQ_96.5,Generate high/low heart-rate alert,Cloud Sync,Not ranked,User shall receive clear error message on failure.,Draft,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,97,IQ-097-01,Show trend chart for 7/30/90 days,Android/iOS,Low,Audit/event record shall be generated where applicable.,Need SME,duplicate section
+Document 4 - IQ - Heart Rate Monitor Application,IQ,97,IQ-097-02,Generate high/low heart-rate alert,Notification Service,High,Data shall be encrypted in transit and at rest.,Need SME,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,97,IQ-097-03,Battery and Bluetooth warning,Local DB,High,Result must be visible in mobile UI within expected time.,Rejected once,missing owner
+Document 4 - IQ - Heart Rate Monitor Application,IQ,97,IQ-097-04,Store readings securely on device,Bluetooth Sensor,TBD,User shall receive clear error message on failure.,In Review,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,97,IQ-097-05,Capture heart rate from paired device,Notification Service,High,System shall complete the action without data loss.,Approved?,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,98,IQ-098-01,Battery and Bluetooth warning,Bluetooth Sensor,High,TBD by clinical SME - intentionally incomplete.,Approved?,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,98,IQ_98.2,Validate sensor data range,Android,Low,Result must be visible in mobile UI within expected time.,Approved?,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,98,IQ-098-03,Handle offline mode,iOS,TBD,Data shall be encrypted in transit and at rest.,Draft,old text retained
+Document 4 - IQ - Heart Rate Monitor Application,IQ,98,IQ-098-04,Capture heart rate from paired device,Android,Low,Result must be visible in mobile UI within expected time.,Rejected once,REVIEW-LATER
+Document 4 - IQ - Heart Rate Monitor Application,IQ,98,IQ-098-05,Handle offline mode,Backend API,Medium,TBD by clinical SME - intentionally incomplete.,Rejected once,manual note
+Document 4 - IQ - Heart Rate Monitor Application,IQ,99,IQ-099-01,Validate sensor data range,Notification Service,Medium,TBD by clinical SME - intentionally incomplete.,Draft,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,99,IQ_99.2,Generate high/low heart-rate alert,Android,Low,User shall receive clear error message on failure.,In Review,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,99,IQ-099-03,Audit user actions,Cloud Sync,TBD,Data shall be encrypted in transit and at rest.,In Review,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,99,IQ-099-04,Generate high/low heart-rate alert,iOS,TBD,Result must be visible in mobile UI within expected time.,In Review,OCR noisy line
+Document 4 - IQ - Heart Rate Monitor Application,IQ,99,IQ_99.5,Export readings as PDF/CSV,Notification Service,High,TBD by clinical SME - intentionally incomplete.,Need SME,REVIEW-LATER
+Document 4 - IQ - Heart Rate Monitor Application,IQ,100,IQ-100-01,Manual heart rate entry when device unavailable,Notification Service,Not ranked,System shall complete the action without data loss.,Approved?,??
+Document 4 - IQ - Heart Rate Monitor Application,IQ,100,IQ_100.2,Support caregiver view,Bluetooth Sensor,TBD,Data shall be encrypted in transit and at rest.,Need SME,TBD
+Document 4 - IQ - Heart Rate Monitor Application,IQ,100,IQ-100-03,Capture heart rate from paired device,Backend API,Not ranked,System shall complete the action without data loss.,In Review,RAG TEST CHUNK
+Document 4 - IQ - Heart Rate Monitor Application,IQ,100,IQ-100-04,Display current BPM with timestamp,iOS,High,Audit/event record shall be generated where applicable.,Rejected once,REVIEW-LATER
+Document 4 - IQ - Heart Rate Monitor Application,IQ,100,IQ-100-05,Handle offline mode,Bluetooth Sensor,Not ranked,Data shall be encrypted in transit and at rest.,Need SME,OCR noisy line

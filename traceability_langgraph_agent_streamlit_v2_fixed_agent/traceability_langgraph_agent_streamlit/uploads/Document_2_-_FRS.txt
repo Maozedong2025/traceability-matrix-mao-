@@ -1,0 +1,1003 @@
+Document 2 - FRS - Heart Rate Monitor Application
+Synthetic messy validation test document. Not for real medical or regulatory use.
+
+--- PAGE 001 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-001-01 | Generate high/low heart-rate alert | Android/iOS | Not ranked | Result must be visible in mobile UI within expected time. | In Review
+FRS-001-02 | Audit user actions | Backend API | High | Audit/event record shall be generated where applicable. | Pending QA
+FRS-001-03 | Show trend chart for 7/30/90 days | Android | Medium | System shall complete the action without data loss. | Pending QA
+FRS-001-04 | Handle offline mode | Cloud Sync | Medium | Result must be visible in mobile UI within expected time. | Rejected once
+FRS_1.5 | Consent capture and privacy notice | iOS | High | System shall complete the action without data loss. | Pending QA
+FRS-001-06 | Show trend chart for 7/30/90 days | Android | Medium | Audit/event record shall be generated where applicable. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 002 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-002-01 | Store readings securely on device | Bluetooth Sensor | Low | System shall complete the action without data loss. | Need SME
+FRS-002-02 | Support caregiver view | iOS | High | System shall complete the action without data loss. | Approved?
+FRS-002-03 | Biometric login option | Bluetooth Sensor | Not ranked | TBD by clinical SME - intentionally incomplete. | Draft
+FRS-002-04 | Validate sensor data range | Bluetooth Sensor | Medium | Data shall be encrypted in transit and at rest. | Need SME
+FRS-002-05 | Generate high/low heart-rate alert | Notification Service | Low | TBD by clinical SME - intentionally incomplete. | Draft
+FRS-002-06 | Battery and Bluetooth warning | Cloud Sync | Medium | Audit/event record shall be generated where applicable. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 003 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-003-01 | Display current BPM with timestamp | Bluetooth Sensor | TBD | TBD by clinical SME - intentionally incomplete. | Need SME
+FRS-003-02 | Support caregiver view | Android/iOS | Not ranked | User shall receive clear error message on failure. | Need SME
+FRS-003-03 | Handle offline mode | Android | TBD | System shall complete the action without data loss. | Approved?
+FRS-003-04 | Battery and Bluetooth warning | Cloud Sync | Not ranked | User shall receive clear error message on failure. | Rejected once
+FRS-003-05 | Manual heart rate entry when device unavailable | Cloud Sync | Not ranked | Result must be visible in mobile UI within expected time. | Pending QA
+FRS-003-06 | Biometric login option | Android | Medium | Result must be visible in mobile UI within expected time. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 004 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-004-01 | Sync readings to cloud API | Android | Low | Result must be visible in mobile UI within expected time. | Approved?
+FRS_4.2 | Audit user actions | Cloud Sync | Medium | Result must be visible in mobile UI within expected time. | Rejected once
+FRS_4.3 | Export readings as PDF/CSV | Notification Service | TBD | User shall receive clear error message on failure. | Need SME
+FRS-004-04 | Battery and Bluetooth warning | Cloud Sync | Not ranked | TBD by clinical SME - intentionally incomplete. | Rejected once
+FRS-004-05 | Manual heart rate entry when device unavailable | Notification Service | High | System shall complete the action without data loss. | Need SME
+FRS-004-06 | Notification retry and suppression | Backend API | Low | System shall complete the action without data loss. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 005 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-005-01 | Sync readings to cloud API | Notification Service | Medium | Audit/event record shall be generated where applicable. | In Review
+FRS-005-02 | Capture heart rate from paired device | Bluetooth Sensor | Low | TBD by clinical SME - intentionally incomplete. | Rejected once
+FRS_5.3 | Battery and Bluetooth warning | iOS | TBD | TBD by clinical SME - intentionally incomplete. | In Review
+FRS_5.4 | Capture heart rate from paired device | Notification Service | Medium | Audit/event record shall be generated where applicable. | Pending QA
+FRS-005-05 | Consent capture and privacy notice | Cloud Sync | Medium | Result must be visible in mobile UI within expected time. | Need SME
+FRS-005-06 | Support caregiver view | Android/iOS | High | TBD by clinical SME - intentionally incomplete. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 006 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-006-01 | Support caregiver view | Notification Service | TBD | System shall complete the action without data loss. | Need SME
+FRS-006-02 | Manual heart rate entry when device unavailable | Android | Medium | Result must be visible in mobile UI within expected time. | Draft
+FRS-006-03 | Manual heart rate entry when device unavailable | Local DB | Not ranked | TBD by clinical SME - intentionally incomplete. | Need SME
+FRS-006-04 | Battery and Bluetooth warning | Bluetooth Sensor | High | Audit/event record shall be generated where applicable. | In Review
+FRS-006-05 | Notification retry and suppression | iOS | TBD | TBD by clinical SME - intentionally incomplete. | Pending QA
+FRS_6.6 | Biometric login option | Android | Low | Audit/event record shall be generated where applicable. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 007 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS_7.1 | Display current BPM with timestamp | Cloud Sync | Medium | System shall complete the action without data loss. | Pending QA
+FRS-007-02 | Manual heart rate entry when device unavailable | Android/iOS | Medium | Result must be visible in mobile UI within expected time. | Approved?
+FRS-007-03 | Store readings securely on device | Cloud Sync | Low | User shall receive clear error message on failure. | Pending QA
+FRS-007-04 | Display current BPM with timestamp | Android/iOS | TBD | Audit/event record shall be generated where applicable. | Need SME
+FRS_7.5 | Capture heart rate from paired device | Backend API | Medium | System shall complete the action without data loss. | Rejected once
+FRS-007-06 | Biometric login option | Backend API | Not ranked | Result must be visible in mobile UI within expected time. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 008 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-008-01 | Capture heart rate from paired device | Notification Service | High | Audit/event record shall be generated where applicable. | Rejected once
+FRS-008-02 | Consent capture and privacy notice | Android/iOS | Not ranked | TBD by clinical SME - intentionally incomplete. | Approved?
+FRS-008-03 | Handle offline mode | Backend API | High | Result must be visible in mobile UI within expected time. | Draft
+FRS-008-04 | Notification retry and suppression | iOS | Not ranked | TBD by clinical SME - intentionally incomplete. | Pending QA
+FRS_8.5 | Export readings as PDF/CSV | Android | Medium | Data shall be encrypted in transit and at rest. | Approved?
+FRS-008-06 | Consent capture and privacy notice | Android/iOS | Medium | Result must be visible in mobile UI within expected time. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 009 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS_9.1 | Display current BPM with timestamp | Cloud Sync | Medium | System shall complete the action without data loss. | Draft
+FRS-009-02 | Store readings securely on device | Bluetooth Sensor | Low | System shall complete the action without data loss. | Draft
+FRS-009-03 | Battery and Bluetooth warning | Backend API | TBD | System shall complete the action without data loss. | Rejected once
+FRS-009-04 | Store readings securely on device | Android/iOS | Low | TBD by clinical SME - intentionally incomplete. | In Review
+FRS-009-05 | Support caregiver view | Cloud Sync | High | User shall receive clear error message on failure. | Rejected once
+FRS-009-06 | Capture heart rate from paired device | Notification Service | High | Data shall be encrypted in transit and at rest. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 010 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-010-01 | Consent capture and privacy notice | Local DB | High | Data shall be encrypted in transit and at rest. | Draft
+FRS-010-02 | Notification retry and suppression | Android | Low | User shall receive clear error message on failure. | Rejected once
+FRS-010-03 | Audit user actions | Backend API | Not ranked | Audit/event record shall be generated where applicable. | Need SME
+FRS-010-04 | Audit user actions | Cloud Sync | TBD | TBD by clinical SME - intentionally incomplete. | Pending QA
+FRS-010-05 | Generate high/low heart-rate alert | Cloud Sync | Low | Data shall be encrypted in transit and at rest. | Pending QA
+FRS-010-06 | Battery and Bluetooth warning | Notification Service | High | Result must be visible in mobile UI within expected time. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 011 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-011-01 | Manual heart rate entry when device unavailable | Local DB | Low | User shall receive clear error message on failure. | Rejected once
+FRS-011-02 | Export readings as PDF/CSV | Backend API | High | User shall receive clear error message on failure. | Need SME
+FRS-011-03 | Export readings as PDF/CSV | Backend API | Low | Data shall be encrypted in transit and at rest. | Rejected once
+FRS-011-04 | Show trend chart for 7/30/90 days | Android | High | TBD by clinical SME - intentionally incomplete. | Rejected once
+FRS-011-05 | Capture heart rate from paired device | Android | TBD | Result must be visible in mobile UI within expected time. | Approved?
+FRS_11.6 | Store readings securely on device | Android/iOS | Medium | Result must be visible in mobile UI within expected time. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 012 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-012-01 | Show trend chart for 7/30/90 days | Cloud Sync | Medium | Result must be visible in mobile UI within expected time. | Rejected once
+FRS-012-02 | Battery and Bluetooth warning | Local DB | Medium | User shall receive clear error message on failure. | Pending QA
+FRS-012-03 | Audit user actions | iOS | Not ranked | User shall receive clear error message on failure. | Pending QA
+FRS-012-04 | Capture heart rate from paired device | iOS | High | User shall receive clear error message on failure. | Draft
+FRS_12.5 | Support caregiver view | Notification Service | Medium | System shall complete the action without data loss. | Pending QA
+FRS-012-06 | Consent capture and privacy notice | Bluetooth Sensor | Low | System shall complete the action without data loss. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 013 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-013-01 | Battery and Bluetooth warning | Local DB | High | TBD by clinical SME - intentionally incomplete. | Draft
+FRS-013-02 | Support caregiver view | Backend API | High | System shall complete the action without data loss. | Pending QA
+FRS-013-03 | Manual heart rate entry when device unavailable | Notification Service | TBD | Result must be visible in mobile UI within expected time. | Draft
+FRS-013-04 | Manual heart rate entry when device unavailable | Bluetooth Sensor | High | Result must be visible in mobile UI within expected time. | In Review
+FRS-013-05 | Biometric login option | Bluetooth Sensor | Not ranked | TBD by clinical SME - intentionally incomplete. | Pending QA
+FRS-013-06 | Validate sensor data range | iOS | Medium | Audit/event record shall be generated where applicable. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 014 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-014-01 | Handle offline mode | Local DB | Medium | User shall receive clear error message on failure. | In Review
+FRS-014-02 | Store readings securely on device | Cloud Sync | Medium | TBD by clinical SME - intentionally incomplete. | Draft
+FRS-014-03 | Handle offline mode | iOS | Medium | Audit/event record shall be generated where applicable. | Approved?
+FRS-014-04 | Audit user actions | Cloud Sync | Medium | User shall receive clear error message on failure. | Need SME
+FRS-014-05 | Display current BPM with timestamp | iOS | High | Result must be visible in mobile UI within expected time. | Approved?
+FRS_14.6 | Sync readings to cloud API | Notification Service | Medium | System shall complete the action without data loss. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 015 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-015-01 | Manual heart rate entry when device unavailable | iOS | Not ranked | TBD by clinical SME - intentionally incomplete. | Draft
+FRS-015-02 | Display current BPM with timestamp | Bluetooth Sensor | Not ranked | Audit/event record shall be generated where applicable. | Rejected once
+FRS-015-03 | Battery and Bluetooth warning | Local DB | Low | Result must be visible in mobile UI within expected time. | Pending QA
+FRS-015-04 | Sync readings to cloud API | Backend API | Not ranked | System shall complete the action without data loss. | Rejected once
+FRS-015-05 | Capture heart rate from paired device | Cloud Sync | High | Audit/event record shall be generated where applicable. | Need SME
+FRS-015-06 | Validate sensor data range | Backend API | TBD | System shall complete the action without data loss. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 016 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-016-01 | Export readings as PDF/CSV | Bluetooth Sensor | Low | Data shall be encrypted in transit and at rest. | Pending QA
+FRS_16.2 | Manual heart rate entry when device unavailable | Android/iOS | Low | System shall complete the action without data loss. | In Review
+FRS-016-03 | Sync readings to cloud API | Local DB | TBD | Result must be visible in mobile UI within expected time. | Rejected once
+FRS-016-04 | Notification retry and suppression | Backend API | Medium | Data shall be encrypted in transit and at rest. | Rejected once
+FRS-016-05 | Notification retry and suppression | Notification Service | High | Data shall be encrypted in transit and at rest. | In Review
+FRS-016-06 | Support caregiver view | Local DB | Low | User shall receive clear error message on failure. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 017 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-017-01 | Handle offline mode | Bluetooth Sensor | Medium | Data shall be encrypted in transit and at rest. | Approved?
+FRS_17.2 | Notification retry and suppression | Android/iOS | Medium | TBD by clinical SME - intentionally incomplete. | Pending QA
+FRS-017-03 | Show trend chart for 7/30/90 days | Android | TBD | Data shall be encrypted in transit and at rest. | Draft
+FRS-017-04 | Audit user actions | Android | Not ranked | User shall receive clear error message on failure. | Rejected once
+FRS-017-05 | Audit user actions | Notification Service | Medium | Data shall be encrypted in transit and at rest. | Need SME
+FRS-017-06 | Capture heart rate from paired device | Android/iOS | Medium | Data shall be encrypted in transit and at rest. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 018 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-018-01 | Handle offline mode | Local DB | Not ranked | Result must be visible in mobile UI within expected time. | Approved?
+FRS-018-02 | Show trend chart for 7/30/90 days | Bluetooth Sensor | Low | Result must be visible in mobile UI within expected time. | Approved?
+FRS-018-03 | Store readings securely on device | iOS | TBD | TBD by clinical SME - intentionally incomplete. | Draft
+FRS-018-04 | Generate high/low heart-rate alert | Notification Service | Medium | Audit/event record shall be generated where applicable. | Draft
+FRS-018-05 | Manual heart rate entry when device unavailable | Backend API | Low | Audit/event record shall be generated where applicable. | Need SME
+FRS-018-06 | Notification retry and suppression | iOS | Low | Result must be visible in mobile UI within expected time. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 019 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-019-01 | Battery and Bluetooth warning | Backend API | Low | Result must be visible in mobile UI within expected time. | Pending QA
+FRS-019-02 | Generate high/low heart-rate alert | Local DB | Low | User shall receive clear error message on failure. | In Review
+FRS-019-03 | Battery and Bluetooth warning | Backend API | Not ranked | Result must be visible in mobile UI within expected time. | Rejected once
+FRS-019-04 | Capture heart rate from paired device | Bluetooth Sensor | Not ranked | Result must be visible in mobile UI within expected time. | Rejected once
+FRS-019-05 | Battery and Bluetooth warning | iOS | Not ranked | System shall complete the action without data loss. | Draft
+FRS_19.6 | Sync readings to cloud API | Android/iOS | Medium | User shall receive clear error message on failure. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 020 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-020-01 | Manual heart rate entry when device unavailable | Android | Medium | System shall complete the action without data loss. | Rejected once
+FRS-020-02 | Handle offline mode | Cloud Sync | Not ranked | User shall receive clear error message on failure. | Pending QA
+FRS-020-03 | Notification retry and suppression | Notification Service | Medium | Data shall be encrypted in transit and at rest. | Approved?
+FRS-020-04 | Notification retry and suppression | Cloud Sync | High | System shall complete the action without data loss. | Draft
+FRS-020-05 | Manual heart rate entry when device unavailable | Local DB | Not ranked | Data shall be encrypted in transit and at rest. | Rejected once
+FRS-020-06 | Support caregiver view | Cloud Sync | Not ranked | User shall receive clear error message on failure. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 021 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-021-01 | Validate sensor data range | Android | Low | TBD by clinical SME - intentionally incomplete. | Need SME
+FRS-021-02 | Audit user actions | Cloud Sync | Low | System shall complete the action without data loss. | Approved?
+FRS-021-03 | Notification retry and suppression | Backend API | Low | Data shall be encrypted in transit and at rest. | Rejected once
+FRS-021-04 | Manual heart rate entry when device unavailable | Local DB | Medium | TBD by clinical SME - intentionally incomplete. | Approved?
+FRS_21.5 | Consent capture and privacy notice | Notification Service | Medium | User shall receive clear error message on failure. | Need SME
+FRS-021-06 | Validate sensor data range | Backend API | High | Result must be visible in mobile UI within expected time. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 022 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-022-01 | Capture heart rate from paired device | Notification Service | Medium | TBD by clinical SME - intentionally incomplete. | Rejected once
+FRS-022-02 | Display current BPM with timestamp | Cloud Sync | Not ranked | Result must be visible in mobile UI within expected time. | Rejected once
+FRS-022-03 | Display current BPM with timestamp | Notification Service | Low | User shall receive clear error message on failure. | Rejected once
+FRS-022-04 | Notification retry and suppression | Android/iOS | TBD | TBD by clinical SME - intentionally incomplete. | Draft
+FRS_22.5 | Handle offline mode | Notification Service | Low | Data shall be encrypted in transit and at rest. | Rejected once
+FRS-022-06 | Support caregiver view | Android | Medium | User shall receive clear error message on failure. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 023 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-023-01 | Generate high/low heart-rate alert | Android | Low | Result must be visible in mobile UI within expected time. | Need SME
+FRS-023-02 | Handle offline mode | Local DB | TBD | Audit/event record shall be generated where applicable. | Need SME
+FRS-023-03 | Validate sensor data range | Notification Service | High | Data shall be encrypted in transit and at rest. | In Review
+FRS_23.4 | Show trend chart for 7/30/90 days | Android | Low | TBD by clinical SME - intentionally incomplete. | Pending QA
+FRS-023-05 | Handle offline mode | Local DB | Medium | TBD by clinical SME - intentionally incomplete. | Approved?
+FRS-023-06 | Handle offline mode | Backend API | Medium | User shall receive clear error message on failure. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 024 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-024-01 | Store readings securely on device | iOS | Low | Audit/event record shall be generated where applicable. | Draft
+FRS-024-02 | Export readings as PDF/CSV | Bluetooth Sensor | Medium | User shall receive clear error message on failure. | Approved?
+FRS-024-03 | Support caregiver view | iOS | Low | User shall receive clear error message on failure. | Need SME
+FRS_24.4 | Battery and Bluetooth warning | iOS | High | User shall receive clear error message on failure. | Need SME
+FRS-024-05 | Display current BPM with timestamp | Cloud Sync | TBD | TBD by clinical SME - intentionally incomplete. | Need SME
+FRS-024-06 | Store readings securely on device | Local DB | High | Result must be visible in mobile UI within expected time. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 025 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS_25.1 | Notification retry and suppression | Notification Service | High | User shall receive clear error message on failure. | Draft
+FRS_25.2 | Support caregiver view | Cloud Sync | High | System shall complete the action without data loss. | Draft
+FRS-025-03 | Display current BPM with timestamp | Backend API | Medium | Data shall be encrypted in transit and at rest. | In Review
+FRS-025-04 | Capture heart rate from paired device | iOS | Not ranked | System shall complete the action without data loss. | Rejected once
+FRS-025-05 | Display current BPM with timestamp | Android | Medium | Data shall be encrypted in transit and at rest. | Approved?
+FRS-025-06 | Support caregiver view | Backend API | Medium | TBD by clinical SME - intentionally incomplete. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 026 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-026-01 | Show trend chart for 7/30/90 days | Android | TBD | Audit/event record shall be generated where applicable. | Pending QA
+FRS-026-02 | Validate sensor data range | Android/iOS | Medium | System shall complete the action without data loss. | Pending QA
+FRS-026-03 | Consent capture and privacy notice | Android/iOS | TBD | System shall complete the action without data loss. | Need SME
+FRS_26.4 | Battery and Bluetooth warning | Backend API | Not ranked | Result must be visible in mobile UI within expected time. | Draft
+FRS-026-05 | Generate high/low heart-rate alert | Android/iOS | Not ranked | Audit/event record shall be generated where applicable. | Approved?
+FRS-026-06 | Display current BPM with timestamp | Bluetooth Sensor | Low | TBD by clinical SME - intentionally incomplete. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 027 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-027-01 | Manual heart rate entry when device unavailable | Android/iOS | Not ranked | Audit/event record shall be generated where applicable. | Draft
+FRS_27.2 | Capture heart rate from paired device | Local DB | Not ranked | Data shall be encrypted in transit and at rest. | Draft
+FRS-027-03 | Sync readings to cloud API | Backend API | Not ranked | Audit/event record shall be generated where applicable. | Need SME
+FRS-027-04 | Show trend chart for 7/30/90 days | Bluetooth Sensor | Low | TBD by clinical SME - intentionally incomplete. | Draft
+FRS-027-05 | Biometric login option | Backend API | TBD | Audit/event record shall be generated where applicable. | Need SME
+FRS-027-06 | Support caregiver view | Notification Service | Low | Result must be visible in mobile UI within expected time. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 028 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-028-01 | Capture heart rate from paired device | Local DB | High | User shall receive clear error message on failure. | Pending QA
+FRS-028-02 | Sync readings to cloud API | Cloud Sync | TBD | System shall complete the action without data loss. | Rejected once
+FRS-028-03 | Support caregiver view | Android | TBD | Result must be visible in mobile UI within expected time. | In Review
+FRS-028-04 | Display current BPM with timestamp | Backend API | TBD | Data shall be encrypted in transit and at rest. | Approved?
+FRS_28.5 | Capture heart rate from paired device | Android/iOS | High | User shall receive clear error message on failure. | Need SME
+FRS-028-06 | Biometric login option | iOS | Not ranked | Data shall be encrypted in transit and at rest. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 029 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-029-01 | Display current BPM with timestamp | Android/iOS | Not ranked | System shall complete the action without data loss. | Pending QA
+FRS-029-02 | Store readings securely on device | Cloud Sync | Not ranked | Data shall be encrypted in transit and at rest. | In Review
+FRS-029-03 | Store readings securely on device | Android/iOS | Not ranked | Audit/event record shall be generated where applicable. | Pending QA
+FRS_29.4 | Biometric login option | Bluetooth Sensor | High | Audit/event record shall be generated where applicable. | Need SME
+FRS-029-05 | Biometric login option | Cloud Sync | Low | User shall receive clear error message on failure. | Pending QA
+FRS_29.6 | Support caregiver view | Android | High | Audit/event record shall be generated where applicable. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 030 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-030-01 | Manual heart rate entry when device unavailable | Local DB | High | User shall receive clear error message on failure. | Pending QA
+FRS-030-02 | Show trend chart for 7/30/90 days | Bluetooth Sensor | TBD | User shall receive clear error message on failure. | Draft
+FRS_30.3 | Show trend chart for 7/30/90 days | Bluetooth Sensor | Not ranked | User shall receive clear error message on failure. | Pending QA
+FRS-030-04 | Show trend chart for 7/30/90 days | Android/iOS | Low | Audit/event record shall be generated where applicable. | Need SME
+FRS-030-05 | Validate sensor data range | Cloud Sync | TBD | User shall receive clear error message on failure. | Approved?
+FRS-030-06 | Validate sensor data range | iOS | Low | Data shall be encrypted in transit and at rest. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 031 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-031-01 | Generate high/low heart-rate alert | Cloud Sync | High | User shall receive clear error message on failure. | Approved?
+FRS-031-02 | Display current BPM with timestamp | Android/iOS | TBD | Result must be visible in mobile UI within expected time. | Draft
+FRS-031-03 | Display current BPM with timestamp | Android | High | Audit/event record shall be generated where applicable. | Approved?
+FRS-031-04 | Validate sensor data range | Cloud Sync | High | Data shall be encrypted in transit and at rest. | Need SME
+FRS-031-05 | Validate sensor data range | Backend API | Low | Data shall be encrypted in transit and at rest. | In Review
+FRS_31.6 | Audit user actions | Cloud Sync | TBD | User shall receive clear error message on failure. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 032 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-032-01 | Show trend chart for 7/30/90 days | iOS | TBD | TBD by clinical SME - intentionally incomplete. | Rejected once
+FRS-032-02 | Export readings as PDF/CSV | Bluetooth Sensor | Low | Audit/event record shall be generated where applicable. | Rejected once
+FRS_32.3 | Generate high/low heart-rate alert | Android/iOS | TBD | Result must be visible in mobile UI within expected time. | Rejected once
+FRS-032-04 | Generate high/low heart-rate alert | iOS | Not ranked | Result must be visible in mobile UI within expected time. | Approved?
+FRS-032-05 | Battery and Bluetooth warning | Notification Service | High | Data shall be encrypted in transit and at rest. | Approved?
+FRS-032-06 | Manual heart rate entry when device unavailable | Local DB | TBD | User shall receive clear error message on failure. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 033 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS_33.1 | Export readings as PDF/CSV | iOS | High | Data shall be encrypted in transit and at rest. | Pending QA
+FRS-033-02 | Store readings securely on device | Notification Service | High | Result must be visible in mobile UI within expected time. | Approved?
+FRS-033-03 | Battery and Bluetooth warning | Android | TBD | System shall complete the action without data loss. | Rejected once
+FRS-033-04 | Manual heart rate entry when device unavailable | iOS | High | User shall receive clear error message on failure. | Need SME
+FRS-033-05 | Export readings as PDF/CSV | Local DB | Medium | Data shall be encrypted in transit and at rest. | Rejected once
+FRS-033-06 | Notification retry and suppression | Notification Service | Medium | System shall complete the action without data loss. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 034 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-034-01 | Capture heart rate from paired device | Backend API | Low | Result must be visible in mobile UI within expected time. | Draft
+FRS-034-02 | Support caregiver view | Local DB | TBD | User shall receive clear error message on failure. | Draft
+FRS-034-03 | Generate high/low heart-rate alert | Cloud Sync | High | Data shall be encrypted in transit and at rest. | Draft
+FRS-034-04 | Generate high/low heart-rate alert | Android | Not ranked | User shall receive clear error message on failure. | In Review
+FRS-034-05 | Battery and Bluetooth warning | Android | High | System shall complete the action without data loss. | In Review
+FRS-034-06 | Notification retry and suppression | Cloud Sync | Low | System shall complete the action without data loss. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 035 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-035-01 | Generate high/low heart-rate alert | Notification Service | High | System shall complete the action without data loss. | Approved?
+FRS-035-02 | Show trend chart for 7/30/90 days | Android | High | System shall complete the action without data loss. | Approved?
+FRS-035-03 | Display current BPM with timestamp | Bluetooth Sensor | Medium | Audit/event record shall be generated where applicable. | Rejected once
+FRS_35.4 | Notification retry and suppression | Backend API | High | User shall receive clear error message on failure. | Need SME
+FRS-035-05 | Capture heart rate from paired device | iOS | Not ranked | System shall complete the action without data loss. | Rejected once
+FRS-035-06 | Sync readings to cloud API | Android | High | System shall complete the action without data loss. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 036 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-036-01 | Audit user actions | Bluetooth Sensor | TBD | Data shall be encrypted in transit and at rest. | Approved?
+FRS-036-02 | Export readings as PDF/CSV | Bluetooth Sensor | Not ranked | Audit/event record shall be generated where applicable. | Need SME
+FRS-036-03 | Validate sensor data range | Android | Not ranked | User shall receive clear error message on failure. | Pending QA
+FRS-036-04 | Show trend chart for 7/30/90 days | Backend API | TBD | Result must be visible in mobile UI within expected time. | Approved?
+FRS-036-05 | Store readings securely on device | Local DB | Low | Result must be visible in mobile UI within expected time. | Need SME
+FRS-036-06 | Notification retry and suppression | Android | Medium | Data shall be encrypted in transit and at rest. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 037 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-037-01 | Store readings securely on device | Cloud Sync | Medium | TBD by clinical SME - intentionally incomplete. | In Review
+FRS-037-02 | Export readings as PDF/CSV | Cloud Sync | Medium | Audit/event record shall be generated where applicable. | Need SME
+FRS_37.3 | Export readings as PDF/CSV | Local DB | TBD | User shall receive clear error message on failure. | Need SME
+FRS-037-04 | Validate sensor data range | Backend API | Low | User shall receive clear error message on failure. | Draft
+FRS-037-05 | Biometric login option | Bluetooth Sensor | TBD | Data shall be encrypted in transit and at rest. | Pending QA
+FRS_37.6 | Sync readings to cloud API | Android | TBD | Result must be visible in mobile UI within expected time. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 038 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-038-01 | Store readings securely on device | iOS | Not ranked | Result must be visible in mobile UI within expected time. | In Review
+FRS-038-02 | Handle offline mode | iOS | Not ranked | TBD by clinical SME - intentionally incomplete. | Pending QA
+FRS_38.3 | Capture heart rate from paired device | Notification Service | Low | Data shall be encrypted in transit and at rest. | Rejected once
+FRS_38.4 | Capture heart rate from paired device | Android/iOS | TBD | Data shall be encrypted in transit and at rest. | Approved?
+FRS_38.5 | Capture heart rate from paired device | Bluetooth Sensor | TBD | TBD by clinical SME - intentionally incomplete. | Rejected once
+FRS_38.6 | Sync readings to cloud API | Bluetooth Sensor | High | Audit/event record shall be generated where applicable. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 039 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-039-01 | Validate sensor data range | Cloud Sync | High | System shall complete the action without data loss. | Rejected once
+FRS-039-02 | Show trend chart for 7/30/90 days | Cloud Sync | TBD | Audit/event record shall be generated where applicable. | Rejected once
+FRS_39.3 | Sync readings to cloud API | Notification Service | Not ranked | System shall complete the action without data loss. | Approved?
+FRS-039-04 | Notification retry and suppression | Cloud Sync | Not ranked | Result must be visible in mobile UI within expected time. | Approved?
+FRS-039-05 | Generate high/low heart-rate alert | Bluetooth Sensor | Not ranked | User shall receive clear error message on failure. | Pending QA
+FRS-039-06 | Support caregiver view | Android | Low | Audit/event record shall be generated where applicable. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 040 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-040-01 | Export readings as PDF/CSV | iOS | TBD | Audit/event record shall be generated where applicable. | Need SME
+FRS-040-02 | Store readings securely on device | Notification Service | Not ranked | Result must be visible in mobile UI within expected time. | Approved?
+FRS_40.3 | Show trend chart for 7/30/90 days | Bluetooth Sensor | Not ranked | Result must be visible in mobile UI within expected time. | Rejected once
+FRS-040-04 | Notification retry and suppression | Backend API | Low | System shall complete the action without data loss. | Rejected once
+FRS-040-05 | Handle offline mode | Android/iOS | Not ranked | TBD by clinical SME - intentionally incomplete. | Need SME
+FRS_40.6 | Audit user actions | Backend API | Medium | TBD by clinical SME - intentionally incomplete. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 041 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-041-01 | Handle offline mode | Cloud Sync | High | Data shall be encrypted in transit and at rest. | Draft
+FRS-041-02 | Display current BPM with timestamp | Local DB | High | TBD by clinical SME - intentionally incomplete. | Rejected once
+FRS-041-03 | Biometric login option | Notification Service | Low | TBD by clinical SME - intentionally incomplete. | Need SME
+FRS-041-04 | Export readings as PDF/CSV | Backend API | TBD | System shall complete the action without data loss. | Need SME
+FRS-041-05 | Manual heart rate entry when device unavailable | Bluetooth Sensor | Low | Audit/event record shall be generated where applicable. | Approved?
+FRS_41.6 | Sync readings to cloud API | Cloud Sync | Medium | System shall complete the action without data loss. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 042 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-042-01 | Manual heart rate entry when device unavailable | Backend API | Medium | Data shall be encrypted in transit and at rest. | In Review
+FRS-042-02 | Store readings securely on device | Notification Service | TBD | System shall complete the action without data loss. | Draft
+FRS-042-03 | Sync readings to cloud API | Cloud Sync | Not ranked | System shall complete the action without data loss. | Rejected once
+FRS-042-04 | Show trend chart for 7/30/90 days | Backend API | Low | User shall receive clear error message on failure. | Approved?
+FRS-042-05 | Validate sensor data range | Backend API | Not ranked | TBD by clinical SME - intentionally incomplete. | Approved?
+FRS-042-06 | Display current BPM with timestamp | Backend API | Low | Data shall be encrypted in transit and at rest. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 043 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-043-01 | Capture heart rate from paired device | Android | Not ranked | TBD by clinical SME - intentionally incomplete. | In Review
+FRS-043-02 | Handle offline mode | Android/iOS | High | Data shall be encrypted in transit and at rest. | Approved?
+FRS-043-03 | Sync readings to cloud API | Bluetooth Sensor | TBD | TBD by clinical SME - intentionally incomplete. | Approved?
+FRS-043-04 | Sync readings to cloud API | Android | Medium | Audit/event record shall be generated where applicable. | In Review
+FRS-043-05 | Show trend chart for 7/30/90 days | Cloud Sync | High | Audit/event record shall be generated where applicable. | In Review
+FRS_43.6 | Support caregiver view | Android/iOS | High | System shall complete the action without data loss. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 044 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-044-01 | Validate sensor data range | Bluetooth Sensor | Not ranked | Result must be visible in mobile UI within expected time. | In Review
+FRS-044-02 | Audit user actions | Notification Service | Low | User shall receive clear error message on failure. | In Review
+FRS-044-03 | Display current BPM with timestamp | Notification Service | Low | Audit/event record shall be generated where applicable. | Approved?
+FRS-044-04 | Generate high/low heart-rate alert | Android/iOS | Low | System shall complete the action without data loss. | Need SME
+FRS-044-05 | Handle offline mode | iOS | High | Audit/event record shall be generated where applicable. | Approved?
+FRS-044-06 | Consent capture and privacy notice | Local DB | TBD | Result must be visible in mobile UI within expected time. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 045 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS_45.1 | Audit user actions | Cloud Sync | Medium | Result must be visible in mobile UI within expected time. | In Review
+FRS-045-02 | Consent capture and privacy notice | Android/iOS | High | Data shall be encrypted in transit and at rest. | Rejected once
+FRS-045-03 | Export readings as PDF/CSV | Cloud Sync | Low | Result must be visible in mobile UI within expected time. | Rejected once
+FRS-045-04 | Support caregiver view | Notification Service | TBD | TBD by clinical SME - intentionally incomplete. | Need SME
+FRS_45.5 | Notification retry and suppression | Backend API | High | Audit/event record shall be generated where applicable. | Rejected once
+FRS-045-06 | Sync readings to cloud API | Backend API | High | User shall receive clear error message on failure. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 046 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-046-01 | Manual heart rate entry when device unavailable | Local DB | Low | Audit/event record shall be generated where applicable. | In Review
+FRS-046-02 | Sync readings to cloud API | Bluetooth Sensor | Not ranked | System shall complete the action without data loss. | Rejected once
+FRS-046-03 | Notification retry and suppression | Backend API | High | System shall complete the action without data loss. | Approved?
+FRS-046-04 | Sync readings to cloud API | Bluetooth Sensor | Not ranked | Result must be visible in mobile UI within expected time. | Approved?
+FRS-046-05 | Sync readings to cloud API | Local DB | Low | TBD by clinical SME - intentionally incomplete. | Draft
+FRS-046-06 | Sync readings to cloud API | Bluetooth Sensor | Low | User shall receive clear error message on failure. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 047 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-047-01 | Display current BPM with timestamp | Bluetooth Sensor | Low | User shall receive clear error message on failure. | Approved?
+FRS-047-02 | Consent capture and privacy notice | iOS | Low | TBD by clinical SME - intentionally incomplete. | Draft
+FRS-047-03 | Support caregiver view | Local DB | Medium | Result must be visible in mobile UI within expected time. | Approved?
+FRS-047-04 | Consent capture and privacy notice | Notification Service | Medium | User shall receive clear error message on failure. | Rejected once
+FRS-047-05 | Capture heart rate from paired device | iOS | Medium | User shall receive clear error message on failure. | Approved?
+FRS-047-06 | Show trend chart for 7/30/90 days | Android/iOS | Medium | System shall complete the action without data loss. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 048 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-048-01 | Capture heart rate from paired device | Notification Service | Not ranked | TBD by clinical SME - intentionally incomplete. | Pending QA
+FRS_48.2 | Validate sensor data range | Android | TBD | Result must be visible in mobile UI within expected time. | Draft
+FRS-048-03 | Capture heart rate from paired device | Cloud Sync | Not ranked | Result must be visible in mobile UI within expected time. | Need SME
+FRS-048-04 | Validate sensor data range | Cloud Sync | Not ranked | Result must be visible in mobile UI within expected time. | Approved?
+FRS-048-05 | Audit user actions | Notification Service | TBD | Data shall be encrypted in transit and at rest. | Pending QA
+FRS-048-06 | Display current BPM with timestamp | Android/iOS | Medium | Audit/event record shall be generated where applicable. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 049 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-049-01 | Handle offline mode | Local DB | High | Audit/event record shall be generated where applicable. | In Review
+FRS_49.2 | Generate high/low heart-rate alert | Bluetooth Sensor | Low | TBD by clinical SME - intentionally incomplete. | Pending QA
+FRS_49.3 | Store readings securely on device | Backend API | High | Result must be visible in mobile UI within expected time. | Draft
+FRS-049-04 | Manual heart rate entry when device unavailable | Backend API | TBD | Result must be visible in mobile UI within expected time. | In Review
+FRS-049-05 | Consent capture and privacy notice | Backend API | Medium | Data shall be encrypted in transit and at rest. | Rejected once
+FRS-049-06 | Manual heart rate entry when device unavailable | Bluetooth Sensor | Medium | System shall complete the action without data loss. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 050 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-050-01 | Battery and Bluetooth warning | iOS | Medium | User shall receive clear error message on failure. | Pending QA
+FRS_50.2 | Generate high/low heart-rate alert | Cloud Sync | TBD | TBD by clinical SME - intentionally incomplete. | Approved?
+FRS-050-03 | Handle offline mode | Local DB | Medium | Audit/event record shall be generated where applicable. | Need SME
+FRS_50.4 | Generate high/low heart-rate alert | Notification Service | Medium | Data shall be encrypted in transit and at rest. | Need SME
+FRS-050-05 | Biometric login option | Local DB | Medium | System shall complete the action without data loss. | Pending QA
+FRS-050-06 | Export readings as PDF/CSV | Cloud Sync | Medium | TBD by clinical SME - intentionally incomplete. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 051 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-051-01 | Notification retry and suppression | Android/iOS | Not ranked | Data shall be encrypted in transit and at rest. | Need SME
+FRS-051-02 | Display current BPM with timestamp | Backend API | Not ranked | Data shall be encrypted in transit and at rest. | In Review
+FRS-051-03 | Display current BPM with timestamp | Backend API | Low | System shall complete the action without data loss. | Pending QA
+FRS-051-04 | Generate high/low heart-rate alert | iOS | Not ranked | Result must be visible in mobile UI within expected time. | In Review
+FRS_51.5 | Show trend chart for 7/30/90 days | Bluetooth Sensor | Medium | Audit/event record shall be generated where applicable. | Approved?
+FRS_51.6 | Store readings securely on device | Cloud Sync | High | User shall receive clear error message on failure. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 052 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-052-01 | Show trend chart for 7/30/90 days | iOS | Low | Result must be visible in mobile UI within expected time. | Approved?
+FRS-052-02 | Validate sensor data range | Backend API | Medium | User shall receive clear error message on failure. | Need SME
+FRS-052-03 | Handle offline mode | Bluetooth Sensor | Not ranked | User shall receive clear error message on failure. | In Review
+FRS-052-04 | Validate sensor data range | Android/iOS | Medium | TBD by clinical SME - intentionally incomplete. | Pending QA
+FRS-052-05 | Generate high/low heart-rate alert | Android | Low | Data shall be encrypted in transit and at rest. | Approved?
+FRS-052-06 | Generate high/low heart-rate alert | Backend API | High | TBD by clinical SME - intentionally incomplete. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 053 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-053-01 | Sync readings to cloud API | Backend API | Low | Data shall be encrypted in transit and at rest. | Need SME
+FRS_53.2 | Store readings securely on device | Cloud Sync | Not ranked | System shall complete the action without data loss. | Need SME
+FRS-053-03 | Display current BPM with timestamp | Backend API | TBD | Data shall be encrypted in transit and at rest. | Draft
+FRS-053-04 | Handle offline mode | Android/iOS | Medium | User shall receive clear error message on failure. | Draft
+FRS-053-05 | Notification retry and suppression | Cloud Sync | TBD | User shall receive clear error message on failure. | Need SME
+FRS-053-06 | Notification retry and suppression | Notification Service | TBD | Audit/event record shall be generated where applicable. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 054 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-054-01 | Sync readings to cloud API | Cloud Sync | Medium | User shall receive clear error message on failure. | In Review
+FRS-054-02 | Notification retry and suppression | iOS | High | Result must be visible in mobile UI within expected time. | In Review
+FRS-054-03 | Validate sensor data range | Bluetooth Sensor | Medium | System shall complete the action without data loss. | In Review
+FRS-054-04 | Biometric login option | Android | Medium | Data shall be encrypted in transit and at rest. | Need SME
+FRS-054-05 | Store readings securely on device | Notification Service | Not ranked | Data shall be encrypted in transit and at rest. | Need SME
+FRS-054-06 | Audit user actions | Notification Service | TBD | User shall receive clear error message on failure. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 055 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-055-01 | Export readings as PDF/CSV | iOS | Not ranked | User shall receive clear error message on failure. | In Review
+FRS-055-02 | Manual heart rate entry when device unavailable | Local DB | Low | TBD by clinical SME - intentionally incomplete. | In Review
+FRS-055-03 | Battery and Bluetooth warning | Bluetooth Sensor | Medium | System shall complete the action without data loss. | Approved?
+FRS-055-04 | Capture heart rate from paired device | Cloud Sync | TBD | TBD by clinical SME - intentionally incomplete. | Pending QA
+FRS-055-05 | Manual heart rate entry when device unavailable | Android/iOS | Not ranked | Data shall be encrypted in transit and at rest. | Pending QA
+FRS-055-06 | Store readings securely on device | Cloud Sync | High | Result must be visible in mobile UI within expected time. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 056 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-056-01 | Show trend chart for 7/30/90 days | Android | Not ranked | Audit/event record shall be generated where applicable. | Need SME
+FRS-056-02 | Consent capture and privacy notice | Notification Service | High | Audit/event record shall be generated where applicable. | Approved?
+FRS-056-03 | Generate high/low heart-rate alert | Cloud Sync | High | User shall receive clear error message on failure. | Draft
+FRS-056-04 | Capture heart rate from paired device | Android | TBD | Audit/event record shall be generated where applicable. | Rejected once
+FRS-056-05 | Generate high/low heart-rate alert | Local DB | Medium | Result must be visible in mobile UI within expected time. | Approved?
+FRS-056-06 | Store readings securely on device | Android | High | Data shall be encrypted in transit and at rest. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 057 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS_57.1 | Display current BPM with timestamp | Android | TBD | System shall complete the action without data loss. | Pending QA
+FRS-057-02 | Capture heart rate from paired device | iOS | TBD | User shall receive clear error message on failure. | Rejected once
+FRS-057-03 | Sync readings to cloud API | Backend API | Medium | User shall receive clear error message on failure. | Draft
+FRS-057-04 | Handle offline mode | Local DB | TBD | User shall receive clear error message on failure. | Draft
+FRS-057-05 | Generate high/low heart-rate alert | iOS | Not ranked | TBD by clinical SME - intentionally incomplete. | Pending QA
+FRS-057-06 | Export readings as PDF/CSV | Android | Low | System shall complete the action without data loss. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 058 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS_58.1 | Notification retry and suppression | Android/iOS | Not ranked | System shall complete the action without data loss. | Draft
+FRS_58.2 | Validate sensor data range | Notification Service | TBD | Result must be visible in mobile UI within expected time. | Need SME
+FRS-058-03 | Display current BPM with timestamp | Local DB | TBD | Audit/event record shall be generated where applicable. | Draft
+FRS-058-04 | Display current BPM with timestamp | Notification Service | Medium | System shall complete the action without data loss. | Rejected once
+FRS-058-05 | Show trend chart for 7/30/90 days | Notification Service | Medium | System shall complete the action without data loss. | Draft
+FRS_58.6 | Consent capture and privacy notice | Android | High | Audit/event record shall be generated where applicable. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 059 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-059-01 | Generate high/low heart-rate alert | Cloud Sync | Not ranked | System shall complete the action without data loss. | Approved?
+FRS-059-02 | Manual heart rate entry when device unavailable | Android | Not ranked | Data shall be encrypted in transit and at rest. | Draft
+FRS-059-03 | Biometric login option | Android | Medium | Audit/event record shall be generated where applicable. | In Review
+FRS-059-04 | Capture heart rate from paired device | Backend API | Not ranked | Result must be visible in mobile UI within expected time. | Draft
+FRS-059-05 | Display current BPM with timestamp | Android | Not ranked | User shall receive clear error message on failure. | In Review
+FRS-059-06 | Handle offline mode | Backend API | High | System shall complete the action without data loss. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 060 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS_60.1 | Display current BPM with timestamp | Local DB | Medium | Data shall be encrypted in transit and at rest. | Approved?
+FRS-060-02 | Sync readings to cloud API | Bluetooth Sensor | Medium | Result must be visible in mobile UI within expected time. | Need SME
+FRS-060-03 | Export readings as PDF/CSV | Android | Not ranked | System shall complete the action without data loss. | Rejected once
+FRS-060-04 | Handle offline mode | Android/iOS | Not ranked | TBD by clinical SME - intentionally incomplete. | Approved?
+FRS-060-05 | Show trend chart for 7/30/90 days | Cloud Sync | Low | Audit/event record shall be generated where applicable. | Draft
+FRS-060-06 | Export readings as PDF/CSV | Android/iOS | Low | Audit/event record shall be generated where applicable. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 061 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS_61.1 | Display current BPM with timestamp | Notification Service | Not ranked | Result must be visible in mobile UI within expected time. | In Review
+FRS-061-02 | Display current BPM with timestamp | Backend API | High | System shall complete the action without data loss. | Approved?
+FRS-061-03 | Handle offline mode | Backend API | Not ranked | User shall receive clear error message on failure. | In Review
+FRS-061-04 | Battery and Bluetooth warning | Android/iOS | Low | System shall complete the action without data loss. | Rejected once
+FRS_61.5 | Battery and Bluetooth warning | iOS | TBD | Audit/event record shall be generated where applicable. | In Review
+FRS-061-06 | Manual heart rate entry when device unavailable | Android/iOS | TBD | System shall complete the action without data loss. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 062 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-062-01 | Validate sensor data range | Notification Service | Not ranked | Audit/event record shall be generated where applicable. | Draft
+FRS-062-02 | Store readings securely on device | Backend API | Medium | Result must be visible in mobile UI within expected time. | Rejected once
+FRS-062-03 | Display current BPM with timestamp | Notification Service | TBD | Data shall be encrypted in transit and at rest. | Draft
+FRS-062-04 | Handle offline mode | Backend API | Medium | User shall receive clear error message on failure. | Draft
+FRS_62.5 | Export readings as PDF/CSV | Notification Service | High | System shall complete the action without data loss. | In Review
+FRS-062-06 | Store readings securely on device | Notification Service | Medium | Result must be visible in mobile UI within expected time. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 063 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-063-01 | Capture heart rate from paired device | Android | TBD | TBD by clinical SME - intentionally incomplete. | Rejected once
+FRS-063-02 | Biometric login option | Android | Medium | TBD by clinical SME - intentionally incomplete. | Draft
+FRS-063-03 | Display current BPM with timestamp | Android/iOS | High | Data shall be encrypted in transit and at rest. | Rejected once
+FRS_63.4 | Manual heart rate entry when device unavailable | Backend API | Medium | Data shall be encrypted in transit and at rest. | Approved?
+FRS_63.5 | Consent capture and privacy notice | Local DB | Not ranked | TBD by clinical SME - intentionally incomplete. | Draft
+FRS-063-06 | Battery and Bluetooth warning | Bluetooth Sensor | Low | Audit/event record shall be generated where applicable. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 064 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-064-01 | Sync readings to cloud API | Notification Service | TBD | User shall receive clear error message on failure. | Need SME
+FRS-064-02 | Sync readings to cloud API | Backend API | Low | TBD by clinical SME - intentionally incomplete. | Draft
+FRS-064-03 | Validate sensor data range | Cloud Sync | Low | Audit/event record shall be generated where applicable. | Need SME
+FRS-064-04 | Handle offline mode | iOS | TBD | User shall receive clear error message on failure. | In Review
+FRS-064-05 | Show trend chart for 7/30/90 days | Cloud Sync | Low | User shall receive clear error message on failure. | Approved?
+FRS-064-06 | Capture heart rate from paired device | iOS | High | System shall complete the action without data loss. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 065 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-065-01 | Biometric login option | Backend API | Low | Result must be visible in mobile UI within expected time. | Approved?
+FRS-065-02 | Validate sensor data range | Backend API | Low | User shall receive clear error message on failure. | Draft
+FRS-065-03 | Consent capture and privacy notice | Local DB | Not ranked | System shall complete the action without data loss. | Approved?
+FRS-065-04 | Export readings as PDF/CSV | Notification Service | Medium | TBD by clinical SME - intentionally incomplete. | In Review
+FRS_65.5 | Notification retry and suppression | Android/iOS | Low | System shall complete the action without data loss. | Draft
+FRS-065-06 | Audit user actions | iOS | Low | System shall complete the action without data loss. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 066 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-066-01 | Biometric login option | Local DB | High | TBD by clinical SME - intentionally incomplete. | Draft
+FRS-066-02 | Validate sensor data range | Android/iOS | TBD | User shall receive clear error message on failure. | Approved?
+FRS-066-03 | Export readings as PDF/CSV | Backend API | Medium | TBD by clinical SME - intentionally incomplete. | Pending QA
+FRS-066-04 | Notification retry and suppression | iOS | TBD | Audit/event record shall be generated where applicable. | In Review
+FRS-066-05 | Capture heart rate from paired device | Backend API | TBD | Result must be visible in mobile UI within expected time. | Need SME
+FRS-066-06 | Biometric login option | Cloud Sync | TBD | Result must be visible in mobile UI within expected time. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 067 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-067-01 | Store readings securely on device | Local DB | Low | System shall complete the action without data loss. | Rejected once
+FRS-067-02 | Biometric login option | Android | Medium | Data shall be encrypted in transit and at rest. | Need SME
+FRS-067-03 | Notification retry and suppression | iOS | Low | TBD by clinical SME - intentionally incomplete. | Approved?
+FRS-067-04 | Validate sensor data range | Android | Not ranked | TBD by clinical SME - intentionally incomplete. | Rejected once
+FRS_67.5 | Consent capture and privacy notice | iOS | TBD | Data shall be encrypted in transit and at rest. | Need SME
+FRS-067-06 | Biometric login option | Local DB | Medium | Data shall be encrypted in transit and at rest. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 068 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS_68.1 | Battery and Bluetooth warning | iOS | Medium | Data shall be encrypted in transit and at rest. | Need SME
+FRS-068-02 | Handle offline mode | Notification Service | TBD | System shall complete the action without data loss. | Draft
+FRS_68.3 | Store readings securely on device | Cloud Sync | High | Audit/event record shall be generated where applicable. | Draft
+FRS-068-04 | Validate sensor data range | Android | Not ranked | System shall complete the action without data loss. | Need SME
+FRS-068-05 | Support caregiver view | Cloud Sync | High | Audit/event record shall be generated where applicable. | Need SME
+FRS-068-06 | Generate high/low heart-rate alert | Android/iOS | TBD | Data shall be encrypted in transit and at rest. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 069 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-069-01 | Manual heart rate entry when device unavailable | iOS | Not ranked | TBD by clinical SME - intentionally incomplete. | Rejected once
+FRS-069-02 | Handle offline mode | Bluetooth Sensor | Not ranked | User shall receive clear error message on failure. | In Review
+FRS_69.3 | Notification retry and suppression | iOS | Medium | TBD by clinical SME - intentionally incomplete. | In Review
+FRS-069-04 | Show trend chart for 7/30/90 days | Local DB | TBD | System shall complete the action without data loss. | Approved?
+FRS-069-05 | Audit user actions | Bluetooth Sensor | Medium | Result must be visible in mobile UI within expected time. | Pending QA
+FRS_69.6 | Consent capture and privacy notice | Android/iOS | High | User shall receive clear error message on failure. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 070 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-070-01 | Audit user actions | Local DB | TBD | Audit/event record shall be generated where applicable. | Approved?
+FRS-070-02 | Validate sensor data range | Notification Service | Medium | User shall receive clear error message on failure. | Approved?
+FRS-070-03 | Biometric login option | Notification Service | Medium | System shall complete the action without data loss. | In Review
+FRS-070-04 | Capture heart rate from paired device | Bluetooth Sensor | Low | System shall complete the action without data loss. | Draft
+FRS-070-05 | Sync readings to cloud API | Local DB | Medium | Audit/event record shall be generated where applicable. | In Review
+FRS-070-06 | Biometric login option | iOS | Medium | System shall complete the action without data loss. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 071 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-071-01 | Validate sensor data range | Local DB | TBD | System shall complete the action without data loss. | Need SME
+FRS-071-02 | Handle offline mode | Notification Service | Low | Result must be visible in mobile UI within expected time. | Approved?
+FRS_71.3 | Store readings securely on device | Backend API | Medium | User shall receive clear error message on failure. | Rejected once
+FRS-071-04 | Display current BPM with timestamp | Cloud Sync | TBD | TBD by clinical SME - intentionally incomplete. | In Review
+FRS-071-05 | Generate high/low heart-rate alert | Notification Service | Low | Result must be visible in mobile UI within expected time. | In Review
+FRS_71.6 | Audit user actions | Android | Not ranked | User shall receive clear error message on failure. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 072 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS_72.1 | Support caregiver view | Backend API | High | TBD by clinical SME - intentionally incomplete. | Approved?
+FRS-072-02 | Battery and Bluetooth warning | Android/iOS | TBD | System shall complete the action without data loss. | Pending QA
+FRS-072-03 | Biometric login option | Bluetooth Sensor | Low | User shall receive clear error message on failure. | In Review
+FRS-072-04 | Battery and Bluetooth warning | Local DB | Not ranked | TBD by clinical SME - intentionally incomplete. | Pending QA
+FRS-072-05 | Audit user actions | Bluetooth Sensor | High | Result must be visible in mobile UI within expected time. | Need SME
+FRS_72.6 | Export readings as PDF/CSV | Local DB | Medium | Result must be visible in mobile UI within expected time. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 073 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-073-01 | Support caregiver view | Bluetooth Sensor | Not ranked | User shall receive clear error message on failure. | Need SME
+FRS-073-02 | Sync readings to cloud API | Backend API | Medium | System shall complete the action without data loss. | In Review
+FRS-073-03 | Notification retry and suppression | Notification Service | Medium | User shall receive clear error message on failure. | In Review
+FRS-073-04 | Biometric login option | Local DB | TBD | Data shall be encrypted in transit and at rest. | Need SME
+FRS-073-05 | Export readings as PDF/CSV | Android | Not ranked | Data shall be encrypted in transit and at rest. | In Review
+FRS-073-06 | Biometric login option | iOS | Not ranked | Result must be visible in mobile UI within expected time. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 074 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-074-01 | Battery and Bluetooth warning | Notification Service | Low | System shall complete the action without data loss. | Draft
+FRS-074-02 | Support caregiver view | Cloud Sync | Medium | TBD by clinical SME - intentionally incomplete. | Approved?
+FRS-074-03 | Show trend chart for 7/30/90 days | Bluetooth Sensor | TBD | Data shall be encrypted in transit and at rest. | In Review
+FRS-074-04 | Support caregiver view | Android/iOS | TBD | Data shall be encrypted in transit and at rest. | Rejected once
+FRS-074-05 | Consent capture and privacy notice | Local DB | Low | Audit/event record shall be generated where applicable. | Draft
+FRS-074-06 | Support caregiver view | Backend API | Medium | Data shall be encrypted in transit and at rest. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 075 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-075-01 | Display current BPM with timestamp | Backend API | Not ranked | TBD by clinical SME - intentionally incomplete. | Rejected once
+FRS_75.2 | Validate sensor data range | iOS | Medium | Audit/event record shall be generated where applicable. | Pending QA
+FRS_75.3 | Support caregiver view | Local DB | High | Result must be visible in mobile UI within expected time. | Approved?
+FRS-075-04 | Notification retry and suppression | Local DB | TBD | Audit/event record shall be generated where applicable. | Need SME
+FRS-075-05 | Consent capture and privacy notice | Cloud Sync | Not ranked | System shall complete the action without data loss. | Approved?
+FRS-075-06 | Audit user actions | Android | TBD | Audit/event record shall be generated where applicable. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 076 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-076-01 | Support caregiver view | Android | Low | Audit/event record shall be generated where applicable. | Need SME
+FRS-076-02 | Biometric login option | Notification Service | TBD | System shall complete the action without data loss. | Rejected once
+FRS_76.3 | Sync readings to cloud API | Android/iOS | TBD | TBD by clinical SME - intentionally incomplete. | Draft
+FRS_76.4 | Handle offline mode | Android | Medium | System shall complete the action without data loss. | Pending QA
+FRS-076-05 | Display current BPM with timestamp | Android/iOS | High | User shall receive clear error message on failure. | Pending QA
+FRS-076-06 | Handle offline mode | Android | Not ranked | System shall complete the action without data loss. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 077 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-077-01 | Capture heart rate from paired device | Backend API | TBD | Data shall be encrypted in transit and at rest. | In Review
+FRS_77.2 | Display current BPM with timestamp | Bluetooth Sensor | Medium | Data shall be encrypted in transit and at rest. | Pending QA
+FRS_77.3 | Validate sensor data range | iOS | Medium | TBD by clinical SME - intentionally incomplete. | Pending QA
+FRS-077-04 | Manual heart rate entry when device unavailable | Backend API | Low | Audit/event record shall be generated where applicable. | In Review
+FRS_77.5 | Manual heart rate entry when device unavailable | Cloud Sync | High | Audit/event record shall be generated where applicable. | Need SME
+FRS-077-06 | Export readings as PDF/CSV | Bluetooth Sensor | Not ranked | Result must be visible in mobile UI within expected time. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 078 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-078-01 | Audit user actions | Android/iOS | Not ranked | User shall receive clear error message on failure. | Need SME
+FRS-078-02 | Biometric login option | Cloud Sync | TBD | Result must be visible in mobile UI within expected time. | In Review
+FRS-078-03 | Show trend chart for 7/30/90 days | Backend API | Not ranked | User shall receive clear error message on failure. | In Review
+FRS-078-04 | Consent capture and privacy notice | Local DB | Low | TBD by clinical SME - intentionally incomplete. | Rejected once
+FRS-078-05 | Support caregiver view | Android/iOS | TBD | Result must be visible in mobile UI within expected time. | Need SME
+FRS-078-06 | Audit user actions | iOS | Not ranked | TBD by clinical SME - intentionally incomplete. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 079 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-079-01 | Export readings as PDF/CSV | Cloud Sync | TBD | Audit/event record shall be generated where applicable. | Need SME
+FRS-079-02 | Generate high/low heart-rate alert | Cloud Sync | Not ranked | TBD by clinical SME - intentionally incomplete. | Rejected once
+FRS-079-03 | Export readings as PDF/CSV | Local DB | High | Audit/event record shall be generated where applicable. | Draft
+FRS-079-04 | Handle offline mode | Local DB | Not ranked | Result must be visible in mobile UI within expected time. | Pending QA
+FRS-079-05 | Notification retry and suppression | Android/iOS | Medium | Audit/event record shall be generated where applicable. | Approved?
+FRS-079-06 | Biometric login option | Android | High | User shall receive clear error message on failure. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 080 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-080-01 | Audit user actions | iOS | Medium | Result must be visible in mobile UI within expected time. | Rejected once
+FRS-080-02 | Show trend chart for 7/30/90 days | Backend API | Not ranked | Result must be visible in mobile UI within expected time. | Need SME
+FRS-080-03 | Display current BPM with timestamp | Backend API | High | Result must be visible in mobile UI within expected time. | Draft
+FRS_80.4 | Consent capture and privacy notice | Bluetooth Sensor | TBD | User shall receive clear error message on failure. | Rejected once
+FRS-080-05 | Display current BPM with timestamp | Android | TBD | User shall receive clear error message on failure. | Rejected once
+FRS_80.6 | Biometric login option | iOS | TBD | TBD by clinical SME - intentionally incomplete. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 081 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS_81.1 | Consent capture and privacy notice | Notification Service | TBD | Audit/event record shall be generated where applicable. | In Review
+FRS_81.2 | Consent capture and privacy notice | Local DB | TBD | Audit/event record shall be generated where applicable. | In Review
+FRS-081-03 | Notification retry and suppression | Local DB | Low | TBD by clinical SME - intentionally incomplete. | Rejected once
+FRS-081-04 | Handle offline mode | Bluetooth Sensor | TBD | Data shall be encrypted in transit and at rest. | Draft
+FRS-081-05 | Show trend chart for 7/30/90 days | iOS | Medium | System shall complete the action without data loss. | Rejected once
+FRS-081-06 | Export readings as PDF/CSV | Android | High | System shall complete the action without data loss. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 082 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-082-01 | Generate high/low heart-rate alert | Bluetooth Sensor | Low | TBD by clinical SME - intentionally incomplete. | In Review
+FRS-082-02 | Sync readings to cloud API | Local DB | TBD | TBD by clinical SME - intentionally incomplete. | Approved?
+FRS-082-03 | Export readings as PDF/CSV | Bluetooth Sensor | Low | Result must be visible in mobile UI within expected time. | Pending QA
+FRS_82.4 | Consent capture and privacy notice | Android/iOS | TBD | TBD by clinical SME - intentionally incomplete. | Approved?
+FRS-082-05 | Notification retry and suppression | Android | Low | System shall complete the action without data loss. | Approved?
+FRS-082-06 | Generate high/low heart-rate alert | Cloud Sync | Medium | Data shall be encrypted in transit and at rest. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 083 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS_83.1 | Export readings as PDF/CSV | Cloud Sync | Medium | User shall receive clear error message on failure. | Approved?
+FRS-083-02 | Store readings securely on device | Bluetooth Sensor | High | System shall complete the action without data loss. | Rejected once
+FRS-083-03 | Biometric login option | Backend API | High | System shall complete the action without data loss. | Approved?
+FRS-083-04 | Validate sensor data range | Notification Service | Not ranked | Result must be visible in mobile UI within expected time. | Rejected once
+FRS_83.5 | Store readings securely on device | Cloud Sync | Low | Data shall be encrypted in transit and at rest. | Need SME
+FRS-083-06 | Capture heart rate from paired device | iOS | High | User shall receive clear error message on failure. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 084 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-084-01 | Validate sensor data range | Cloud Sync | Not ranked | Data shall be encrypted in transit and at rest. | Rejected once
+FRS-084-02 | Generate high/low heart-rate alert | Android | Medium | TBD by clinical SME - intentionally incomplete. | In Review
+FRS-084-03 | Validate sensor data range | Backend API | High | System shall complete the action without data loss. | In Review
+FRS-084-04 | Show trend chart for 7/30/90 days | Local DB | Medium | Data shall be encrypted in transit and at rest. | Rejected once
+FRS-084-05 | Battery and Bluetooth warning | Android | Not ranked | Audit/event record shall be generated where applicable. | Pending QA
+FRS-084-06 | Generate high/low heart-rate alert | Local DB | Medium | User shall receive clear error message on failure. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 085 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-085-01 | Generate high/low heart-rate alert | Bluetooth Sensor | Low | Result must be visible in mobile UI within expected time. | Rejected once
+FRS-085-02 | Biometric login option | Android | High | Audit/event record shall be generated where applicable. | Draft
+FRS-085-03 | Sync readings to cloud API | Cloud Sync | Low | Audit/event record shall be generated where applicable. | Approved?
+FRS-085-04 | Support caregiver view | Bluetooth Sensor | Low | Audit/event record shall be generated where applicable. | Approved?
+FRS-085-05 | Audit user actions | Backend API | Low | Audit/event record shall be generated where applicable. | In Review
+FRS-085-06 | Handle offline mode | Android/iOS | TBD | TBD by clinical SME - intentionally incomplete. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 086 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-086-01 | Handle offline mode | iOS | TBD | System shall complete the action without data loss. | In Review
+FRS-086-02 | Validate sensor data range | Backend API | Medium | User shall receive clear error message on failure. | Approved?
+FRS_86.3 | Audit user actions | Android/iOS | High | User shall receive clear error message on failure. | Rejected once
+FRS-086-04 | Biometric login option | Notification Service | High | User shall receive clear error message on failure. | Need SME
+FRS-086-05 | Sync readings to cloud API | Android | Low | Result must be visible in mobile UI within expected time. | Draft
+FRS-086-06 | Store readings securely on device | Notification Service | Low | System shall complete the action without data loss. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 087 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-087-01 | Show trend chart for 7/30/90 days | Cloud Sync | High | User shall receive clear error message on failure. | Pending QA
+FRS-087-02 | Display current BPM with timestamp | Notification Service | Medium | Data shall be encrypted in transit and at rest. | Draft
+FRS_87.3 | Generate high/low heart-rate alert | Backend API | Low | TBD by clinical SME - intentionally incomplete. | Need SME
+FRS-087-04 | Notification retry and suppression | Android | Low | User shall receive clear error message on failure. | In Review
+FRS-087-05 | Display current BPM with timestamp | Backend API | Low | Result must be visible in mobile UI within expected time. | Draft
+FRS-087-06 | Battery and Bluetooth warning | iOS | TBD | System shall complete the action without data loss. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 088 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-088-01 | Generate high/low heart-rate alert | Cloud Sync | TBD | User shall receive clear error message on failure. | Need SME
+FRS-088-02 | Battery and Bluetooth warning | Notification Service | Low | Data shall be encrypted in transit and at rest. | In Review
+FRS-088-03 | Show trend chart for 7/30/90 days | Bluetooth Sensor | Medium | TBD by clinical SME - intentionally incomplete. | Approved?
+FRS-088-04 | Handle offline mode | Bluetooth Sensor | Not ranked | TBD by clinical SME - intentionally incomplete. | Draft
+FRS-088-05 | Notification retry and suppression | Android/iOS | Medium | User shall receive clear error message on failure. | Draft
+FRS-088-06 | Sync readings to cloud API | Cloud Sync | TBD | Audit/event record shall be generated where applicable. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 089 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-089-01 | Display current BPM with timestamp | Cloud Sync | Not ranked | Result must be visible in mobile UI within expected time. | Need SME
+FRS-089-02 | Generate high/low heart-rate alert | Backend API | Medium | Result must be visible in mobile UI within expected time. | Approved?
+FRS_89.3 | Manual heart rate entry when device unavailable | Notification Service | TBD | System shall complete the action without data loss. | In Review
+FRS-089-04 | Audit user actions | Notification Service | TBD | Result must be visible in mobile UI within expected time. | Pending QA
+FRS-089-05 | Biometric login option | Notification Service | Medium | Result must be visible in mobile UI within expected time. | In Review
+FRS-089-06 | Display current BPM with timestamp | Bluetooth Sensor | Medium | Data shall be encrypted in transit and at rest. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 090 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-090-01 | Store readings securely on device | Local DB | TBD | System shall complete the action without data loss. | Rejected once
+FRS-090-02 | Export readings as PDF/CSV | Cloud Sync | Not ranked | User shall receive clear error message on failure. | Approved?
+FRS-090-03 | Notification retry and suppression | iOS | TBD | Data shall be encrypted in transit and at rest. | Draft
+FRS-090-04 | Consent capture and privacy notice | Backend API | Low | Audit/event record shall be generated where applicable. | Pending QA
+FRS-090-05 | Support caregiver view | Backend API | TBD | TBD by clinical SME - intentionally incomplete. | Approved?
+FRS_90.6 | Capture heart rate from paired device | Local DB | TBD | Audit/event record shall be generated where applicable. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 091 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-091-01 | Show trend chart for 7/30/90 days | Notification Service | High | Result must be visible in mobile UI within expected time. | Pending QA
+FRS_91.2 | Generate high/low heart-rate alert | Backend API | High | User shall receive clear error message on failure. | Draft
+FRS-091-03 | Validate sensor data range | Android/iOS | Medium | Result must be visible in mobile UI within expected time. | Rejected once
+FRS_91.4 | Validate sensor data range | Notification Service | High | Result must be visible in mobile UI within expected time. | Draft
+FRS-091-05 | Manual heart rate entry when device unavailable | Android/iOS | Low | User shall receive clear error message on failure. | Approved?
+FRS-091-06 | Biometric login option | Android/iOS | High | TBD by clinical SME - intentionally incomplete. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 092 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS_92.1 | Display current BPM with timestamp | Android/iOS | TBD | Data shall be encrypted in transit and at rest. | Need SME
+FRS-092-02 | Show trend chart for 7/30/90 days | Android | TBD | TBD by clinical SME - intentionally incomplete. | In Review
+FRS-092-03 | Biometric login option | Backend API | Medium | TBD by clinical SME - intentionally incomplete. | Pending QA
+FRS-092-04 | Manual heart rate entry when device unavailable | Backend API | Not ranked | Audit/event record shall be generated where applicable. | Draft
+FRS-092-05 | Show trend chart for 7/30/90 days | Cloud Sync | Medium | User shall receive clear error message on failure. | Draft
+FRS-092-06 | Biometric login option | iOS | TBD | User shall receive clear error message on failure. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 093 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-093-01 | Store readings securely on device | Notification Service | TBD | System shall complete the action without data loss. | Rejected once
+FRS-093-02 | Biometric login option | iOS | Not ranked | TBD by clinical SME - intentionally incomplete. | Pending QA
+FRS-093-03 | Generate high/low heart-rate alert | Cloud Sync | Low | User shall receive clear error message on failure. | Rejected once
+FRS-093-04 | Manual heart rate entry when device unavailable | Local DB | High | TBD by clinical SME - intentionally incomplete. | Draft
+FRS_93.5 | Battery and Bluetooth warning | Cloud Sync | Low | Data shall be encrypted in transit and at rest. | Need SME
+FRS-093-06 | Battery and Bluetooth warning | Bluetooth Sensor | Low | Result must be visible in mobile UI within expected time. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 094 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS_94.1 | Biometric login option | iOS | Low | System shall complete the action without data loss. | Draft
+FRS-094-02 | Store readings securely on device | Cloud Sync | Medium | User shall receive clear error message on failure. | Pending QA
+FRS-094-03 | Sync readings to cloud API | iOS | Low | System shall complete the action without data loss. | Draft
+FRS-094-04 | Validate sensor data range | Android | TBD | Result must be visible in mobile UI within expected time. | Draft
+FRS-094-05 | Export readings as PDF/CSV | Android/iOS | Not ranked | Audit/event record shall be generated where applicable. | In Review
+FRS-094-06 | Handle offline mode | Cloud Sync | Low | User shall receive clear error message on failure. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 095 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS_95.1 | Manual heart rate entry when device unavailable | Local DB | Not ranked | TBD by clinical SME - intentionally incomplete. | Pending QA
+FRS-095-02 | Generate high/low heart-rate alert | Android/iOS | TBD | Data shall be encrypted in transit and at rest. | Approved?
+FRS-095-03 | Battery and Bluetooth warning | iOS | High | Audit/event record shall be generated where applicable. | Need SME
+FRS-095-04 | Battery and Bluetooth warning | Backend API | High | Audit/event record shall be generated where applicable. | Approved?
+FRS-095-05 | Support caregiver view | Backend API | Not ranked | System shall complete the action without data loss. | Rejected once
+FRS_95.6 | Consent capture and privacy notice | Bluetooth Sensor | Not ranked | User shall receive clear error message on failure. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 096 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-096-01 | Handle offline mode | Android | Not ranked | TBD by clinical SME - intentionally incomplete. | Need SME
+FRS-096-02 | Audit user actions | Android | Not ranked | TBD by clinical SME - intentionally incomplete. | Draft
+FRS_96.3 | Display current BPM with timestamp | Cloud Sync | High | Audit/event record shall be generated where applicable. | Pending QA
+FRS-096-04 | Store readings securely on device | Notification Service | Low | Result must be visible in mobile UI within expected time. | Draft
+FRS-096-05 | Battery and Bluetooth warning | Cloud Sync | Low | Data shall be encrypted in transit and at rest. | Approved?
+FRS-096-06 | Export readings as PDF/CSV | iOS | High | TBD by clinical SME - intentionally incomplete. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 097 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-097-01 | Manual heart rate entry when device unavailable | iOS | High | System shall complete the action without data loss. | Approved?
+FRS_97.2 | Consent capture and privacy notice | Backend API | TBD | System shall complete the action without data loss. | Draft
+FRS-097-03 | Show trend chart for 7/30/90 days | Local DB | High | User shall receive clear error message on failure. | Approved?
+FRS-097-04 | Notification retry and suppression | Cloud Sync | TBD | Audit/event record shall be generated where applicable. | Draft
+FRS-097-05 | Battery and Bluetooth warning | Cloud Sync | Not ranked | Audit/event record shall be generated where applicable. | Draft
+FRS_97.6 | Consent capture and privacy notice | Local DB | Not ranked | Audit/event record shall be generated where applicable. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 098 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-098-01 | Export readings as PDF/CSV | Bluetooth Sensor | TBD | User shall receive clear error message on failure. | Rejected once
+FRS-098-02 | Audit user actions | Android | Medium | Data shall be encrypted in transit and at rest. | In Review
+FRS-098-03 | Validate sensor data range | Cloud Sync | High | Data shall be encrypted in transit and at rest. | Draft
+FRS-098-04 | Validate sensor data range | Backend API | Low | Audit/event record shall be generated where applicable. | Draft
+FRS-098-05 | Support caregiver view | Backend API | High | User shall receive clear error message on failure. | Need SME
+FRS_98.6 | Manual heart rate entry when device unavailable | Android/iOS | TBD | User shall receive clear error message on failure. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 099 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-099-01 | Battery and Bluetooth warning | Bluetooth Sensor | TBD | TBD by clinical SME - intentionally incomplete. | In Review
+FRS-099-02 | Sync readings to cloud API | Notification Service | Low | Data shall be encrypted in transit and at rest. | Need SME
+FRS_99.3 | Generate high/low heart-rate alert | Android | TBD | TBD by clinical SME - intentionally incomplete. | Need SME
+FRS-099-04 | Handle offline mode | Android | TBD | System shall complete the action without data loss. | Approved?
+FRS-099-05 | Notification retry and suppression | Backend API | Medium | Audit/event record shall be generated where applicable. | Draft
+FRS_99.6 | Show trend chart for 7/30/90 days | Bluetooth Sensor | High | TBD by clinical SME - intentionally incomplete. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 100 / FRS ---
+This FRS converts user needs into functional behavior for heart-rate capture, display, alerts, history, exports, authentication, privacy, and device connectivity. Formatting and numbering are deliberately inconsistent.
+FRS-100-01 | Store readings securely on device | iOS | TBD | Result must be visible in mobile UI within expected time. | Rejected once
+FRS-100-02 | Validate sensor data range | Local DB | High | User shall receive clear error message on failure. | Rejected once
+FRS_100.3 | Audit user actions | Android/iOS | High | TBD by clinical SME - intentionally incomplete. | In Review
+FRS-100-04 | Audit user actions | Notification Service | TBD | System shall complete the action without data loss. | In Review
+FRS-100-05 | Export readings as PDF/CSV | Bluetooth Sensor | Medium | System shall complete the action without data loss. | Need SME
+FRS-100-06 | Sync readings to cloud API | Android | Low | System shall complete the action without data loss. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+

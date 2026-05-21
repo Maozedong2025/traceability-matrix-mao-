@@ -1,0 +1,1003 @@
+Document 3 - DS - Heart Rate Monitor Application
+Synthetic messy validation test document. Not for real medical or regulatory use.
+
+--- PAGE 001 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-001-01 | Display current BPM with timestamp | Bluetooth Sensor | TBD | User shall receive clear error message on failure. | Approved?
+DS-001-02 | Sync readings to cloud API | Backend API | High | User shall receive clear error message on failure. | Draft
+DS-001-03 | Display current BPM with timestamp | Backend API | Not ranked | User shall receive clear error message on failure. | Approved?
+DS-001-04 | Consent capture and privacy notice | Cloud Sync | Medium | TBD by clinical SME - intentionally incomplete. | Approved?
+DS-001-05 | Notification retry and suppression | Cloud Sync | TBD | Result must be visible in mobile UI within expected time. | Draft
+DS-001-06 | Support caregiver view | Cloud Sync | Not ranked | Data shall be encrypted in transit and at rest. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 002 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-002-01 | Battery and Bluetooth warning | Notification Service | Medium | Audit/event record shall be generated where applicable. | Rejected once
+DS-002-02 | Display current BPM with timestamp | Notification Service | Medium | Audit/event record shall be generated where applicable. | Approved?
+DS-002-03 | Validate sensor data range | Cloud Sync | TBD | Result must be visible in mobile UI within expected time. | Rejected once
+DS-002-04 | Handle offline mode | Local DB | High | System shall complete the action without data loss. | Draft
+DS_2.5 | Battery and Bluetooth warning | iOS | Not ranked | System shall complete the action without data loss. | In Review
+DS-002-06 | Store readings securely on device | Android | Low | User shall receive clear error message on failure. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 003 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-003-01 | Notification retry and suppression | Bluetooth Sensor | Not ranked | System shall complete the action without data loss. | Approved?
+DS_3.2 | Manual heart rate entry when device unavailable | Bluetooth Sensor | TBD | System shall complete the action without data loss. | In Review
+DS-003-03 | Manual heart rate entry when device unavailable | Backend API | TBD | Result must be visible in mobile UI within expected time. | Pending QA
+DS-003-04 | Handle offline mode | Android | Low | User shall receive clear error message on failure. | Draft
+DS_3.5 | Export readings as PDF/CSV | Cloud Sync | Low | Data shall be encrypted in transit and at rest. | Draft
+DS-003-06 | Generate high/low heart-rate alert | Backend API | High | User shall receive clear error message on failure. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 004 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS_4.1 | Biometric login option | Notification Service | Medium | Data shall be encrypted in transit and at rest. | Rejected once
+DS-004-02 | Display current BPM with timestamp | Android | Low | Data shall be encrypted in transit and at rest. | Draft
+DS-004-03 | Store readings securely on device | Android | Not ranked | TBD by clinical SME - intentionally incomplete. | Rejected once
+DS_4.4 | Export readings as PDF/CSV | Bluetooth Sensor | Low | Audit/event record shall be generated where applicable. | Need SME
+DS_4.5 | Capture heart rate from paired device | Bluetooth Sensor | Not ranked | Data shall be encrypted in transit and at rest. | Need SME
+DS-004-06 | Support caregiver view | iOS | High | TBD by clinical SME - intentionally incomplete. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 005 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS_5.1 | Manual heart rate entry when device unavailable | Backend API | High | Data shall be encrypted in transit and at rest. | Need SME
+DS_5.2 | Notification retry and suppression | Android/iOS | Not ranked | Data shall be encrypted in transit and at rest. | Need SME
+DS-005-03 | Support caregiver view | Android/iOS | Low | Data shall be encrypted in transit and at rest. | Pending QA
+DS-005-04 | Audit user actions | Android | Medium | Result must be visible in mobile UI within expected time. | Rejected once
+DS-005-05 | Support caregiver view | Notification Service | Medium | Data shall be encrypted in transit and at rest. | Need SME
+DS_5.6 | Store readings securely on device | Android/iOS | Medium | TBD by clinical SME - intentionally incomplete. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 006 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-006-01 | Validate sensor data range | Notification Service | Not ranked | System shall complete the action without data loss. | Rejected once
+DS-006-02 | Show trend chart for 7/30/90 days | Backend API | Low | User shall receive clear error message on failure. | Approved?
+DS-006-03 | Support caregiver view | Cloud Sync | Not ranked | TBD by clinical SME - intentionally incomplete. | Pending QA
+DS_6.4 | Show trend chart for 7/30/90 days | Notification Service | Low | User shall receive clear error message on failure. | Pending QA
+DS_6.5 | Manual heart rate entry when device unavailable | Bluetooth Sensor | High | User shall receive clear error message on failure. | Draft
+DS_6.6 | Validate sensor data range | Android | Medium | Audit/event record shall be generated where applicable. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 007 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-007-01 | Battery and Bluetooth warning | Local DB | Not ranked | Result must be visible in mobile UI within expected time. | Draft
+DS-007-02 | Audit user actions | Android/iOS | Medium | TBD by clinical SME - intentionally incomplete. | Approved?
+DS-007-03 | Consent capture and privacy notice | Notification Service | High | System shall complete the action without data loss. | Pending QA
+DS-007-04 | Notification retry and suppression | Notification Service | High | System shall complete the action without data loss. | Draft
+DS-007-05 | Capture heart rate from paired device | Android/iOS | Low | TBD by clinical SME - intentionally incomplete. | Pending QA
+DS-007-06 | Export readings as PDF/CSV | Android | High | User shall receive clear error message on failure. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 008 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-008-01 | Biometric login option | Notification Service | Not ranked | Result must be visible in mobile UI within expected time. | Rejected once
+DS-008-02 | Validate sensor data range | Android/iOS | TBD | Data shall be encrypted in transit and at rest. | Approved?
+DS-008-03 | Support caregiver view | Local DB | High | User shall receive clear error message on failure. | Pending QA
+DS-008-04 | Generate high/low heart-rate alert | Cloud Sync | Not ranked | System shall complete the action without data loss. | Rejected once
+DS-008-05 | Store readings securely on device | iOS | Medium | User shall receive clear error message on failure. | In Review
+DS_8.6 | Consent capture and privacy notice | Bluetooth Sensor | Low | TBD by clinical SME - intentionally incomplete. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 009 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-009-01 | Audit user actions | Bluetooth Sensor | TBD | User shall receive clear error message on failure. | Rejected once
+DS-009-02 | Sync readings to cloud API | Backend API | Low | User shall receive clear error message on failure. | Rejected once
+DS-009-03 | Audit user actions | Bluetooth Sensor | Low | System shall complete the action without data loss. | In Review
+DS-009-04 | Notification retry and suppression | Bluetooth Sensor | High | Audit/event record shall be generated where applicable. | Need SME
+DS-009-05 | Consent capture and privacy notice | Cloud Sync | High | TBD by clinical SME - intentionally incomplete. | Approved?
+DS-009-06 | Manual heart rate entry when device unavailable | Local DB | Not ranked | System shall complete the action without data loss. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 010 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS_10.1 | Show trend chart for 7/30/90 days | Notification Service | Not ranked | Audit/event record shall be generated where applicable. | Need SME
+DS_10.2 | Validate sensor data range | Local DB | Medium | System shall complete the action without data loss. | Pending QA
+DS_10.3 | Validate sensor data range | Notification Service | High | User shall receive clear error message on failure. | Need SME
+DS-010-04 | Generate high/low heart-rate alert | Backend API | Not ranked | Data shall be encrypted in transit and at rest. | Pending QA
+DS-010-05 | Validate sensor data range | iOS | High | System shall complete the action without data loss. | Need SME
+DS-010-06 | Battery and Bluetooth warning | Android/iOS | TBD | Data shall be encrypted in transit and at rest. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 011 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-011-01 | Handle offline mode | Notification Service | TBD | Result must be visible in mobile UI within expected time. | In Review
+DS-011-02 | Display current BPM with timestamp | Android/iOS | Medium | Data shall be encrypted in transit and at rest. | Draft
+DS-011-03 | Capture heart rate from paired device | Local DB | Medium | User shall receive clear error message on failure. | In Review
+DS-011-04 | Sync readings to cloud API | Local DB | TBD | System shall complete the action without data loss. | In Review
+DS_11.5 | Audit user actions | Notification Service | Not ranked | Audit/event record shall be generated where applicable. | Pending QA
+DS-011-06 | Capture heart rate from paired device | Local DB | Not ranked | User shall receive clear error message on failure. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 012 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-012-01 | Validate sensor data range | Android | Not ranked | TBD by clinical SME - intentionally incomplete. | Approved?
+DS-012-02 | Store readings securely on device | Android | TBD | System shall complete the action without data loss. | Draft
+DS_12.3 | Generate high/low heart-rate alert | Notification Service | High | System shall complete the action without data loss. | Rejected once
+DS-012-04 | Support caregiver view | Android/iOS | Low | TBD by clinical SME - intentionally incomplete. | Need SME
+DS-012-05 | Show trend chart for 7/30/90 days | Notification Service | Medium | System shall complete the action without data loss. | Rejected once
+DS-012-06 | Store readings securely on device | Android/iOS | Low | User shall receive clear error message on failure. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 013 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS_13.1 | Manual heart rate entry when device unavailable | Cloud Sync | Low | Audit/event record shall be generated where applicable. | Pending QA
+DS_13.2 | Show trend chart for 7/30/90 days | Local DB | Not ranked | System shall complete the action without data loss. | Need SME
+DS-013-03 | Store readings securely on device | Cloud Sync | High | TBD by clinical SME - intentionally incomplete. | Pending QA
+DS-013-04 | Consent capture and privacy notice | Cloud Sync | Low | System shall complete the action without data loss. | Draft
+DS-013-05 | Audit user actions | Android/iOS | TBD | TBD by clinical SME - intentionally incomplete. | Pending QA
+DS-013-06 | Support caregiver view | iOS | High | System shall complete the action without data loss. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 014 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-014-01 | Store readings securely on device | Local DB | Not ranked | TBD by clinical SME - intentionally incomplete. | Approved?
+DS-014-02 | Audit user actions | Backend API | Medium | Data shall be encrypted in transit and at rest. | Pending QA
+DS-014-03 | Show trend chart for 7/30/90 days | iOS | Not ranked | Audit/event record shall be generated where applicable. | In Review
+DS_14.4 | Capture heart rate from paired device | Cloud Sync | TBD | System shall complete the action without data loss. | Pending QA
+DS-014-05 | Handle offline mode | Backend API | TBD | System shall complete the action without data loss. | Approved?
+DS-014-06 | Biometric login option | Local DB | Low | System shall complete the action without data loss. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 015 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-015-01 | Display current BPM with timestamp | Backend API | TBD | TBD by clinical SME - intentionally incomplete. | Draft
+DS-015-02 | Notification retry and suppression | Backend API | TBD | Data shall be encrypted in transit and at rest. | Pending QA
+DS-015-03 | Biometric login option | Android | Low | System shall complete the action without data loss. | Draft
+DS-015-04 | Manual heart rate entry when device unavailable | Backend API | Medium | Audit/event record shall be generated where applicable. | Pending QA
+DS-015-05 | Store readings securely on device | Bluetooth Sensor | TBD | TBD by clinical SME - intentionally incomplete. | Approved?
+DS_15.6 | Export readings as PDF/CSV | Notification Service | Low | Data shall be encrypted in transit and at rest. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 016 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-016-01 | Battery and Bluetooth warning | Local DB | High | User shall receive clear error message on failure. | Pending QA
+DS-016-02 | Manual heart rate entry when device unavailable | Local DB | TBD | System shall complete the action without data loss. | Pending QA
+DS-016-03 | Export readings as PDF/CSV | Notification Service | Low | Audit/event record shall be generated where applicable. | In Review
+DS_16.4 | Capture heart rate from paired device | Android | Not ranked | Data shall be encrypted in transit and at rest. | Rejected once
+DS-016-05 | Biometric login option | Notification Service | Low | User shall receive clear error message on failure. | Rejected once
+DS-016-06 | Notification retry and suppression | Android/iOS | Low | TBD by clinical SME - intentionally incomplete. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 017 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-017-01 | Battery and Bluetooth warning | Android | Low | TBD by clinical SME - intentionally incomplete. | Approved?
+DS_17.2 | Validate sensor data range | iOS | Not ranked | TBD by clinical SME - intentionally incomplete. | Need SME
+DS-017-03 | Export readings as PDF/CSV | Backend API | Medium | Result must be visible in mobile UI within expected time. | Draft
+DS-017-04 | Support caregiver view | Cloud Sync | High | TBD by clinical SME - intentionally incomplete. | Rejected once
+DS-017-05 | Sync readings to cloud API | Android/iOS | Medium | Result must be visible in mobile UI within expected time. | In Review
+DS-017-06 | Show trend chart for 7/30/90 days | Android | Medium | System shall complete the action without data loss. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 018 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-018-01 | Consent capture and privacy notice | Backend API | High | Result must be visible in mobile UI within expected time. | Rejected once
+DS-018-02 | Biometric login option | Local DB | High | Result must be visible in mobile UI within expected time. | Draft
+DS-018-03 | Display current BPM with timestamp | Notification Service | TBD | Audit/event record shall be generated where applicable. | Need SME
+DS-018-04 | Support caregiver view | Bluetooth Sensor | Low | TBD by clinical SME - intentionally incomplete. | Need SME
+DS-018-05 | Capture heart rate from paired device | iOS | TBD | Audit/event record shall be generated where applicable. | Approved?
+DS-018-06 | Sync readings to cloud API | Cloud Sync | Low | TBD by clinical SME - intentionally incomplete. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 019 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-019-01 | Capture heart rate from paired device | Android | Not ranked | System shall complete the action without data loss. | Pending QA
+DS-019-02 | Show trend chart for 7/30/90 days | Android/iOS | Low | User shall receive clear error message on failure. | Approved?
+DS-019-03 | Sync readings to cloud API | Bluetooth Sensor | Not ranked | Result must be visible in mobile UI within expected time. | Rejected once
+DS-019-04 | Battery and Bluetooth warning | Android | TBD | System shall complete the action without data loss. | Need SME
+DS-019-05 | Battery and Bluetooth warning | Bluetooth Sensor | TBD | Audit/event record shall be generated where applicable. | Need SME
+DS-019-06 | Show trend chart for 7/30/90 days | Backend API | TBD | Audit/event record shall be generated where applicable. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 020 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS_20.1 | Sync readings to cloud API | Android/iOS | Medium | System shall complete the action without data loss. | Draft
+DS_20.2 | Audit user actions | Local DB | Not ranked | Audit/event record shall be generated where applicable. | Draft
+DS_20.3 | Handle offline mode | Android/iOS | Not ranked | Result must be visible in mobile UI within expected time. | In Review
+DS-020-04 | Validate sensor data range | iOS | Medium | Data shall be encrypted in transit and at rest. | Approved?
+DS-020-05 | Generate high/low heart-rate alert | Notification Service | High | Result must be visible in mobile UI within expected time. | Approved?
+DS-020-06 | Biometric login option | Bluetooth Sensor | Low | Result must be visible in mobile UI within expected time. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 021 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-021-01 | Notification retry and suppression | Bluetooth Sensor | TBD | Audit/event record shall be generated where applicable. | Draft
+DS-021-02 | Sync readings to cloud API | Android | Medium | Result must be visible in mobile UI within expected time. | Approved?
+DS-021-03 | Consent capture and privacy notice | Local DB | High | Audit/event record shall be generated where applicable. | Need SME
+DS_21.4 | Generate high/low heart-rate alert | iOS | High | Data shall be encrypted in transit and at rest. | Rejected once
+DS-021-05 | Validate sensor data range | Local DB | Low | System shall complete the action without data loss. | In Review
+DS-021-06 | Notification retry and suppression | Bluetooth Sensor | Medium | Audit/event record shall be generated where applicable. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 022 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-022-01 | Consent capture and privacy notice | iOS | TBD | Result must be visible in mobile UI within expected time. | Rejected once
+DS-022-02 | Validate sensor data range | Local DB | TBD | User shall receive clear error message on failure. | Approved?
+DS-022-03 | Consent capture and privacy notice | Local DB | Not ranked | System shall complete the action without data loss. | Need SME
+DS-022-04 | Battery and Bluetooth warning | Backend API | High | Audit/event record shall be generated where applicable. | Draft
+DS_22.5 | Show trend chart for 7/30/90 days | Notification Service | Medium | User shall receive clear error message on failure. | In Review
+DS-022-06 | Handle offline mode | Notification Service | High | Data shall be encrypted in transit and at rest. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 023 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-023-01 | Consent capture and privacy notice | Notification Service | TBD | System shall complete the action without data loss. | Draft
+DS-023-02 | Handle offline mode | Android/iOS | High | TBD by clinical SME - intentionally incomplete. | Approved?
+DS-023-03 | Sync readings to cloud API | Cloud Sync | TBD | Data shall be encrypted in transit and at rest. | Draft
+DS-023-04 | Display current BPM with timestamp | Backend API | High | Result must be visible in mobile UI within expected time. | In Review
+DS-023-05 | Sync readings to cloud API | Notification Service | Low | TBD by clinical SME - intentionally incomplete. | Draft
+DS-023-06 | Biometric login option | Android | Not ranked | Result must be visible in mobile UI within expected time. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 024 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS_24.1 | Audit user actions | Notification Service | Not ranked | User shall receive clear error message on failure. | Need SME
+DS-024-02 | Show trend chart for 7/30/90 days | Android/iOS | TBD | TBD by clinical SME - intentionally incomplete. | Draft
+DS-024-03 | Export readings as PDF/CSV | Android/iOS | Medium | TBD by clinical SME - intentionally incomplete. | Pending QA
+DS-024-04 | Store readings securely on device | Notification Service | Not ranked | Data shall be encrypted in transit and at rest. | Draft
+DS-024-05 | Battery and Bluetooth warning | Backend API | Low | TBD by clinical SME - intentionally incomplete. | In Review
+DS-024-06 | Support caregiver view | Android | TBD | User shall receive clear error message on failure. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 025 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS_25.1 | Generate high/low heart-rate alert | Backend API | High | System shall complete the action without data loss. | In Review
+DS-025-02 | Capture heart rate from paired device | Android/iOS | Low | System shall complete the action without data loss. | Approved?
+DS-025-03 | Support caregiver view | Backend API | Not ranked | TBD by clinical SME - intentionally incomplete. | Rejected once
+DS_25.4 | Export readings as PDF/CSV | iOS | Not ranked | Data shall be encrypted in transit and at rest. | In Review
+DS_25.5 | Sync readings to cloud API | Cloud Sync | Medium | Data shall be encrypted in transit and at rest. | Rejected once
+DS-025-06 | Manual heart rate entry when device unavailable | Cloud Sync | High | System shall complete the action without data loss. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 026 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-026-01 | Manual heart rate entry when device unavailable | iOS | Low | TBD by clinical SME - intentionally incomplete. | Approved?
+DS_26.2 | Support caregiver view | Android/iOS | TBD | System shall complete the action without data loss. | Rejected once
+DS-026-03 | Handle offline mode | Android | Low | User shall receive clear error message on failure. | Need SME
+DS-026-04 | Validate sensor data range | Cloud Sync | Medium | Result must be visible in mobile UI within expected time. | Need SME
+DS-026-05 | Notification retry and suppression | iOS | TBD | User shall receive clear error message on failure. | Pending QA
+DS-026-06 | Generate high/low heart-rate alert | Backend API | Low | System shall complete the action without data loss. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 027 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS_27.1 | Show trend chart for 7/30/90 days | Notification Service | Medium | User shall receive clear error message on failure. | Pending QA
+DS-027-02 | Manual heart rate entry when device unavailable | Android/iOS | TBD | TBD by clinical SME - intentionally incomplete. | Need SME
+DS-027-03 | Biometric login option | Notification Service | Low | Audit/event record shall be generated where applicable. | Approved?
+DS-027-04 | Handle offline mode | iOS | Medium | Result must be visible in mobile UI within expected time. | Need SME
+DS-027-05 | Sync readings to cloud API | Backend API | TBD | System shall complete the action without data loss. | Rejected once
+DS-027-06 | Capture heart rate from paired device | Android/iOS | TBD | TBD by clinical SME - intentionally incomplete. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 028 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-028-01 | Export readings as PDF/CSV | Notification Service | Low | User shall receive clear error message on failure. | Need SME
+DS-028-02 | Sync readings to cloud API | Bluetooth Sensor | TBD | Result must be visible in mobile UI within expected time. | Pending QA
+DS-028-03 | Notification retry and suppression | Local DB | Medium | System shall complete the action without data loss. | Draft
+DS-028-04 | Support caregiver view | Cloud Sync | Low | TBD by clinical SME - intentionally incomplete. | Rejected once
+DS-028-05 | Battery and Bluetooth warning | Local DB | High | User shall receive clear error message on failure. | Rejected once
+DS-028-06 | Consent capture and privacy notice | Cloud Sync | Low | Result must be visible in mobile UI within expected time. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 029 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-029-01 | Sync readings to cloud API | Android/iOS | Medium | Audit/event record shall be generated where applicable. | Need SME
+DS-029-02 | Validate sensor data range | Local DB | High | Audit/event record shall be generated where applicable. | Rejected once
+DS-029-03 | Battery and Bluetooth warning | Android/iOS | High | Result must be visible in mobile UI within expected time. | In Review
+DS_29.4 | Battery and Bluetooth warning | Notification Service | Low | Data shall be encrypted in transit and at rest. | In Review
+DS-029-05 | Handle offline mode | iOS | High | User shall receive clear error message on failure. | Approved?
+DS-029-06 | Sync readings to cloud API | Android/iOS | Low | Result must be visible in mobile UI within expected time. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 030 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-030-01 | Handle offline mode | iOS | Medium | System shall complete the action without data loss. | In Review
+DS-030-02 | Handle offline mode | Cloud Sync | Not ranked | User shall receive clear error message on failure. | Rejected once
+DS-030-03 | Export readings as PDF/CSV | Backend API | Not ranked | Audit/event record shall be generated where applicable. | Pending QA
+DS-030-04 | Export readings as PDF/CSV | Notification Service | TBD | Data shall be encrypted in transit and at rest. | Need SME
+DS-030-05 | Audit user actions | iOS | Medium | Data shall be encrypted in transit and at rest. | Need SME
+DS-030-06 | Show trend chart for 7/30/90 days | Cloud Sync | Not ranked | User shall receive clear error message on failure. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 031 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-031-01 | Notification retry and suppression | Backend API | TBD | Data shall be encrypted in transit and at rest. | Draft
+DS-031-02 | Audit user actions | Android | TBD | System shall complete the action without data loss. | Approved?
+DS-031-03 | Validate sensor data range | iOS | High | User shall receive clear error message on failure. | Pending QA
+DS-031-04 | Export readings as PDF/CSV | Cloud Sync | Medium | User shall receive clear error message on failure. | Rejected once
+DS-031-05 | Notification retry and suppression | Android | High | Data shall be encrypted in transit and at rest. | In Review
+DS-031-06 | Notification retry and suppression | Cloud Sync | High | User shall receive clear error message on failure. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 032 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-032-01 | Export readings as PDF/CSV | Local DB | TBD | Result must be visible in mobile UI within expected time. | Rejected once
+DS-032-02 | Export readings as PDF/CSV | Cloud Sync | Not ranked | System shall complete the action without data loss. | Pending QA
+DS-032-03 | Export readings as PDF/CSV | Bluetooth Sensor | Not ranked | TBD by clinical SME - intentionally incomplete. | Approved?
+DS_32.4 | Sync readings to cloud API | Local DB | Not ranked | Audit/event record shall be generated where applicable. | Pending QA
+DS-032-05 | Display current BPM with timestamp | Android/iOS | TBD | Audit/event record shall be generated where applicable. | In Review
+DS-032-06 | Biometric login option | Notification Service | TBD | Result must be visible in mobile UI within expected time. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 033 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-033-01 | Generate high/low heart-rate alert | Backend API | Low | Result must be visible in mobile UI within expected time. | In Review
+DS-033-02 | Capture heart rate from paired device | iOS | Not ranked | System shall complete the action without data loss. | Pending QA
+DS-033-03 | Manual heart rate entry when device unavailable | Backend API | High | TBD by clinical SME - intentionally incomplete. | Approved?
+DS-033-04 | Generate high/low heart-rate alert | Notification Service | Low | Data shall be encrypted in transit and at rest. | In Review
+DS-033-05 | Store readings securely on device | Android | TBD | User shall receive clear error message on failure. | Rejected once
+DS-033-06 | Consent capture and privacy notice | Local DB | TBD | TBD by clinical SME - intentionally incomplete. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 034 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-034-01 | Export readings as PDF/CSV | iOS | TBD | User shall receive clear error message on failure. | In Review
+DS-034-02 | Capture heart rate from paired device | Notification Service | Medium | TBD by clinical SME - intentionally incomplete. | Rejected once
+DS-034-03 | Audit user actions | Android/iOS | Low | TBD by clinical SME - intentionally incomplete. | Rejected once
+DS-034-04 | Store readings securely on device | Android/iOS | Medium | Data shall be encrypted in transit and at rest. | Draft
+DS-034-05 | Sync readings to cloud API | Cloud Sync | Medium | System shall complete the action without data loss. | Draft
+DS-034-06 | Consent capture and privacy notice | Notification Service | Not ranked | Result must be visible in mobile UI within expected time. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 035 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-035-01 | Store readings securely on device | Bluetooth Sensor | High | System shall complete the action without data loss. | Pending QA
+DS-035-02 | Sync readings to cloud API | Notification Service | TBD | Result must be visible in mobile UI within expected time. | Need SME
+DS-035-03 | Validate sensor data range | Notification Service | High | Data shall be encrypted in transit and at rest. | Draft
+DS-035-04 | Export readings as PDF/CSV | Cloud Sync | High | TBD by clinical SME - intentionally incomplete. | Need SME
+DS-035-05 | Export readings as PDF/CSV | Notification Service | Low | System shall complete the action without data loss. | Approved?
+DS-035-06 | Audit user actions | Android | Low | Result must be visible in mobile UI within expected time. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 036 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-036-01 | Validate sensor data range | Android | High | Data shall be encrypted in transit and at rest. | Rejected once
+DS-036-02 | Biometric login option | Android | TBD | User shall receive clear error message on failure. | In Review
+DS-036-03 | Validate sensor data range | Android | TBD | Data shall be encrypted in transit and at rest. | Pending QA
+DS-036-04 | Notification retry and suppression | Android/iOS | Medium | System shall complete the action without data loss. | Rejected once
+DS-036-05 | Notification retry and suppression | Backend API | Not ranked | Audit/event record shall be generated where applicable. | Pending QA
+DS-036-06 | Consent capture and privacy notice | iOS | Not ranked | System shall complete the action without data loss. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 037 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-037-01 | Battery and Bluetooth warning | Android/iOS | Not ranked | User shall receive clear error message on failure. | Draft
+DS-037-02 | Support caregiver view | Local DB | High | Audit/event record shall be generated where applicable. | Need SME
+DS-037-03 | Audit user actions | Bluetooth Sensor | TBD | User shall receive clear error message on failure. | In Review
+DS-037-04 | Validate sensor data range | iOS | TBD | System shall complete the action without data loss. | Approved?
+DS_37.5 | Validate sensor data range | Android/iOS | High | Result must be visible in mobile UI within expected time. | Need SME
+DS_37.6 | Generate high/low heart-rate alert | Android/iOS | TBD | User shall receive clear error message on failure. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 038 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-038-01 | Consent capture and privacy notice | Cloud Sync | Medium | System shall complete the action without data loss. | Pending QA
+DS-038-02 | Manual heart rate entry when device unavailable | Local DB | Low | Audit/event record shall be generated where applicable. | Pending QA
+DS-038-03 | Battery and Bluetooth warning | Android/iOS | Low | User shall receive clear error message on failure. | Draft
+DS-038-04 | Capture heart rate from paired device | Local DB | High | Audit/event record shall be generated where applicable. | Need SME
+DS-038-05 | Battery and Bluetooth warning | Local DB | Medium | Audit/event record shall be generated where applicable. | Approved?
+DS-038-06 | Audit user actions | Android | High | Data shall be encrypted in transit and at rest. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 039 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-039-01 | Show trend chart for 7/30/90 days | Cloud Sync | High | Data shall be encrypted in transit and at rest. | Rejected once
+DS_39.2 | Notification retry and suppression | Notification Service | Low | TBD by clinical SME - intentionally incomplete. | Draft
+DS-039-03 | Generate high/low heart-rate alert | iOS | Medium | User shall receive clear error message on failure. | Draft
+DS-039-04 | Show trend chart for 7/30/90 days | Notification Service | TBD | Data shall be encrypted in transit and at rest. | Rejected once
+DS-039-05 | Consent capture and privacy notice | Cloud Sync | TBD | System shall complete the action without data loss. | Draft
+DS-039-06 | Manual heart rate entry when device unavailable | iOS | Not ranked | User shall receive clear error message on failure. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 040 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-040-01 | Notification retry and suppression | Notification Service | High | TBD by clinical SME - intentionally incomplete. | Approved?
+DS-040-02 | Audit user actions | Android/iOS | Low | User shall receive clear error message on failure. | Need SME
+DS-040-03 | Sync readings to cloud API | Android/iOS | TBD | Data shall be encrypted in transit and at rest. | In Review
+DS-040-04 | Notification retry and suppression | Backend API | Low | Data shall be encrypted in transit and at rest. | Rejected once
+DS-040-05 | Generate high/low heart-rate alert | Cloud Sync | Low | System shall complete the action without data loss. | Rejected once
+DS-040-06 | Manual heart rate entry when device unavailable | Notification Service | Medium | TBD by clinical SME - intentionally incomplete. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 041 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS_41.1 | Store readings securely on device | Bluetooth Sensor | Not ranked | User shall receive clear error message on failure. | Need SME
+DS-041-02 | Validate sensor data range | Android | TBD | Result must be visible in mobile UI within expected time. | Pending QA
+DS-041-03 | Biometric login option | Cloud Sync | TBD | System shall complete the action without data loss. | Need SME
+DS-041-04 | Display current BPM with timestamp | Backend API | TBD | Data shall be encrypted in transit and at rest. | Draft
+DS-041-05 | Validate sensor data range | Local DB | Low | User shall receive clear error message on failure. | Pending QA
+DS-041-06 | Support caregiver view | Android | High | Result must be visible in mobile UI within expected time. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 042 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-042-01 | Notification retry and suppression | Android/iOS | High | Data shall be encrypted in transit and at rest. | Pending QA
+DS-042-02 | Show trend chart for 7/30/90 days | Cloud Sync | TBD | User shall receive clear error message on failure. | Pending QA
+DS-042-03 | Battery and Bluetooth warning | iOS | Not ranked | Audit/event record shall be generated where applicable. | Pending QA
+DS_42.4 | Generate high/low heart-rate alert | Notification Service | Low | Result must be visible in mobile UI within expected time. | Pending QA
+DS-042-05 | Generate high/low heart-rate alert | Notification Service | High | TBD by clinical SME - intentionally incomplete. | Draft
+DS-042-06 | Handle offline mode | Cloud Sync | Medium | Audit/event record shall be generated where applicable. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 043 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-043-01 | Sync readings to cloud API | Cloud Sync | High | Data shall be encrypted in transit and at rest. | Need SME
+DS-043-02 | Display current BPM with timestamp | Bluetooth Sensor | Low | Data shall be encrypted in transit and at rest. | Need SME
+DS-043-03 | Battery and Bluetooth warning | Notification Service | Medium | System shall complete the action without data loss. | Rejected once
+DS-043-04 | Support caregiver view | Backend API | Medium | User shall receive clear error message on failure. | Rejected once
+DS-043-05 | Display current BPM with timestamp | iOS | Medium | Result must be visible in mobile UI within expected time. | Draft
+DS-043-06 | Manual heart rate entry when device unavailable | Android | TBD | TBD by clinical SME - intentionally incomplete. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 044 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-044-01 | Validate sensor data range | Local DB | TBD | Audit/event record shall be generated where applicable. | Rejected once
+DS-044-02 | Sync readings to cloud API | Android | TBD | System shall complete the action without data loss. | Approved?
+DS-044-03 | Export readings as PDF/CSV | iOS | Medium | Data shall be encrypted in transit and at rest. | Approved?
+DS-044-04 | Generate high/low heart-rate alert | Android/iOS | High | User shall receive clear error message on failure. | In Review
+DS-044-05 | Manual heart rate entry when device unavailable | Android/iOS | Medium | System shall complete the action without data loss. | Draft
+DS-044-06 | Audit user actions | Android | Medium | Audit/event record shall be generated where applicable. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 045 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-045-01 | Sync readings to cloud API | iOS | Not ranked | System shall complete the action without data loss. | Approved?
+DS_45.2 | Audit user actions | iOS | TBD | Result must be visible in mobile UI within expected time. | Draft
+DS-045-03 | Sync readings to cloud API | Notification Service | Medium | System shall complete the action without data loss. | Pending QA
+DS-045-04 | Sync readings to cloud API | Bluetooth Sensor | Not ranked | TBD by clinical SME - intentionally incomplete. | Draft
+DS-045-05 | Battery and Bluetooth warning | Local DB | Medium | Audit/event record shall be generated where applicable. | Approved?
+DS-045-06 | Store readings securely on device | iOS | Low | Data shall be encrypted in transit and at rest. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 046 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-046-01 | Biometric login option | Cloud Sync | Not ranked | Result must be visible in mobile UI within expected time. | Need SME
+DS-046-02 | Display current BPM with timestamp | Cloud Sync | High | Result must be visible in mobile UI within expected time. | Pending QA
+DS-046-03 | Show trend chart for 7/30/90 days | Notification Service | Low | System shall complete the action without data loss. | Rejected once
+DS_46.4 | Show trend chart for 7/30/90 days | Local DB | Medium | Data shall be encrypted in transit and at rest. | In Review
+DS-046-05 | Manual heart rate entry when device unavailable | Notification Service | High | User shall receive clear error message on failure. | Approved?
+DS-046-06 | Generate high/low heart-rate alert | Bluetooth Sensor | TBD | Data shall be encrypted in transit and at rest. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 047 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS_47.1 | Consent capture and privacy notice | Bluetooth Sensor | High | Data shall be encrypted in transit and at rest. | Draft
+DS-047-02 | Audit user actions | iOS | Medium | Audit/event record shall be generated where applicable. | Pending QA
+DS-047-03 | Battery and Bluetooth warning | Notification Service | Medium | Result must be visible in mobile UI within expected time. | Approved?
+DS-047-04 | Export readings as PDF/CSV | Android | TBD | Audit/event record shall be generated where applicable. | In Review
+DS-047-05 | Display current BPM with timestamp | Android/iOS | TBD | TBD by clinical SME - intentionally incomplete. | Draft
+DS-047-06 | Manual heart rate entry when device unavailable | Backend API | High | Data shall be encrypted in transit and at rest. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 048 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-048-01 | Audit user actions | Cloud Sync | Medium | Audit/event record shall be generated where applicable. | In Review
+DS-048-02 | Generate high/low heart-rate alert | Backend API | Low | Result must be visible in mobile UI within expected time. | Rejected once
+DS_48.3 | Display current BPM with timestamp | Notification Service | Not ranked | Audit/event record shall be generated where applicable. | Pending QA
+DS-048-04 | Display current BPM with timestamp | Notification Service | High | Result must be visible in mobile UI within expected time. | Draft
+DS-048-05 | Store readings securely on device | Local DB | TBD | Data shall be encrypted in transit and at rest. | Approved?
+DS-048-06 | Sync readings to cloud API | Android | High | Data shall be encrypted in transit and at rest. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 049 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-049-01 | Battery and Bluetooth warning | Bluetooth Sensor | Low | Result must be visible in mobile UI within expected time. | Need SME
+DS-049-02 | Generate high/low heart-rate alert | Local DB | Not ranked | Audit/event record shall be generated where applicable. | Approved?
+DS-049-03 | Battery and Bluetooth warning | Backend API | Medium | Audit/event record shall be generated where applicable. | Approved?
+DS-049-04 | Handle offline mode | Android/iOS | Low | TBD by clinical SME - intentionally incomplete. | Pending QA
+DS-049-05 | Validate sensor data range | Backend API | Not ranked | TBD by clinical SME - intentionally incomplete. | Approved?
+DS-049-06 | Export readings as PDF/CSV | Android | High | Result must be visible in mobile UI within expected time. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 050 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-050-01 | Generate high/low heart-rate alert | Notification Service | TBD | Data shall be encrypted in transit and at rest. | Need SME
+DS-050-02 | Support caregiver view | Notification Service | Not ranked | Result must be visible in mobile UI within expected time. | Approved?
+DS-050-03 | Validate sensor data range | iOS | TBD | Audit/event record shall be generated where applicable. | Rejected once
+DS-050-04 | Capture heart rate from paired device | Android | Medium | Result must be visible in mobile UI within expected time. | Rejected once
+DS_50.5 | Export readings as PDF/CSV | Notification Service | Not ranked | User shall receive clear error message on failure. | Rejected once
+DS_50.6 | Handle offline mode | iOS | Low | Data shall be encrypted in transit and at rest. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 051 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-051-01 | Manual heart rate entry when device unavailable | Android | High | TBD by clinical SME - intentionally incomplete. | Approved?
+DS-051-02 | Support caregiver view | Android | Low | Data shall be encrypted in transit and at rest. | Need SME
+DS-051-03 | Store readings securely on device | Notification Service | High | User shall receive clear error message on failure. | Need SME
+DS-051-04 | Consent capture and privacy notice | iOS | Low | Result must be visible in mobile UI within expected time. | Rejected once
+DS_51.5 | Biometric login option | iOS | Low | Audit/event record shall be generated where applicable. | In Review
+DS-051-06 | Export readings as PDF/CSV | Local DB | High | TBD by clinical SME - intentionally incomplete. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 052 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-052-01 | Capture heart rate from paired device | iOS | TBD | TBD by clinical SME - intentionally incomplete. | Pending QA
+DS_52.2 | Support caregiver view | Backend API | High | System shall complete the action without data loss. | Draft
+DS-052-03 | Audit user actions | Android/iOS | Medium | Audit/event record shall be generated where applicable. | Approved?
+DS_52.4 | Handle offline mode | Android | Low | Audit/event record shall be generated where applicable. | Rejected once
+DS_52.5 | Support caregiver view | Backend API | Medium | Result must be visible in mobile UI within expected time. | Need SME
+DS-052-06 | Generate high/low heart-rate alert | Android | Not ranked | User shall receive clear error message on failure. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 053 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS_53.1 | Generate high/low heart-rate alert | iOS | Low | Data shall be encrypted in transit and at rest. | Approved?
+DS-053-02 | Store readings securely on device | Android/iOS | TBD | Audit/event record shall be generated where applicable. | Need SME
+DS-053-03 | Show trend chart for 7/30/90 days | Cloud Sync | Low | User shall receive clear error message on failure. | Approved?
+DS-053-04 | Sync readings to cloud API | iOS | Medium | Data shall be encrypted in transit and at rest. | Pending QA
+DS-053-05 | Generate high/low heart-rate alert | Backend API | High | Data shall be encrypted in transit and at rest. | Need SME
+DS-053-06 | Export readings as PDF/CSV | Notification Service | TBD | Audit/event record shall be generated where applicable. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 054 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-054-01 | Export readings as PDF/CSV | Android | TBD | Result must be visible in mobile UI within expected time. | Need SME
+DS-054-02 | Validate sensor data range | Android | Medium | Audit/event record shall be generated where applicable. | Approved?
+DS-054-03 | Export readings as PDF/CSV | Android/iOS | TBD | System shall complete the action without data loss. | Approved?
+DS-054-04 | Biometric login option | Android | Medium | Audit/event record shall be generated where applicable. | Pending QA
+DS-054-05 | Validate sensor data range | Notification Service | Not ranked | TBD by clinical SME - intentionally incomplete. | In Review
+DS-054-06 | Store readings securely on device | Android/iOS | Medium | Audit/event record shall be generated where applicable. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 055 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-055-01 | Handle offline mode | Notification Service | Low | User shall receive clear error message on failure. | Need SME
+DS_55.2 | Consent capture and privacy notice | Cloud Sync | Medium | Result must be visible in mobile UI within expected time. | In Review
+DS-055-03 | Biometric login option | Local DB | TBD | Data shall be encrypted in transit and at rest. | In Review
+DS-055-04 | Sync readings to cloud API | Notification Service | Medium | Data shall be encrypted in transit and at rest. | Pending QA
+DS_55.5 | Audit user actions | Notification Service | High | Audit/event record shall be generated where applicable. | Rejected once
+DS_55.6 | Capture heart rate from paired device | Local DB | TBD | User shall receive clear error message on failure. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 056 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-056-01 | Manual heart rate entry when device unavailable | Android | TBD | TBD by clinical SME - intentionally incomplete. | Pending QA
+DS-056-02 | Show trend chart for 7/30/90 days | Backend API | Not ranked | Result must be visible in mobile UI within expected time. | Rejected once
+DS-056-03 | Export readings as PDF/CSV | Cloud Sync | Not ranked | Data shall be encrypted in transit and at rest. | Approved?
+DS-056-04 | Store readings securely on device | Local DB | Not ranked | User shall receive clear error message on failure. | Need SME
+DS-056-05 | Battery and Bluetooth warning | Local DB | TBD | User shall receive clear error message on failure. | Approved?
+DS_56.6 | Battery and Bluetooth warning | Local DB | Low | TBD by clinical SME - intentionally incomplete. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 057 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-057-01 | Show trend chart for 7/30/90 days | Cloud Sync | High | TBD by clinical SME - intentionally incomplete. | In Review
+DS-057-02 | Consent capture and privacy notice | Android | High | TBD by clinical SME - intentionally incomplete. | Pending QA
+DS-057-03 | Capture heart rate from paired device | Bluetooth Sensor | Not ranked | Result must be visible in mobile UI within expected time. | Approved?
+DS_57.4 | Export readings as PDF/CSV | Cloud Sync | Not ranked | Data shall be encrypted in transit and at rest. | Rejected once
+DS-057-05 | Validate sensor data range | Bluetooth Sensor | TBD | TBD by clinical SME - intentionally incomplete. | Draft
+DS-057-06 | Biometric login option | Bluetooth Sensor | TBD | Result must be visible in mobile UI within expected time. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 058 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-058-01 | Biometric login option | iOS | TBD | Audit/event record shall be generated where applicable. | In Review
+DS-058-02 | Show trend chart for 7/30/90 days | Local DB | TBD | Audit/event record shall be generated where applicable. | Draft
+DS-058-03 | Show trend chart for 7/30/90 days | Backend API | Low | User shall receive clear error message on failure. | Approved?
+DS-058-04 | Manual heart rate entry when device unavailable | Android/iOS | High | TBD by clinical SME - intentionally incomplete. | Need SME
+DS-058-05 | Show trend chart for 7/30/90 days | Bluetooth Sensor | Low | TBD by clinical SME - intentionally incomplete. | Need SME
+DS_58.6 | Audit user actions | Cloud Sync | High | Data shall be encrypted in transit and at rest. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 059 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-059-01 | Display current BPM with timestamp | Android/iOS | Medium | Data shall be encrypted in transit and at rest. | Pending QA
+DS_59.2 | Biometric login option | Android/iOS | Low | System shall complete the action without data loss. | Draft
+DS-059-03 | Validate sensor data range | Cloud Sync | Medium | Result must be visible in mobile UI within expected time. | Draft
+DS-059-04 | Show trend chart for 7/30/90 days | Local DB | Not ranked | Result must be visible in mobile UI within expected time. | Rejected once
+DS_59.5 | Support caregiver view | iOS | Low | Audit/event record shall be generated where applicable. | Draft
+DS_59.6 | Export readings as PDF/CSV | Notification Service | TBD | Result must be visible in mobile UI within expected time. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 060 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-060-01 | Sync readings to cloud API | Android | High | Result must be visible in mobile UI within expected time. | Rejected once
+DS-060-02 | Support caregiver view | Backend API | Not ranked | Data shall be encrypted in transit and at rest. | In Review
+DS_60.3 | Battery and Bluetooth warning | Notification Service | High | System shall complete the action without data loss. | Draft
+DS-060-04 | Capture heart rate from paired device | Local DB | Not ranked | Result must be visible in mobile UI within expected time. | Need SME
+DS-060-05 | Show trend chart for 7/30/90 days | Local DB | Medium | Result must be visible in mobile UI within expected time. | Rejected once
+DS-060-06 | Display current BPM with timestamp | Android/iOS | Low | Data shall be encrypted in transit and at rest. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 061 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS_61.1 | Handle offline mode | Android | Medium | User shall receive clear error message on failure. | In Review
+DS-061-02 | Handle offline mode | Cloud Sync | TBD | System shall complete the action without data loss. | Need SME
+DS-061-03 | Notification retry and suppression | iOS | Not ranked | TBD by clinical SME - intentionally incomplete. | Pending QA
+DS-061-04 | Generate high/low heart-rate alert | Notification Service | Not ranked | System shall complete the action without data loss. | In Review
+DS_61.5 | Sync readings to cloud API | Android/iOS | Low | Audit/event record shall be generated where applicable. | Rejected once
+DS_61.6 | Validate sensor data range | Cloud Sync | Not ranked | Result must be visible in mobile UI within expected time. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 062 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-062-01 | Generate high/low heart-rate alert | Local DB | High | User shall receive clear error message on failure. | Approved?
+DS-062-02 | Generate high/low heart-rate alert | Cloud Sync | Medium | System shall complete the action without data loss. | Pending QA
+DS-062-03 | Audit user actions | Local DB | Medium | Audit/event record shall be generated where applicable. | Pending QA
+DS-062-04 | Manual heart rate entry when device unavailable | Notification Service | High | Data shall be encrypted in transit and at rest. | Need SME
+DS-062-05 | Biometric login option | Notification Service | Low | Audit/event record shall be generated where applicable. | Approved?
+DS_62.6 | Audit user actions | iOS | High | Audit/event record shall be generated where applicable. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 063 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-063-01 | Display current BPM with timestamp | iOS | High | User shall receive clear error message on failure. | Approved?
+DS_63.2 | Show trend chart for 7/30/90 days | Bluetooth Sensor | Low | TBD by clinical SME - intentionally incomplete. | Pending QA
+DS-063-03 | Battery and Bluetooth warning | Android | TBD | System shall complete the action without data loss. | Draft
+DS-063-04 | Display current BPM with timestamp | Backend API | TBD | Data shall be encrypted in transit and at rest. | Pending QA
+DS-063-05 | Display current BPM with timestamp | Backend API | TBD | User shall receive clear error message on failure. | In Review
+DS-063-06 | Biometric login option | Backend API | Medium | Data shall be encrypted in transit and at rest. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 064 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-064-01 | Support caregiver view | Notification Service | Medium | System shall complete the action without data loss. | Pending QA
+DS-064-02 | Store readings securely on device | Cloud Sync | High | Audit/event record shall be generated where applicable. | Need SME
+DS-064-03 | Store readings securely on device | Backend API | High | System shall complete the action without data loss. | Rejected once
+DS_64.4 | Capture heart rate from paired device | Backend API | TBD | User shall receive clear error message on failure. | Rejected once
+DS-064-05 | Biometric login option | iOS | Not ranked | Data shall be encrypted in transit and at rest. | In Review
+DS-064-06 | Audit user actions | Notification Service | Low | User shall receive clear error message on failure. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 065 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-065-01 | Consent capture and privacy notice | Android | Low | User shall receive clear error message on failure. | Pending QA
+DS-065-02 | Export readings as PDF/CSV | Android/iOS | TBD | Audit/event record shall be generated where applicable. | Approved?
+DS-065-03 | Manual heart rate entry when device unavailable | Notification Service | Not ranked | Audit/event record shall be generated where applicable. | In Review
+DS-065-04 | Support caregiver view | Local DB | Medium | Data shall be encrypted in transit and at rest. | Pending QA
+DS-065-05 | Biometric login option | Cloud Sync | High | Result must be visible in mobile UI within expected time. | Draft
+DS-065-06 | Notification retry and suppression | Local DB | Medium | User shall receive clear error message on failure. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 066 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-066-01 | Show trend chart for 7/30/90 days | Backend API | High | User shall receive clear error message on failure. | Approved?
+DS-066-02 | Validate sensor data range | Bluetooth Sensor | Medium | System shall complete the action without data loss. | Need SME
+DS-066-03 | Validate sensor data range | iOS | High | User shall receive clear error message on failure. | Need SME
+DS-066-04 | Consent capture and privacy notice | iOS | TBD | Audit/event record shall be generated where applicable. | Pending QA
+DS-066-05 | Notification retry and suppression | Notification Service | TBD | TBD by clinical SME - intentionally incomplete. | Need SME
+DS-066-06 | Biometric login option | Cloud Sync | Medium | Audit/event record shall be generated where applicable. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 067 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-067-01 | Generate high/low heart-rate alert | iOS | Low | System shall complete the action without data loss. | Approved?
+DS_67.2 | Capture heart rate from paired device | Backend API | High | Result must be visible in mobile UI within expected time. | Draft
+DS_67.3 | Show trend chart for 7/30/90 days | Android/iOS | High | TBD by clinical SME - intentionally incomplete. | Rejected once
+DS-067-04 | Support caregiver view | Backend API | Low | User shall receive clear error message on failure. | Draft
+DS-067-05 | Consent capture and privacy notice | iOS | High | System shall complete the action without data loss. | Pending QA
+DS-067-06 | Battery and Bluetooth warning | Android/iOS | Not ranked | Result must be visible in mobile UI within expected time. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 068 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-068-01 | Biometric login option | Backend API | Low | Data shall be encrypted in transit and at rest. | Need SME
+DS-068-02 | Battery and Bluetooth warning | Local DB | Medium | Data shall be encrypted in transit and at rest. | Rejected once
+DS_68.3 | Show trend chart for 7/30/90 days | Notification Service | Medium | System shall complete the action without data loss. | Need SME
+DS-068-04 | Support caregiver view | Backend API | High | Data shall be encrypted in transit and at rest. | Need SME
+DS_68.5 | Battery and Bluetooth warning | Notification Service | Not ranked | User shall receive clear error message on failure. | Draft
+DS-068-06 | Capture heart rate from paired device | Cloud Sync | High | System shall complete the action without data loss. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 069 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-069-01 | Export readings as PDF/CSV | Notification Service | Low | System shall complete the action without data loss. | Pending QA
+DS-069-02 | Handle offline mode | iOS | Low | Data shall be encrypted in transit and at rest. | Approved?
+DS-069-03 | Sync readings to cloud API | Cloud Sync | Medium | Data shall be encrypted in transit and at rest. | In Review
+DS-069-04 | Show trend chart for 7/30/90 days | Cloud Sync | TBD | User shall receive clear error message on failure. | Need SME
+DS_69.5 | Notification retry and suppression | iOS | Not ranked | Result must be visible in mobile UI within expected time. | Approved?
+DS-069-06 | Capture heart rate from paired device | Cloud Sync | Low | Audit/event record shall be generated where applicable. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 070 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-070-01 | Handle offline mode | iOS | Low | User shall receive clear error message on failure. | Rejected once
+DS-070-02 | Consent capture and privacy notice | Android | High | Result must be visible in mobile UI within expected time. | Approved?
+DS-070-03 | Export readings as PDF/CSV | Android | High | User shall receive clear error message on failure. | Pending QA
+DS-070-04 | Export readings as PDF/CSV | Backend API | Medium | Data shall be encrypted in transit and at rest. | Need SME
+DS-070-05 | Audit user actions | Android/iOS | High | Result must be visible in mobile UI within expected time. | Pending QA
+DS-070-06 | Consent capture and privacy notice | Android | Not ranked | System shall complete the action without data loss. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 071 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-071-01 | Battery and Bluetooth warning | Android/iOS | TBD | System shall complete the action without data loss. | Rejected once
+DS-071-02 | Store readings securely on device | Local DB | Medium | TBD by clinical SME - intentionally incomplete. | Need SME
+DS-071-03 | Validate sensor data range | Backend API | Not ranked | Data shall be encrypted in transit and at rest. | Pending QA
+DS_71.4 | Export readings as PDF/CSV | Notification Service | High | Result must be visible in mobile UI within expected time. | Pending QA
+DS-071-05 | Notification retry and suppression | Android/iOS | Low | TBD by clinical SME - intentionally incomplete. | In Review
+DS-071-06 | Sync readings to cloud API | Backend API | Medium | System shall complete the action without data loss. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 072 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-072-01 | Generate high/low heart-rate alert | Notification Service | High | TBD by clinical SME - intentionally incomplete. | Draft
+DS_72.2 | Generate high/low heart-rate alert | Local DB | Not ranked | System shall complete the action without data loss. | Rejected once
+DS-072-03 | Manual heart rate entry when device unavailable | Cloud Sync | High | User shall receive clear error message on failure. | Draft
+DS-072-04 | Audit user actions | iOS | Not ranked | User shall receive clear error message on failure. | In Review
+DS-072-05 | Biometric login option | Backend API | Low | TBD by clinical SME - intentionally incomplete. | Pending QA
+DS-072-06 | Capture heart rate from paired device | iOS | Low | User shall receive clear error message on failure. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 073 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-073-01 | Validate sensor data range | Backend API | Not ranked | System shall complete the action without data loss. | Need SME
+DS-073-02 | Export readings as PDF/CSV | Backend API | TBD | Audit/event record shall be generated where applicable. | Pending QA
+DS-073-03 | Notification retry and suppression | Backend API | Not ranked | System shall complete the action without data loss. | Approved?
+DS-073-04 | Handle offline mode | Backend API | Low | Data shall be encrypted in transit and at rest. | Rejected once
+DS-073-05 | Store readings securely on device | iOS | Not ranked | Data shall be encrypted in transit and at rest. | Need SME
+DS-073-06 | Store readings securely on device | Local DB | Medium | Result must be visible in mobile UI within expected time. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 074 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-074-01 | Validate sensor data range | Backend API | Not ranked | Result must be visible in mobile UI within expected time. | Approved?
+DS-074-02 | Battery and Bluetooth warning | Backend API | High | System shall complete the action without data loss. | Need SME
+DS-074-03 | Generate high/low heart-rate alert | Bluetooth Sensor | Medium | System shall complete the action without data loss. | Draft
+DS-074-04 | Store readings securely on device | Local DB | Low | User shall receive clear error message on failure. | Approved?
+DS-074-05 | Validate sensor data range | Notification Service | High | Result must be visible in mobile UI within expected time. | Need SME
+DS-074-06 | Capture heart rate from paired device | Local DB | Medium | User shall receive clear error message on failure. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 075 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS_75.1 | Store readings securely on device | Android/iOS | Medium | System shall complete the action without data loss. | Pending QA
+DS-075-02 | Support caregiver view | Local DB | Medium | Audit/event record shall be generated where applicable. | Pending QA
+DS_75.3 | Manual heart rate entry when device unavailable | Local DB | Medium | System shall complete the action without data loss. | Pending QA
+DS_75.4 | Audit user actions | iOS | TBD | User shall receive clear error message on failure. | Pending QA
+DS-075-05 | Battery and Bluetooth warning | Local DB | High | Audit/event record shall be generated where applicable. | Draft
+DS-075-06 | Show trend chart for 7/30/90 days | Android | High | User shall receive clear error message on failure. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 076 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS_76.1 | Sync readings to cloud API | Android/iOS | Medium | User shall receive clear error message on failure. | Draft
+DS-076-02 | Battery and Bluetooth warning | Cloud Sync | TBD | TBD by clinical SME - intentionally incomplete. | Pending QA
+DS-076-03 | Validate sensor data range | Android/iOS | High | TBD by clinical SME - intentionally incomplete. | Pending QA
+DS-076-04 | Export readings as PDF/CSV | Backend API | Low | Data shall be encrypted in transit and at rest. | Approved?
+DS-076-05 | Audit user actions | Bluetooth Sensor | Medium | System shall complete the action without data loss. | Rejected once
+DS-076-06 | Support caregiver view | Android | Not ranked | Result must be visible in mobile UI within expected time. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 077 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-077-01 | Support caregiver view | Bluetooth Sensor | TBD | TBD by clinical SME - intentionally incomplete. | Approved?
+DS_77.2 | Notification retry and suppression | Cloud Sync | TBD | Data shall be encrypted in transit and at rest. | Rejected once
+DS-077-03 | Sync readings to cloud API | Backend API | Low | Audit/event record shall be generated where applicable. | Approved?
+DS-077-04 | Battery and Bluetooth warning | Notification Service | Not ranked | Audit/event record shall be generated where applicable. | Rejected once
+DS-077-05 | Notification retry and suppression | Android | Not ranked | TBD by clinical SME - intentionally incomplete. | Need SME
+DS-077-06 | Validate sensor data range | iOS | Not ranked | User shall receive clear error message on failure. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 078 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-078-01 | Export readings as PDF/CSV | Notification Service | Low | System shall complete the action without data loss. | Approved?
+DS-078-02 | Audit user actions | Android | TBD | Audit/event record shall be generated where applicable. | Approved?
+DS-078-03 | Notification retry and suppression | Backend API | Not ranked | User shall receive clear error message on failure. | Need SME
+DS-078-04 | Sync readings to cloud API | Local DB | Low | Audit/event record shall be generated where applicable. | In Review
+DS-078-05 | Show trend chart for 7/30/90 days | Android | TBD | TBD by clinical SME - intentionally incomplete. | Draft
+DS-078-06 | Battery and Bluetooth warning | Android/iOS | TBD | Data shall be encrypted in transit and at rest. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 079 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-079-01 | Handle offline mode | iOS | Medium | TBD by clinical SME - intentionally incomplete. | Rejected once
+DS_79.2 | Battery and Bluetooth warning | iOS | TBD | Data shall be encrypted in transit and at rest. | Approved?
+DS-079-03 | Display current BPM with timestamp | Bluetooth Sensor | TBD | Result must be visible in mobile UI within expected time. | In Review
+DS-079-04 | Validate sensor data range | iOS | High | TBD by clinical SME - intentionally incomplete. | Need SME
+DS-079-05 | Consent capture and privacy notice | Cloud Sync | High | Result must be visible in mobile UI within expected time. | Approved?
+DS-079-06 | Manual heart rate entry when device unavailable | Android/iOS | Not ranked | Result must be visible in mobile UI within expected time. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 080 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-080-01 | Handle offline mode | Notification Service | Medium | TBD by clinical SME - intentionally incomplete. | Approved?
+DS-080-02 | Store readings securely on device | Backend API | Low | System shall complete the action without data loss. | In Review
+DS-080-03 | Validate sensor data range | Android/iOS | High | TBD by clinical SME - intentionally incomplete. | Rejected once
+DS-080-04 | Manual heart rate entry when device unavailable | Cloud Sync | Low | Data shall be encrypted in transit and at rest. | Need SME
+DS-080-05 | Audit user actions | Notification Service | TBD | Result must be visible in mobile UI within expected time. | Rejected once
+DS-080-06 | Sync readings to cloud API | Backend API | Low | System shall complete the action without data loss. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 081 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-081-01 | Notification retry and suppression | Cloud Sync | Medium | Audit/event record shall be generated where applicable. | Approved?
+DS_81.2 | Show trend chart for 7/30/90 days | Bluetooth Sensor | Medium | User shall receive clear error message on failure. | Draft
+DS-081-03 | Notification retry and suppression | Cloud Sync | Medium | User shall receive clear error message on failure. | Approved?
+DS-081-04 | Audit user actions | Notification Service | Not ranked | Data shall be encrypted in transit and at rest. | Rejected once
+DS-081-05 | Battery and Bluetooth warning | Local DB | Not ranked | User shall receive clear error message on failure. | Need SME
+DS-081-06 | Manual heart rate entry when device unavailable | Android/iOS | TBD | Audit/event record shall be generated where applicable. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 082 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-082-01 | Capture heart rate from paired device | Android/iOS | TBD | Data shall be encrypted in transit and at rest. | Approved?
+DS-082-02 | Consent capture and privacy notice | Notification Service | Low | Result must be visible in mobile UI within expected time. | In Review
+DS_82.3 | Export readings as PDF/CSV | Backend API | TBD | Data shall be encrypted in transit and at rest. | Need SME
+DS_82.4 | Export readings as PDF/CSV | Android | Medium | Data shall be encrypted in transit and at rest. | Need SME
+DS-082-05 | Manual heart rate entry when device unavailable | Android | Low | System shall complete the action without data loss. | Draft
+DS-082-06 | Manual heart rate entry when device unavailable | Android | High | User shall receive clear error message on failure. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 083 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-083-01 | Audit user actions | Bluetooth Sensor | Medium | Audit/event record shall be generated where applicable. | Need SME
+DS-083-02 | Sync readings to cloud API | Cloud Sync | Low | Result must be visible in mobile UI within expected time. | Approved?
+DS-083-03 | Biometric login option | Notification Service | Low | Result must be visible in mobile UI within expected time. | Approved?
+DS-083-04 | Manual heart rate entry when device unavailable | Notification Service | High | System shall complete the action without data loss. | Rejected once
+DS-083-05 | Capture heart rate from paired device | Backend API | Low | TBD by clinical SME - intentionally incomplete. | Draft
+DS-083-06 | Biometric login option | Notification Service | High | Data shall be encrypted in transit and at rest. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 084 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-084-01 | Notification retry and suppression | Cloud Sync | Medium | Result must be visible in mobile UI within expected time. | Pending QA
+DS-084-02 | Sync readings to cloud API | Local DB | Low | User shall receive clear error message on failure. | Rejected once
+DS-084-03 | Display current BPM with timestamp | Bluetooth Sensor | High | User shall receive clear error message on failure. | Approved?
+DS-084-04 | Capture heart rate from paired device | iOS | TBD | Audit/event record shall be generated where applicable. | Draft
+DS-084-05 | Display current BPM with timestamp | Bluetooth Sensor | Low | TBD by clinical SME - intentionally incomplete. | Approved?
+DS-084-06 | Display current BPM with timestamp | Backend API | Not ranked | Result must be visible in mobile UI within expected time. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 085 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-085-01 | Manual heart rate entry when device unavailable | Android | Not ranked | Audit/event record shall be generated where applicable. | In Review
+DS-085-02 | Generate high/low heart-rate alert | Local DB | High | User shall receive clear error message on failure. | Pending QA
+DS-085-03 | Show trend chart for 7/30/90 days | Local DB | Low | TBD by clinical SME - intentionally incomplete. | Draft
+DS-085-04 | Show trend chart for 7/30/90 days | Backend API | Medium | TBD by clinical SME - intentionally incomplete. | Rejected once
+DS-085-05 | Consent capture and privacy notice | Notification Service | High | Result must be visible in mobile UI within expected time. | Rejected once
+DS-085-06 | Validate sensor data range | Backend API | Low | User shall receive clear error message on failure. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 086 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS_86.1 | Show trend chart for 7/30/90 days | Android/iOS | TBD | Data shall be encrypted in transit and at rest. | In Review
+DS-086-02 | Manual heart rate entry when device unavailable | Backend API | High | System shall complete the action without data loss. | Pending QA
+DS_86.3 | Notification retry and suppression | Notification Service | High | Data shall be encrypted in transit and at rest. | Draft
+DS_86.4 | Capture heart rate from paired device | Local DB | Not ranked | User shall receive clear error message on failure. | Rejected once
+DS-086-05 | Notification retry and suppression | iOS | Low | Result must be visible in mobile UI within expected time. | In Review
+DS-086-06 | Sync readings to cloud API | Local DB | Medium | Result must be visible in mobile UI within expected time. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 087 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-087-01 | Consent capture and privacy notice | Android/iOS | Low | System shall complete the action without data loss. | Rejected once
+DS-087-02 | Export readings as PDF/CSV | iOS | Not ranked | System shall complete the action without data loss. | In Review
+DS-087-03 | Generate high/low heart-rate alert | Bluetooth Sensor | TBD | Result must be visible in mobile UI within expected time. | Need SME
+DS-087-04 | Handle offline mode | Local DB | High | User shall receive clear error message on failure. | Draft
+DS-087-05 | Show trend chart for 7/30/90 days | iOS | High | Result must be visible in mobile UI within expected time. | In Review
+DS-087-06 | Manual heart rate entry when device unavailable | Android | High | Result must be visible in mobile UI within expected time. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 088 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-088-01 | Show trend chart for 7/30/90 days | Android | High | Result must be visible in mobile UI within expected time. | Pending QA
+DS-088-02 | Audit user actions | Backend API | High | Result must be visible in mobile UI within expected time. | Draft
+DS-088-03 | Show trend chart for 7/30/90 days | Cloud Sync | Low | Data shall be encrypted in transit and at rest. | Rejected once
+DS-088-04 | Validate sensor data range | Android/iOS | Medium | Audit/event record shall be generated where applicable. | Rejected once
+DS-088-05 | Export readings as PDF/CSV | Cloud Sync | Medium | TBD by clinical SME - intentionally incomplete. | In Review
+DS-088-06 | Export readings as PDF/CSV | iOS | TBD | System shall complete the action without data loss. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 089 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-089-01 | Consent capture and privacy notice | Bluetooth Sensor | Low | Audit/event record shall be generated where applicable. | Rejected once
+DS-089-02 | Support caregiver view | Local DB | High | Result must be visible in mobile UI within expected time. | Pending QA
+DS_89.3 | Store readings securely on device | Notification Service | Medium | Data shall be encrypted in transit and at rest. | Draft
+DS_89.4 | Validate sensor data range | Bluetooth Sensor | Low | User shall receive clear error message on failure. | Pending QA
+DS-089-05 | Biometric login option | Android | Medium | Data shall be encrypted in transit and at rest. | Approved?
+DS_89.6 | Generate high/low heart-rate alert | Cloud Sync | High | TBD by clinical SME - intentionally incomplete. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 090 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-090-01 | Consent capture and privacy notice | Cloud Sync | Medium | Result must be visible in mobile UI within expected time. | Pending QA
+DS_90.2 | Support caregiver view | Notification Service | Medium | TBD by clinical SME - intentionally incomplete. | Need SME
+DS-090-03 | Battery and Bluetooth warning | Android/iOS | Not ranked | Result must be visible in mobile UI within expected time. | Need SME
+DS-090-04 | Sync readings to cloud API | Backend API | Low | TBD by clinical SME - intentionally incomplete. | Rejected once
+DS-090-05 | Display current BPM with timestamp | Backend API | Medium | TBD by clinical SME - intentionally incomplete. | Pending QA
+DS-090-06 | Battery and Bluetooth warning | Cloud Sync | TBD | Data shall be encrypted in transit and at rest. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 091 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-091-01 | Export readings as PDF/CSV | iOS | Not ranked | Data shall be encrypted in transit and at rest. | In Review
+DS-091-02 | Handle offline mode | Notification Service | High | Result must be visible in mobile UI within expected time. | Approved?
+DS-091-03 | Biometric login option | Notification Service | High | Result must be visible in mobile UI within expected time. | Draft
+DS-091-04 | Capture heart rate from paired device | Local DB | Low | Audit/event record shall be generated where applicable. | Approved?
+DS_91.5 | Validate sensor data range | Android/iOS | TBD | System shall complete the action without data loss. | Draft
+DS-091-06 | Generate high/low heart-rate alert | Cloud Sync | Medium | Audit/event record shall be generated where applicable. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 092 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-092-01 | Validate sensor data range | Bluetooth Sensor | TBD | TBD by clinical SME - intentionally incomplete. | In Review
+DS-092-02 | Export readings as PDF/CSV | Backend API | Not ranked | Data shall be encrypted in transit and at rest. | Pending QA
+DS-092-03 | Capture heart rate from paired device | Notification Service | Medium | Result must be visible in mobile UI within expected time. | Draft
+DS-092-04 | Biometric login option | Android/iOS | Medium | User shall receive clear error message on failure. | Pending QA
+DS-092-05 | Battery and Bluetooth warning | Android | TBD | User shall receive clear error message on failure. | Rejected once
+DS-092-06 | Generate high/low heart-rate alert | Android | Medium | Result must be visible in mobile UI within expected time. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 093 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-093-01 | Biometric login option | Bluetooth Sensor | Low | System shall complete the action without data loss. | Draft
+DS-093-02 | Store readings securely on device | iOS | Medium | System shall complete the action without data loss. | Pending QA
+DS-093-03 | Validate sensor data range | Bluetooth Sensor | High | Audit/event record shall be generated where applicable. | Draft
+DS_93.4 | Sync readings to cloud API | Local DB | TBD | Data shall be encrypted in transit and at rest. | Need SME
+DS_93.5 | Generate high/low heart-rate alert | Android | TBD | Data shall be encrypted in transit and at rest. | In Review
+DS_93.6 | Export readings as PDF/CSV | Backend API | Low | TBD by clinical SME - intentionally incomplete. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 094 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS_94.1 | Support caregiver view | Backend API | High | Audit/event record shall be generated where applicable. | Pending QA
+DS-094-02 | Handle offline mode | iOS | High | TBD by clinical SME - intentionally incomplete. | In Review
+DS-094-03 | Manual heart rate entry when device unavailable | Local DB | TBD | TBD by clinical SME - intentionally incomplete. | Draft
+DS-094-04 | Capture heart rate from paired device | iOS | Not ranked | System shall complete the action without data loss. | In Review
+DS-094-05 | Export readings as PDF/CSV | Android/iOS | Medium | System shall complete the action without data loss. | Rejected once
+DS-094-06 | Show trend chart for 7/30/90 days | Android/iOS | Low | User shall receive clear error message on failure. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 095 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-095-01 | Store readings securely on device | Android | TBD | TBD by clinical SME - intentionally incomplete. | In Review
+DS-095-02 | Show trend chart for 7/30/90 days | Cloud Sync | High | System shall complete the action without data loss. | Draft
+DS-095-03 | Consent capture and privacy notice | Backend API | Not ranked | Audit/event record shall be generated where applicable. | Need SME
+DS-095-04 | Support caregiver view | Notification Service | High | Audit/event record shall be generated where applicable. | Draft
+DS-095-05 | Show trend chart for 7/30/90 days | iOS | Low | System shall complete the action without data loss. | Draft
+DS-095-06 | Export readings as PDF/CSV | Local DB | Not ranked | System shall complete the action without data loss. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 096 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-096-01 | Display current BPM with timestamp | Notification Service | Low | User shall receive clear error message on failure. | Pending QA
+DS-096-02 | Sync readings to cloud API | Bluetooth Sensor | High | User shall receive clear error message on failure. | Draft
+DS-096-03 | Validate sensor data range | Notification Service | Low | System shall complete the action without data loss. | Pending QA
+DS-096-04 | Display current BPM with timestamp | iOS | Low | TBD by clinical SME - intentionally incomplete. | In Review
+DS-096-05 | Support caregiver view | Bluetooth Sensor | TBD | System shall complete the action without data loss. | Rejected once
+DS-096-06 | Biometric login option | Notification Service | Not ranked | System shall complete the action without data loss. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 097 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS_97.1 | Handle offline mode | iOS | Low | Data shall be encrypted in transit and at rest. | Need SME
+DS-097-02 | Sync readings to cloud API | Android | TBD | TBD by clinical SME - intentionally incomplete. | Approved?
+DS-097-03 | Biometric login option | Android | TBD | TBD by clinical SME - intentionally incomplete. | Need SME
+DS-097-04 | Store readings securely on device | Backend API | TBD | Audit/event record shall be generated where applicable. | Approved?
+DS-097-05 | Support caregiver view | Notification Service | Medium | Audit/event record shall be generated where applicable. | Approved?
+DS_97.6 | Export readings as PDF/CSV | Android/iOS | High | System shall complete the action without data loss. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 098 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-098-01 | Show trend chart for 7/30/90 days | Notification Service | High | TBD by clinical SME - intentionally incomplete. | Draft
+DS-098-02 | Audit user actions | Android | TBD | Data shall be encrypted in transit and at rest. | Need SME
+DS-098-03 | Battery and Bluetooth warning | Notification Service | TBD | Data shall be encrypted in transit and at rest. | Need SME
+DS-098-04 | Display current BPM with timestamp | iOS | Low | User shall receive clear error message on failure. | Need SME
+DS-098-05 | Consent capture and privacy notice | Android | Not ranked | Result must be visible in mobile UI within expected time. | Rejected once
+DS-098-06 | Biometric login option | Notification Service | TBD | Result must be visible in mobile UI within expected time. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 099 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS_99.1 | Generate high/low heart-rate alert | Local DB | High | Audit/event record shall be generated where applicable. | In Review
+DS_99.2 | Handle offline mode | Bluetooth Sensor | Low | User shall receive clear error message on failure. | Need SME
+DS_99.3 | Notification retry and suppression | Android/iOS | Low | Result must be visible in mobile UI within expected time. | Rejected once
+DS-099-04 | Generate high/low heart-rate alert | Android | High | TBD by clinical SME - intentionally incomplete. | Need SME
+DS-099-05 | Audit user actions | Local DB | Not ranked | Result must be visible in mobile UI within expected time. | Draft
+DS-099-06 | Sync readings to cloud API | Android/iOS | Medium | Data shall be encrypted in transit and at rest. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 100 / DS ---
+This DS describes the proposed technical design for the mobile app, backend services, local storage, integrations, data model, UI modules, security controls, and monitoring design. Several blocks intentionally contain repeated headings and inconsistent IDs.
+DS-100-01 | Manual heart rate entry when device unavailable | Bluetooth Sensor | TBD | Result must be visible in mobile UI within expected time. | Pending QA
+DS_100.2 | Handle offline mode | iOS | Not ranked | TBD by clinical SME - intentionally incomplete. | Need SME
+DS-100-03 | Generate high/low heart-rate alert | Android/iOS | Not ranked | TBD by clinical SME - intentionally incomplete. | Rejected once
+DS-100-04 | Show trend chart for 7/30/90 days | Android/iOS | TBD | Audit/event record shall be generated where applicable. | Draft
+DS-100-05 | Export readings as PDF/CSV | Bluetooth Sensor | Low | Data shall be encrypted in transit and at rest. | Pending QA
+DS-100-06 | Store readings securely on device | Notification Service | Low | Audit/event record shall be generated where applicable. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+

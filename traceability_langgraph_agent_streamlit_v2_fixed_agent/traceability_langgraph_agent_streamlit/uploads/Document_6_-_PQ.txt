@@ -1,0 +1,1003 @@
+Document 6 - PQ - Heart Rate Monitor Application
+Synthetic messy validation test document. Not for real medical or regulatory use.
+
+--- PAGE 001 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ_1.1 | Store readings securely on device | iOS | High | Audit/event record shall be generated where applicable. | Need SME
+PQ-001-02 | Manual heart rate entry when device unavailable | Cloud Sync | Low | User shall receive clear error message on failure. | Rejected once
+PQ-001-03 | Store readings securely on device | Android | TBD | System shall complete the action without data loss. | Draft
+PQ_1.4 | Display current BPM with timestamp | Notification Service | High | Result must be visible in mobile UI within expected time. | Draft
+PQ_1.5 | Support caregiver view | Notification Service | Low | Data shall be encrypted in transit and at rest. | Rejected once
+PQ-001-06 | Capture heart rate from paired device | Backend API | Not ranked | System shall complete the action without data loss. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 002 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-002-01 | Support caregiver view | Backend API | Medium | Data shall be encrypted in transit and at rest. | Pending QA
+PQ-002-02 | Export readings as PDF/CSV | Cloud Sync | TBD | Result must be visible in mobile UI within expected time. | Draft
+PQ-002-03 | Notification retry and suppression | Bluetooth Sensor | High | System shall complete the action without data loss. | In Review
+PQ-002-04 | Export readings as PDF/CSV | Android/iOS | Medium | System shall complete the action without data loss. | In Review
+PQ-002-05 | Consent capture and privacy notice | iOS | Not ranked | System shall complete the action without data loss. | Draft
+PQ-002-06 | Handle offline mode | Android/iOS | High | User shall receive clear error message on failure. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 003 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-003-01 | Consent capture and privacy notice | Cloud Sync | Low | System shall complete the action without data loss. | Draft
+PQ-003-02 | Display current BPM with timestamp | Android | TBD | Result must be visible in mobile UI within expected time. | Pending QA
+PQ_3.3 | Handle offline mode | Backend API | Not ranked | System shall complete the action without data loss. | Approved?
+PQ-003-04 | Handle offline mode | Android/iOS | High | Audit/event record shall be generated where applicable. | Need SME
+PQ-003-05 | Generate high/low heart-rate alert | Cloud Sync | Not ranked | Result must be visible in mobile UI within expected time. | In Review
+PQ-003-06 | Biometric login option | Local DB | TBD | Audit/event record shall be generated where applicable. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 004 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ_4.1 | Generate high/low heart-rate alert | Android | Medium | User shall receive clear error message on failure. | Pending QA
+PQ-004-02 | Generate high/low heart-rate alert | iOS | Low | TBD by clinical SME - intentionally incomplete. | Approved?
+PQ-004-03 | Manual heart rate entry when device unavailable | Android/iOS | TBD | System shall complete the action without data loss. | Rejected once
+PQ-004-04 | Biometric login option | Local DB | Medium | Data shall be encrypted in transit and at rest. | Pending QA
+PQ-004-05 | Export readings as PDF/CSV | Notification Service | TBD | System shall complete the action without data loss. | Draft
+PQ_4.6 | Handle offline mode | Bluetooth Sensor | Not ranked | TBD by clinical SME - intentionally incomplete. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 005 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-005-01 | Export readings as PDF/CSV | Bluetooth Sensor | Not ranked | Audit/event record shall be generated where applicable. | Approved?
+PQ-005-02 | Handle offline mode | Cloud Sync | Low | System shall complete the action without data loss. | Approved?
+PQ_5.3 | Display current BPM with timestamp | Local DB | Medium | System shall complete the action without data loss. | Need SME
+PQ-005-04 | Consent capture and privacy notice | Cloud Sync | TBD | User shall receive clear error message on failure. | Approved?
+PQ_5.5 | Sync readings to cloud API | Local DB | Low | TBD by clinical SME - intentionally incomplete. | Rejected once
+PQ-005-06 | Notification retry and suppression | Notification Service | Medium | Data shall be encrypted in transit and at rest. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 006 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ_6.1 | Export readings as PDF/CSV | Bluetooth Sensor | Low | Result must be visible in mobile UI within expected time. | Need SME
+PQ-006-02 | Show trend chart for 7/30/90 days | Backend API | High | TBD by clinical SME - intentionally incomplete. | Need SME
+PQ-006-03 | Consent capture and privacy notice | Android | Not ranked | User shall receive clear error message on failure. | In Review
+PQ-006-04 | Manual heart rate entry when device unavailable | Bluetooth Sensor | Low | Result must be visible in mobile UI within expected time. | Pending QA
+PQ-006-05 | Capture heart rate from paired device | Bluetooth Sensor | Not ranked | Audit/event record shall be generated where applicable. | Rejected once
+PQ-006-06 | Handle offline mode | iOS | Not ranked | Data shall be encrypted in transit and at rest. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 007 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-007-01 | Audit user actions | Bluetooth Sensor | Medium | Data shall be encrypted in transit and at rest. | In Review
+PQ_7.2 | Notification retry and suppression | Backend API | High | Data shall be encrypted in transit and at rest. | Approved?
+PQ-007-03 | Store readings securely on device | Backend API | High | System shall complete the action without data loss. | Draft
+PQ-007-04 | Store readings securely on device | Local DB | Not ranked | System shall complete the action without data loss. | Rejected once
+PQ-007-05 | Capture heart rate from paired device | iOS | Not ranked | TBD by clinical SME - intentionally incomplete. | Draft
+PQ-007-06 | Sync readings to cloud API | Cloud Sync | TBD | Audit/event record shall be generated where applicable. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 008 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-008-01 | Notification retry and suppression | Bluetooth Sensor | Low | System shall complete the action without data loss. | Pending QA
+PQ-008-02 | Store readings securely on device | iOS | Not ranked | System shall complete the action without data loss. | Draft
+PQ_8.3 | Export readings as PDF/CSV | Cloud Sync | Not ranked | Data shall be encrypted in transit and at rest. | Approved?
+PQ-008-04 | Battery and Bluetooth warning | Local DB | Not ranked | TBD by clinical SME - intentionally incomplete. | Pending QA
+PQ-008-05 | Notification retry and suppression | Cloud Sync | Not ranked | Data shall be encrypted in transit and at rest. | In Review
+PQ-008-06 | Audit user actions | iOS | High | Data shall be encrypted in transit and at rest. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 009 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-009-01 | Sync readings to cloud API | Backend API | TBD | System shall complete the action without data loss. | Rejected once
+PQ-009-02 | Biometric login option | iOS | Not ranked | Audit/event record shall be generated where applicable. | In Review
+PQ-009-03 | Support caregiver view | Android/iOS | Medium | User shall receive clear error message on failure. | In Review
+PQ-009-04 | Show trend chart for 7/30/90 days | iOS | Medium | System shall complete the action without data loss. | Pending QA
+PQ-009-05 | Biometric login option | Android/iOS | High | TBD by clinical SME - intentionally incomplete. | Draft
+PQ_9.6 | Support caregiver view | Backend API | High | Audit/event record shall be generated where applicable. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 010 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-010-01 | Show trend chart for 7/30/90 days | Bluetooth Sensor | High | TBD by clinical SME - intentionally incomplete. | Draft
+PQ-010-02 | Support caregiver view | Local DB | Medium | Result must be visible in mobile UI within expected time. | Pending QA
+PQ-010-03 | Handle offline mode | Android/iOS | Medium | System shall complete the action without data loss. | Pending QA
+PQ-010-04 | Sync readings to cloud API | Notification Service | TBD | Data shall be encrypted in transit and at rest. | Need SME
+PQ-010-05 | Handle offline mode | Local DB | Not ranked | Data shall be encrypted in transit and at rest. | In Review
+PQ-010-06 | Audit user actions | Backend API | Not ranked | TBD by clinical SME - intentionally incomplete. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 011 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ_11.1 | Consent capture and privacy notice | Local DB | Not ranked | Result must be visible in mobile UI within expected time. | In Review
+PQ-011-02 | Biometric login option | iOS | Not ranked | System shall complete the action without data loss. | Need SME
+PQ-011-03 | Store readings securely on device | Bluetooth Sensor | Not ranked | User shall receive clear error message on failure. | Rejected once
+PQ_11.4 | Display current BPM with timestamp | Local DB | High | Data shall be encrypted in transit and at rest. | Draft
+PQ_11.5 | Audit user actions | Bluetooth Sensor | Not ranked | User shall receive clear error message on failure. | Rejected once
+PQ-011-06 | Support caregiver view | iOS | Low | User shall receive clear error message on failure. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 012 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-012-01 | Sync readings to cloud API | Android | Medium | Result must be visible in mobile UI within expected time. | Pending QA
+PQ-012-02 | Store readings securely on device | Bluetooth Sensor | Medium | Result must be visible in mobile UI within expected time. | In Review
+PQ-012-03 | Consent capture and privacy notice | Backend API | Medium | Data shall be encrypted in transit and at rest. | Rejected once
+PQ-012-04 | Export readings as PDF/CSV | Android | High | Result must be visible in mobile UI within expected time. | Draft
+PQ-012-05 | Generate high/low heart-rate alert | Local DB | Not ranked | Audit/event record shall be generated where applicable. | Need SME
+PQ-012-06 | Generate high/low heart-rate alert | Android | High | Data shall be encrypted in transit and at rest. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 013 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-013-01 | Support caregiver view | Cloud Sync | Medium | TBD by clinical SME - intentionally incomplete. | Draft
+PQ-013-02 | Manual heart rate entry when device unavailable | Backend API | Medium | Audit/event record shall be generated where applicable. | Approved?
+PQ-013-03 | Show trend chart for 7/30/90 days | Cloud Sync | Medium | System shall complete the action without data loss. | Rejected once
+PQ-013-04 | Show trend chart for 7/30/90 days | iOS | TBD | Result must be visible in mobile UI within expected time. | Pending QA
+PQ-013-05 | Store readings securely on device | iOS | Low | Data shall be encrypted in transit and at rest. | Pending QA
+PQ-013-06 | Display current BPM with timestamp | iOS | Medium | Audit/event record shall be generated where applicable. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 014 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-014-01 | Validate sensor data range | Local DB | High | Result must be visible in mobile UI within expected time. | Pending QA
+PQ-014-02 | Battery and Bluetooth warning | Bluetooth Sensor | TBD | Data shall be encrypted in transit and at rest. | Approved?
+PQ_14.3 | Battery and Bluetooth warning | Local DB | TBD | Data shall be encrypted in transit and at rest. | Approved?
+PQ_14.4 | Audit user actions | Bluetooth Sensor | Not ranked | User shall receive clear error message on failure. | Rejected once
+PQ-014-05 | Store readings securely on device | Notification Service | Not ranked | Data shall be encrypted in transit and at rest. | In Review
+PQ-014-06 | Capture heart rate from paired device | Cloud Sync | Low | Data shall be encrypted in transit and at rest. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 015 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-015-01 | Biometric login option | Android/iOS | Medium | Result must be visible in mobile UI within expected time. | In Review
+PQ_15.2 | Capture heart rate from paired device | Notification Service | TBD | TBD by clinical SME - intentionally incomplete. | Need SME
+PQ-015-03 | Show trend chart for 7/30/90 days | Backend API | Low | Audit/event record shall be generated where applicable. | Approved?
+PQ-015-04 | Show trend chart for 7/30/90 days | Android | Not ranked | Result must be visible in mobile UI within expected time. | In Review
+PQ_15.5 | Export readings as PDF/CSV | iOS | Low | System shall complete the action without data loss. | Pending QA
+PQ-015-06 | Export readings as PDF/CSV | Local DB | TBD | System shall complete the action without data loss. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 016 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ_16.1 | Store readings securely on device | Notification Service | TBD | User shall receive clear error message on failure. | Pending QA
+PQ-016-02 | Store readings securely on device | Notification Service | Low | Data shall be encrypted in transit and at rest. | Approved?
+PQ-016-03 | Support caregiver view | Cloud Sync | Medium | System shall complete the action without data loss. | In Review
+PQ-016-04 | Sync readings to cloud API | Notification Service | Not ranked | System shall complete the action without data loss. | In Review
+PQ_16.5 | Consent capture and privacy notice | iOS | Not ranked | TBD by clinical SME - intentionally incomplete. | Approved?
+PQ-016-06 | Support caregiver view | Notification Service | Medium | Result must be visible in mobile UI within expected time. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 017 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-017-01 | Battery and Bluetooth warning | Android | High | Audit/event record shall be generated where applicable. | Draft
+PQ-017-02 | Manual heart rate entry when device unavailable | Bluetooth Sensor | TBD | Data shall be encrypted in transit and at rest. | Rejected once
+PQ-017-03 | Consent capture and privacy notice | Notification Service | TBD | User shall receive clear error message on failure. | Pending QA
+PQ-017-04 | Capture heart rate from paired device | Bluetooth Sensor | Low | System shall complete the action without data loss. | Pending QA
+PQ-017-05 | Support caregiver view | Bluetooth Sensor | Low | User shall receive clear error message on failure. | Pending QA
+PQ-017-06 | Export readings as PDF/CSV | Bluetooth Sensor | TBD | Data shall be encrypted in transit and at rest. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 018 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-018-01 | Export readings as PDF/CSV | Android/iOS | TBD | System shall complete the action without data loss. | Draft
+PQ-018-02 | Sync readings to cloud API | Backend API | TBD | TBD by clinical SME - intentionally incomplete. | Rejected once
+PQ-018-03 | Generate high/low heart-rate alert | Bluetooth Sensor | TBD | TBD by clinical SME - intentionally incomplete. | In Review
+PQ-018-04 | Generate high/low heart-rate alert | Bluetooth Sensor | Low | User shall receive clear error message on failure. | Need SME
+PQ-018-05 | Display current BPM with timestamp | Bluetooth Sensor | Low | System shall complete the action without data loss. | Rejected once
+PQ_18.6 | Generate high/low heart-rate alert | Local DB | TBD | Audit/event record shall be generated where applicable. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 019 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-019-01 | Consent capture and privacy notice | Bluetooth Sensor | High | System shall complete the action without data loss. | Approved?
+PQ-019-02 | Display current BPM with timestamp | Notification Service | Low | System shall complete the action without data loss. | Rejected once
+PQ-019-03 | Battery and Bluetooth warning | Bluetooth Sensor | TBD | User shall receive clear error message on failure. | In Review
+PQ-019-04 | Show trend chart for 7/30/90 days | Bluetooth Sensor | Low | Data shall be encrypted in transit and at rest. | Draft
+PQ-019-05 | Capture heart rate from paired device | Backend API | High | System shall complete the action without data loss. | Rejected once
+PQ-019-06 | Handle offline mode | Backend API | Medium | TBD by clinical SME - intentionally incomplete. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 020 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ_20.1 | Export readings as PDF/CSV | Local DB | Not ranked | TBD by clinical SME - intentionally incomplete. | Draft
+PQ-020-02 | Store readings securely on device | Android/iOS | Not ranked | Data shall be encrypted in transit and at rest. | Approved?
+PQ-020-03 | Notification retry and suppression | Bluetooth Sensor | Low | TBD by clinical SME - intentionally incomplete. | Need SME
+PQ-020-04 | Audit user actions | Bluetooth Sensor | TBD | TBD by clinical SME - intentionally incomplete. | In Review
+PQ-020-05 | Sync readings to cloud API | iOS | TBD | TBD by clinical SME - intentionally incomplete. | In Review
+PQ_20.6 | Store readings securely on device | Android/iOS | Not ranked | System shall complete the action without data loss. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 021 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-021-01 | Sync readings to cloud API | Notification Service | Medium | System shall complete the action without data loss. | Pending QA
+PQ-021-02 | Store readings securely on device | Notification Service | High | User shall receive clear error message on failure. | In Review
+PQ-021-03 | Handle offline mode | Cloud Sync | Low | Audit/event record shall be generated where applicable. | Rejected once
+PQ-021-04 | Sync readings to cloud API | iOS | High | TBD by clinical SME - intentionally incomplete. | Rejected once
+PQ-021-05 | Sync readings to cloud API | Cloud Sync | Not ranked | TBD by clinical SME - intentionally incomplete. | Need SME
+PQ-021-06 | Support caregiver view | Notification Service | High | Result must be visible in mobile UI within expected time. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 022 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-022-01 | Handle offline mode | Bluetooth Sensor | High | User shall receive clear error message on failure. | Draft
+PQ-022-02 | Validate sensor data range | Cloud Sync | High | TBD by clinical SME - intentionally incomplete. | Approved?
+PQ-022-03 | Export readings as PDF/CSV | Local DB | Low | Result must be visible in mobile UI within expected time. | Approved?
+PQ-022-04 | Capture heart rate from paired device | Local DB | Low | System shall complete the action without data loss. | Need SME
+PQ-022-05 | Handle offline mode | Android | Medium | Result must be visible in mobile UI within expected time. | Need SME
+PQ-022-06 | Consent capture and privacy notice | Notification Service | Medium | System shall complete the action without data loss. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 023 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-023-01 | Notification retry and suppression | Cloud Sync | Not ranked | Audit/event record shall be generated where applicable. | Pending QA
+PQ-023-02 | Manual heart rate entry when device unavailable | Android | Medium | Result must be visible in mobile UI within expected time. | In Review
+PQ_23.3 | Generate high/low heart-rate alert | Bluetooth Sensor | Not ranked | Data shall be encrypted in transit and at rest. | Rejected once
+PQ_23.4 | Support caregiver view | Notification Service | High | Audit/event record shall be generated where applicable. | Approved?
+PQ_23.5 | Export readings as PDF/CSV | Notification Service | Low | Result must be visible in mobile UI within expected time. | Approved?
+PQ-023-06 | Consent capture and privacy notice | Cloud Sync | TBD | Audit/event record shall be generated where applicable. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 024 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-024-01 | Validate sensor data range | Android/iOS | TBD | Result must be visible in mobile UI within expected time. | Pending QA
+PQ-024-02 | Generate high/low heart-rate alert | iOS | Not ranked | Audit/event record shall be generated where applicable. | Draft
+PQ-024-03 | Notification retry and suppression | Bluetooth Sensor | Medium | TBD by clinical SME - intentionally incomplete. | Rejected once
+PQ-024-04 | Show trend chart for 7/30/90 days | Android | Low | TBD by clinical SME - intentionally incomplete. | In Review
+PQ_24.5 | Support caregiver view | iOS | High | User shall receive clear error message on failure. | In Review
+PQ_24.6 | Battery and Bluetooth warning | Android | Low | Audit/event record shall be generated where applicable. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 025 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-025-01 | Notification retry and suppression | Bluetooth Sensor | Low | Result must be visible in mobile UI within expected time. | Draft
+PQ-025-02 | Battery and Bluetooth warning | Cloud Sync | Low | System shall complete the action without data loss. | Approved?
+PQ-025-03 | Show trend chart for 7/30/90 days | Local DB | High | Audit/event record shall be generated where applicable. | Draft
+PQ-025-04 | Biometric login option | Cloud Sync | Not ranked | Data shall be encrypted in transit and at rest. | Pending QA
+PQ-025-05 | Battery and Bluetooth warning | Backend API | TBD | Audit/event record shall be generated where applicable. | Need SME
+PQ-025-06 | Manual heart rate entry when device unavailable | Bluetooth Sensor | High | User shall receive clear error message on failure. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 026 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-026-01 | Support caregiver view | Android/iOS | TBD | Audit/event record shall be generated where applicable. | Approved?
+PQ-026-02 | Support caregiver view | Notification Service | Medium | User shall receive clear error message on failure. | Need SME
+PQ-026-03 | Support caregiver view | Local DB | TBD | System shall complete the action without data loss. | In Review
+PQ-026-04 | Sync readings to cloud API | Android/iOS | TBD | System shall complete the action without data loss. | Pending QA
+PQ-026-05 | Capture heart rate from paired device | Bluetooth Sensor | Not ranked | Data shall be encrypted in transit and at rest. | Pending QA
+PQ_26.6 | Handle offline mode | Local DB | Medium | Result must be visible in mobile UI within expected time. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 027 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ_27.1 | Generate high/low heart-rate alert | Backend API | Medium | System shall complete the action without data loss. | In Review
+PQ-027-02 | Export readings as PDF/CSV | Bluetooth Sensor | TBD | TBD by clinical SME - intentionally incomplete. | Need SME
+PQ-027-03 | Battery and Bluetooth warning | iOS | Not ranked | System shall complete the action without data loss. | Draft
+PQ-027-04 | Battery and Bluetooth warning | Cloud Sync | High | Audit/event record shall be generated where applicable. | In Review
+PQ_27.5 | Sync readings to cloud API | Android | TBD | Result must be visible in mobile UI within expected time. | Rejected once
+PQ-027-06 | Store readings securely on device | Notification Service | Not ranked | System shall complete the action without data loss. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 028 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-028-01 | Generate high/low heart-rate alert | Backend API | Low | System shall complete the action without data loss. | In Review
+PQ-028-02 | Capture heart rate from paired device | Notification Service | Not ranked | Result must be visible in mobile UI within expected time. | In Review
+PQ-028-03 | Store readings securely on device | Android/iOS | TBD | Data shall be encrypted in transit and at rest. | Pending QA
+PQ-028-04 | Audit user actions | Android/iOS | Not ranked | User shall receive clear error message on failure. | Need SME
+PQ-028-05 | Support caregiver view | Local DB | Low | User shall receive clear error message on failure. | Pending QA
+PQ_28.6 | Battery and Bluetooth warning | iOS | Medium | User shall receive clear error message on failure. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 029 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-029-01 | Show trend chart for 7/30/90 days | Backend API | Medium | Data shall be encrypted in transit and at rest. | Rejected once
+PQ-029-02 | Generate high/low heart-rate alert | Notification Service | TBD | Result must be visible in mobile UI within expected time. | Need SME
+PQ-029-03 | Export readings as PDF/CSV | Local DB | Not ranked | Result must be visible in mobile UI within expected time. | Pending QA
+PQ-029-04 | Support caregiver view | iOS | Medium | Data shall be encrypted in transit and at rest. | Draft
+PQ-029-05 | Capture heart rate from paired device | Android/iOS | Low | User shall receive clear error message on failure. | Pending QA
+PQ-029-06 | Audit user actions | iOS | Not ranked | Audit/event record shall be generated where applicable. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 030 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ_30.1 | Display current BPM with timestamp | Bluetooth Sensor | Medium | Audit/event record shall be generated where applicable. | Approved?
+PQ_30.2 | Manual heart rate entry when device unavailable | Android | High | System shall complete the action without data loss. | Pending QA
+PQ_30.3 | Store readings securely on device | Backend API | TBD | TBD by clinical SME - intentionally incomplete. | Draft
+PQ-030-04 | Handle offline mode | Cloud Sync | Not ranked | Data shall be encrypted in transit and at rest. | In Review
+PQ_30.5 | Support caregiver view | Notification Service | Low | Audit/event record shall be generated where applicable. | Need SME
+PQ_30.6 | Export readings as PDF/CSV | Android | High | Data shall be encrypted in transit and at rest. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 031 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ_31.1 | Sync readings to cloud API | Notification Service | High | Data shall be encrypted in transit and at rest. | Approved?
+PQ-031-02 | Battery and Bluetooth warning | Backend API | Medium | Result must be visible in mobile UI within expected time. | Rejected once
+PQ-031-03 | Audit user actions | Android/iOS | High | User shall receive clear error message on failure. | Pending QA
+PQ-031-04 | Sync readings to cloud API | iOS | High | System shall complete the action without data loss. | In Review
+PQ-031-05 | Consent capture and privacy notice | iOS | Medium | Data shall be encrypted in transit and at rest. | In Review
+PQ-031-06 | Handle offline mode | iOS | TBD | TBD by clinical SME - intentionally incomplete. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 032 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-032-01 | Display current BPM with timestamp | Cloud Sync | TBD | System shall complete the action without data loss. | Draft
+PQ-032-02 | Battery and Bluetooth warning | Android | Medium | System shall complete the action without data loss. | Need SME
+PQ-032-03 | Export readings as PDF/CSV | Cloud Sync | TBD | Data shall be encrypted in transit and at rest. | Rejected once
+PQ-032-04 | Sync readings to cloud API | iOS | Medium | User shall receive clear error message on failure. | Rejected once
+PQ-032-05 | Manual heart rate entry when device unavailable | Cloud Sync | Low | User shall receive clear error message on failure. | Pending QA
+PQ-032-06 | Support caregiver view | Bluetooth Sensor | TBD | Result must be visible in mobile UI within expected time. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 033 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-033-01 | Manual heart rate entry when device unavailable | Android/iOS | Not ranked | System shall complete the action without data loss. | Approved?
+PQ-033-02 | Audit user actions | Backend API | TBD | User shall receive clear error message on failure. | Draft
+PQ-033-03 | Sync readings to cloud API | iOS | Not ranked | Data shall be encrypted in transit and at rest. | Rejected once
+PQ_33.4 | Generate high/low heart-rate alert | Notification Service | Low | TBD by clinical SME - intentionally incomplete. | Need SME
+PQ_33.5 | Battery and Bluetooth warning | Local DB | High | User shall receive clear error message on failure. | Draft
+PQ-033-06 | Capture heart rate from paired device | iOS | Low | User shall receive clear error message on failure. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 034 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ_34.1 | Biometric login option | Notification Service | Low | Result must be visible in mobile UI within expected time. | Rejected once
+PQ-034-02 | Capture heart rate from paired device | Bluetooth Sensor | High | Data shall be encrypted in transit and at rest. | Need SME
+PQ-034-03 | Handle offline mode | Android | Not ranked | Result must be visible in mobile UI within expected time. | Approved?
+PQ-034-04 | Generate high/low heart-rate alert | Bluetooth Sensor | Low | Result must be visible in mobile UI within expected time. | In Review
+PQ-034-05 | Sync readings to cloud API | Notification Service | Low | Result must be visible in mobile UI within expected time. | Approved?
+PQ_34.6 | Sync readings to cloud API | Android/iOS | Low | Audit/event record shall be generated where applicable. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 035 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ_35.1 | Support caregiver view | Notification Service | High | User shall receive clear error message on failure. | In Review
+PQ-035-02 | Support caregiver view | Local DB | Medium | Result must be visible in mobile UI within expected time. | Rejected once
+PQ-035-03 | Validate sensor data range | iOS | Low | User shall receive clear error message on failure. | Rejected once
+PQ-035-04 | Show trend chart for 7/30/90 days | iOS | TBD | User shall receive clear error message on failure. | In Review
+PQ-035-05 | Audit user actions | Notification Service | High | Audit/event record shall be generated where applicable. | Rejected once
+PQ_35.6 | Export readings as PDF/CSV | Android/iOS | High | User shall receive clear error message on failure. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 036 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-036-01 | Generate high/low heart-rate alert | Android | High | User shall receive clear error message on failure. | Approved?
+PQ-036-02 | Consent capture and privacy notice | Bluetooth Sensor | Medium | TBD by clinical SME - intentionally incomplete. | Need SME
+PQ-036-03 | Manual heart rate entry when device unavailable | iOS | Low | Audit/event record shall be generated where applicable. | Pending QA
+PQ-036-04 | Validate sensor data range | Notification Service | Low | Audit/event record shall be generated where applicable. | Rejected once
+PQ-036-05 | Biometric login option | Cloud Sync | Not ranked | Data shall be encrypted in transit and at rest. | Rejected once
+PQ-036-06 | Support caregiver view | Bluetooth Sensor | Low | System shall complete the action without data loss. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 037 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ_37.1 | Display current BPM with timestamp | Local DB | Low | Data shall be encrypted in transit and at rest. | Draft
+PQ-037-02 | Battery and Bluetooth warning | Backend API | Not ranked | Audit/event record shall be generated where applicable. | Pending QA
+PQ-037-03 | Store readings securely on device | Notification Service | Low | System shall complete the action without data loss. | Approved?
+PQ-037-04 | Generate high/low heart-rate alert | Android/iOS | High | Data shall be encrypted in transit and at rest. | Pending QA
+PQ_37.5 | Validate sensor data range | Bluetooth Sensor | Low | Data shall be encrypted in transit and at rest. | Rejected once
+PQ-037-06 | Sync readings to cloud API | Android/iOS | Low | Result must be visible in mobile UI within expected time. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 038 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-038-01 | Sync readings to cloud API | Backend API | Not ranked | TBD by clinical SME - intentionally incomplete. | Need SME
+PQ-038-02 | Store readings securely on device | Cloud Sync | Not ranked | Data shall be encrypted in transit and at rest. | Rejected once
+PQ-038-03 | Sync readings to cloud API | Notification Service | TBD | System shall complete the action without data loss. | Draft
+PQ_38.4 | Generate high/low heart-rate alert | Android | Low | Result must be visible in mobile UI within expected time. | Need SME
+PQ-038-05 | Generate high/low heart-rate alert | Android/iOS | Not ranked | System shall complete the action without data loss. | Pending QA
+PQ-038-06 | Capture heart rate from paired device | iOS | Low | Audit/event record shall be generated where applicable. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 039 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ_39.1 | Sync readings to cloud API | Android | Not ranked | Data shall be encrypted in transit and at rest. | Need SME
+PQ-039-02 | Capture heart rate from paired device | Android/iOS | Low | Result must be visible in mobile UI within expected time. | Pending QA
+PQ-039-03 | Sync readings to cloud API | Cloud Sync | Not ranked | Audit/event record shall be generated where applicable. | In Review
+PQ_39.4 | Notification retry and suppression | Notification Service | Medium | Data shall be encrypted in transit and at rest. | In Review
+PQ-039-05 | Consent capture and privacy notice | Notification Service | TBD | Audit/event record shall be generated where applicable. | In Review
+PQ-039-06 | Generate high/low heart-rate alert | Bluetooth Sensor | Low | TBD by clinical SME - intentionally incomplete. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 040 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-040-01 | Validate sensor data range | Backend API | Medium | Result must be visible in mobile UI within expected time. | Draft
+PQ-040-02 | Sync readings to cloud API | Backend API | Not ranked | TBD by clinical SME - intentionally incomplete. | Need SME
+PQ-040-03 | Export readings as PDF/CSV | Local DB | High | User shall receive clear error message on failure. | Approved?
+PQ-040-04 | Manual heart rate entry when device unavailable | Backend API | High | Data shall be encrypted in transit and at rest. | Pending QA
+PQ-040-05 | Support caregiver view | Bluetooth Sensor | High | Audit/event record shall be generated where applicable. | Need SME
+PQ-040-06 | Audit user actions | Local DB | TBD | User shall receive clear error message on failure. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 041 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-041-01 | Notification retry and suppression | Backend API | Not ranked | Result must be visible in mobile UI within expected time. | Pending QA
+PQ-041-02 | Support caregiver view | Backend API | Not ranked | Result must be visible in mobile UI within expected time. | Approved?
+PQ-041-03 | Battery and Bluetooth warning | iOS | High | User shall receive clear error message on failure. | Pending QA
+PQ-041-04 | Battery and Bluetooth warning | iOS | Medium | System shall complete the action without data loss. | Draft
+PQ-041-05 | Audit user actions | Local DB | TBD | Result must be visible in mobile UI within expected time. | Rejected once
+PQ-041-06 | Store readings securely on device | Local DB | Medium | TBD by clinical SME - intentionally incomplete. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 042 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-042-01 | Capture heart rate from paired device | Notification Service | Medium | Data shall be encrypted in transit and at rest. | In Review
+PQ_42.2 | Audit user actions | Android | TBD | Data shall be encrypted in transit and at rest. | Pending QA
+PQ_42.3 | Consent capture and privacy notice | Local DB | TBD | Data shall be encrypted in transit and at rest. | Rejected once
+PQ_42.4 | Display current BPM with timestamp | Bluetooth Sensor | Not ranked | User shall receive clear error message on failure. | Draft
+PQ-042-05 | Biometric login option | iOS | High | System shall complete the action without data loss. | Pending QA
+PQ-042-06 | Show trend chart for 7/30/90 days | Notification Service | TBD | Audit/event record shall be generated where applicable. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 043 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-043-01 | Audit user actions | Cloud Sync | High | User shall receive clear error message on failure. | Pending QA
+PQ-043-02 | Sync readings to cloud API | Local DB | TBD | Result must be visible in mobile UI within expected time. | Approved?
+PQ-043-03 | Notification retry and suppression | Local DB | TBD | System shall complete the action without data loss. | Pending QA
+PQ-043-04 | Generate high/low heart-rate alert | Android | Low | Audit/event record shall be generated where applicable. | Pending QA
+PQ-043-05 | Support caregiver view | Bluetooth Sensor | Not ranked | Data shall be encrypted in transit and at rest. | Draft
+PQ-043-06 | Generate high/low heart-rate alert | Local DB | TBD | TBD by clinical SME - intentionally incomplete. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 044 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-044-01 | Notification retry and suppression | Bluetooth Sensor | High | Audit/event record shall be generated where applicable. | Rejected once
+PQ_44.2 | Capture heart rate from paired device | Cloud Sync | High | User shall receive clear error message on failure. | Pending QA
+PQ_44.3 | Validate sensor data range | Bluetooth Sensor | Medium | Result must be visible in mobile UI within expected time. | Rejected once
+PQ-044-04 | Capture heart rate from paired device | Bluetooth Sensor | TBD | TBD by clinical SME - intentionally incomplete. | Pending QA
+PQ-044-05 | Audit user actions | Android | Medium | System shall complete the action without data loss. | In Review
+PQ_44.6 | Validate sensor data range | Bluetooth Sensor | TBD | TBD by clinical SME - intentionally incomplete. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 045 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-045-01 | Handle offline mode | iOS | TBD | Audit/event record shall be generated where applicable. | Draft
+PQ_45.2 | Validate sensor data range | Android | TBD | System shall complete the action without data loss. | Need SME
+PQ-045-03 | Show trend chart for 7/30/90 days | Local DB | TBD | Result must be visible in mobile UI within expected time. | Pending QA
+PQ-045-04 | Show trend chart for 7/30/90 days | Android/iOS | Medium | TBD by clinical SME - intentionally incomplete. | Need SME
+PQ-045-05 | Export readings as PDF/CSV | Notification Service | High | User shall receive clear error message on failure. | In Review
+PQ-045-06 | Generate high/low heart-rate alert | iOS | High | Result must be visible in mobile UI within expected time. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 046 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-046-01 | Validate sensor data range | Local DB | TBD | Audit/event record shall be generated where applicable. | In Review
+PQ-046-02 | Export readings as PDF/CSV | Notification Service | Medium | Audit/event record shall be generated where applicable. | In Review
+PQ-046-03 | Battery and Bluetooth warning | Android | Not ranked | Audit/event record shall be generated where applicable. | Pending QA
+PQ_46.4 | Export readings as PDF/CSV | Bluetooth Sensor | Medium | Data shall be encrypted in transit and at rest. | Rejected once
+PQ-046-05 | Store readings securely on device | Backend API | Medium | Audit/event record shall be generated where applicable. | Need SME
+PQ-046-06 | Show trend chart for 7/30/90 days | Bluetooth Sensor | Medium | Data shall be encrypted in transit and at rest. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 047 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-047-01 | Validate sensor data range | Bluetooth Sensor | TBD | Audit/event record shall be generated where applicable. | In Review
+PQ-047-02 | Battery and Bluetooth warning | Notification Service | Low | User shall receive clear error message on failure. | Draft
+PQ-047-03 | Display current BPM with timestamp | iOS | Not ranked | System shall complete the action without data loss. | Approved?
+PQ-047-04 | Capture heart rate from paired device | Android/iOS | High | Audit/event record shall be generated where applicable. | Pending QA
+PQ-047-05 | Generate high/low heart-rate alert | Android | Low | Audit/event record shall be generated where applicable. | In Review
+PQ-047-06 | Export readings as PDF/CSV | Bluetooth Sensor | Low | User shall receive clear error message on failure. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 048 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-048-01 | Show trend chart for 7/30/90 days | Backend API | TBD | Audit/event record shall be generated where applicable. | Need SME
+PQ-048-02 | Capture heart rate from paired device | Cloud Sync | TBD | User shall receive clear error message on failure. | Pending QA
+PQ-048-03 | Handle offline mode | Bluetooth Sensor | TBD | User shall receive clear error message on failure. | Draft
+PQ_48.4 | Battery and Bluetooth warning | Notification Service | Medium | Audit/event record shall be generated where applicable. | Approved?
+PQ_48.5 | Manual heart rate entry when device unavailable | Android | High | System shall complete the action without data loss. | Pending QA
+PQ-048-06 | Show trend chart for 7/30/90 days | Android/iOS | Medium | Result must be visible in mobile UI within expected time. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 049 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ_49.1 | Export readings as PDF/CSV | Local DB | High | System shall complete the action without data loss. | In Review
+PQ-049-02 | Display current BPM with timestamp | iOS | TBD | TBD by clinical SME - intentionally incomplete. | Draft
+PQ-049-03 | Export readings as PDF/CSV | Android/iOS | High | TBD by clinical SME - intentionally incomplete. | Need SME
+PQ-049-04 | Export readings as PDF/CSV | Android | Medium | Result must be visible in mobile UI within expected time. | Pending QA
+PQ-049-05 | Export readings as PDF/CSV | Cloud Sync | TBD | TBD by clinical SME - intentionally incomplete. | Rejected once
+PQ-049-06 | Display current BPM with timestamp | Notification Service | Not ranked | Result must be visible in mobile UI within expected time. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 050 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-050-01 | Biometric login option | Cloud Sync | High | Result must be visible in mobile UI within expected time. | Pending QA
+PQ-050-02 | Audit user actions | Bluetooth Sensor | Medium | System shall complete the action without data loss. | Pending QA
+PQ-050-03 | Support caregiver view | Local DB | TBD | TBD by clinical SME - intentionally incomplete. | Draft
+PQ-050-04 | Sync readings to cloud API | Cloud Sync | Medium | Data shall be encrypted in transit and at rest. | Pending QA
+PQ_50.5 | Show trend chart for 7/30/90 days | Notification Service | Not ranked | Audit/event record shall be generated where applicable. | In Review
+PQ-050-06 | Handle offline mode | Cloud Sync | Low | TBD by clinical SME - intentionally incomplete. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 051 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-051-01 | Biometric login option | Notification Service | TBD | Result must be visible in mobile UI within expected time. | In Review
+PQ-051-02 | Audit user actions | Local DB | TBD | System shall complete the action without data loss. | In Review
+PQ-051-03 | Show trend chart for 7/30/90 days | Notification Service | Low | Result must be visible in mobile UI within expected time. | Need SME
+PQ-051-04 | Notification retry and suppression | iOS | Not ranked | TBD by clinical SME - intentionally incomplete. | Pending QA
+PQ-051-05 | Biometric login option | Android | Medium | Data shall be encrypted in transit and at rest. | Need SME
+PQ-051-06 | Biometric login option | Notification Service | TBD | Result must be visible in mobile UI within expected time. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 052 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-052-01 | Consent capture and privacy notice | Android | High | Audit/event record shall be generated where applicable. | In Review
+PQ-052-02 | Audit user actions | Bluetooth Sensor | TBD | TBD by clinical SME - intentionally incomplete. | Need SME
+PQ-052-03 | Export readings as PDF/CSV | Bluetooth Sensor | High | Result must be visible in mobile UI within expected time. | Pending QA
+PQ-052-04 | Handle offline mode | Android | Not ranked | TBD by clinical SME - intentionally incomplete. | Draft
+PQ-052-05 | Store readings securely on device | Notification Service | TBD | Data shall be encrypted in transit and at rest. | Approved?
+PQ-052-06 | Show trend chart for 7/30/90 days | iOS | Low | System shall complete the action without data loss. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 053 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-053-01 | Support caregiver view | Local DB | Medium | TBD by clinical SME - intentionally incomplete. | Need SME
+PQ-053-02 | Capture heart rate from paired device | Backend API | TBD | Result must be visible in mobile UI within expected time. | Need SME
+PQ_53.3 | Export readings as PDF/CSV | Android/iOS | Medium | Audit/event record shall be generated where applicable. | Rejected once
+PQ-053-04 | Manual heart rate entry when device unavailable | Notification Service | Medium | Data shall be encrypted in transit and at rest. | Approved?
+PQ-053-05 | Battery and Bluetooth warning | Cloud Sync | High | Result must be visible in mobile UI within expected time. | Rejected once
+PQ_53.6 | Consent capture and privacy notice | Notification Service | TBD | TBD by clinical SME - intentionally incomplete. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 054 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ_54.1 | Store readings securely on device | Backend API | TBD | User shall receive clear error message on failure. | Approved?
+PQ-054-02 | Manual heart rate entry when device unavailable | Bluetooth Sensor | Medium | System shall complete the action without data loss. | In Review
+PQ-054-03 | Generate high/low heart-rate alert | Android | TBD | Result must be visible in mobile UI within expected time. | Pending QA
+PQ-054-04 | Store readings securely on device | Android/iOS | Not ranked | TBD by clinical SME - intentionally incomplete. | In Review
+PQ-054-05 | Biometric login option | Notification Service | Low | Result must be visible in mobile UI within expected time. | In Review
+PQ-054-06 | Notification retry and suppression | Backend API | High | User shall receive clear error message on failure. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 055 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-055-01 | Sync readings to cloud API | Bluetooth Sensor | Not ranked | Data shall be encrypted in transit and at rest. | Approved?
+PQ-055-02 | Manual heart rate entry when device unavailable | Local DB | Low | Audit/event record shall be generated where applicable. | In Review
+PQ-055-03 | Store readings securely on device | Bluetooth Sensor | High | User shall receive clear error message on failure. | Pending QA
+PQ-055-04 | Consent capture and privacy notice | Android | TBD | User shall receive clear error message on failure. | Pending QA
+PQ-055-05 | Validate sensor data range | Cloud Sync | TBD | Result must be visible in mobile UI within expected time. | Rejected once
+PQ_55.6 | Sync readings to cloud API | Android/iOS | Not ranked | Data shall be encrypted in transit and at rest. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 056 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-056-01 | Handle offline mode | iOS | TBD | Data shall be encrypted in transit and at rest. | In Review
+PQ-056-02 | Generate high/low heart-rate alert | Cloud Sync | TBD | User shall receive clear error message on failure. | In Review
+PQ-056-03 | Store readings securely on device | Android/iOS | Not ranked | Data shall be encrypted in transit and at rest. | Pending QA
+PQ-056-04 | Generate high/low heart-rate alert | Local DB | Low | User shall receive clear error message on failure. | Need SME
+PQ-056-05 | Display current BPM with timestamp | Android/iOS | Medium | Data shall be encrypted in transit and at rest. | Need SME
+PQ-056-06 | Generate high/low heart-rate alert | Cloud Sync | High | System shall complete the action without data loss. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 057 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-057-01 | Store readings securely on device | Cloud Sync | High | TBD by clinical SME - intentionally incomplete. | Need SME
+PQ-057-02 | Capture heart rate from paired device | Bluetooth Sensor | Low | Audit/event record shall be generated where applicable. | Need SME
+PQ-057-03 | Biometric login option | Notification Service | Not ranked | Audit/event record shall be generated where applicable. | Approved?
+PQ_57.4 | Manual heart rate entry when device unavailable | Local DB | High | Result must be visible in mobile UI within expected time. | Draft
+PQ-057-05 | Audit user actions | Android/iOS | Low | Audit/event record shall be generated where applicable. | Need SME
+PQ-057-06 | Handle offline mode | iOS | High | Result must be visible in mobile UI within expected time. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 058 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-058-01 | Validate sensor data range | Android | Medium | TBD by clinical SME - intentionally incomplete. | Approved?
+PQ-058-02 | Audit user actions | iOS | TBD | System shall complete the action without data loss. | In Review
+PQ-058-03 | Validate sensor data range | iOS | Low | System shall complete the action without data loss. | In Review
+PQ-058-04 | Show trend chart for 7/30/90 days | Cloud Sync | TBD | TBD by clinical SME - intentionally incomplete. | Approved?
+PQ-058-05 | Validate sensor data range | Backend API | TBD | Audit/event record shall be generated where applicable. | In Review
+PQ-058-06 | Store readings securely on device | Notification Service | Not ranked | User shall receive clear error message on failure. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 059 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-059-01 | Notification retry and suppression | Cloud Sync | Medium | System shall complete the action without data loss. | In Review
+PQ-059-02 | Biometric login option | Local DB | TBD | System shall complete the action without data loss. | Approved?
+PQ-059-03 | Biometric login option | Local DB | High | Result must be visible in mobile UI within expected time. | Pending QA
+PQ-059-04 | Sync readings to cloud API | iOS | Medium | User shall receive clear error message on failure. | Need SME
+PQ-059-05 | Handle offline mode | Notification Service | TBD | Audit/event record shall be generated where applicable. | Need SME
+PQ-059-06 | Capture heart rate from paired device | Android/iOS | Low | Audit/event record shall be generated where applicable. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 060 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-060-01 | Handle offline mode | Android | TBD | Data shall be encrypted in transit and at rest. | Approved?
+PQ_60.2 | Biometric login option | Bluetooth Sensor | TBD | Result must be visible in mobile UI within expected time. | Rejected once
+PQ-060-03 | Capture heart rate from paired device | Cloud Sync | Not ranked | Data shall be encrypted in transit and at rest. | Need SME
+PQ-060-04 | Validate sensor data range | Notification Service | Not ranked | Audit/event record shall be generated where applicable. | In Review
+PQ-060-05 | Manual heart rate entry when device unavailable | Bluetooth Sensor | Not ranked | Audit/event record shall be generated where applicable. | Pending QA
+PQ-060-06 | Manual heart rate entry when device unavailable | iOS | High | Data shall be encrypted in transit and at rest. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 061 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-061-01 | Biometric login option | Cloud Sync | TBD | Data shall be encrypted in transit and at rest. | In Review
+PQ-061-02 | Validate sensor data range | Bluetooth Sensor | Not ranked | TBD by clinical SME - intentionally incomplete. | Pending QA
+PQ-061-03 | Store readings securely on device | Bluetooth Sensor | Not ranked | Audit/event record shall be generated where applicable. | In Review
+PQ_61.4 | Manual heart rate entry when device unavailable | Backend API | Medium | Data shall be encrypted in transit and at rest. | Draft
+PQ-061-05 | Audit user actions | Backend API | Medium | Audit/event record shall be generated where applicable. | In Review
+PQ-061-06 | Generate high/low heart-rate alert | Notification Service | TBD | Data shall be encrypted in transit and at rest. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 062 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-062-01 | Export readings as PDF/CSV | Cloud Sync | Medium | System shall complete the action without data loss. | Draft
+PQ_62.2 | Store readings securely on device | Notification Service | Not ranked | Audit/event record shall be generated where applicable. | Need SME
+PQ-062-03 | Handle offline mode | Android/iOS | Medium | Result must be visible in mobile UI within expected time. | Rejected once
+PQ-062-04 | Handle offline mode | Android/iOS | Medium | System shall complete the action without data loss. | Need SME
+PQ-062-05 | Show trend chart for 7/30/90 days | Bluetooth Sensor | TBD | Data shall be encrypted in transit and at rest. | In Review
+PQ_62.6 | Support caregiver view | Cloud Sync | Low | Data shall be encrypted in transit and at rest. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 063 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ_63.1 | Handle offline mode | Notification Service | Not ranked | System shall complete the action without data loss. | Pending QA
+PQ-063-02 | Manual heart rate entry when device unavailable | iOS | Low | Audit/event record shall be generated where applicable. | Draft
+PQ_63.3 | Show trend chart for 7/30/90 days | iOS | Medium | Result must be visible in mobile UI within expected time. | Approved?
+PQ_63.4 | Validate sensor data range | Local DB | Medium | TBD by clinical SME - intentionally incomplete. | In Review
+PQ-063-05 | Capture heart rate from paired device | iOS | Low | Audit/event record shall be generated where applicable. | In Review
+PQ-063-06 | Biometric login option | iOS | High | Result must be visible in mobile UI within expected time. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 064 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-064-01 | Manual heart rate entry when device unavailable | iOS | High | Result must be visible in mobile UI within expected time. | Need SME
+PQ_64.2 | Generate high/low heart-rate alert | Bluetooth Sensor | High | Data shall be encrypted in transit and at rest. | Rejected once
+PQ-064-03 | Manual heart rate entry when device unavailable | Bluetooth Sensor | Not ranked | Audit/event record shall be generated where applicable. | Pending QA
+PQ-064-04 | Audit user actions | iOS | Not ranked | TBD by clinical SME - intentionally incomplete. | Pending QA
+PQ-064-05 | Store readings securely on device | Bluetooth Sensor | Not ranked | User shall receive clear error message on failure. | Draft
+PQ-064-06 | Consent capture and privacy notice | Backend API | High | System shall complete the action without data loss. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 065 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-065-01 | Consent capture and privacy notice | Cloud Sync | High | Data shall be encrypted in transit and at rest. | Need SME
+PQ-065-02 | Consent capture and privacy notice | Local DB | TBD | Data shall be encrypted in transit and at rest. | Approved?
+PQ-065-03 | Display current BPM with timestamp | iOS | Medium | User shall receive clear error message on failure. | In Review
+PQ_65.4 | Manual heart rate entry when device unavailable | Android/iOS | Low | User shall receive clear error message on failure. | Need SME
+PQ-065-05 | Notification retry and suppression | Cloud Sync | Low | TBD by clinical SME - intentionally incomplete. | In Review
+PQ-065-06 | Manual heart rate entry when device unavailable | iOS | High | User shall receive clear error message on failure. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 066 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-066-01 | Notification retry and suppression | Cloud Sync | TBD | System shall complete the action without data loss. | Pending QA
+PQ-066-02 | Support caregiver view | Android/iOS | Medium | Audit/event record shall be generated where applicable. | Pending QA
+PQ-066-03 | Export readings as PDF/CSV | Android | TBD | TBD by clinical SME - intentionally incomplete. | Approved?
+PQ-066-04 | Consent capture and privacy notice | Android | Medium | Audit/event record shall be generated where applicable. | Rejected once
+PQ-066-05 | Sync readings to cloud API | Cloud Sync | TBD | Result must be visible in mobile UI within expected time. | Approved?
+PQ-066-06 | Audit user actions | Backend API | Low | TBD by clinical SME - intentionally incomplete. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 067 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-067-01 | Display current BPM with timestamp | Local DB | TBD | TBD by clinical SME - intentionally incomplete. | Approved?
+PQ-067-02 | Audit user actions | Backend API | Not ranked | TBD by clinical SME - intentionally incomplete. | Pending QA
+PQ-067-03 | Store readings securely on device | Android/iOS | Not ranked | System shall complete the action without data loss. | In Review
+PQ-067-04 | Capture heart rate from paired device | Local DB | Not ranked | User shall receive clear error message on failure. | Rejected once
+PQ-067-05 | Generate high/low heart-rate alert | Android/iOS | Not ranked | Audit/event record shall be generated where applicable. | Need SME
+PQ_67.6 | Audit user actions | iOS | Low | Data shall be encrypted in transit and at rest. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 068 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-068-01 | Generate high/low heart-rate alert | Android/iOS | Medium | User shall receive clear error message on failure. | In Review
+PQ-068-02 | Consent capture and privacy notice | Cloud Sync | Low | System shall complete the action without data loss. | Draft
+PQ-068-03 | Validate sensor data range | Bluetooth Sensor | High | Audit/event record shall be generated where applicable. | Draft
+PQ_68.4 | Export readings as PDF/CSV | Local DB | TBD | Audit/event record shall be generated where applicable. | Pending QA
+PQ-068-05 | Biometric login option | Android/iOS | High | User shall receive clear error message on failure. | Rejected once
+PQ_68.6 | Display current BPM with timestamp | Cloud Sync | Low | User shall receive clear error message on failure. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 069 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-069-01 | Consent capture and privacy notice | Local DB | Medium | System shall complete the action without data loss. | Approved?
+PQ-069-02 | Display current BPM with timestamp | Cloud Sync | High | Result must be visible in mobile UI within expected time. | Pending QA
+PQ-069-03 | Audit user actions | Android | TBD | Audit/event record shall be generated where applicable. | Need SME
+PQ-069-04 | Show trend chart for 7/30/90 days | Bluetooth Sensor | Low | User shall receive clear error message on failure. | Approved?
+PQ-069-05 | Sync readings to cloud API | Backend API | Low | Result must be visible in mobile UI within expected time. | Need SME
+PQ-069-06 | Support caregiver view | Bluetooth Sensor | Medium | Result must be visible in mobile UI within expected time. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 070 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-070-01 | Sync readings to cloud API | Cloud Sync | Not ranked | Result must be visible in mobile UI within expected time. | Need SME
+PQ_70.2 | Handle offline mode | Backend API | Medium | TBD by clinical SME - intentionally incomplete. | Approved?
+PQ-070-03 | Biometric login option | Local DB | TBD | Audit/event record shall be generated where applicable. | Approved?
+PQ-070-04 | Manual heart rate entry when device unavailable | Local DB | Low | Result must be visible in mobile UI within expected time. | Approved?
+PQ-070-05 | Capture heart rate from paired device | Local DB | TBD | TBD by clinical SME - intentionally incomplete. | Pending QA
+PQ-070-06 | Battery and Bluetooth warning | Android | Low | Data shall be encrypted in transit and at rest. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 071 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-071-01 | Notification retry and suppression | Local DB | TBD | Result must be visible in mobile UI within expected time. | Approved?
+PQ-071-02 | Biometric login option | iOS | TBD | Audit/event record shall be generated where applicable. | Draft
+PQ_71.3 | Generate high/low heart-rate alert | Bluetooth Sensor | Medium | TBD by clinical SME - intentionally incomplete. | Pending QA
+PQ-071-04 | Display current BPM with timestamp | Bluetooth Sensor | Not ranked | User shall receive clear error message on failure. | Need SME
+PQ_71.5 | Biometric login option | iOS | Medium | Result must be visible in mobile UI within expected time. | Approved?
+PQ_71.6 | Validate sensor data range | Cloud Sync | High | Result must be visible in mobile UI within expected time. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 072 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-072-01 | Sync readings to cloud API | Local DB | High | User shall receive clear error message on failure. | Rejected once
+PQ-072-02 | Export readings as PDF/CSV | Backend API | Medium | Audit/event record shall be generated where applicable. | Need SME
+PQ-072-03 | Show trend chart for 7/30/90 days | Backend API | TBD | System shall complete the action without data loss. | Rejected once
+PQ-072-04 | Audit user actions | Android | High | User shall receive clear error message on failure. | Need SME
+PQ-072-05 | Manual heart rate entry when device unavailable | Bluetooth Sensor | TBD | Data shall be encrypted in transit and at rest. | In Review
+PQ_72.6 | Manual heart rate entry when device unavailable | Bluetooth Sensor | Low | Data shall be encrypted in transit and at rest. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 073 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-073-01 | Export readings as PDF/CSV | Android/iOS | Low | TBD by clinical SME - intentionally incomplete. | In Review
+PQ-073-02 | Generate high/low heart-rate alert | Bluetooth Sensor | High | Result must be visible in mobile UI within expected time. | Pending QA
+PQ_73.3 | Notification retry and suppression | Local DB | High | System shall complete the action without data loss. | Draft
+PQ_73.4 | Validate sensor data range | Android | High | User shall receive clear error message on failure. | Need SME
+PQ-073-05 | Notification retry and suppression | Backend API | High | Audit/event record shall be generated where applicable. | In Review
+PQ-073-06 | Support caregiver view | Android/iOS | Not ranked | Result must be visible in mobile UI within expected time. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 074 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-074-01 | Consent capture and privacy notice | Backend API | Not ranked | System shall complete the action without data loss. | In Review
+PQ-074-02 | Battery and Bluetooth warning | Backend API | Low | TBD by clinical SME - intentionally incomplete. | Approved?
+PQ-074-03 | Export readings as PDF/CSV | Backend API | Low | User shall receive clear error message on failure. | In Review
+PQ-074-04 | Handle offline mode | Android/iOS | Low | Result must be visible in mobile UI within expected time. | Rejected once
+PQ_74.5 | Capture heart rate from paired device | iOS | High | Audit/event record shall be generated where applicable. | Need SME
+PQ-074-06 | Sync readings to cloud API | Backend API | Medium | System shall complete the action without data loss. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 075 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-075-01 | Handle offline mode | Cloud Sync | Not ranked | TBD by clinical SME - intentionally incomplete. | In Review
+PQ-075-02 | Consent capture and privacy notice | Local DB | High | Data shall be encrypted in transit and at rest. | In Review
+PQ-075-03 | Sync readings to cloud API | Android | Low | Result must be visible in mobile UI within expected time. | Rejected once
+PQ-075-04 | Store readings securely on device | Android | TBD | System shall complete the action without data loss. | Need SME
+PQ-075-05 | Generate high/low heart-rate alert | Android | TBD | Audit/event record shall be generated where applicable. | Need SME
+PQ-075-06 | Show trend chart for 7/30/90 days | iOS | Not ranked | System shall complete the action without data loss. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 076 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-076-01 | Validate sensor data range | Backend API | Not ranked | System shall complete the action without data loss. | In Review
+PQ_76.2 | Capture heart rate from paired device | Local DB | High | Result must be visible in mobile UI within expected time. | Draft
+PQ-076-03 | Consent capture and privacy notice | iOS | High | TBD by clinical SME - intentionally incomplete. | Pending QA
+PQ-076-04 | Generate high/low heart-rate alert | iOS | TBD | Result must be visible in mobile UI within expected time. | Approved?
+PQ_76.5 | Manual heart rate entry when device unavailable | Cloud Sync | Low | Audit/event record shall be generated where applicable. | Pending QA
+PQ-076-06 | Validate sensor data range | Local DB | Not ranked | Result must be visible in mobile UI within expected time. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 077 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-077-01 | Store readings securely on device | Cloud Sync | Low | User shall receive clear error message on failure. | Approved?
+PQ_77.2 | Validate sensor data range | Android/iOS | Not ranked | TBD by clinical SME - intentionally incomplete. | Rejected once
+PQ_77.3 | Audit user actions | Notification Service | Medium | TBD by clinical SME - intentionally incomplete. | Pending QA
+PQ-077-04 | Validate sensor data range | Android/iOS | High | System shall complete the action without data loss. | Need SME
+PQ_77.5 | Consent capture and privacy notice | Android/iOS | High | System shall complete the action without data loss. | Rejected once
+PQ-077-06 | Validate sensor data range | Local DB | Not ranked | TBD by clinical SME - intentionally incomplete. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 078 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-078-01 | Notification retry and suppression | Android | Not ranked | Data shall be encrypted in transit and at rest. | In Review
+PQ-078-02 | Export readings as PDF/CSV | Cloud Sync | Low | User shall receive clear error message on failure. | Rejected once
+PQ-078-03 | Consent capture and privacy notice | Backend API | TBD | Data shall be encrypted in transit and at rest. | Rejected once
+PQ-078-04 | Export readings as PDF/CSV | iOS | TBD | Data shall be encrypted in transit and at rest. | Need SME
+PQ-078-05 | Handle offline mode | Notification Service | High | User shall receive clear error message on failure. | Pending QA
+PQ-078-06 | Capture heart rate from paired device | Notification Service | High | Audit/event record shall be generated where applicable. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 079 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-079-01 | Sync readings to cloud API | iOS | Medium | TBD by clinical SME - intentionally incomplete. | Approved?
+PQ-079-02 | Notification retry and suppression | iOS | Medium | TBD by clinical SME - intentionally incomplete. | Approved?
+PQ-079-03 | Consent capture and privacy notice | Local DB | TBD | Audit/event record shall be generated where applicable. | Pending QA
+PQ-079-04 | Battery and Bluetooth warning | Cloud Sync | Medium | TBD by clinical SME - intentionally incomplete. | Need SME
+PQ-079-05 | Store readings securely on device | Android/iOS | Not ranked | TBD by clinical SME - intentionally incomplete. | In Review
+PQ-079-06 | Notification retry and suppression | Android/iOS | High | TBD by clinical SME - intentionally incomplete. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 080 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ_80.1 | Audit user actions | Local DB | Medium | Data shall be encrypted in transit and at rest. | Rejected once
+PQ_80.2 | Battery and Bluetooth warning | iOS | Not ranked | Audit/event record shall be generated where applicable. | Rejected once
+PQ-080-03 | Handle offline mode | Backend API | Low | Audit/event record shall be generated where applicable. | Draft
+PQ-080-04 | Audit user actions | Android/iOS | TBD | System shall complete the action without data loss. | Pending QA
+PQ-080-05 | Store readings securely on device | Android | High | Data shall be encrypted in transit and at rest. | Need SME
+PQ_80.6 | Support caregiver view | Backend API | Not ranked | Result must be visible in mobile UI within expected time. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 081 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-081-01 | Support caregiver view | Android | TBD | User shall receive clear error message on failure. | Rejected once
+PQ-081-02 | Export readings as PDF/CSV | Cloud Sync | High | Audit/event record shall be generated where applicable. | Draft
+PQ-081-03 | Manual heart rate entry when device unavailable | Cloud Sync | High | System shall complete the action without data loss. | Rejected once
+PQ_81.4 | Handle offline mode | Local DB | Medium | Audit/event record shall be generated where applicable. | Need SME
+PQ_81.5 | Show trend chart for 7/30/90 days | Local DB | High | TBD by clinical SME - intentionally incomplete. | Pending QA
+PQ-081-06 | Sync readings to cloud API | Cloud Sync | Medium | User shall receive clear error message on failure. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 082 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-082-01 | Validate sensor data range | Notification Service | Low | Audit/event record shall be generated where applicable. | Draft
+PQ-082-02 | Export readings as PDF/CSV | Bluetooth Sensor | Low | Result must be visible in mobile UI within expected time. | Approved?
+PQ-082-03 | Audit user actions | Cloud Sync | Medium | TBD by clinical SME - intentionally incomplete. | Need SME
+PQ_82.4 | Consent capture and privacy notice | Local DB | High | Data shall be encrypted in transit and at rest. | Rejected once
+PQ-082-05 | Notification retry and suppression | Android/iOS | Medium | Data shall be encrypted in transit and at rest. | Rejected once
+PQ-082-06 | Show trend chart for 7/30/90 days | Backend API | Low | User shall receive clear error message on failure. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 083 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-083-01 | Biometric login option | iOS | Low | TBD by clinical SME - intentionally incomplete. | Need SME
+PQ_83.2 | Battery and Bluetooth warning | Local DB | Not ranked | TBD by clinical SME - intentionally incomplete. | Pending QA
+PQ_83.3 | Audit user actions | Backend API | Low | Result must be visible in mobile UI within expected time. | Rejected once
+PQ-083-04 | Generate high/low heart-rate alert | Cloud Sync | TBD | Data shall be encrypted in transit and at rest. | Approved?
+PQ_83.5 | Generate high/low heart-rate alert | iOS | Not ranked | Data shall be encrypted in transit and at rest. | Draft
+PQ_83.6 | Notification retry and suppression | Local DB | Not ranked | System shall complete the action without data loss. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 084 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-084-01 | Export readings as PDF/CSV | Android/iOS | Low | System shall complete the action without data loss. | Approved?
+PQ-084-02 | Export readings as PDF/CSV | Local DB | TBD | User shall receive clear error message on failure. | Rejected once
+PQ-084-03 | Capture heart rate from paired device | Cloud Sync | High | System shall complete the action without data loss. | Draft
+PQ-084-04 | Manual heart rate entry when device unavailable | Local DB | High | Data shall be encrypted in transit and at rest. | Rejected once
+PQ-084-05 | Display current BPM with timestamp | Bluetooth Sensor | Low | TBD by clinical SME - intentionally incomplete. | Draft
+PQ-084-06 | Support caregiver view | Notification Service | Low | System shall complete the action without data loss. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 085 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-085-01 | Capture heart rate from paired device | Android | Not ranked | Data shall be encrypted in transit and at rest. | Approved?
+PQ-085-02 | Audit user actions | iOS | High | Data shall be encrypted in transit and at rest. | Need SME
+PQ-085-03 | Store readings securely on device | Backend API | Medium | TBD by clinical SME - intentionally incomplete. | Pending QA
+PQ-085-04 | Notification retry and suppression | Local DB | High | Result must be visible in mobile UI within expected time. | In Review
+PQ-085-05 | Audit user actions | iOS | Medium | Audit/event record shall be generated where applicable. | Pending QA
+PQ-085-06 | Consent capture and privacy notice | Backend API | TBD | Data shall be encrypted in transit and at rest. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 086 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-086-01 | Validate sensor data range | Bluetooth Sensor | Medium | Result must be visible in mobile UI within expected time. | In Review
+PQ-086-02 | Store readings securely on device | Android | Not ranked | Data shall be encrypted in transit and at rest. | Pending QA
+PQ-086-03 | Sync readings to cloud API | iOS | TBD | User shall receive clear error message on failure. | Pending QA
+PQ-086-04 | Biometric login option | iOS | High | Data shall be encrypted in transit and at rest. | Draft
+PQ_86.5 | Display current BPM with timestamp | Backend API | High | System shall complete the action without data loss. | Approved?
+PQ-086-06 | Display current BPM with timestamp | Bluetooth Sensor | Low | User shall receive clear error message on failure. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 087 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-087-01 | Validate sensor data range | Local DB | High | Result must be visible in mobile UI within expected time. | Draft
+PQ-087-02 | Sync readings to cloud API | Backend API | Medium | Audit/event record shall be generated where applicable. | Need SME
+PQ_87.3 | Manual heart rate entry when device unavailable | Backend API | Low | User shall receive clear error message on failure. | In Review
+PQ-087-04 | Audit user actions | iOS | Not ranked | Audit/event record shall be generated where applicable. | Need SME
+PQ_87.5 | Battery and Bluetooth warning | Bluetooth Sensor | High | User shall receive clear error message on failure. | Pending QA
+PQ-087-06 | Notification retry and suppression | Cloud Sync | High | TBD by clinical SME - intentionally incomplete. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 088 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-088-01 | Display current BPM with timestamp | Android | TBD | Audit/event record shall be generated where applicable. | Need SME
+PQ-088-02 | Consent capture and privacy notice | Bluetooth Sensor | Medium | Result must be visible in mobile UI within expected time. | Approved?
+PQ-088-03 | Battery and Bluetooth warning | Cloud Sync | Medium | Audit/event record shall be generated where applicable. | Pending QA
+PQ_88.4 | Generate high/low heart-rate alert | Backend API | High | System shall complete the action without data loss. | Pending QA
+PQ-088-05 | Display current BPM with timestamp | Cloud Sync | Not ranked | User shall receive clear error message on failure. | Approved?
+PQ_88.6 | Audit user actions | Bluetooth Sensor | Medium | Data shall be encrypted in transit and at rest. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 089 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-089-01 | Capture heart rate from paired device | Cloud Sync | Low | User shall receive clear error message on failure. | Need SME
+PQ-089-02 | Consent capture and privacy notice | Cloud Sync | Not ranked | Data shall be encrypted in transit and at rest. | Draft
+PQ-089-03 | Manual heart rate entry when device unavailable | Notification Service | TBD | User shall receive clear error message on failure. | Need SME
+PQ-089-04 | Store readings securely on device | Bluetooth Sensor | High | Audit/event record shall be generated where applicable. | Pending QA
+PQ-089-05 | Export readings as PDF/CSV | Local DB | Low | User shall receive clear error message on failure. | Draft
+PQ_89.6 | Show trend chart for 7/30/90 days | Cloud Sync | Not ranked | System shall complete the action without data loss. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 090 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-090-01 | Biometric login option | Backend API | High | User shall receive clear error message on failure. | Draft
+PQ_90.2 | Biometric login option | Local DB | TBD | Result must be visible in mobile UI within expected time. | Need SME
+PQ_90.3 | Show trend chart for 7/30/90 days | Android/iOS | Not ranked | TBD by clinical SME - intentionally incomplete. | Pending QA
+PQ-090-04 | Consent capture and privacy notice | Android/iOS | Not ranked | Audit/event record shall be generated where applicable. | Pending QA
+PQ-090-05 | Capture heart rate from paired device | Android/iOS | High | System shall complete the action without data loss. | Rejected once
+PQ_90.6 | Battery and Bluetooth warning | Notification Service | TBD | User shall receive clear error message on failure. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 091 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-091-01 | Battery and Bluetooth warning | Android/iOS | Medium | Data shall be encrypted in transit and at rest. | Pending QA
+PQ_91.2 | Capture heart rate from paired device | Notification Service | Not ranked | User shall receive clear error message on failure. | Need SME
+PQ-091-03 | Notification retry and suppression | Android | Not ranked | Result must be visible in mobile UI within expected time. | Need SME
+PQ-091-04 | Audit user actions | Local DB | Medium | Data shall be encrypted in transit and at rest. | Need SME
+PQ-091-05 | Export readings as PDF/CSV | iOS | High | TBD by clinical SME - intentionally incomplete. | Approved?
+PQ-091-06 | Manual heart rate entry when device unavailable | Android | TBD | Audit/event record shall be generated where applicable. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 092 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-092-01 | Consent capture and privacy notice | Android | Medium | Data shall be encrypted in transit and at rest. | Need SME
+PQ-092-02 | Manual heart rate entry when device unavailable | Backend API | Medium | Result must be visible in mobile UI within expected time. | Rejected once
+PQ-092-03 | Manual heart rate entry when device unavailable | Cloud Sync | Not ranked | System shall complete the action without data loss. | Pending QA
+PQ-092-04 | Biometric login option | Android | Low | Data shall be encrypted in transit and at rest. | Approved?
+PQ-092-05 | Support caregiver view | iOS | Medium | Data shall be encrypted in transit and at rest. | Approved?
+PQ-092-06 | Biometric login option | Bluetooth Sensor | Low | Audit/event record shall be generated where applicable. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 093 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ_93.1 | Display current BPM with timestamp | Local DB | Not ranked | TBD by clinical SME - intentionally incomplete. | In Review
+PQ-093-02 | Handle offline mode | Bluetooth Sensor | Not ranked | Data shall be encrypted in transit and at rest. | Rejected once
+PQ_93.3 | Display current BPM with timestamp | Cloud Sync | Not ranked | Result must be visible in mobile UI within expected time. | Draft
+PQ-093-04 | Display current BPM with timestamp | Backend API | Low | TBD by clinical SME - intentionally incomplete. | Rejected once
+PQ-093-05 | Sync readings to cloud API | Cloud Sync | Medium | Data shall be encrypted in transit and at rest. | In Review
+PQ-093-06 | Notification retry and suppression | Cloud Sync | High | TBD by clinical SME - intentionally incomplete. | Rejected once
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 094 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-094-01 | Battery and Bluetooth warning | Local DB | Not ranked | System shall complete the action without data loss. | Approved?
+PQ-094-02 | Display current BPM with timestamp | Bluetooth Sensor | Low | Audit/event record shall be generated where applicable. | Draft
+PQ-094-03 | Show trend chart for 7/30/90 days | Notification Service | High | Data shall be encrypted in transit and at rest. | Rejected once
+PQ_94.4 | Battery and Bluetooth warning | Bluetooth Sensor | TBD | Audit/event record shall be generated where applicable. | Approved?
+PQ-094-05 | Generate high/low heart-rate alert | Backend API | Medium | TBD by clinical SME - intentionally incomplete. | Draft
+PQ_94.6 | Show trend chart for 7/30/90 days | iOS | Low | Audit/event record shall be generated where applicable. | Draft
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 095 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-095-01 | Show trend chart for 7/30/90 days | Bluetooth Sensor | Medium | Data shall be encrypted in transit and at rest. | Need SME
+PQ-095-02 | Handle offline mode | Bluetooth Sensor | High | Data shall be encrypted in transit and at rest. | Need SME
+PQ-095-03 | Biometric login option | Backend API | Not ranked | User shall receive clear error message on failure. | Need SME
+PQ_95.4 | Export readings as PDF/CSV | Android | Not ranked | Result must be visible in mobile UI within expected time. | Approved?
+PQ-095-05 | Validate sensor data range | Backend API | TBD | Audit/event record shall be generated where applicable. | Draft
+PQ-095-06 | Handle offline mode | Bluetooth Sensor | High | Result must be visible in mobile UI within expected time. | Need SME
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 096 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ_96.1 | Battery and Bluetooth warning | Android/iOS | High | User shall receive clear error message on failure. | Pending QA
+PQ-096-02 | Sync readings to cloud API | Android/iOS | Medium | Data shall be encrypted in transit and at rest. | Draft
+PQ-096-03 | Notification retry and suppression | Backend API | High | Result must be visible in mobile UI within expected time. | In Review
+PQ_96.4 | Validate sensor data range | iOS | Not ranked | Result must be visible in mobile UI within expected time. | Draft
+PQ-096-05 | Support caregiver view | Android/iOS | High | User shall receive clear error message on failure. | Pending QA
+PQ-096-06 | Manual heart rate entry when device unavailable | Bluetooth Sensor | TBD | Result must be visible in mobile UI within expected time. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 097 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-097-01 | Capture heart rate from paired device | Android/iOS | TBD | Result must be visible in mobile UI within expected time. | Rejected once
+PQ-097-02 | Store readings securely on device | Bluetooth Sensor | Medium | Audit/event record shall be generated where applicable. | Draft
+PQ_97.3 | Manual heart rate entry when device unavailable | Cloud Sync | TBD | Data shall be encrypted in transit and at rest. | Approved?
+PQ-097-04 | Manual heart rate entry when device unavailable | iOS | Low | TBD by clinical SME - intentionally incomplete. | In Review
+PQ-097-05 | Manual heart rate entry when device unavailable | iOS | High | Audit/event record shall be generated where applicable. | Draft
+PQ-097-06 | Store readings securely on device | Bluetooth Sensor | Not ranked | Result must be visible in mobile UI within expected time. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 098 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ_98.1 | Audit user actions | Notification Service | Not ranked | User shall receive clear error message on failure. | Pending QA
+PQ_98.2 | Generate high/low heart-rate alert | Bluetooth Sensor | High | Result must be visible in mobile UI within expected time. | Need SME
+PQ_98.3 | Export readings as PDF/CSV | Cloud Sync | Medium | Result must be visible in mobile UI within expected time. | Pending QA
+PQ-098-04 | Validate sensor data range | Notification Service | High | TBD by clinical SME - intentionally incomplete. | Need SME
+PQ-098-05 | Sync readings to cloud API | Bluetooth Sensor | Low | System shall complete the action without data loss. | Draft
+PQ-098-06 | Generate high/low heart-rate alert | Cloud Sync | TBD | Result must be visible in mobile UI within expected time. | Pending QA
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 099 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ_99.1 | Export readings as PDF/CSV | Local DB | High | User shall receive clear error message on failure. | Approved?
+PQ-099-02 | Audit user actions | iOS | TBD | Data shall be encrypted in transit and at rest. | In Review
+PQ-099-03 | Display current BPM with timestamp | Notification Service | Low | TBD by clinical SME - intentionally incomplete. | Rejected once
+PQ-099-04 | Consent capture and privacy notice | Local DB | TBD | Audit/event record shall be generated where applicable. | Need SME
+PQ-099-05 | Notification retry and suppression | Notification Service | Low | User shall receive clear error message on failure. | Rejected once
+PQ-099-06 | Notification retry and suppression | Local DB | High | Audit/event record shall be generated where applicable. | In Review
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+
+--- PAGE 100 / PQ ---
+This PQ defines performance and user workflow verification under realistic usage conditions for Android and iOS users. It includes messy evidence fields and scenario fragments.
+PQ-100-01 | Support caregiver view | Backend API | TBD | Result must be visible in mobile UI within expected time. | In Review
+PQ-100-02 | Consent capture and privacy notice | iOS | Medium | System shall complete the action without data loss. | Approved?
+PQ-100-03 | Validate sensor data range | Android/iOS | High | Result must be visible in mobile UI within expected time. | In Review
+PQ_100.4 | Validate sensor data range | Cloud Sync | Low | Result must be visible in mobile UI within expected time. | Need SME
+PQ-100-05 | Export readings as PDF/CSV | Cloud Sync | Low | User shall receive clear error message on failure. | Need SME
+PQ-100-06 | Manual heart rate entry when device unavailable | Notification Service | TBD | TBD by clinical SME - intentionally incomplete. | Approved?
+Messy note: numbering, owner, risk, and acceptance criteria may be incomplete or duplicated.
+

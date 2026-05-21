@@ -1,0 +1,9 @@
+Design Area,Configuration Description,messy notes
+Capture Module,Configure mobile camera PPG service and wearable sensor adapter to create bpm readings with reading source and timestamp.,supports capture requirement
+Manual Entry Module,Configure manual entry object with bpm value reason entered by and timestamp required fields.,supports manual entry
+Alert Rules,Configure threshold service with low and high bpm limits and alert notification component.,supports abnormal alerts
+History Store,Configure encrypted local database table and trend chart component for heart rate history display.,supports history chart
+Cloud Sync,Configure secure sync API and conflict handling for Android and iOS account readings.,supports sync
+Security,Configure authentication token storage session timeout and owner based record access.,supports security
+Consent and Privacy,Configure consent screen privacy notice acceptance flag and data retention setting.,supports consent
+Report Export,Configure PDF and CSV report generator with date range filter and doctor review template.,supports export

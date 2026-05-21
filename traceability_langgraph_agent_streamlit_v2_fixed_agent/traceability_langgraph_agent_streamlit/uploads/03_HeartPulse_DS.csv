@@ -1,0 +1,13 @@
+Design Specification (DS)
+Document ID,DS-HRPMON-001
+Version,1.0
+
+DS ID,Related URS,Related FRS,Design Area,Design Description
+DS-001,URS-001,FRS-001,User Registration and Secure Login,"Configure the HeartPulse mobile application architecture, screens, services, storage, permissions, and backend API support required for user registration and secure login on Android and iOS."
+DS-002,URS-002,FRS-002,Heart Rate Measurement Capture,"Configure the HeartPulse mobile application architecture, screens, services, storage, permissions, and backend API support required for heart rate measurement capture on Android and iOS."
+DS-003,URS-003,FRS-003,Real-Time Heart Rate Display,"Configure the HeartPulse mobile application architecture, screens, services, storage, permissions, and backend API support required for real-time heart rate display on Android and iOS."
+DS-004,URS-004,FRS-004,Heart Rate Alert Notification,"Configure the HeartPulse mobile application architecture, screens, services, storage, permissions, and backend API support required for heart rate alert notification on Android and iOS."
+DS-005,URS-005,FRS-005,Measurement History and Trend View,"Configure the HeartPulse mobile application architecture, screens, services, storage, permissions, and backend API support required for measurement history and trend view on Android and iOS."
+DS-006,URS-006,FRS-006,Cloud Synchronization,"Configure the HeartPulse mobile application architecture, screens, services, storage, permissions, and backend API support required for cloud synchronization on Android and iOS."
+DS-007,URS-007,FRS-007,Report Export,"Configure the HeartPulse mobile application architecture, screens, services, storage, permissions, and backend API support required for report export on Android and iOS."
+DS-008,URS-008,FRS-008,Privacy Consent and Data Protection,"Configure the HeartPulse mobile application architecture, screens, services, storage, permissions, and backend API support required for privacy consent and data protection on Android and iOS."
